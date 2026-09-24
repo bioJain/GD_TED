@@ -45,9 +45,9 @@ inputs:
 | IGF-1R 억제 | Teprotumumab (TED A); IBI311 (TED A, 중국); Veligrotug/Lumvoa (TED A) | Linsitinib; MHB018A; KHN939; VRDN-003/elegrobart (모두 TED P3) | AMG 732; NTB003/BCG009; SCTT11 (모두 TED P2) | ZB001 (TED P1) | IGF-1-methotrexate |
 | IGF-1R/TSHR 이중표적 | — | — | — | IBI3031 (TED P1) | VBS-102 |
 | IL-6/IL-6R | Satralizumab (TED RR) | — | TOUR006/pacibekitug (TED P2) | — | — |
-| IL-11R | — | — | LASN01 (TED P2, completed; 지속 확인 필요) | — | — |
+| IL-11R | — | — | — | — | — |
 | CD40L | — | — | — | Lu AG22515/velaprumig (TED P1/2) | — |
-| Plasma/B-cell 표적 | — | — | Felzartamab (GD P2) | Allogeneic CD19/BCMA CAR-T; HN2301 in-vivo CAR-T (GD early P1) | — |
+| Plasma/B-cell 표적 | — | — | Felzartamab (GD P2) | Cizutamig/CND106 (TED P1); Allogeneic CD19/BCMA CAR-T; HN2301 in-vivo CAR-T (GD early P1) | — |
 | BTK 억제 | — | — | Rilzabrutinib (GD P2) | — | — |
 | JAK/mTOR/기타 면역조절 | — | — | Tofacitinib (TED P2); Sirolimus (TED P2) | — | — |
 | 보조 치료 | — | — | — | — | — |
@@ -94,10 +94,10 @@ inputs:
 | NTB003/BCG009 | Nanjing Chia-tai Tianqing/Biocytogen | IGF-1R inhibition | P2 | NCT07462130 | both | not-yet-recruiting |
 | SCTT11 | registry sponsor | target 미공개 | P2 | NCT06769984 | both | P1/2, not-yet-recruiting |
 | TOUR006/pacibekitug | Tourmaline Bio/Novartis | IL-6 pathway blockade | P2 | NCT06088979 | both | active-not-recruiting |
-| LASN01 | Laekna | IL-11R blockade | P2 completed, 지속 확인 필요 | NCT06226545 | both | terminated 아님. active 후속은 snapshot에서 미확인 |
 | Tofacitinib | First Affiliated Hospital of Xiamen University | JAK inhibition | P2 | NCT07547930 | v2 | recruiting investigator-led trial |
 | Sirolimus | academic sponsors | mTOR inhibition | P2 | NCT04936854 | v2 | recruiting trial만 단계 근거로 사용 |
 | Lu AG22515/velaprumig | Lundbeck | CD40L blockade | P1/2 | NCT06557850 | both | active-not-recruiting |
+| Cizutamig/CND106 | Candid Therapeutics | BCMA x CD3 plasma-cell/B-lineage depletion | P1 | NCT07597200 | both | active moderate-to-severe TED, recruiting |
 | IBI3031 | Innovent | IGF-1R/TSHR dual blockade | P1 | NCT07622368 | both | recruiting |
 | ZB001 | Zenas | IGF-1R inhibition | P1 completed, 지속 확인 필요 | NCT05776121 | v2 | 후속 active trial 미확인 |
 | Hydroxychloroquine | National Taiwan University Hospital | pleiotropic immunomodulation | P4, adjunct | NCT05126147 | v2 | recruiting, pipeline matrix에서는 보조 치료로 분리 |
@@ -148,7 +148,7 @@ inputs:
 | Rituximab | GD/TED 연구 completed, off-label | active registrational pipeline이 아니므로 제외 |
 | 99Tc-MDP | TED P4 completed | completed investigator-led adjunct, active pipeline 아님 |
 | ATX-GD-59 | GD P1 completed; follow-on WP1302 suspended | 후속 중단으로 본표 제외 |
-| Cizutamig | autoantibody disease P1 | GD/TED 직접 등록시험이 없어 indication-specific matrix 제외 |
+| LASN01 | TED P2 completed | active 후속 또는 규제 심사 근거가 snapshot에 없어 관찰 목록으로 이동 |
 | Lonigutamab | TED P1/2 completed | 후속 active 시험 미확인, legacy도 전략 재검토 flag |
 
 ## 6. QA E6/E7 결론
