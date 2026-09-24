@@ -1,0 +1,12 @@
+{
+  "blind_packet_rows": 202,
+  "blind_packet_sha256": "bd6555815600e9877c817d5e15e3c2c626bbb6789847c9cbc4111e63ca00df81",
+  "blind_seed": 20260910,
+  "data_cut": "2026-09-10",
+  "precheck_sha256": "e59805d87b6f5f805efac977dd247a981c524725aed4b52171b496417f0c82ed",
+  "precheck_status": "202/202 PASS; not a verdict",
+  "state": "FROZEN_FOR_STANCE_HIDDEN_ADJUDICATION",
+  "supersedes_packet_sha256": "37690fbf46cad7031ef0523acdf019f4fc65ea04b9ef2876e4b221f621c87339",
+  "supersession_reason": "manual evidence review preserved three insufficient first-pass wordings as ledger-only history, added bounded replacements, and repaired exact canonical locators",
+  "within_agent_not_independent_validation": true
+}

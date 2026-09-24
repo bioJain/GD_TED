@@ -1,0 +1,15 @@
+{
+  "staged_path": "/tmp/results-staging/presentation_graves_ted_landscape_v2.pptx",
+  "published_file": "presentation_graves_ted_landscape_v2.pptx",
+  "staged_size_bytes": 801792,
+  "published_size_bytes": 801792,
+  "staged_sha256": "5ee488ea3d7c5e66775c651eecc6f97897e36bff64b7166db2437aaf10c598a0",
+  "published_sha256": "5ee488ea3d7c5e66775c651eecc6f97897e36bff64b7166db2437aaf10c598a0",
+  "byte_hash_match": "PASS",
+  "slide_count": 15,
+  "rendered_slide_png_count": 15,
+  "inventory_present": true,
+  "compatibility_validator_returncode": 0,
+  "compatibility_verdict": "PASS",
+  "data_cut": "2026-09-10"
+}

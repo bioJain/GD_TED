@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="432pt" viewBox="0 0 864 432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Mechanism landscape</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Mechanism landscape</dc:title>
+    <dc:date>2026-09-10</dc:date>
+    <dc:description>Mechanism tag counts derived from clinical_trials_v2.csv. Multi-tag trials count once per explicit tag; unknown is retained.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Biomni Lab by Phylo; Python/matplotlib</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 432 
+L 864 432 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 259.2 375.84 
+L 812.16 375.84 
+L 812.16 69.12 
+L 259.2 69.12 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 259.2 375.84 
+L 259.2 69.12 
+" clip-path="url(#p3993f5bcad)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="259.2" y="385.862188" transform="rotate(-0 259.2 385.862188)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 374.064977 375.84 
+L 374.064977 69.12 
+" clip-path="url(#p3993f5bcad)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="374.064977" y="385.862188" transform="rotate(-0 374.064977 385.862188)">20</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 488.929954 375.84 
+L 488.929954 69.12 
+" clip-path="url(#p3993f5bcad)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="488.929954" y="385.862188" transform="rotate(-0 488.929954 385.862188)">40</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 603.794931 375.84 
+L 603.794931 69.12 
+" clip-path="url(#p3993f5bcad)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="603.794931" y="385.862188" transform="rotate(-0 603.794931 385.862188)">60</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 718.659909 375.84 
+L 718.659909 69.12 
+" clip-path="url(#p3993f5bcad)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="718.659909" y="385.862188" transform="rotate(-0 718.659909 385.862188)">80</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 10.5px; font-family: 'Liberation Sans'; text-anchor: middle" x="535.68" y="399.338906" transform="rotate(-0 535.68 399.338906)">Trial-level mechanism tags (n)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_11"/>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="93.305861" transform="rotate(-0 255.7 93.305861)">IGF-1R inhibition</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_12"/>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="117.384994" transform="rotate(-0 255.7 117.384994)">Glucocorticoid</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_13"/>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="141.464127" transform="rotate(-0 255.7 141.464127)">Antithyroid drug</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_14"/>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="165.54326" transform="rotate(-0 255.7 165.54326)">FcRn inhibition</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15"/>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="189.622394" transform="rotate(-0 255.7 189.622394)">Antioxidant supplementation</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_16"/>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="213.701527" transform="rotate(-0 255.7 213.701527)">IL-6 receptor blockade</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_17"/>
+     <g id="text_13">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="237.78066" transform="rotate(-0 255.7 237.78066)">Radioiodine ablation</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_18"/>
+     <g id="text_14">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="261.859794" transform="rotate(-0 255.7 261.859794)">Statin / pleiotropic</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_19"/>
+     <g id="text_15">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="285.938927" transform="rotate(-0 255.7 285.938927)">CD20 B-cell depletion</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_20"/>
+     <g id="text_16">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="310.01806" transform="rotate(-0 255.7 310.01806)">Orbital radiotherapy</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_21"/>
+     <g id="text_17">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="334.097194" transform="rotate(-0 255.7 334.097194)">Conventional immunosuppression</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_22"/>
+     <g id="text_18">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="255.7" y="358.176327" transform="rotate(-0 255.7 358.176327)">Other mechanism tags</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 259.2 375.84 
+L 812.16 375.84 
+" style="fill: none; stroke: #cfc9be; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 259.2 83.061818 
+L 494.673203 83.061818 
+L 494.673203 97.027715 
+L 259.2 97.027715 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 259.2 107.140951 
+L 408.52447 107.140951 
+L 408.52447 121.106849 
+L 259.2 121.106849 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #009e73"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 259.2 131.220085 
+L 374.064977 131.220085 
+L 374.064977 145.185982 
+L 259.2 145.185982 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #009e73"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 259.2 155.299218 
+L 339.605484 155.299218 
+L 339.605484 169.265115 
+L 259.2 169.265115 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #009e73"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 259.2 179.378351 
+L 299.402742 179.378351 
+L 299.402742 193.344249 
+L 259.2 193.344249 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #009e73"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 259.2 203.457485 
+L 293.659493 203.457485 
+L 293.659493 217.423382 
+L 259.2 217.423382 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #009e73"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 259.2 227.536618 
+L 293.659493 227.536618 
+L 293.659493 241.502515 
+L 259.2 241.502515 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #009e73"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 259.2 251.615751 
+L 287.916244 251.615751 
+L 287.916244 265.581649 
+L 259.2 265.581649 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #009e73"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 259.2 275.694885 
+L 282.172995 275.694885 
+L 282.172995 289.660782 
+L 259.2 289.660782 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #009e73"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 259.2 299.774018 
+L 282.172995 299.774018 
+L 282.172995 313.739915 
+L 259.2 313.739915 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #009e73"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 259.2 323.853151 
+L 282.172995 323.853151 
+L 282.172995 337.819049 
+L 259.2 337.819049 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #009e73"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 259.2 347.932285 
+L 735.889655 347.932285 
+L 735.889655 361.898182 
+L 259.2 361.898182 
+z
+" clip-path="url(#p3993f5bcad)" style="fill: #8a8378"/>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="501.823548" y="92.372111" transform="rotate(-0 501.823548 92.372111)">41</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="415.674815" y="116.451244" transform="rotate(-0 415.674815 116.451244)">26</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="381.215322" y="140.530377" transform="rotate(-0 381.215322 140.530377)">20</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="346.755829" y="164.60951" transform="rotate(-0 346.755829 164.60951)">14</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="306.553087" y="188.688644" transform="rotate(-0 306.553087 188.688644)">7</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="300.809838" y="212.767777" transform="rotate(-0 300.809838 212.767777)">6</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="300.809838" y="236.84691" transform="rotate(-0 300.809838 236.84691)">6</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="295.066589" y="260.926044" transform="rotate(-0 295.066589 260.926044)">5</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="289.32334" y="285.005177" transform="rotate(-0 289.32334 285.005177)">4</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="289.32334" y="309.08431" transform="rotate(-0 289.32334 309.08431)">4</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="289.32334" y="333.163444" transform="rotate(-0 289.32334 333.163444)">4</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="743.04" y="357.242577" transform="rotate(-0 743.04 357.242577)">83</text>
+   </g>
+  </g>
+  <g id="line2d_23">
+   <path d="M 47.52 50.976 
+L 816.48 50.976 
+" style="fill: none; stroke: #d4a04a; stroke-width: 1.8; stroke-linecap: square"/>
+  </g>
+  <g id="line2d_24">
+   <path d="M 47.52 400.896 
+L 816.48 400.896 
+" style="fill: none; stroke: #d8d2c7; stroke-width: 0.8; stroke-linecap: square"/>
+  </g>
+  <g id="text_31">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Liberation Sans'; text-anchor: start; fill: #111111" x="47.52" y="31.759687" transform="rotate(-0 47.52 31.759687)">Mechanism landscape across included trials</text>
+  </g>
+  <g id="text_32">
+   <text style="font-size: 9.5px; font-family: 'Liberation Sans'; text-anchor: start; fill: #5e5a53" x="47.52" y="48.356531" transform="rotate(-0 47.52 48.356531)">Multi-tag trials contribute once to each explicit canonical tag; no mechanism is inferred for unknown labels.</text>
+  </g>
+  <g id="text_33">
+   <text style="font-size: 7.6px; font-family: 'Liberation Sans'; text-anchor: start; fill: #6c665e" x="47.52" y="415.389313" transform="rotate(-0 47.52 415.389313)">Source: clinical_trials_v2.csv · deterministic split of mechanism_class tags · n=168 trials</text>
+  </g>
+  <g id="text_34">
+   <text style="font-size: 7.6px; font-family: 'Liberation Sans'; text-anchor: end; fill: #6c665e" x="816.48" y="415.389313" transform="rotate(-0 816.48 415.389313)">Data cut 2026-09-10</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3993f5bcad">
+   <rect x="259.2" y="69.12" width="552.96" height="306.72"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,9 @@
+*.pptx
+*.ppt
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+__pycache__/
+.ipynb_checkpoints/
+*.tmp

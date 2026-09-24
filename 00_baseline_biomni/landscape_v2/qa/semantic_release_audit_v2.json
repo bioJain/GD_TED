@@ -1,0 +1,30 @@
+{
+  "artifact": "semantic_release_audit_v2.json",
+  "data_cut": "2026-09-10",
+  "risk": "Historical CONCLUSION-003 contained two specifics absent from cited LCA/MER canonical fields.",
+  "decision": "REPLACE",
+  "displayed_risk_phrase_occurrences": {
+    "Thyroid hormones + ATD taper": 0,
+    "TED structural + GD biochemical concordance": 0
+  },
+  "ledger_history_retained": true,
+  "conclusion_003_state": "ledger_only_blind_insufficient",
+  "conclusion_003_verdict": "insufficient",
+  "replacement_claim": "CONCLUSION-004",
+  "slide_15_claim_ids": [
+    "CONCLUSION-001",
+    "CONCLUSION-002",
+    "CONCLUSION-004",
+    "LIMIT-002",
+    "LIMIT-003",
+    "LIMIT-004",
+    "LIMIT-005",
+    "DIRECT-LCA-EVIDENCE-BOUNDARY",
+    "DIRECT-MER-EVIDENCE-BOUNDARY"
+  ],
+  "slide_15_corrected_readouts_present": true,
+  "slide_count": 15,
+  "report_consistency_failures": 0,
+  "displayed_non_support_claims": 0,
+  "verdict": "PASS"
+}

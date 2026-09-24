@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="432pt" viewBox="0 0 864 432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Selected randomized TED PRR</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Selected randomized TED PRR</dc:title>
+    <dc:date>2026-09-10</dc:date>
+    <dc:description>Within-trial PRR pairs for six selected randomized TED studies. Populations, endpoint definitions and timepoints differ; descriptive only, no cross-trial ranking.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Biomni Lab by Phylo; Python/matplotlib</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 432 
+L 864 432 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 73.44 336.96 
+L 829.44 336.96 
+L 829.44 77.76 
+L 73.44 77.76 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(118.933123 346.982188)">Teprotumumab</text>
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(113.765857 356.676312)">active TED · W24</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(249.927467 346.982188)">Veligrotug</text>
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(234.764577 356.676312)">active TED · W15</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(364.680328 346.982188)">Satralizumab</text>
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(355.763296 356.676312)">active TED · W24</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(491.924907 346.982188)">Veligrotug</text>
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(474.011391 356.676312)">chronic TED · W15</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(606.677767 346.982188)">Satralizumab</text>
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(597.760736 356.676312)">active TED · W24</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(737.176408 346.982188)">LASN01</text>
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; fill: #4a4741" transform="translate(731.685705 356.676312)">TED · W37</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_7">
+      <path d="M 73.44 336.96 
+L 829.44 336.96 
+" clip-path="url(#p7096a733e4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="69.94" y="340.221094" transform="rotate(-0 69.94 340.221094)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <path d="M 73.44 285.12 
+L 829.44 285.12 
+" clip-path="url(#p7096a733e4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="69.94" y="288.381094" transform="rotate(-0 69.94 288.381094)">20</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <path d="M 73.44 233.28 
+L 829.44 233.28 
+" clip-path="url(#p7096a733e4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="69.94" y="236.541094" transform="rotate(-0 69.94 236.541094)">40</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_13">
+      <path d="M 73.44 181.44 
+L 829.44 181.44 
+" clip-path="url(#p7096a733e4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="69.94" y="184.701094" transform="rotate(-0 69.94 184.701094)">60</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_15">
+      <path d="M 73.44 129.6 
+L 829.44 129.6 
+" clip-path="url(#p7096a733e4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="69.94" y="132.861094" transform="rotate(-0 69.94 132.861094)">80</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_17">
+      <path d="M 73.44 77.76 
+L 829.44 77.76 
+" clip-path="url(#p7096a733e4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18"/>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="69.94" y="81.021094" transform="rotate(-0 69.94 81.021094)">100</text>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 10.5px; font-family: 'Liberation Sans'; text-anchor: middle" x="48.746719" y="207.36" transform="rotate(-90 48.746719 207.36)">Reported proptosis response rate (%)</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 73.44 336.96 
+L 829.44 336.96 
+" style="fill: none; stroke: #cfc9be; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 107.803636 336.96 
+L 148.943201 336.96 
+L 148.943201 122.0832 
+L 107.803636 122.0832 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 228.802356 336.96 
+L 269.941921 336.96 
+L 269.941921 155.52 
+L 228.802356 155.52 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 349.801076 336.96 
+L 390.94064 336.96 
+L 390.94064 209.952 
+L 349.801076 209.952 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 470.799795 336.96 
+L 511.93936 336.96 
+L 511.93936 188.49024 
+L 470.799795 188.49024 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 591.798515 336.96 
+L 632.938079 336.96 
+L 632.938079 199.8432 
+L 591.798515 199.8432 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 712.797234 336.96 
+L 753.936799 336.96 
+L 753.936799 245.4624 
+L 712.797234 245.4624 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 148.943201 336.96 
+L 190.082766 336.96 
+L 190.082766 312.336 
+L 148.943201 312.336 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #e69f00"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 269.941921 336.96 
+L 311.081485 336.96 
+L 311.081485 323.32608 
+L 269.941921 323.32608 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #e69f00"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 390.94064 336.96 
+L 432.080205 336.96 
+L 432.080205 256.0896 
+L 390.94064 256.0896 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #e69f00"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 511.93936 336.96 
+L 553.078924 336.96 
+L 553.078924 315.65376 
+L 511.93936 315.65376 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #e69f00"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 632.938079 336.96 
+L 674.077644 336.96 
+L 674.077644 276.3072 
+L 632.938079 276.3072 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #e69f00"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 753.936799 336.96 
+L 795.076364 336.96 
+L 795.076364 250.6464 
+L 753.936799 250.6464 
+z
+" clip-path="url(#p7096a733e4)" style="fill: #e69f00"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="128.373419" y="116.43145" transform="rotate(-0 128.373419 116.43145)">82.9</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="249.372138" y="149.86825" transform="rotate(-0 249.372138 149.86825)">70</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="370.370858" y="204.30025" transform="rotate(-0 370.370858 204.30025)">49</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="491.369577" y="182.83849" transform="rotate(-0 491.369577 182.83849)">57.28</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="612.368297" y="194.19145" transform="rotate(-0 612.368297 194.19145)">52.9</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="733.367017" y="239.81065" transform="rotate(-0 733.367017 239.81065)">35.3</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="169.512983" y="306.68425" transform="rotate(-0 169.512983 306.68425)">9.5</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="290.511703" y="317.67433" transform="rotate(-0 290.511703 317.67433)">5.26</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="411.510423" y="250.43785" transform="rotate(-0 411.510423 250.43785)">31.2</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="532.509142" y="310.00201" transform="rotate(-0 532.509142 310.00201)">8.22</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="653.507862" y="270.65545" transform="rotate(-0 653.507862 270.65545)">23.4</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 8.5px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #222222" x="774.506581" y="244.99465" transform="rotate(-0 774.506581 244.99465)">33.3</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_16">
+     <path d="M 586.89 92.382188 
+L 604.89 92.382188 
+L 604.89 86.082188 
+L 586.89 86.082188 
+z
+" style="fill: #0072b2"/>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start" x="612.09" y="92.382188" transform="rotate(-0 612.09 92.382188)">Investigational arm</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 705.6225 92.382188 
+L 723.6225 92.382188 
+L 723.6225 86.082188 
+L 705.6225 86.082188 
+z
+" style="fill: #e69f00"/>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: start" x="730.8225" y="92.382188" transform="rotate(-0 730.8225 92.382188)">Within-trial comparator</text>
+    </g>
+   </g>
+  </g>
+  <g id="line2d_19">
+   <path d="M 47.52 50.976 
+L 816.48 50.976 
+" style="fill: none; stroke: #d4a04a; stroke-width: 1.8; stroke-linecap: square"/>
+  </g>
+  <g id="line2d_20">
+   <path d="M 47.52 400.896 
+L 816.48 400.896 
+" style="fill: none; stroke: #d8d2c7; stroke-width: 0.8; stroke-linecap: square"/>
+  </g>
+  <g id="text_28">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Liberation Sans'; text-anchor: start; fill: #111111" x="47.52" y="31.759687" transform="rotate(-0 47.52 31.759687)">Selected randomized TED proptosis-response displays</text>
+  </g>
+  <g id="text_29">
+   <text style="font-size: 9.5px; font-family: 'Liberation Sans'; text-anchor: start; fill: #5e5a53" x="47.52" y="48.356531" transform="rotate(-0 47.52 48.356531)">Each pair is an internal trial contrast; trial order follows NCT ID, not effect size.</text>
+  </g>
+  <g id="text_30">
+   <text style="font-size: 7.6px; font-family: 'Liberation Sans'; text-anchor: start; fill: #6c665e" x="47.52" y="415.389313" transform="rotate(-0 47.52 415.389313)">Populations, endpoint definitions, estimands and W15/W24/W37 timepoints differ · descriptive only; no pooling or ranking</text>
+  </g>
+  <g id="text_31">
+   <text style="font-size: 7.6px; font-family: 'Liberation Sans'; text-anchor: end; fill: #6c665e" x="816.48" y="415.389313" transform="rotate(-0 816.48 415.389313)">Data cut 2026-09-10</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7096a733e4">
+   <rect x="73.44" y="77.76" width="756" height="259.2"/>
+  </clipPath>
+ </defs>
+</svg>

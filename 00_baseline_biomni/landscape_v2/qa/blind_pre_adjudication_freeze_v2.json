@@ -1,0 +1,30 @@
+{
+  "blind_packet_rows": 199,
+  "blind_packet_sha256": "37690fbf46cad7031ef0523acdf019f4fc65ea04b9ef2876e4b221f621c87339",
+  "blind_seed": 20260910,
+  "data_cut": "2026-09-10",
+  "manual_review_findings": [
+    {
+      "claim_id": "POP-OLDER-001",
+      "failure_mode": "insufficient",
+      "reason": "glycemic/hearing/glucocorticoid modifiers exceeded the older-adult SoC rows"
+    },
+    {
+      "claim_id": "POP-RELAPSED-001",
+      "failure_mode": "insufficient",
+      "reason": "selected open-label retreatment was not present in the cited SoC rows"
+    },
+    {
+      "claim_id": "CONCLUSION-003",
+      "failure_mode": "insufficient",
+      "reason": "ATD taper and TED–biochemical concordance were not explicit in the cited direct-program canonical fields"
+    },
+    {
+      "reason": "special-population category locators and endpoint-taxonomy composite anchor required exact canonical names/artifacts",
+      "scope": "locator repair"
+    }
+  ],
+  "state": "SUPERSEDED_AFTER_MANUAL_EVIDENCE_REVIEW",
+  "structural_precheck": "199/199 PASS; precheck was not a verdict",
+  "within_agent_not_independent_validation": true
+}

@@ -1,0 +1,161 @@
+{
+  "release_id": "graves-ted-landscape-v2-cut-2026-09-10-r001",
+  "data_cut": "2026-09-10",
+  "overall_verdict": "PASS",
+  "release_gate": {
+    "unresolved_severity_1": 0,
+    "unresolved_severity_2": 0,
+    "disclosed_severity_3": 3
+  },
+  "claim_qa": {
+    "ledger_claims": 202,
+    "support": 196,
+    "non_support_ledger_only": 6,
+    "displayed_non_support": 0,
+    "report_consistency_failures": 0,
+    "within_agent_not_independent": true
+  },
+  "semantic_audit": {
+    "artifact": "semantic_release_audit_v2.json",
+    "data_cut": "2026-09-10",
+    "risk": "Historical CONCLUSION-003 contained two specifics absent from cited LCA/MER canonical fields.",
+    "decision": "REPLACE",
+    "displayed_risk_phrase_occurrences": {
+      "Thyroid hormones + ATD taper": 0,
+      "TED structural + GD biochemical concordance": 0
+    },
+    "ledger_history_retained": true,
+    "conclusion_003_state": "ledger_only_blind_insufficient",
+    "conclusion_003_verdict": "insufficient",
+    "replacement_claim": "CONCLUSION-004",
+    "slide_15_claim_ids": [
+      "CONCLUSION-001",
+      "CONCLUSION-002",
+      "CONCLUSION-004",
+      "LIMIT-002",
+      "LIMIT-003",
+      "LIMIT-004",
+      "LIMIT-005",
+      "DIRECT-LCA-EVIDENCE-BOUNDARY",
+      "DIRECT-MER-EVIDENCE-BOUNDARY"
+    ],
+    "slide_15_corrected_readouts_present": true,
+    "slide_count": 15,
+    "report_consistency_failures": 0,
+    "displayed_non_support_claims": 0,
+    "verdict": "PASS"
+  },
+  "citation_source_resolution": {
+    "artifact": "citation_resolution_v2.csv",
+    "data_cut": "2026-09-10",
+    "reference_catalog_rows": 491,
+    "unique_reference_ids": 491,
+    "resolution_occurrences": 1333,
+    "artifacts_scanned": [
+      "claim_evidence_anchors_v2.csv",
+      "clinical_trials_v2.csv",
+      "evidence_claims_v2.csv",
+      "figure_source_map_v2.csv",
+      "pipeline_assets_v2.csv",
+      "plan2.md",
+      "presentation_graves_ted_landscape_v2.pptx",
+      "report_graves_ted_landscape_v2.md",
+      "result_trial_curation_v2.csv",
+      "slide_source_map_v2.csv",
+      "soc_outcomes_v2.csv",
+      "source_anchors_v2.csv",
+      "source_retrieval_ledger_v2.csv",
+      "trial_registry_sources_v2.csv",
+      "trial_result_evidence_anchors_v2.csv"
+    ],
+    "pptx_footer_count": 15,
+    "unresolved_source_ids": 0,
+    "duplicate_reference_ids": 0,
+    "report_claim_occurrences": 200,
+    "unresolved_claim_ids": 0,
+    "mapped_non_support_claims": 0,
+    "query_level_records": 8,
+    "query_level_absence_assertions": 0,
+    "verdict": "PASS"
+  },
+  "deterministic_validation": {
+    "data_cut": "2026-09-10",
+    "gates": {
+      "asset_controls": true,
+      "trial_count_168": true,
+      "crosswalk_rows_dispositioned": true,
+      "unknown_targets_not_inferred": true,
+      "regional_soc": true,
+      "citation_integrity": true,
+      "blindness_contract": true,
+      "perturbation_negative_control": true,
+      "endpoint_semantics": true,
+      "deck": true,
+      "v1_immutability": "validated_separately",
+      "no_pdf": true,
+      "schema_registry": true
+    },
+    "claims": 202,
+    "blind_verdict_counts": {
+      "support": 196,
+      "insufficient": 4,
+      "contradict": 1,
+      "endpoint_mismatch": 1
+    },
+    "displayed_non_support": 0,
+    "visual_pass": 21,
+    "slide_count": 15,
+    "figure_svg": 6,
+    "figure_png": 6,
+    "deck_rebuild": {
+      "slides_1_14_render_hash_unchanged": 14,
+      "slide_15_corrected": true,
+      "pptx_sha256": "5ee488ea3d7c5e66775c651eecc6f97897e36bff64b7166db2437aaf10c598a0"
+    },
+    "unresolved_severity_1": 0,
+    "unresolved_severity_2": 0,
+    "verdict": "PASS"
+  },
+  "v1_immutability": {
+    "files": 29,
+    "changed": 0
+  },
+  "visual_qa": {
+    "rows": 21,
+    "pass": 21,
+    "method_fallback_disclosed": true
+  },
+  "severity_3_disclosures": [
+    {
+      "qa_id": "S3-KR-RAI-5.3",
+      "severity": 3,
+      "status": "OPEN_DISCLOSED",
+      "owner": "Evidence curation lead",
+      "finding": "Korean RAI Recommendation 5.3 narrative says prophylaxis 'may be considered' while Table 3 says 'Steroid prophylaxis recommended'.",
+      "impact": "Conclusion-neutral source-internal strength discrepancy; no pivotal number or authorization conclusion changes.",
+      "mitigation": "Preserved both exact anchors and disclosed the discrepancy in report/canonical claim SOC-CONFLICT-KR-RAI; rejected uniform historical wording.",
+      "residual_uncertainty": "The source does not provide an explicit reconciliation between narrative and table strength."
+    },
+    {
+      "qa_id": "S3-MEDIA-CHECK-FALLBACK",
+      "severity": 3,
+      "status": "OPEN_DISCLOSED",
+      "owner": "Release visual-QA owner",
+      "finding": "Read(media_output_check) failed twice because the platform rejected its temperature parameter, including the Step 8 slide-15 recheck.",
+      "impact": "QA-method degradation only; no structural or visual defect identified.",
+      "mitigation": "Manual visual inspection with Read(mode=low), structural validation, render inventory, and compatibility validation; all 15 slides and six figures retain PASS rows, with corrected slide 15 rechecked.",
+      "residual_uncertainty": "Automated media-check model output is unavailable."
+    },
+    {
+      "qa_id": "S3-REGIONAL-STATUS-GAPS",
+      "severity": 3,
+      "status": "OPEN_DISCLOSED",
+      "owner": "Regional source-surveillance owner",
+      "finding": "Some authorization/reimbursement/access statuses remain unresolved (including Korean Tepezza/Lumvoa, non-US Lumvoa contexts, EU/UK access, and Japanese reimbursement).",
+      "impact": "Conclusion-neutral metadata/access gap because no negative determination is made.",
+      "mitigation": "Official-search records 745-752 and authoritative fallback context are retained; query-level unresolved records are prohibited from proving absence.",
+      "residual_uncertainty": "Status may change or require jurisdiction-specific confirmation after the frozen cut."
+    }
+  ],
+  "release_note": "Manifest, attestation, checkpoint comparison, and final receipt are enforced by the finalizer after this QA file is closed; checkpoint_receipt_v2.json is the authoritative final checkpoint gate."
+}

@@ -1,0 +1,23 @@
+{
+  "anchor_bytes": 40087,
+  "anchor_sha256": "e6abf4fb4cbbd2571ef97623e531c22e73f473e551607808f7dab9de98a110e2",
+  "artifact": "trial_registry_sources_v2.csv",
+  "blank_cells": 0,
+  "curated_result_anchors": 25,
+  "curated_result_trials_missing": 0,
+  "data_cut": "2026-09-10",
+  "document_bytes": 3397889,
+  "document_sha256": "6a69b32e34f3eef80a44dd052b06cdfa3f122a9bcbe0fe8cf93694f83b870ce4",
+  "frozen_registry_records": 168,
+  "frozen_registry_records_with_posted_results": 25,
+  "frozen_snapshot_sha256": "13011a71ff5e7e81769c2300bc6c7227a35c30f106ec5e02f21f3d6164305140",
+  "included_trial_sources": 168,
+  "included_trials_missing_from_snapshot": 0,
+  "schema_version": "2.0.0",
+  "source_bytes": 173179,
+  "source_id_max": 920,
+  "source_id_min": 753,
+  "source_sha256": "51ea909fa0f500a8d7be78c2105bcd2fb7f16147c69c18141901e384bdb9b915",
+  "unique_source_ids": 168,
+  "unique_trial_ids": 168
+}

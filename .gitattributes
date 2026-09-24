@@ -1,0 +1,4 @@
+* text=auto eol=lf
+00_baseline_biomni/** -text
+*.png binary
+*.xlsx binary

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="432pt" viewBox="0 0 864 432" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Result interpretability</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Result interpretability</dc:title>
+    <dc:date>2026-09-10</dc:date>
+    <dc:description>Disposition groups for all 25 result-bearing trials; negative, stopped and non-comparative evidence retained.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Biomni Lab by Phylo; Python/matplotlib</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 432 
+L 864 432 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 285.12 345.6 
+L 803.52 345.6 
+L 803.52 77.76 
+L 285.12 77.76 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 285.12 345.6 
+L 285.12 77.76 
+" clip-path="url(#p7b2c5b70a4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2"/>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="285.12" y="355.622187" transform="rotate(-0 285.12 355.622187)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 342.72 345.6 
+L 342.72 77.76 
+" clip-path="url(#p7b2c5b70a4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4"/>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="342.72" y="355.622187" transform="rotate(-0 342.72 355.622187)">1</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 400.32 345.6 
+L 400.32 77.76 
+" clip-path="url(#p7b2c5b70a4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6"/>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="400.32" y="355.622187" transform="rotate(-0 400.32 355.622187)">2</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 457.92 345.6 
+L 457.92 77.76 
+" clip-path="url(#p7b2c5b70a4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8"/>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="457.92" y="355.622187" transform="rotate(-0 457.92 355.622187)">3</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 515.52 345.6 
+L 515.52 77.76 
+" clip-path="url(#p7b2c5b70a4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10"/>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="515.52" y="355.622187" transform="rotate(-0 515.52 355.622187)">4</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 573.12 345.6 
+L 573.12 77.76 
+" clip-path="url(#p7b2c5b70a4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12"/>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="573.12" y="355.622187" transform="rotate(-0 573.12 355.622187)">5</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_13">
+      <path d="M 630.72 345.6 
+L 630.72 77.76 
+" clip-path="url(#p7b2c5b70a4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_14"/>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="630.72" y="355.622187" transform="rotate(-0 630.72 355.622187)">6</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_15">
+      <path d="M 688.32 345.6 
+L 688.32 77.76 
+" clip-path="url(#p7b2c5b70a4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_16"/>
+     <g id="text_8">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="688.32" y="355.622187" transform="rotate(-0 688.32 355.622187)">7</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_17">
+      <path d="M 745.92 345.6 
+L 745.92 77.76 
+" clip-path="url(#p7b2c5b70a4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_18"/>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="745.92" y="355.622187" transform="rotate(-0 745.92 355.622187)">8</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_19">
+      <path d="M 803.52 345.6 
+L 803.52 77.76 
+" clip-path="url(#p7b2c5b70a4)" style="fill: none; stroke: #e9e5dd; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_20"/>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: middle; fill: #4a4741" x="803.52" y="355.622187" transform="rotate(-0 803.52 355.622187)">9</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 10.5px; font-family: 'Liberation Sans'; text-anchor: middle" x="544.32" y="369.098906" transform="rotate(-0 544.32 369.098906)">Result-bearing trials (n)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_21"/>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="281.62" y="112.919763" transform="rotate(-0 281.62 112.919763)">Randomized primary-positive</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_22"/>
+     <g id="text_13">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="281.62" y="180.933984" transform="rotate(-0 281.62 180.933984)">Randomized negative / primary-miss / mixed</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_23"/>
+     <g id="text_14">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="281.62" y="248.948204" transform="rotate(-0 281.62 248.948204)">Single-arm / open-label / descriptive</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_24"/>
+     <g id="text_15">
+      <text style="font-size: 9px; font-family: 'Liberation Sans'; text-anchor: end; fill: #4a4741" x="281.62" y="316.962424" transform="rotate(-0 281.62 316.962424)">Terminated / no posted efficacy</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 285.12 345.6 
+L 803.52 345.6 
+" style="fill: none; stroke: #cfc9be; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 285.12 89.934545 
+L 688.32 89.934545 
+L 688.32 129.382793 
+L 285.12 129.382793 
+z
+" clip-path="url(#p7b2c5b70a4)" style="fill: #0072b2"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 285.12 157.948766 
+L 688.32 157.948766 
+L 688.32 197.397014 
+L 285.12 197.397014 
+z
+" clip-path="url(#p7b2c5b70a4)" style="fill: #e69f00"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 285.12 225.962986 
+L 745.92 225.962986 
+L 745.92 265.411234 
+L 285.12 265.411234 
+z
+" clip-path="url(#p7b2c5b70a4)" style="fill: #009e73"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 285.12 293.977207 
+L 457.92 293.977207 
+L 457.92 333.425455 
+L 285.12 333.425455 
+z
+" clip-path="url(#p7b2c5b70a4)" style="fill: #cc79a7"/>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="696.96" y="112.503201" transform="rotate(-0 696.96 112.503201)">7</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="696.96" y="180.517421" transform="rotate(-0 696.96 180.517421)">7</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="754.56" y="248.531641" transform="rotate(-0 754.56 248.531641)">8</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Liberation Sans'; text-anchor: start; fill: #222222" x="466.56" y="316.545862" transform="rotate(-0 466.56 316.545862)">3</text>
+   </g>
+  </g>
+  <g id="line2d_25">
+   <path d="M 47.52 50.976 
+L 816.48 50.976 
+" style="fill: none; stroke: #d4a04a; stroke-width: 1.8; stroke-linecap: square"/>
+  </g>
+  <g id="line2d_26">
+   <path d="M 47.52 400.896 
+L 816.48 400.896 
+" style="fill: none; stroke: #d8d2c7; stroke-width: 0.8; stroke-linecap: square"/>
+  </g>
+  <g id="text_20">
+   <text style="font-size: 8.2px; font-family: 'Liberation Sans'; text-anchor: start; fill: #5e5a53" x="285.12" y="388.760469" transform="rotate(-0 285.12 388.760469)">Disposition preserves primary misses, futility, infeasibility and non-comparative evidence; it is not an asset success ranking.</text>
+  </g>
+  <g id="text_21">
+   <text style="font-weight: 700; font-size: 17px; font-family: 'Liberation Sans'; text-anchor: start; fill: #111111" x="47.52" y="31.759687" transform="rotate(-0 47.52 31.759687)">Interpretability profile of result-bearing trials</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 9.5px; font-family: 'Liberation Sans'; text-anchor: start; fill: #5e5a53" x="47.52" y="48.356531" transform="rotate(-0 47.52 48.356531)">Complete 25-trial curation; positive, negative, stopped and non-comparative evidence remain visible.</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 7.6px; font-family: 'Liberation Sans'; text-anchor: start; fill: #6c665e" x="47.52" y="415.389313" transform="rotate(-0 47.52 415.389313)">Source: result_trial_curation_v2.csv · disposition mapping is deterministic and totals 25</text>
+  </g>
+  <g id="text_24">
+   <text style="font-size: 7.6px; font-family: 'Liberation Sans'; text-anchor: end; fill: #6c665e" x="816.48" y="415.389313" transform="rotate(-0 816.48 415.389313)">Data cut 2026-09-10</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7b2c5b70a4">
+   <rect x="285.12" y="77.76" width="518.4" height="267.84"/>
+  </clipPath>
+ </defs>
+</svg>

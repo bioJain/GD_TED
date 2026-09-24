@@ -1,0 +1,25 @@
+{
+  "anchor_source_mismatches": 0,
+  "artifact": "soc_outcomes_v2.csv",
+  "blank_cells": 0,
+  "categories_per_region": 15,
+  "columns": 27,
+  "data_cut": "2026-09-10",
+  "forbidden_negative_status_phrases": 0,
+  "output_bytes": 112576,
+  "output_sha256": "1c4368b060910b9bf6da76972d32651dbb17f642a755cfafdfe8e0384dda176b",
+  "regions": {
+    "EU": 15,
+    "JP": 15,
+    "KR": 15,
+    "UK": 15,
+    "US": 15
+  },
+  "rows": 75,
+  "schema_version": "2.0.0",
+  "unanchored_nonquery_sources": 0,
+  "unique_soc_ids": 75,
+  "unknown_anchors": 0,
+  "unknown_sources": 0,
+  "unmarked_query_sources": 0
+}

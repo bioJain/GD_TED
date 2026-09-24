@@ -1,0 +1,2759 @@
+{
+  "deck": "presentation_graves_ted_landscape_v2.pptx",
+  "slide_count": 15,
+  "emu_per_inch": 914400,
+  "slides": [
+    {
+      "index": 0,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 594360,
+            "y": 502920,
+            "cx": 11000232,
+            "cy": 50292
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 841248,
+            "y": 1234440,
+            "cx": 10241280,
+            "cy": 1417320
+          },
+          "z_order": 1,
+          "text": "Graves\u2019 disease \ubc0f\u000bthyroid eye disease",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 868680,
+            "y": 2788920,
+            "cx": 10058400,
+            "cy": 502920
+          },
+          "z_order": 2,
+          "text": "\uce58\ub8cc \u00b7 clinical-trial \u00b7 autoantibody-focused R&D landscape v2",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "TextBox 4",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 868680,
+            "y": 3703320,
+            "cx": 9875520,
+            "cy": 1234440
+          },
+          "z_order": 3,
+          "text": "United States \u00b7 EU/EEA \u00b7 United Kingdom \u00b7 South Korea \u00b7 Japan\nFrozen data cut 2026-09-10  |  no post-cut inference\nQuantitative pooling \ubc0f cross-trial efficacy ranking \ubbf8\uc218\ud589",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "Rectangle 5",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 594360,
+            "y": 6016752,
+            "cx": 11000232,
+            "cy": 10972
+          },
+          "z_order": 4,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "SOURCE_FOOTER_01",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 658368,
+            "y": 6108192,
+            "cx": 10881360,
+            "cy": 475488
+          },
+          "z_order": 5,
+          "text": "Canonical plan2.md  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        }
+      ],
+      "png": "slide-001.png"
+    },
+    {
+      "index": 1,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Executive summary",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "02",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_02",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Sources [728] [729] [731] [735] [780] [1] [2] [6] [7] [8] [898] [373] [726]  \u2022  Canonical clinical_trials_v2.csv, soc_outcomes_v2.csv, result_trial_curation_v2.csv; soc_outcomes_v2.csv +3  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "Rounded Rectangle 6",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 594360,
+            "y": 1143000,
+            "cx": 2542032,
+            "cy": 1170432
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 8,
+          "name": "Rectangle 7",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 594360,
+            "y": 1143000,
+            "cx": 50292,
+            "cy": 1170432
+          },
+          "z_order": 6,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 9,
+          "name": "TextBox 8",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 758952,
+            "y": 1252728,
+            "cx": 2286000,
+            "cy": 502920
+          },
+          "z_order": 7,
+          "text": "168",
+          "flags": []
+        },
+        {
+          "shape_id": 10,
+          "name": "TextBox 9",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 758952,
+            "y": 1801368,
+            "cx": 2286000,
+            "cy": 457200
+          },
+          "z_order": 8,
+          "text": "included trials",
+          "flags": []
+        },
+        {
+          "shape_id": 11,
+          "name": "Rounded Rectangle 10",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 3447288,
+            "y": 1143000,
+            "cx": 2542032,
+            "cy": 1170432
+          },
+          "z_order": 9,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 12,
+          "name": "Rectangle 11",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 3447288,
+            "y": 1143000,
+            "cx": 50292,
+            "cy": 1170432
+          },
+          "z_order": 10,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 13,
+          "name": "TextBox 12",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 3611880,
+            "y": 1252728,
+            "cx": 2286000,
+            "cy": 502920
+          },
+          "z_order": 11,
+          "text": "25",
+          "flags": []
+        },
+        {
+          "shape_id": 14,
+          "name": "TextBox 13",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 3611880,
+            "y": 1801368,
+            "cx": 2286000,
+            "cy": 457200
+          },
+          "z_order": 12,
+          "text": "posted-result trials",
+          "flags": []
+        },
+        {
+          "shape_id": 15,
+          "name": "Rounded Rectangle 14",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 6300216,
+            "y": 1143000,
+            "cx": 2542032,
+            "cy": 1170432
+          },
+          "z_order": 13,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 16,
+          "name": "Rectangle 15",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 6300216,
+            "y": 1143000,
+            "cx": 50292,
+            "cy": 1170432
+          },
+          "z_order": 14,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 17,
+          "name": "TextBox 16",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 6464808,
+            "y": 1252728,
+            "cx": 2286000,
+            "cy": 502920
+          },
+          "z_order": 15,
+          "text": "75",
+          "flags": []
+        },
+        {
+          "shape_id": 18,
+          "name": "TextBox 17",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 6464808,
+            "y": 1801368,
+            "cx": 2286000,
+            "cy": 457200
+          },
+          "z_order": 16,
+          "text": "regional SoC rows",
+          "flags": []
+        },
+        {
+          "shape_id": 19,
+          "name": "Rounded Rectangle 18",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 9153144,
+            "y": 1143000,
+            "cx": 2542032,
+            "cy": 1170432
+          },
+          "z_order": 17,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 20,
+          "name": "Rectangle 19",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 9153144,
+            "y": 1143000,
+            "cx": 50292,
+            "cy": 1170432
+          },
+          "z_order": 18,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 21,
+          "name": "TextBox 20",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 9317736,
+            "y": 1252728,
+            "cx": 2286000,
+            "cy": 502920
+          },
+          "z_order": 19,
+          "text": "2",
+          "flags": []
+        },
+        {
+          "shape_id": 22,
+          "name": "TextBox 21",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 9317736,
+            "y": 1801368,
+            "cx": 2286000,
+            "cy": 457200
+          },
+          "z_order": 20,
+          "text": "focal direct anti-TSHR Phase 1 programs",
+          "flags": []
+        },
+        {
+          "shape_id": 23,
+          "name": "TextBox 22",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 749808,
+            "y": 2606040,
+            "cx": 10744200,
+            "cy": 3246120
+          },
+          "z_order": 21,
+          "text": "\u2022 Lumvoa: FDA approved 2026-06-26 for TED regardless of activity/duration; regional access remains separate.\n\u2022 IGF-1R TED evidence/authorization\uc744 GD pathogenic autoimmunity \uc81c\uac70 \ub610\ub294 durable remission\uc73c\ub85c \uc804\ud658\ud558\uc9c0 \uc54a\ub294\ub2e4.\n\u2022 LCA-0321\u00b7MER511\uc740 direct anti-TSHR Phase 1 hypotheses; evidence confidence\ub294 \uac01\uac01 Low, Low\u2013moderate.\n\u2022 TERMINATED\u00b7WITHDRAWN\u00b7SUSPENDED\u00b7UNKNOWN trials\uc640 target-unverified assets\ub97c \uadf8\ub300\ub85c \uc720\uc9c0\ud588\ub2e4.\n\u2022 Control, off-treatment remission, ablation/surgery, cure\ub97c \uad6c\ubd84\ud55c\ub2e4.",
+          "flags": []
+        }
+      ],
+      "png": "slide-002.png"
+    },
+    {
+      "index": 2,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Scope and audit method",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "03",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_03",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Canonical registry_cut_reconciliation_2026-09-10.json, qa_summary.json, clinical_trials_v2.csv +2  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "Rounded Rectangle 6",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 685800,
+            "y": 1207008,
+            "cx": 2487168,
+            "cy": 1234440
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 8,
+          "name": "Rectangle 7",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 685800,
+            "y": 1207008,
+            "cx": 50292,
+            "cy": 1234440
+          },
+          "z_order": 6,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 9,
+          "name": "TextBox 8",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 850392,
+            "y": 1316736,
+            "cx": 2231136,
+            "cy": 502920
+          },
+          "z_order": 7,
+          "text": "324",
+          "flags": []
+        },
+        {
+          "shape_id": 10,
+          "name": "TextBox 9",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 850392,
+            "y": 1865376,
+            "cx": 2231136,
+            "cy": 521208
+          },
+          "z_order": 8,
+          "text": "frozen query records",
+          "flags": []
+        },
+        {
+          "shape_id": 11,
+          "name": "TextBox 10",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 3227832,
+            "y": 1536192,
+            "cx": 256032,
+            "cy": 320040
+          },
+          "z_order": 9,
+          "text": "\u2192",
+          "flags": []
+        },
+        {
+          "shape_id": 12,
+          "name": "Rounded Rectangle 11",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 3520440,
+            "y": 1207008,
+            "cx": 2487168,
+            "cy": 1234440
+          },
+          "z_order": 10,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 13,
+          "name": "Rectangle 12",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 3520440,
+            "y": 1207008,
+            "cx": 50292,
+            "cy": 1234440
+          },
+          "z_order": 11,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 14,
+          "name": "TextBox 13",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 3685032,
+            "y": 1316736,
+            "cx": 2231136,
+            "cy": 502920
+          },
+          "z_order": 12,
+          "text": "193",
+          "flags": []
+        },
+        {
+          "shape_id": 15,
+          "name": "TextBox 14",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 3685032,
+            "y": 1865376,
+            "cx": 2231136,
+            "cy": 521208
+          },
+          "z_order": 13,
+          "text": "scope-triaged records",
+          "flags": []
+        },
+        {
+          "shape_id": 16,
+          "name": "TextBox 15",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 6062472,
+            "y": 1536192,
+            "cx": 256032,
+            "cy": 320040
+          },
+          "z_order": 14,
+          "text": "\u2192",
+          "flags": []
+        },
+        {
+          "shape_id": 17,
+          "name": "Rounded Rectangle 16",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 6355080,
+            "y": 1207008,
+            "cx": 2487168,
+            "cy": 1234440
+          },
+          "z_order": 15,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 18,
+          "name": "Rectangle 17",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 6355080,
+            "y": 1207008,
+            "cx": 50292,
+            "cy": 1234440
+          },
+          "z_order": 16,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 19,
+          "name": "TextBox 18",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 6519672,
+            "y": 1316736,
+            "cx": 2231136,
+            "cy": 502920
+          },
+          "z_order": 17,
+          "text": "168",
+          "flags": []
+        },
+        {
+          "shape_id": 20,
+          "name": "TextBox 19",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 6519672,
+            "y": 1865376,
+            "cx": 2231136,
+            "cy": 521208
+          },
+          "z_order": 18,
+          "text": "unique included trials",
+          "flags": []
+        },
+        {
+          "shape_id": 21,
+          "name": "TextBox 20",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 8897112,
+            "y": 1536192,
+            "cx": 256032,
+            "cy": 320040
+          },
+          "z_order": 19,
+          "text": "\u2192",
+          "flags": []
+        },
+        {
+          "shape_id": 22,
+          "name": "Rounded Rectangle 21",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 9189720,
+            "y": 1207008,
+            "cx": 2487168,
+            "cy": 1234440
+          },
+          "z_order": 20,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 23,
+          "name": "Rectangle 22",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 9189720,
+            "y": 1207008,
+            "cx": 50292,
+            "cy": 1234440
+          },
+          "z_order": 21,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 24,
+          "name": "TextBox 23",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 9354312,
+            "y": 1316736,
+            "cx": 2231136,
+            "cy": 502920
+          },
+          "z_order": 22,
+          "text": "25",
+          "flags": []
+        },
+        {
+          "shape_id": 25,
+          "name": "TextBox 24",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 9354312,
+            "y": 1865376,
+            "cx": 2231136,
+            "cy": 521208
+          },
+          "z_order": 23,
+          "text": "result-bearing trials",
+          "flags": []
+        },
+        {
+          "shape_id": 26,
+          "name": "Rounded Rectangle 25",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 749808,
+            "y": 2788920,
+            "cx": 10561320,
+            "cy": 2834640
+          },
+          "z_order": 24,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 27,
+          "name": "TextBox 26",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 822959,
+            "y": 2834639,
+            "cx": 10415016,
+            "cy": 2743200
+          },
+          "z_order": 25,
+          "text": "\u2022 Frozen ClinicalTrials.gov cut\uc640 deterministic inclusion logic\uc744 \uc0ac\uc6a9\ud588\ub2e4.\n\u2022 All statuses retained; stopped/unknown\uc740 \ub204\ub77d\uc774\ub098 mechanistic failure\ub85c \uc790\ub3d9 \ubd84\ub958\ud558\uc9c0 \uc54a\uc558\ub2e4.\n\u2022 n_randomized\uc640 n_analyzed\ub294 registry flow \ubc0f endpoint-specific denominator semantics\ub97c \ubcf4\uc874\ud588\ub2e4.\n\u2022 Meta-analysis\u00b7na\u00efve pooling\u00b7cross-trial ranking\uc744 \uc218\ud589\ud558\uc9c0 \uc54a\uc558\ub2e4.\n\u2022 Claim QA\ub294 \ub3d9\uc77c coordinator\uc758 stance-hidden second pass\uc774\uba70 independent validation\uc774 \uc544\ub2c8\ub2e4.",
+          "flags": []
+        }
+      ],
+      "png": "slide-003.png"
+    },
+    {
+      "index": 3,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Endpoint language determines the conclusion",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "04",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_04",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Canonical plan2.md; clinical_trials_v2.csv; soc_outcomes_v2.csv  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "Rounded Rectangle 6",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 621792,
+            "y": 1234440,
+            "cx": 2542032,
+            "cy": 1965960
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 8,
+          "name": "TextBox 7",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 768096,
+            "y": 1353312,
+            "cx": 411480,
+            "cy": 365760
+          },
+          "z_order": 6,
+          "text": "01",
+          "flags": []
+        },
+        {
+          "shape_id": 9,
+          "name": "TextBox 8",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 768096,
+            "y": 1783080,
+            "cx": 2212848,
+            "cy": 749808
+          },
+          "z_order": 7,
+          "text": "On-treatment\u000bbiochemical control",
+          "flags": []
+        },
+        {
+          "shape_id": 10,
+          "name": "TextBox 9",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 768096,
+            "y": 2624328,
+            "cx": 2212848,
+            "cy": 420624
+          },
+          "z_order": 8,
+          "text": "\uce58\ub8cc \uc911 FT4/FT3 normalization",
+          "flags": []
+        },
+        {
+          "shape_id": 11,
+          "name": "Rounded Rectangle 10",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 3474720,
+            "y": 1234440,
+            "cx": 2542032,
+            "cy": 1965960
+          },
+          "z_order": 9,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 12,
+          "name": "TextBox 11",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 3621024,
+            "y": 1353312,
+            "cx": 411480,
+            "cy": 365760
+          },
+          "z_order": 10,
+          "text": "02",
+          "flags": []
+        },
+        {
+          "shape_id": 13,
+          "name": "TextBox 12",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 3621024,
+            "y": 1783080,
+            "cx": 2212848,
+            "cy": 749808
+          },
+          "z_order": 11,
+          "text": "Off-ATD normalization",
+          "flags": []
+        },
+        {
+          "shape_id": 14,
+          "name": "TextBox 13",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 3621024,
+            "y": 2624328,
+            "cx": 2212848,
+            "cy": 420624
+          },
+          "z_order": 12,
+          "text": "\ud2b9\uc815 timepoint\uc758 \uc0c1\ud0dc",
+          "flags": []
+        },
+        {
+          "shape_id": 15,
+          "name": "Rounded Rectangle 14",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 6327648,
+            "y": 1234440,
+            "cx": 2542032,
+            "cy": 1965960
+          },
+          "z_order": 13,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 16,
+          "name": "TextBox 15",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 6473952,
+            "y": 1353312,
+            "cx": 411480,
+            "cy": 365760
+          },
+          "z_order": 14,
+          "text": "03",
+          "flags": []
+        },
+        {
+          "shape_id": 17,
+          "name": "TextBox 16",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 6473952,
+            "y": 1783080,
+            "cx": 2212848,
+            "cy": 749808
+          },
+          "z_order": 15,
+          "text": "Durable off-treatment\u000bremission",
+          "flags": []
+        },
+        {
+          "shape_id": 18,
+          "name": "TextBox 17",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 6473952,
+            "y": 2624328,
+            "cx": 2212848,
+            "cy": 420624
+          },
+          "z_order": 16,
+          "text": "\uce58\ub8cc \uc5c6\uc774 \uc9c0\uc18d + relapse \uc5c6\uc74c",
+          "flags": []
+        },
+        {
+          "shape_id": 19,
+          "name": "Rounded Rectangle 18",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 9180576,
+            "y": 1234440,
+            "cx": 2542032,
+            "cy": 1965960
+          },
+          "z_order": 17,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 20,
+          "name": "TextBox 19",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 9326880,
+            "y": 1353312,
+            "cx": 411480,
+            "cy": 365760
+          },
+          "z_order": 18,
+          "text": "04",
+          "flags": []
+        },
+        {
+          "shape_id": 21,
+          "name": "TextBox 20",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 9326880,
+            "y": 1783080,
+            "cx": 2212848,
+            "cy": 749808
+          },
+          "z_order": 19,
+          "text": "Ablative / surgical\u000bcontrol",
+          "flags": []
+        },
+        {
+          "shape_id": 22,
+          "name": "TextBox 21",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 9326880,
+            "y": 2624328,
+            "cx": 2212848,
+            "cy": 420624
+          },
+          "z_order": 20,
+          "text": "thyroid-source control; autoimmunity\uc640 \ubcc4\uac1c",
+          "flags": []
+        },
+        {
+          "shape_id": 23,
+          "name": "Rounded Rectangle 22",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 713232,
+            "y": 3584448,
+            "cx": 10716768,
+            "cy": 2057400
+          },
+          "z_order": 21,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 24,
+          "name": "TextBox 23",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 786384,
+            "y": 3630168,
+            "cx": 10570464,
+            "cy": 1965960
+          },
+          "z_order": 22,
+          "text": "\u2022 TED PRR\u00b7CAS\u00b7diplopia\u00b7GO-QOL\uc740 GD biochemical remission endpoint\uc640 \uad50\ud658 \uac00\ub2a5\ud558\uc9c0 \uc54a\ub2e4.\n\u2022 RAI/thyroidectomy\ub294 pathogenic autoimmunity \ub610\ub294 TED \uc18c\uc2e4\uc744 \uc790\ub3d9 \uc758\ubbf8\ud558\uc9c0 \uc54a\ub294\ub2e4.\n\u2022 \u2018Cure\u2019\ub294 normal thyroid function + pathogenic autoimmunity\uc758 \uc9c0\uc18d\uc801 \uc18c\uc2e4 + treatment-free durability\ub97c \uc694\uad6c\ud55c\ub2e4.",
+          "flags": []
+        }
+      ],
+      "png": "slide-004.png"
+    },
+    {
+      "index": 4,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Regional SoC: authorization and access remain distinct",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "05",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_05",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Sources [728] [373] [726] [729] [751] [747] [731] [732] [733] [749] [745] [746] [750] [735] [736] [752] [748]  \u2022  Canonical soc_outcomes_v2.csv  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "Table 6",
+          "shape_type": "TABLE (19)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 1170432,
+            "cx": 11045952,
+            "cy": 4069080
+          },
+          "z_order": 5,
+          "text": "Region Tepezza authorization Lumvoa authorization Access boundary United States Approved Approved 2026-06-26 Unresolved / payer-level EU/EEA Approved 2025-06-19 Unresolved* Member-State-specific United Kingdom MHRA approved 2025-05-07 Unresolved* NICE in progress at cut South Korea Unresolved* Unresolved* Official positive evidence not confirmed Japan Approved 2024-09-24\n(active TED) Unresolved* Reimbursement unresolved",
+          "flags": []
+        },
+        {
+          "shape_id": 8,
+          "name": "TextBox 7",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 658368,
+            "y": 5413248,
+            "cx": 10881360,
+            "cy": 411480
+          },
+          "z_order": 6,
+          "text": "* unresolved = documented official-source pass\uc5d0\uc11c positive evidence\ub97c \ud655\uc815\ud558\uc9c0 \ubabb\ud568; non-authorization/non-reimbursement\ub97c \ub73b\ud558\uc9c0 \uc54a\uc74c.",
+          "flags": []
+        },
+        {
+          "shape_id": 9,
+          "name": "TextBox 8",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 658368,
+            "y": 5797296,
+            "cx": 10881360,
+            "cy": 320040
+          },
+          "z_order": 7,
+          "text": "Authorization, reimbursement/access, guideline position\uc740 \uc11c\ub85c \ub2e4\ub978 evidence objects\ub85c \uc720\uc9c0\ud55c\ub2e4.",
+          "flags": []
+        }
+      ],
+      "png": "slide-005.png"
+    },
+    {
+      "index": 5,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Trial landscape retains negative and stopped programs",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "06",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_06",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Canonical clinical_trials_v2.csv, clinical_trials_v2.csv + pipeline_assets_v2.csv  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "FIGURE_FIG-01",
+          "shape_type": "PICTURE (13)",
+          "bbox_emu": {
+            "x": 868680,
+            "y": 1024128,
+            "cx": 10460736,
+            "cy": 5230368
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        }
+      ],
+      "png": "slide-006.png"
+    },
+    {
+      "index": 6,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Mechanism landscape",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "07",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_07",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Canonical clinical_trials_v2.csv, result_trial_curation_v2.csv, registry_cut_reconciliation_2026-09-10.json  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "FIGURE_FIG-02",
+          "shape_type": "PICTURE (13)",
+          "bbox_emu": {
+            "x": 868680,
+            "y": 1024128,
+            "cx": 10460736,
+            "cy": 5230368
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        }
+      ],
+      "png": "slide-007.png"
+    },
+    {
+      "index": 7,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Development maturity by mechanism",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "08",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_08",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Canonical clinical_trials_v2.csv, result_trial_curation_v2.csv, registry_cut_reconciliation_2026-09-10.json  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "FIGURE_FIG-03",
+          "shape_type": "PICTURE (13)",
+          "bbox_emu": {
+            "x": 868680,
+            "y": 1024128,
+            "cx": 10460736,
+            "cy": 5230368
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        }
+      ],
+      "png": "slide-008.png"
+    },
+    {
+      "index": 8,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Selected randomized TED proptosis responses",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "09",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_09",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Sources [807] [829] [844] [845] [849] [853]  \u2022  Canonical result_trial_curation_v2.csv  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "FIGURE_FIG-04",
+          "shape_type": "PICTURE (13)",
+          "bbox_emu": {
+            "x": 868680,
+            "y": 1024128,
+            "cx": 10460736,
+            "cy": 5230368
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        }
+      ],
+      "png": "slide-009.png"
+    },
+    {
+      "index": 9,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Safety observations that influence sequencing",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "10",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_10",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Sources [817] [829] [831] [849] [859]  \u2022  Canonical result_trial_curation_v2.csv  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "Table 6",
+          "shape_type": "TABLE (19)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 1143000,
+            "cx": 11018520,
+            "cy": 4480560
+          },
+          "z_order": 5,
+          "text": "Trial / asset Selected registered safety observation Interpretive boundary NCT04583735\nTeprotumumab Hyperglycemia 6/41 vs 2/20; hearing impairment 9/41 vs 2/20; muscle spasm 17/41 vs 2/20 Week 24 randomized; within-trial only NCT05176639\nVeligrotug SAE 7/75 vs 0/38; muscle spasm 34/75 vs 3/38; infusion reaction 13/75 vs 2/38 Week 15 primary window; within-trial only NCT05276063\nLinsitinib High-dose SAE 2/29; GI, fatigue and transaminase signals Dose-specific; no cross-program incidence compariso",
+          "flags": []
+        },
+        {
+          "shape_id": 8,
+          "name": "TextBox 7",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 658368,
+            "y": 5779008,
+            "cx": 10789920,
+            "cy": 329184
+          },
+          "z_order": 6,
+          "text": "Sparse counts, follow-up windows \ubc0f ascertainment \ucc28\uc774 \ub54c\ubb38\uc5d0 na\u00efve between-trial incidence comparison\uc744 \ud558\uc9c0 \uc54a\ub294\ub2e4.",
+          "flags": []
+        }
+      ],
+      "png": "slide-010.png"
+    },
+    {
+      "index": 10,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Direct TSHR/anti-TSHR strategies",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "11",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_11",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Sources [1] [2] [6] [8] [7] [898] [541] [870] [897] [915] [164] [799] [253] [800] [854] [619] [913]  \u2022  Canonical pipeline_assets_v2.csv, claim_evidence_anchors_v2.csv  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "FIGURE_FIG-05",
+          "shape_type": "PICTURE (13)",
+          "bbox_emu": {
+            "x": 475488,
+            "y": 1252728,
+            "cx": 6967728,
+            "cy": 3483864
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 8,
+          "name": "Rounded Rectangle 7",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 7424927,
+            "y": 1234440,
+            "cx": 4224528,
+            "cy": 4370832
+          },
+          "z_order": 6,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 9,
+          "name": "TextBox 8",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 7498079,
+            "y": 1280160,
+            "cx": 4078224,
+            "cy": 4279392
+          },
+          "z_order": 7,
+          "text": "Autoantibody clearance\nLCA-0321 \u2014 Phase 1 LYTAC\nClearance + source suppression\nMER511 \u2014 Phase 1 TSHR-IgG Fc fusion\nReceptor blockade / tolerance\nGenSci098/YB-101 \u00b7 K1-70 \u00b7 ATX-GD-59 / WP1302\nDual pathway\nIBI3031 \u2014 IGF-1R + TSHR",
+          "flags": []
+        },
+        {
+          "shape_id": 10,
+          "name": "TextBox 9",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 694944,
+            "y": 5120640,
+            "cx": 6547104,
+            "cy": 658368
+          },
+          "z_order": 8,
+          "text": "R&D potential\uc740 hypothesis-weighted axis\uc774\uba70 evidence confidence\u00b7clinical efficacy\u00b7probability\uc640 \ub3d9\uc77c\ud558\uc9c0 \uc54a\ub2e4.",
+          "flags": []
+        },
+        {
+          "shape_id": 11,
+          "name": "TextBox 10",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 7534656,
+            "y": 5623560,
+            "cx": 3886200,
+            "cy": 393192
+          },
+          "z_order": 9,
+          "text": "LCA-0321\uacfc MER511\uc744 \uac15\uc870\ud558\ub418 human efficacy\ub294 \ubbf8\ud655\uc815\uc774\ub2e4.",
+          "flags": []
+        }
+      ],
+      "png": "slide-011.png"
+    },
+    {
+      "index": 11,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "LCA-0321: precision clearance hypothesis",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "12",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_12",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Sources [1] [2] [6] [7] [8] [898]  \u2022  Canonical claim_evidence_anchors_v2.csv, pipeline_assets_v2.csv, claim_evidence_anchors_v2.csv; pipeline_assets_v2.csv  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "Rounded Rectangle 6",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 685800,
+            "y": 1143000,
+            "cx": 3401568,
+            "cy": 1234440
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 8,
+          "name": "Rectangle 7",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 685800,
+            "y": 1143000,
+            "cx": 50292,
+            "cy": 1234440
+          },
+          "z_order": 6,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 9,
+          "name": "TextBox 8",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 850392,
+            "y": 1252728,
+            "cx": 3145536,
+            "cy": 502920
+          },
+          "z_order": 7,
+          "text": "Phase 1",
+          "flags": []
+        },
+        {
+          "shape_id": 10,
+          "name": "TextBox 9",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 850392,
+            "y": 1801368,
+            "cx": 3145536,
+            "cy": 521208
+          },
+          "z_order": 8,
+          "text": "first-in-human",
+          "flags": []
+        },
+        {
+          "shape_id": 11,
+          "name": "Rounded Rectangle 10",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 4462272,
+            "y": 1143000,
+            "cx": 3401568,
+            "cy": 1234440
+          },
+          "z_order": 9,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 12,
+          "name": "Rectangle 11",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 4462272,
+            "y": 1143000,
+            "cx": 50292,
+            "cy": 1234440
+          },
+          "z_order": 10,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 13,
+          "name": "TextBox 12",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 4626864,
+            "y": 1252728,
+            "cx": 3145536,
+            "cy": 502920
+          },
+          "z_order": 11,
+          "text": "48",
+          "flags": []
+        },
+        {
+          "shape_id": 14,
+          "name": "TextBox 13",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 4626864,
+            "y": 1801368,
+            "cx": 3145536,
+            "cy": 521208
+          },
+          "z_order": 12,
+          "text": "planned participants; not analyzed N",
+          "flags": []
+        },
+        {
+          "shape_id": 15,
+          "name": "Rounded Rectangle 14",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 8238744,
+            "y": 1143000,
+            "cx": 3401568,
+            "cy": 1234440
+          },
+          "z_order": 13,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 16,
+          "name": "Rectangle 15",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 8238744,
+            "y": 1143000,
+            "cx": 50292,
+            "cy": 1234440
+          },
+          "z_order": 14,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 17,
+          "name": "TextBox 16",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 8403336,
+            "y": 1252728,
+            "cx": 3145536,
+            "cy": 502920
+          },
+          "z_order": 15,
+          "text": "SAD / MAD",
+          "flags": []
+        },
+        {
+          "shape_id": 18,
+          "name": "TextBox 17",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 8403336,
+            "y": 1801368,
+            "cx": 3145536,
+            "cy": 521208
+          },
+          "z_order": 16,
+          "text": "ongoing, recruiting",
+          "flags": []
+        },
+        {
+          "shape_id": 19,
+          "name": "TextBox 18",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 713232,
+            "y": 2770632,
+            "cx": 10744200,
+            "cy": 2514600
+          },
+          "z_order": 17,
+          "text": "\u2022 Mechanism hypothesis: anti-TSHR autoantibodies\ub97c \uc120\ud0dd\uc801\uc73c\ub85c \uacb0\ud569\u00b7lysosomal elimination\ud558\ub3c4\ub85d \uc124\uacc4.\n\u2022 Sponsor intent: general immunosuppression \uc5c6\uc774 pathogenic driver \uc81c\uac70.\n\u2022 Required readouts: safety/PK/PD, TRAb/TSI/TSAb kinetics, thyroid hormones, ADA\u00b7immunogenicity, total IgG.\n\u2022 Frozen package\uc5d0\ub294 human efficacy, rebound, normal TSH physiology preservation, TED\u2013biochemical concordance \ub610\ub294 off-treatment durability\ub97c \ud655\ub9bd\ud55c result\uac00 \uc5c6\ub2e4.",
+          "flags": []
+        },
+        {
+          "shape_id": 20,
+          "name": "Rounded Rectangle 19",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 749808,
+            "y": 5394960,
+            "cx": 10607040,
+            "cy": 658368
+          },
+          "z_order": 18,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 21,
+          "name": "TextBox 20",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 822959,
+            "y": 5440680,
+            "cx": 10460736,
+            "cy": 566928
+          },
+          "z_order": 19,
+          "text": "R&D potential 2.35/3\nEvidence confidence: Low",
+          "flags": []
+        }
+      ],
+      "png": "slide-012.png"
+    },
+    {
+      "index": 12,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "MER511: clearance plus source suppression",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "13",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_13",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Sources [6] [8] [7] [898] [1] [2]  \u2022  Canonical claim_evidence_anchors_v2.csv, pipeline_assets_v2.csv, claim_evidence_anchors_v2.csv; pipeline_assets_v2.csv  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "Rounded Rectangle 6",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 685800,
+            "y": 1143000,
+            "cx": 3401568,
+            "cy": 1234440
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 8,
+          "name": "Rectangle 7",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 685800,
+            "y": 1143000,
+            "cx": 50292,
+            "cy": 1234440
+          },
+          "z_order": 6,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 9,
+          "name": "TextBox 8",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 850392,
+            "y": 1252728,
+            "cx": 3145536,
+            "cy": 502920
+          },
+          "z_order": 7,
+          "text": "Phase 1",
+          "flags": []
+        },
+        {
+          "shape_id": 10,
+          "name": "TextBox 9",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 850392,
+            "y": 1801368,
+            "cx": 3145536,
+            "cy": 521208
+          },
+          "z_order": 8,
+          "text": "NEXUS recruiting",
+          "flags": []
+        },
+        {
+          "shape_id": 11,
+          "name": "Rounded Rectangle 10",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 4462272,
+            "y": 1143000,
+            "cx": 3401568,
+            "cy": 1234440
+          },
+          "z_order": 9,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 12,
+          "name": "Rectangle 11",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 4462272,
+            "y": 1143000,
+            "cx": 50292,
+            "cy": 1234440
+          },
+          "z_order": 10,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 13,
+          "name": "TextBox 12",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 4626864,
+            "y": 1252728,
+            "cx": 3145536,
+            "cy": 502920
+          },
+          "z_order": 11,
+          "text": "IV + SC",
+          "flags": []
+        },
+        {
+          "shape_id": 14,
+          "name": "TextBox 13",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 4626864,
+            "y": 1801368,
+            "cx": 3145536,
+            "cy": 521208
+          },
+          "z_order": 12,
+          "text": "SAD / MAD routes",
+          "flags": []
+        },
+        {
+          "shape_id": 15,
+          "name": "Rounded Rectangle 14",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 8238744,
+            "y": 1143000,
+            "cx": 3401568,
+            "cy": 1234440
+          },
+          "z_order": 13,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 16,
+          "name": "Rectangle 15",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 8238744,
+            "y": 1143000,
+            "cx": 50292,
+            "cy": 1234440
+          },
+          "z_order": 14,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 17,
+          "name": "TextBox 16",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 8403336,
+            "y": 1252728,
+            "cx": 3145536,
+            "cy": 502920
+          },
+          "z_order": 15,
+          "text": "18\u201355 y",
+          "flags": []
+        },
+        {
+          "shape_id": 18,
+          "name": "TextBox 17",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 8403336,
+            "y": 1801368,
+            "cx": 3145536,
+            "cy": 521208
+          },
+          "z_order": 16,
+          "text": "adult GD population",
+          "flags": []
+        },
+        {
+          "shape_id": 19,
+          "name": "TextBox 18",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 713232,
+            "y": 2770632,
+            "cx": 10744200,
+            "cy": 2514600
+          },
+          "z_order": 17,
+          "text": "\u2022 Mechanism hypothesis: anti-TSHR autoantibody neutralization/clearance + antigen-specific B-cell function \uc5b5\uc81c.\n\u2022 Construct: engineered TSHR ectodomain\u2013mutant Fc fusion precision biologic.\n\u2022 TSH non-binding, TSH-signaling preservation, total-IgG sparing\uc740 sponsor/preclinical claim\uc774\uba70 human-validated\uac00 \uc544\ub2c8\ub2e4.\n\u2022 Protocol objectives\ub294 safety, tolerability, PK, PD, immunogenicity; frozen registry\uc5d0 posted results\uac00 \uc5c6\uc5b4 clinical efficacy\uc640 durable remission\uc740 \ubbf8\ud655\uc815\uc774\ub2e4.",
+          "flags": []
+        },
+        {
+          "shape_id": 20,
+          "name": "Rounded Rectangle 19",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 749808,
+            "y": 5394960,
+            "cx": 10607040,
+            "cy": 658368
+          },
+          "z_order": 18,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 21,
+          "name": "TextBox 20",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 822959,
+            "y": 5440680,
+            "cx": 10460736,
+            "cy": 566928
+          },
+          "z_order": 19,
+          "text": "R&D potential 2.75/3\nEvidence confidence: Low\u2013moderate",
+          "flags": []
+        }
+      ],
+      "png": "slide-013.png"
+    },
+    {
+      "index": 13,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Evidence interpretation: positive \u2260 equally decision-ready",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "14",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_14",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Canonical clinical_trials_v2.csv, result_trial_curation_v2.csv  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "FIGURE_FIG-06",
+          "shape_type": "PICTURE (13)",
+          "bbox_emu": {
+            "x": 850392,
+            "y": 1024128,
+            "cx": 10460736,
+            "cy": 5230368
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        }
+      ],
+      "png": "slide-014.png"
+    },
+    {
+      "index": 14,
+      "width_emu": 12191695,
+      "height_emu": 6858000,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "name": "Rectangle 1",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 502920,
+            "y": 292608,
+            "cx": 11183112,
+            "cy": 32004
+          },
+          "z_order": 0,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 3,
+          "name": "TextBox 2",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 457200,
+            "cx": 10515600,
+            "cy": 502920
+          },
+          "z_order": 1,
+          "text": "Decision points for the next clinical readouts",
+          "flags": []
+        },
+        {
+          "shape_id": 4,
+          "name": "TextBox 3",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 11201400,
+            "y": 493776,
+            "cx": 438912,
+            "cy": 320040
+          },
+          "z_order": 2,
+          "text": "15",
+          "flags": []
+        },
+        {
+          "shape_id": 5,
+          "name": "Rectangle 4",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 548640,
+            "y": 6309360,
+            "cx": 11091672,
+            "cy": 10972
+          },
+          "z_order": 3,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 6,
+          "name": "SOURCE_FOOTER_15",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 566928,
+            "y": 6355080,
+            "cx": 11027664,
+            "cy": 384048
+          },
+          "z_order": 4,
+          "text": "Sources [728] [729] [731] [735] [780] [1] [2] [6] [7] [8] [898]  \u2022  Canonical result_trial_curation_v2.csv; soc_outcomes_v2.csv, claim_evidence_anchors_v2.csv; pipeline_assets_v2.csv, pipeline_assets_v2.csv +3  \u2022  Complete claim/row map: slide_source_map_v2.csv",
+          "flags": []
+        },
+        {
+          "shape_id": 7,
+          "name": "Rounded Rectangle 6",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 612648,
+            "y": 1188720,
+            "cx": 3520440,
+            "cy": 4224528
+          },
+          "z_order": 5,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 8,
+          "name": "TextBox 7",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 777240,
+            "y": 1371600,
+            "cx": 3145536,
+            "cy": 420624
+          },
+          "z_order": 6,
+          "text": "01  Readouts",
+          "flags": []
+        },
+        {
+          "shape_id": 9,
+          "name": "TextBox 8",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 740664,
+            "y": 1965960,
+            "cx": 3236976,
+            "cy": 3154680
+          },
+          "z_order": 7,
+          "text": "\u2022 Safety / PK / PD\n\u2022 TRAb\u00b7TSI\u00b7TSAb kinetics\n\u2022 Thyroid hormones\n\u2022 Total IgG / B-cell pharmacology\n\u2022 Off-treatment durability",
+          "flags": []
+        },
+        {
+          "shape_id": 10,
+          "name": "Rounded Rectangle 9",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 4407408,
+            "y": 1188720,
+            "cx": 3520440,
+            "cy": 4224528
+          },
+          "z_order": 8,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 11,
+          "name": "TextBox 10",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 4572000,
+            "y": 1371600,
+            "cx": 3145536,
+            "cy": 420624
+          },
+          "z_order": 9,
+          "text": "02  Design",
+          "flags": []
+        },
+        {
+          "shape_id": 12,
+          "name": "TextBox 11",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 4535424,
+            "y": 1965960,
+            "cx": 3236976,
+            "cy": 3154680
+          },
+          "z_order": 10,
+          "text": "\u2022 Randomized comparators where feasible\n\u2022 Prespecified estimands / multiplicity\n\u2022 Endpoint-specific denominators\n\u2022 Immunogenicity / total-IgG preservation\n\u2022 No cross-trial ranking",
+          "flags": []
+        },
+        {
+          "shape_id": 13,
+          "name": "Rounded Rectangle 12",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 8202168,
+            "y": 1188720,
+            "cx": 3520440,
+            "cy": 4224528
+          },
+          "z_order": 11,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 14,
+          "name": "TextBox 13",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 8366760,
+            "y": 1371600,
+            "cx": 3145536,
+            "cy": 420624
+          },
+          "z_order": 12,
+          "text": "03  Governance",
+          "flags": []
+        },
+        {
+          "shape_id": 15,
+          "name": "TextBox 14",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 8330184,
+            "y": 1965960,
+            "cx": 3236976,
+            "cy": 3154680
+          },
+          "z_order": 13,
+          "text": "\u2022 Authorization \u2260 access\n\u2022 Unresolved \u2260 negative determination\n\u2022 Post-cut changes excluded\n\u2022 Within-agent QA \u2260 independent validation\n\u2022 Potential \u2260 evidence confidence",
+          "flags": []
+        },
+        {
+          "shape_id": 16,
+          "name": "Rounded Rectangle 15",
+          "shape_type": "AUTO_SHAPE (1)",
+          "bbox_emu": {
+            "x": 640080,
+            "y": 5577840,
+            "cx": 10927080,
+            "cy": 530352
+          },
+          "z_order": 14,
+          "text": "",
+          "flags": []
+        },
+        {
+          "shape_id": 17,
+          "name": "TextBox 16",
+          "shape_type": "TEXT_BOX (17)",
+          "bbox_emu": {
+            "x": 804672,
+            "y": 5650992,
+            "cx": 10561320,
+            "cy": 310896
+          },
+          "z_order": 15,
+          "text": "Decision boundary: LCA-0321\u00b7MER511\uc740 direct anti-TSHR Phase 1 hypotheses\uc774\uba70 human efficacy\u00b7durable remission\uc740 \uc544\uc9c1 \ubbf8\ud655\uc815\uc774\ub2e4.",
+          "flags": []
+        }
+      ],
+      "png": "slide-015.png"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "receipt_version": "2.0.0",
+  "release_id": "graves-ted-landscape-v2-cut-2026-09-10-r001",
+  "data_cut": "2026-09-10",
+  "created_at_utc": "2026-09-11T07:32:17+00:00",
+  "source_release_root": "/mnt/results/graves_ted_landscape_v2",
+  "immutable_checkpoint_path": "/mnt/shared-workspace/shared/graves_ted_landscape_v2/immutable_release_checkpoint_v2_002",
+  "checkpoint_increment": "v2_002",
+  "pre_receipt_verification": {
+    "verdict": "PASS",
+    "exact_relative_paths": true,
+    "regular_file_count_source": 88,
+    "regular_file_count_checkpoint": 88,
+    "regular_file_count_match": true,
+    "nonzero_sizes": true,
+    "byte_sizes_match": true,
+    "sha256_match": true
+  },
+  "release_manifest_sha256": "8bae6e760e2c33aa360e09fc22d0b1038189b4bac507f99f60edfdc48fb92297",
+  "release_root_digest_sha256": "5f6a27b364225942ed6cc52f01b280aa35a65f9d00231fd6cdbf52b8c39454e4",
+  "receipt_policy": "Receipt excluded from non-self-referential release manifest; identical receipt bytes are appended to source and checkpoint last, then independently read-only compared.",
+  "post_receipt_expected_regular_file_count": 89,
+  "payload_mutation_after_receipt": false,
+  "verdict": "PASS"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact": "citation_resolution_v2.csv",
+  "data_cut": "2026-09-10",
+  "reference_catalog_rows": 491,
+  "unique_reference_ids": 491,
+  "resolution_occurrences": 1333,
+  "artifacts_scanned": [
+    "claim_evidence_anchors_v2.csv",
+    "clinical_trials_v2.csv",
+    "evidence_claims_v2.csv",
+    "figure_source_map_v2.csv",
+    "pipeline_assets_v2.csv",
+    "plan2.md",
+    "presentation_graves_ted_landscape_v2.pptx",
+    "report_graves_ted_landscape_v2.md",
+    "result_trial_curation_v2.csv",
+    "slide_source_map_v2.csv",
+    "soc_outcomes_v2.csv",
+    "source_anchors_v2.csv",
+    "source_retrieval_ledger_v2.csv",
+    "trial_registry_sources_v2.csv",
+    "trial_result_evidence_anchors_v2.csv"
+  ],
+  "pptx_footer_count": 15,
+  "unresolved_source_ids": 0,
+  "duplicate_reference_ids": 0,
+  "report_claim_occurrences": 200,
+  "unresolved_claim_ids": 0,
+  "mapped_non_support_claims": 0,
+  "query_level_records": 8,
+  "query_level_absence_assertions": 0,
+  "verdict": "PASS"
+}

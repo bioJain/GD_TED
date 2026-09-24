@@ -1,0 +1,42 @@
+{
+  "adjudication_batches": 9,
+  "artifact": "blind_adjudications_v2.csv",
+  "blank_cells": 0,
+  "blind_packet": "blind_packet_frozen_v2.jsonl",
+  "blind_packet_sha256": "bd6555815600e9877c817d5e15e3c2c626bbb6789847c9cbc4111e63ca00df81",
+  "blind_seed": 20260910,
+  "bytes": 183599,
+  "data_cut": "2026-09-10",
+  "explicit_manual_adjudications": 39,
+  "first_pass_fields_read": [],
+  "independent_validation": false,
+  "non_support_claim_ids": [
+    "HIST-NICE-08OCT",
+    "POP-RELAPSED-001",
+    "HIST-KR-RAI-UNIFORM",
+    "POP-OLDER-001",
+    "HIST-JP-MERGED-WINDOW",
+    "CONCLUSION-003"
+  ],
+  "non_support_resolutions_complete": true,
+  "precheck": "blind_precheck_frozen_v2.csv",
+  "precheck_rows_passed": 202,
+  "rows": 202,
+  "same_coordinator_stance_hidden": true,
+  "sha256": "ff08b9023a777aac5cc9ecac2ad00b1c8336c7d875e0aad6f4fd2148cdd4b15d",
+  "structured_per_claim_adjudications": 163,
+  "unique_claim_ids": 202,
+  "verdict_counts": {
+    "contradict": 1,
+    "endpoint_mismatch": 1,
+    "insufficient": 4,
+    "support": 196
+  },
+  "verdict_vocabulary": [
+    "contradict",
+    "endpoint_mismatch",
+    "insufficient",
+    "population_mismatch",
+    "support"
+  ]
+}

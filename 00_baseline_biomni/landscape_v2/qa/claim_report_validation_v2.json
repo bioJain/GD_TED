@@ -1,0 +1,52 @@
+{
+  "artifact": "evidence_claims_v2.csv",
+  "blank_claim_cells": 0,
+  "blind_adjudication_sha256": "ff08b9023a777aac5cc9ecac2ad00b1c8336c7d875e0aad6f4fd2148cdd4b15d",
+  "blind_packet_sha256": "bd6555815600e9877c817d5e15e3c2c626bbb6789847c9cbc4111e63ca00df81",
+  "blind_verdict_counts": {
+    "contradict": 1,
+    "endpoint_mismatch": 1,
+    "insufficient": 4,
+    "support": 196
+  },
+  "claim_columns": 31,
+  "claims": 202,
+  "claims_bytes": 275694,
+  "claims_sha256": "718da49f31ea6aeb0c38c18179fe61a2250b8473b041242bc59319720a649925",
+  "data_cut": "2026-09-10",
+  "displayed_claim_like_lines_checked": 185,
+  "displayed_claim_occurrences": 200,
+  "displayed_non_support_claims": [],
+  "displayed_unique_claim_ids": 195,
+  "historical_and_blind_failed_claims_retained": [
+    "CONCLUSION-003",
+    "HIST-JP-MERGED-WINDOW",
+    "HIST-KR-RAI-UNIFORM",
+    "HIST-NICE-08OCT",
+    "POP-OLDER-001",
+    "POP-RELAPSED-001"
+  ],
+  "independent_validation": false,
+  "perturbation_test": {
+    "detected_failures": [
+      "POTENTIAL-01: R&D potential/confidence table mismatch"
+    ],
+    "expected_failure_detected": true,
+    "field": "LCA-0321.weighted_potential_0_3",
+    "fixture": "in-memory copy of pipeline_assets_v2.csv",
+    "original": "2.35",
+    "perturbed": "9.99"
+  },
+  "qa_state": "FINAL_BLIND_QA_COMPLETE",
+  "report_bytes": 36851,
+  "report_claim_citation_coverage_failures": 0,
+  "report_csv_consistency_failures": 0,
+  "report_lines": 272,
+  "report_sha256": "c072c0187de99214bfc9a4e1aabbe25a372167c78ed0663f7c1fdc22b350dd86",
+  "same_coordinator_stance_hidden": true,
+  "support_ledger_only_claims": [
+    "DOC-CONTROL-004"
+  ],
+  "unique_claim_ids": 202,
+  "untracked_displayed_claim_like_lines": 0
+}

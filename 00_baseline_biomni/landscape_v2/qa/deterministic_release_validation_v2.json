@@ -1,0 +1,38 @@
+{
+  "data_cut": "2026-09-10",
+  "gates": {
+    "asset_controls": true,
+    "trial_count_168": true,
+    "crosswalk_rows_dispositioned": true,
+    "unknown_targets_not_inferred": true,
+    "regional_soc": true,
+    "citation_integrity": true,
+    "blindness_contract": true,
+    "perturbation_negative_control": true,
+    "endpoint_semantics": true,
+    "deck": true,
+    "v1_immutability": "validated_separately",
+    "no_pdf": true,
+    "schema_registry": true
+  },
+  "claims": 202,
+  "blind_verdict_counts": {
+    "support": 196,
+    "insufficient": 4,
+    "contradict": 1,
+    "endpoint_mismatch": 1
+  },
+  "displayed_non_support": 0,
+  "visual_pass": 21,
+  "slide_count": 15,
+  "figure_svg": 6,
+  "figure_png": 6,
+  "deck_rebuild": {
+    "slides_1_14_render_hash_unchanged": 14,
+    "slide_15_corrected": true,
+    "pptx_sha256": "5ee488ea3d7c5e66775c651eecc6f97897e36bff64b7166db2437aaf10c598a0"
+  },
+  "unresolved_severity_1": 0,
+  "unresolved_severity_2": 0,
+  "verdict": "PASS"
+}

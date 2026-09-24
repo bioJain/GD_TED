@@ -1,0 +1,47 @@
+{
+  "attestation_version": "2.0.0",
+  "release_id": "graves-ted-landscape-v2-cut-2026-09-10-r001",
+  "data_cut": "2026-09-10",
+  "release_root": "/mnt/results/graves_ted_landscape_v2",
+  "release_manifest": "release_manifest_v2.csv",
+  "release_manifest_bytes": 9529,
+  "release_manifest_sha256": "8bae6e760e2c33aa360e09fc22d0b1038189b4bac507f99f60edfdc48fb92297",
+  "represented_file_count": 86,
+  "release_root_digest_sha256": "5f6a27b364225942ed6cc52f01b280aa35a65f9d00231fd6cdbf52b8c39454e4",
+  "release_root_digest_algorithm": "SHA-256 over sorted UTF-8 tuples: relative_path\\0bytes\\0sha256\\n",
+  "excluded_from_release_manifest": [
+    "checkpoint_receipt_v2.json",
+    "release_attestation_v2.json",
+    "release_manifest_v2.csv"
+  ],
+  "non_self_referential": true,
+  "manifest_self_entry": false,
+  "duplicate_paths": 0,
+  "case_collisions": 0,
+  "zero_byte_represented_files": 0,
+  "stale_hashes": 0,
+  "gates": {
+    "semantic_release_audit": "PASS",
+    "citation_source_id_resolution": "PASS",
+    "claim_id_resolution": "PASS",
+    "query_level_absence_assertions": 0,
+    "unresolved_severity_1": 0,
+    "unresolved_severity_2": 0,
+    "v1_immutability": "PASS",
+    "deck_slides": 15,
+    "visual_pass": "21/21",
+    "figures_svg_png": "6+6",
+    "no_pdf": true,
+    "execution_log": "FROZEN"
+  },
+  "claim_qa": {
+    "ledger_claims": 202,
+    "support": 196,
+    "non_support_ledger_only": 6,
+    "displayed_non_support": 0,
+    "report_consistency_failures": 0
+  },
+  "schema_registry_sha256": "470fd17c2cc17966c857fbcca6ac57b26961c1fe064a052d9f171026dee553f3",
+  "execution_log_sha256": "1beb65ddeb38e2575a005264389003034c7574092f3e9a89405d9acdc3713c50",
+  "checkpoint_policy": "Copy full pre-receipt payload to a new increment, independently compare path/count/bytes/SHA-256, then write identical receipt to both as last payload file."
+}

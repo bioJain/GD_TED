@@ -1,0 +1,240 @@
+{
+  "artifact": "v1_baseline_hashes_v2.csv",
+  "baseline_files": 29,
+  "changed_files": [],
+  "verdict": "PASS",
+  "files": [
+    {
+      "file": "clinical_trials.csv",
+      "expected_bytes": 244098,
+      "actual_bytes": 244098,
+      "expected_sha256": "39f3f011a205ac796ed0189263f1c82862bf42a66b14ac944db6585f3665b05b",
+      "actual_sha256": "39f3f011a205ac796ed0189263f1c82862bf42a66b14ac944db6585f3665b05b",
+      "status": "PASS"
+    },
+    {
+      "file": "clinicaltrials_api_cut_2026-09-10.json",
+      "expected_bytes": 4629443,
+      "actual_bytes": 4629443,
+      "expected_sha256": "13011a71ff5e7e81769c2300bc6c7227a35c30f106ec5e02f21f3d6164305140",
+      "actual_sha256": "13011a71ff5e7e81769c2300bc6c7227a35c30f106ec5e02f21f3d6164305140",
+      "status": "PASS"
+    },
+    {
+      "file": "evidence_claims.csv",
+      "expected_bytes": 16667,
+      "actual_bytes": 16667,
+      "expected_sha256": "3faa387cf4d2102de9011a262824cfc7f9639e394b96b4a0b132d4ad42d73ec6",
+      "actual_sha256": "3faa387cf4d2102de9011a262824cfc7f9639e394b96b4a0b132d4ad42d73ec6",
+      "status": "PASS"
+    },
+    {
+      "file": "execution_log.md",
+      "expected_bytes": 42773,
+      "actual_bytes": 42773,
+      "expected_sha256": "78e15589f73fa6cc8a04b6bc9403f4c0824d8c04eeb09c70ef752f1130766baa",
+      "actual_sha256": "78e15589f73fa6cc8a04b6bc9403f4c0824d8c04eeb09c70ef752f1130766baa",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_1_trial_status.png",
+      "expected_bytes": 87243,
+      "actual_bytes": 87243,
+      "expected_sha256": "1c78b4540aa50608a58cc4d57d0b63871db591bdab98eb1ae77a003b437b0a05",
+      "actual_sha256": "1c78b4540aa50608a58cc4d57d0b63871db591bdab98eb1ae77a003b437b0a05",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_1_trial_status.svg",
+      "expected_bytes": 15544,
+      "actual_bytes": 15544,
+      "expected_sha256": "7494e8295c6a5f7d6bb58d42b9acd798b26594d335872e7a229e605c571c51e5",
+      "actual_sha256": "7494e8295c6a5f7d6bb58d42b9acd798b26594d335872e7a229e605c571c51e5",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_2_mechanism_counts.png",
+      "expected_bytes": 129393,
+      "actual_bytes": 129393,
+      "expected_sha256": "cb34737ad158e260ceec102ea6a023c8f87f9fdc96e61b798919321de49e2c1d",
+      "actual_sha256": "cb34737ad158e260ceec102ea6a023c8f87f9fdc96e61b798919321de49e2c1d",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_2_mechanism_counts.svg",
+      "expected_bytes": 17676,
+      "actual_bytes": 17676,
+      "expected_sha256": "b2d5d9909381ae31aac06577fd75bda47a315cfe00d9f9b6082b66106236efb2",
+      "actual_sha256": "b2d5d9909381ae31aac06577fd75bda47a315cfe00d9f9b6082b66106236efb2",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_3_mechanism_phase_heatmap.png",
+      "expected_bytes": 191886,
+      "actual_bytes": 191886,
+      "expected_sha256": "bf74a9dec93a41f8b26f5d661f4b4af8e09ca7d03f21c79b84ac5549ddd63736",
+      "actual_sha256": "bf74a9dec93a41f8b26f5d661f4b4af8e09ca7d03f21c79b84ac5549ddd63736",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_3_mechanism_phase_heatmap.svg",
+      "expected_bytes": 54596,
+      "actual_bytes": 54596,
+      "expected_sha256": "afa5567d41638f734340a9c068ca3c0a2ef13133c647bbd413ff87351649fc41",
+      "actual_sha256": "afa5567d41638f734340a9c068ca3c0a2ef13133c647bbd413ff87351649fc41",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_4_selected_prr.png",
+      "expected_bytes": 109313,
+      "actual_bytes": 109313,
+      "expected_sha256": "52cda5ddd972b082321e1ebd21f60983c25b2706f56bd90e23db0e019a750ab8",
+      "actual_sha256": "52cda5ddd972b082321e1ebd21f60983c25b2706f56bd90e23db0e019a750ab8",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_4_selected_prr.svg",
+      "expected_bytes": 14585,
+      "actual_bytes": 14585,
+      "expected_sha256": "3da2c2e9eb8b8949417f1807c137fe64b1981b8a8a0af644eb08aff162670fd6",
+      "actual_sha256": "3da2c2e9eb8b8949417f1807c137fe64b1981b8a8a0af644eb08aff162670fd6",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_5_potential_vs_evidence.png",
+      "expected_bytes": 139297,
+      "actual_bytes": 139297,
+      "expected_sha256": "17a5d5f6caa314a846e7552632cd2ada7f2acc2c185f966abb5e6314b61535bf",
+      "actual_sha256": "17a5d5f6caa314a846e7552632cd2ada7f2acc2c185f966abb5e6314b61535bf",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_5_potential_vs_evidence.svg",
+      "expected_bytes": 20609,
+      "actual_bytes": 20609,
+      "expected_sha256": "105cc43294eb4cb43ecb45b9b0d5d319485d6c11a41573e257ccdd5c099f7e9a",
+      "actual_sha256": "105cc43294eb4cb43ecb45b9b0d5d319485d6c11a41573e257ccdd5c099f7e9a",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_6_result_interpretability.png",
+      "expected_bytes": 85953,
+      "actual_bytes": 85953,
+      "expected_sha256": "1339fdf55f831fb34a3fcd5a8355908b2705db64dafe31c293fa57e33f2d13af",
+      "actual_sha256": "1339fdf55f831fb34a3fcd5a8355908b2705db64dafe31c293fa57e33f2d13af",
+      "status": "PASS"
+    },
+    {
+      "file": "figures/figure_6_result_interpretability.svg",
+      "expected_bytes": 13032,
+      "actual_bytes": 13032,
+      "expected_sha256": "7d50b62e242cac76249f132dcac916735f4ade25ea1c731879ddfe27d665db47",
+      "actual_sha256": "7d50b62e242cac76249f132dcac916735f4ade25ea1c731879ddfe27d665db47",
+      "status": "PASS"
+    },
+    {
+      "file": "pipeline_assets.csv",
+      "expected_bytes": 15563,
+      "actual_bytes": 15563,
+      "expected_sha256": "86e74b4a8b3f4ccddc5a9d03a4554f0a01aa763a7e48342e54c3feac83588923",
+      "actual_sha256": "86e74b4a8b3f4ccddc5a9d03a4554f0a01aa763a7e48342e54c3feac83588923",
+      "status": "PASS"
+    },
+    {
+      "file": "plan.md",
+      "expected_bytes": 708,
+      "actual_bytes": 708,
+      "expected_sha256": "b380adfa7f4f5685361d002df3e0c7b73b8f381b89aaa21e760ba7ec9167dad8",
+      "actual_sha256": "b380adfa7f4f5685361d002df3e0c7b73b8f381b89aaa21e760ba7ec9167dad8",
+      "status": "PASS"
+    },
+    {
+      "file": "presentation_graves_ted_landscape.pptx",
+      "expected_bytes": 654953,
+      "actual_bytes": 654953,
+      "expected_sha256": "86676c90e1cd7c06a8c827cbc3102bbe3ef98d0498f69e9c1c87acc9784592ba",
+      "actual_sha256": "86676c90e1cd7c06a8c827cbc3102bbe3ef98d0498f69e9c1c87acc9784592ba",
+      "status": "PASS"
+    },
+    {
+      "file": "qa_summary.json",
+      "expected_bytes": 1268,
+      "actual_bytes": 1268,
+      "expected_sha256": "4154359f375a0f98e93abae61e40343256a98b56abb24347cd87ec707f9db401",
+      "actual_sha256": "4154359f375a0f98e93abae61e40343256a98b56abb24347cd87ec707f9db401",
+      "status": "PASS"
+    },
+    {
+      "file": "qa_summary.md",
+      "expected_bytes": 1166,
+      "actual_bytes": 1166,
+      "expected_sha256": "890937e075a1254d8703defb381a6ebbb9ba097a8260daa9994cf253078617b6",
+      "actual_sha256": "890937e075a1254d8703defb381a6ebbb9ba097a8260daa9994cf253078617b6",
+      "status": "PASS"
+    },
+    {
+      "file": "reference.md",
+      "expected_bytes": 46630,
+      "actual_bytes": 46630,
+      "expected_sha256": "4ba7c471ac5cfe2c5690011de7ee06e3499c864be34aa833f72bcac782b00820",
+      "actual_sha256": "4ba7c471ac5cfe2c5690011de7ee06e3499c864be34aa833f72bcac782b00820",
+      "status": "PASS"
+    },
+    {
+      "file": "registry_cut_drift_2026-09-10.csv",
+      "expected_bytes": 51,
+      "actual_bytes": 51,
+      "expected_sha256": "4217df3b7a3cd5ff7943f92165c40fe134dd196fa7980a1d7e64d94c57950cbc",
+      "actual_sha256": "4217df3b7a3cd5ff7943f92165c40fe134dd196fa7980a1d7e64d94c57950cbc",
+      "status": "PASS"
+    },
+    {
+      "file": "registry_cut_reconciliation_2026-09-10.json",
+      "expected_bytes": 3017,
+      "actual_bytes": 3017,
+      "expected_sha256": "1c2621bef5d11b200fa283b1e1708860babcc83284322d887ff46742c5316384",
+      "actual_sha256": "1c2621bef5d11b200fa283b1e1708860babcc83284322d887ff46742c5316384",
+      "status": "PASS"
+    },
+    {
+      "file": "release_manifest.csv",
+      "expected_bytes": 3014,
+      "actual_bytes": 3014,
+      "expected_sha256": "1ceece4b7dae6d47cfb27d025cef55ba77b615004e56b81642bc3fec9eba4aa1",
+      "actual_sha256": "1ceece4b7dae6d47cfb27d025cef55ba77b615004e56b81642bc3fec9eba4aa1",
+      "status": "PASS"
+    },
+    {
+      "file": "report_graves_ted_landscape.md",
+      "expected_bytes": 12335,
+      "actual_bytes": 12335,
+      "expected_sha256": "321fac41de0bfc239169696ec030797af4bac9a610c7529572ec681f35d75ca4",
+      "actual_sha256": "321fac41de0bfc239169696ec030797af4bac9a610c7529572ec681f35d75ca4",
+      "status": "PASS"
+    },
+    {
+      "file": "result_trial_curation_v1.csv",
+      "expected_bytes": 10883,
+      "actual_bytes": 10883,
+      "expected_sha256": "c4203ac4860463a1b09bd11ed471b7fc0d9b50f3a680645fecd7ed4445a35b78",
+      "actual_sha256": "c4203ac4860463a1b09bd11ed471b7fc0d9b50f3a680645fecd7ed4445a35b78",
+      "status": "PASS"
+    },
+    {
+      "file": "soc_outcomes.csv",
+      "expected_bytes": 16784,
+      "actual_bytes": 16784,
+      "expected_sha256": "9019fcd9e06b594e814ee7c86b7e144327d87f5ba41d4d53529a8c6ac9116c37",
+      "actual_sha256": "9019fcd9e06b594e814ee7c86b7e144327d87f5ba41d4d53529a8c6ac9116c37",
+      "status": "PASS"
+    },
+    {
+      "file": "update_manifest.json",
+      "expected_bytes": 4933,
+      "actual_bytes": 4933,
+      "expected_sha256": "c1bbd004351e0f0c80132b0f2d1675247a00a3dc60d3006897eaeec87e104f36",
+      "actual_sha256": "c1bbd004351e0f0c80132b0f2d1675247a00a3dc60d3006897eaeec87e104f36",
+      "status": "PASS"
+    }
+  ]
+}

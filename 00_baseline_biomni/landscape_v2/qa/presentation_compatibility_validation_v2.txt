@@ -1,0 +1,3 @@
+PASS /tmp/results-staging/presentation_graves_ted_landscape_v2.pptx  (15 slides, 0 with animation)
+
+All decks structurally OK.

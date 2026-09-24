@@ -1,0 +1,9 @@
+{
+  "state": "FROZEN",
+  "data_cut": "2026-09-10",
+  "event_count": 19,
+  "event_ids_unique": true,
+  "execution_events_sha256": "f974dafefae8e7e28fef52bc0ca9482d509f5760034630ba1e7b2b61a92faeab",
+  "execution_log_sha256": "1beb65ddeb38e2575a005264389003034c7574092f3e9a89405d9acdc3713c50",
+  "freeze_rule": "No post-freeze append; attestation and receipt hold later release results."
+}

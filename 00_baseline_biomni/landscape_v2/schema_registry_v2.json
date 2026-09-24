@@ -1,0 +1,382 @@
+{
+  "registry_version": "2.1.0",
+  "release_generation": "v2",
+  "data_cut": "2026-09-10",
+  "policy": {
+    "unknown_values": "Use NR/NA plus reason; unresolved official status remains unresolved",
+    "query_records": "Never evidence absence",
+    "claim_display": "Only final_displayed_blind_support may display"
+  },
+  "schemas": {
+    "clinical_trials_v2.csv": {
+      "media_type": "text/csv",
+      "columns": [
+        "trial_id",
+        "registry",
+        "registry_url",
+        "asset",
+        "asset_aliases",
+        "sponsor",
+        "owner_at_cutoff",
+        "indication",
+        "mechanism_class",
+        "phase",
+        "overall_status",
+        "start_date",
+        "primary_completion_date",
+        "regions",
+        "population",
+        "ted_activity_severity",
+        "n_enrolled",
+        "n_randomized",
+        "n_analyzed",
+        "design",
+        "blinding",
+        "arms",
+        "dose_route_schedule_duration",
+        "background_soc_combination",
+        "comparator",
+        "primary_endpoints",
+        "secondary_endpoints",
+        "analysis_timepoint",
+        "efficacy_results",
+        "safety_results",
+        "followup_durability",
+        "publication_urls",
+        "evidence_tier",
+        "source_ids",
+        "access_depth",
+        "last_verified",
+        "notes",
+        "raw_interventions",
+        "registry_allocation",
+        "has_posted_results",
+        "why_stopped",
+        "randomization_basis",
+        "analysis_basis",
+        "data_cut",
+        "schema_version"
+      ],
+      "primary_key": [
+        "trial_id"
+      ],
+      "data_cut_field": "data_cut"
+    },
+    "pipeline_assets_v2.csv": {
+      "media_type": "text/csv",
+      "columns": [
+        "asset",
+        "aliases",
+        "company",
+        "owner_at_cutoff",
+        "partners",
+        "modality",
+        "construct",
+        "target",
+        "mechanism",
+        "core_adjacent_tier",
+        "indication",
+        "highest_stage",
+        "status",
+        "trial_ids",
+        "differentiation",
+        "biomarker_pd_strategy",
+        "dosing_developability",
+        "safety_hypothesis",
+        "key_unmet_need",
+        "critical_risks",
+        "preclinical_models",
+        "preclinical_results",
+        "potential_driver_specificity_0_3",
+        "potential_durability_0_3",
+        "potential_selectivity_0_3",
+        "potential_translatability_0_3",
+        "potential_developability_0_3",
+        "weighted_potential_0_3",
+        "evidence_confidence",
+        "evidence_tier",
+        "source_ids",
+        "last_verified",
+        "notes",
+        "asset_scope",
+        "inventory_depth",
+        "registry_trial_count",
+        "mapping_confidence",
+        "mechanism_provenance",
+        "r_and_d_score_scope",
+        "pipeline_inclusion",
+        "data_cut",
+        "schema_version"
+      ],
+      "primary_key": [
+        "asset"
+      ],
+      "data_cut_field": "data_cut"
+    },
+    "soc_outcomes_v2.csv": {
+      "media_type": "text/csv",
+      "columns": [
+        "soc_id",
+        "region_code",
+        "region",
+        "disease",
+        "category",
+        "stage_activity",
+        "population",
+        "line_of_therapy",
+        "intervention",
+        "regimen_timing",
+        "treatment_goal",
+        "endpoint_semantics",
+        "outcome_interpretation",
+        "next_option_if_failure",
+        "major_risks",
+        "guideline_position",
+        "authorization_status_scope",
+        "reimbursement_access",
+        "source_ids",
+        "anchor_ids",
+        "evidence_tier",
+        "authority_scope",
+        "uncertainty",
+        "last_verified",
+        "data_cut",
+        "schema_version",
+        "notes"
+      ],
+      "primary_key": [
+        "soc_id"
+      ],
+      "data_cut_field": "data_cut"
+    },
+    "evidence_claims_v2.csv": {
+      "media_type": "text/csv",
+      "columns": [
+        "claim_id",
+        "artifact",
+        "artifact_location",
+        "report_occurrence_count",
+        "claim_text",
+        "claim_type",
+        "population",
+        "comparator",
+        "endpoint",
+        "timepoint",
+        "value",
+        "unit",
+        "source_ids",
+        "source_urls",
+        "exact_anchors",
+        "access_depth",
+        "evidence_tier",
+        "requires_inline_citation",
+        "first_pass_decision",
+        "first_pass_rationale",
+        "blind_verdict",
+        "blind_failure_mode",
+        "resolution",
+        "final_display_state",
+        "canonical_artifact",
+        "canonical_row_ids",
+        "canonical_artifact_sha256",
+        "display_order",
+        "data_cut",
+        "schema_version",
+        "notes"
+      ],
+      "primary_key": [
+        "claim_id"
+      ],
+      "data_cut_field": "data_cut"
+    },
+    "result_trial_curation_v2.csv": {
+      "media_type": "text/csv",
+      "columns": [
+        "trial_id",
+        "disposition",
+        "primary_interpretation",
+        "efficacy",
+        "safety",
+        "durability",
+        "source_ids",
+        "caveats",
+        "n_randomized_registry_flow",
+        "analysis_denominator_note",
+        "source_anchor",
+        "data_cut",
+        "curation_version",
+        "verification_status"
+      ],
+      "primary_key": [
+        "trial_id"
+      ],
+      "data_cut_field": "data_cut"
+    },
+    "asset_trial_crosswalk_v2.csv": {
+      "media_type": "text/csv",
+      "columns": [
+        "raw_occurrence_id",
+        "trial_id",
+        "registry_intervention_type",
+        "raw_intervention",
+        "raw_other_names",
+        "raw_description",
+        "raw_arm_labels",
+        "component_index",
+        "canonical_asset",
+        "aliases",
+        "role",
+        "asset_scope",
+        "target",
+        "mechanism_class",
+        "pipeline_inclusion",
+        "exclusion_reason",
+        "source_id",
+        "mapping_confidence",
+        "manual_review_status"
+      ],
+      "primary_key": [
+        "raw_occurrence_id"
+      ],
+      "data_cut_field": null
+    },
+    "reference_catalog_v2.csv": {
+      "media_type": "text/csv",
+      "columns": [
+        "source_id",
+        "canonical_id_status",
+        "title",
+        "issuer_or_journal",
+        "publication_or_event_date",
+        "year",
+        "url",
+        "doi",
+        "registry_id",
+        "source_type",
+        "evidence_tier",
+        "access_depth",
+        "exact_locator_availability",
+        "locator",
+        "last_verified",
+        "r_and_d_implication",
+        "reference_text",
+        "data_cut",
+        "schema_version"
+      ],
+      "primary_key": [
+        "source_id"
+      ],
+      "data_cut_field": "data_cut"
+    },
+    "citation_resolution_v2.csv": {
+      "media_type": "text/csv",
+      "columns": [
+        "resolution_id",
+        "artifact",
+        "artifact_type",
+        "location",
+        "raw_citation",
+        "source_id",
+        "resolution_status",
+        "reference_occurrence_count",
+        "reference_title",
+        "data_cut",
+        "schema_version"
+      ],
+      "primary_key": [
+        "resolution_id"
+      ],
+      "data_cut_field": "data_cut"
+    },
+    "figure_source_map_v2.csv": {
+      "media_type": "text/csv",
+      "columns": [
+        "figure_id",
+        "title",
+        "svg_file",
+        "png_file",
+        "claim_ids",
+        "canonical_source_ids",
+        "internal_canonical_artifacts",
+        "internal_canonical_anchors",
+        "canonical_artifact_sha256",
+        "all_claims_final_support",
+        "all_source_ids_resolvable",
+        "data_cut",
+        "schema_version"
+      ],
+      "primary_key": [
+        "figure_id"
+      ],
+      "data_cut_field": "data_cut"
+    },
+    "slide_source_map_v2.csv": {
+      "media_type": "text/csv",
+      "columns": [
+        "slide_number",
+        "slide_id",
+        "slide_title",
+        "claim_ids",
+        "canonical_source_ids",
+        "internal_canonical_artifacts",
+        "internal_canonical_anchors",
+        "canonical_artifact_sha256",
+        "source_footer",
+        "all_claims_final_support",
+        "all_source_ids_resolvable",
+        "data_cut",
+        "schema_version",
+        "semantic_release_audit"
+      ],
+      "primary_key": [
+        "slide_id"
+      ],
+      "data_cut_field": "data_cut"
+    },
+    "visual_QA2.csv": {
+      "media_type": "text/csv",
+      "columns": [
+        "item_type",
+        "item_id",
+        "file_path",
+        "check_method",
+        "korean_glyphs_or_text_rendering",
+        "clipping",
+        "overlap",
+        "annotation_accuracy",
+        "contrast",
+        "centering",
+        "source_footer_legibility",
+        "severity",
+        "verdict",
+        "notes"
+      ],
+      "primary_key": [
+        "item_type",
+        "item_id"
+      ],
+      "data_cut_field": null
+    }
+  },
+  "narrative_artifacts": {
+    "report_graves_ted_landscape_v2.md": "Korean narrative with English scientific terms and inline source/claim anchors",
+    "reference_v2.md": "one canonical - [N] definition per source"
+  },
+  "binary_artifacts": {
+    "presentation_graves_ted_landscape_v2.pptx": {
+      "slides": 15,
+      "aspect_ratio": "16:9",
+      "sidecar": "presentation_graves_ted_landscape_v2.slides/"
+    },
+    "figures_v2/": {
+      "svg": 6,
+      "png": 6
+    }
+  },
+  "release_objects": {
+    "update_manifest_v2.json": "non-self-referential provenance/configuration",
+    "release_manifest_v2.csv": "excludes itself, attestation, receipt",
+    "release_attestation_v2.json": "hashes release manifest and tuple root only",
+    "checkpoint_receipt_v2.json": "created last and excluded from release manifest"
+  }
+}

@@ -1,0 +1,258 @@
+# Reference catalog
+
+Data cut: **2026-09-10**
+
+> 번호는 evidence table 및 본문 내 source ID와 연결됩니다. Web-only regulatory records added after the last scholarly catalog are listed separately.
+
+- [12] Outcomes of Surgery Versus Radioactive Iodine as Definitive Therapy in Pediatric Graves' Disease: A Systematic Review and Meta-Analysis of Cohort Studies (2026). World Journal of Surgery. https://doi.org/10.1002/wjs.70247
+- [13] Outcomes of Radioactive Iodine Versus Surgery for the Treatment of Graves’ Disease: a Systematic Review and Meta-analysis (2023). Indian Journal of Surgery. https://doi.org/10.1007/s12262-023-03692-5
+- [14] Comparative Effectiveness of Treatment Choices for Graves' Hyperthyroidism: A Historical Cohort Study (2017). Thyroid. https://doi.org/10.1089/thy.2016.0343
+- [15] Comparative Effectiveness of Therapies for Graves' Hyperthyroidism: A Systematic Review and Network Meta-Analysis (2013). The Journal of Clinical Endocrinology & Metabolism. https://doi.org/10.1210/jc.2013-1954
+- [16] Effectiveness of Radioiodine Therapy for Graves' Hyperthyroidism: A Quality-of-Life Assessment (2025). Current Internal Medicine Research and Practice Surabaya Journal. https://doi.org/10.20473/cimrj.v6i2.53131
+- [17] Comparative analysis of radioactive iodine versus thyroidectomy for definitive treatment of Graves disease (2017). Surgery. https://doi.org/10.1016/j.surg.2016.06.066
+- [18] Comparing the Health-Related Quality of Life at Two Years After Successful Treatment of Relapsed Graves' Disease With Radiofrequency Ablation, Surgery, or Radioiodine (2025). World Journal of Surgery. https://doi.org/10.1002/wjs.70035
+- [19] The Long-Term Outcome of Treatment for Graves' Hyperthyroidism (2019). Thyroid®. https://doi.org/10.1089/thy.2019.0085
+- [20] Comparison of Anti Thyroid Drugs, Radioactive Iodine and Surgery for Graves’ Disease: A Systematic Review and Meta-Analysis (2024). ‎ InaJEMD - Indonesian Journal of Endocrinology Metabolic and Diabetes. https://doi.org/10.66266/a7w4n529
+- [21] A comparison of cardiovascular disease, cancer, mortality, and Graves' ophthalmopathy following treatment for hyperthyroidism: A Bayesian network meta-analysis (2024). World Journal of Surgery. https://doi.org/10.1002/wjs.12066
+- [22] Outcomes of Graves’ Disease Patients Following Antithyroid Drugs, Radioactive Iodine, or Thyroidectomy as the First-line Treatment (2021). Annals of Surgery. https://doi.org/10.1097/sla.0000000000004828
+- [23] Effect of Different Therapeutic Approaches on Quality of Life of Patients with Graves’ disease: A Systematic Review and Meta-Analysis Running title: Treatment and Quality of Life in Graves’ Disease (2026). . https://doi.org/10.21203/rs.3.rs-9661309/v1
+- [24] Unveiling Promising Modalities and Enhancing Patient Outcomes in Graves’ Disease Treatment: A Systematic Review and Meta-Analysis (2024). Cureus. https://doi.org/10.7759/cureus.60829
+- [25] What Is the Best Definitive Treatment for Graves’ Disease? A Systematic Review of the Existing Literature (2012). Annals of Surgical Oncology. https://doi.org/10.1245/s10434-012-2606-x
+- [26] 2016 American Thyroid Association Guidelines for Diagnosis and Management of Hyperthyroidism and Other Causes of Thyrotoxicosis (2016). Thyroid. https://doi.org/10.1089/thy.2016.0229
+- [27] Review of American Thyroid Association guidelines for diagnosis and management of hyperthyroidism and other causes of thyrotoxicosis. (2017). Clinical and experimental thyroidology. https://doi.org/10.14341/ket2017345-56
+- [28] 2025 Korean Thyroid Association Management Guidelines for Radioactive Iodine Therapy in Patients with Hyperthyroidism (2025). Endocrinology and Metabolism. https://doi.org/10.3803/enm.2025.2464
+- [29] A 2023 International Survey of Clinical Practice Patterns in the Management of Graves' Disease: A Decade of Change. (2024). The Journal of clinical endocrinology and metabolism. https://doi.org/10.1210/clinem/dgae222
+- [30] Hyperthyroidism and Other Causes of Thyrotoxicosis: Management Guidelines of the American Thyroid Association and American Association of Clinical Endocrinologists (2011). Thyroid. https://doi.org/10.1089/thy.2010.0417
+- [31] Management of Graves’ hyperthyroidism: present and future (2022). Expert Review of Endocrinology & Metabolism. https://doi.org/10.1080/17446651.2022.2052044
+- [32] A 2011 Survey of Clinical Practice Patterns in the Management of Graves' Disease (2012). The Journal of Clinical Endocrinology & Metabolism. https://doi.org/10.1210/jc.2012-2802
+- [33] A Chinese survey on clinical practice in hyperthyroidism management: comparison with recent studies and guidelines (2021). Endocrine Connections. https://doi.org/10.1530/ec-21-0340
+- [34] Treatment of Hyperthyroidism in Graves' Disease Complicated by Thyroid Eye Disease (2025). The Journal of Clinical Endocrinology & Metabolism. https://doi.org/10.1210/clinem/dgaf009
+- [35] Long-Term Antithyroid Drug Therapy in the Management of Graves’ Hyperthyroidism: An Updated Narrative Review (2026). Endocrine Practice. https://doi.org/10.1016/j.eprac.2026.05.005
+- [36] The Diagnosis and Management of Hyperthyroidism in Korea: Consensus Report of the Korean Thyroid Association (2013). Endocrinology and Metabolism. https://doi.org/10.3803/enm.2013.28.4.275
+- [37] Medical Treatment of Graves' Disease (2019). International Journal of Thyroidology. https://doi.org/10.11106/ijt.2019.12.2.79
+- [38] Shifting Paradigms in Graves' Disease Management: An Updated Survey of Clinical Practice and Emerging Trends (2024). Clinical Thyroidology®. https://doi.org/10.1089/ct.2024;36.322-325
+- [39] 2018 European Thyroid Association Guideline for the Management of Graves’ Hyperthyroidism (2018). European Thyroid Journal. https://doi.org/10.1159/000490384
+- [40] バセドウ病治療ガイドライン2019 (2022). Nihon Naika Gakkai Zasshi. https://doi.org/10.2169/naika.111.2279
+- [41] Guidelines for the diagnosis of Graves' disease, hypothyroidism, painless thyroiditis, chronic thyroiditis (Hashimoto's thyroiditis), and subacute thyroiditis (acute phase) (2025). Thyroid Science. https://doi.org/10.1016/j.thscie.2025.100032
+- [42] 2022 Update on Clinical Management of Graves Disease and Thyroid Eye Disease (2022). Endocrinology and Metabolism Clinics of North America. https://doi.org/10.1016/j.ecl.2021.12.004
+- [43] Appropriate duration of antithyroid drug treatment as a predictor for relapse of Graves’ disease: a systematic scoping review (2022). Journal of Endocrinological Investigation. https://doi.org/10.1007/s40618-021-01730-1
+- [44] Methimazole-Induced Remission Rates in Pediatric Graves' Disease: a Systematic Review. (2021). European journal of endocrinology. https://doi.org/10.1530/eje-21-0077
+- [45] Increased Remission Rates After Long-Term Methimazole Therapy in Patients with Graves' Disease: Results of a Randomized Clinical Trial (2019). Thyroid. https://doi.org/10.1089/thy.2019.0180
+- [46] Long-Term Antithyroid Drug Treatment: A Systematic Review and Meta-Analysis (2017). Thyroid®. https://doi.org/10.1089/thy.2016.0652
+- [47] Risk of recurrence at the time of withdrawal of short- or long-term methimazole therapy in patients with Graves’ hyperthyroidism: a randomized trial and a risk-scoring model (2024). Endocrine. https://doi.org/10.1007/s12020-023-03656-5
+- [48] Effect of Antithyroid Drugs Treatment Duration on The Remission Rates of Graves' Disease in Children and Adolescents: A Single-Arm Meta-Analysis and Systematic Review (2024). Clinical Endocrinology. https://doi.org/10.1111/cen.15159
+- [49] Long-term outcomes of anti-thyroid drug treatment in childhood-onset Graves' disease (2023). Clinical Endocrinology. https://doi.org/10.1111/cen.14869
+- [50] Antithyroid drugs and Graves' disease — prospective randomized assessment of long-term treatment (1999). Clinical Endocrinology. https://doi.org/10.1046/j.1365-2265.1999.00629.x
+- [51] Long-term management of Graves disease: a narrative review (2023). Journal of Yeungnam Medical Science. https://doi.org/10.12701/jyms.2022.00444
+- [52] A systematic review of drug therapy for Graves’ hyperthyroidism (2005). European Journal of Endocrinology. https://doi.org/10.1530/eje.1.01993
+- [53] A short review of current knowledge regarding long-term treatment of Graves’ disease with antithyroid drugs (2024). Hormones. https://doi.org/10.1007/s42000-024-00618-y
+- [54] Faculty Opinions recommendation of Benefits of Long-Term Continuation of Low-Dose Methimazole Therapy in the Prevention of Recurrent Hyperthyroidism in Graves' Hyperthyroid Patients: A Randomized Prospective Controlled Study. (2023). Faculty Opinions – Post-Publication Peer Review of the Biomedical Literature. https://doi.org/10.3410/f.742586415.793598199
+- [55] Long-Term Treatment with Antithyroid Drugs: Efficacy and Safety (2020). International Journal of Endocrinology and Metabolism. https://doi.org/10.5812/ijem.101487
+- [56] Long-Term Antithyroid Drug Treatment of Patients With Graves’ Disease (2019). Clinical Thyroidology. https://doi.org/10.1089/ct.2019;31.230-233
+- [57] Risk Factors for the Relapse of Graves’ Disease Treated With Antithyroid Drugs: A Systematic Review and Meta-analysis (2020). Clinical Therapeutics. https://doi.org/10.1016/j.clinthera.2020.01.022
+- [58] Follicular Helper T Cells in Graves' Disease: Pathogenic Mechanisms and Therapeutic Implications. (2025). American journal of physiology. Endocrinology and metabolism. https://doi.org/10.1152/ajpendo.00023.2025
+- [59] CD11c+ B Cells Participate in the Pathogenesis of Graves’ Disease by Secreting Thyroid Autoantibodies and Cytokines (2022). Frontiers in Immunology. https://doi.org/10.3389/fimmu.2022.836347
+- [60] Single-Cell RNA Sequencing of Thyroid Tissues Reveals Pathogenesis of Graves' Disease (2025). Advanced Science. https://doi.org/10.1002/advs.202508449
+- [61] Thyroid Autoimmune Disease (2001). The American Journal of Pathology. https://doi.org/10.1016/s0002-9440(10)61762-2
+- [62] Comprehensive immunophenotypic analysis reveals the pathological involvement of Th17 cells in Graves' disease (2022). Scientific Reports. https://doi.org/10.1038/s41598-022-19556-z
+- [63] Characterizing the Interplay of Lymphocytes in Graves’ Disease (2023). International Journal of Molecular Sciences. https://doi.org/10.3390/ijms24076835
+- [64] Epstein-Barr virus reactivation in peripheral B lymphocytes induces IgM-type thyrotropin receptor autoantibody production in patients with Graves’ disease (2023). Endocrine Journal. https://doi.org/10.1507/endocrj.ej22-0609
+- [65] Signal responses to neutral TSH receptor antibody - A cycle of damage in the pathophysiology of Graves' disease. (2023). Journal of autoimmunity. https://doi.org/10.1016/j.jaut.2023.103012
+- [66] Differences in Thyroid-Infiltrating B Lymphocytes in Patients with Graves' Disease: Relationship to Autoantibody Detection (2004). Thyroid. https://doi.org/10.1089/105072504774193159
+- [67] Correction: Kobayashi et al. Pathogenesis of Graves’ Disease Determined Using Single-Cell Sequencing with Thyroid Autoantigen Peptide Stimulation in B Cells. Cells 2025, 14, 1102 (2026). Cells. https://doi.org/10.3390/cells15090751
+- [68] Graves’ disease (2020). Nature Reviews Disease Primers. https://doi.org/10.1038/s41572-020-0184-y
+- [69] Expansion of the immature B lymphocyte compartment in Graves' disease (2023). European Journal of Endocrinology. https://doi.org/10.1093/ejendo/lvad107
+- [70] Tissue Infiltrating LTi—Like Group 3 Innate Lymphoid Cells and T Follicular Helper Cells in Graves' and Hashimoto's Thyroiditis (2020). Frontiers in Immunology. https://doi.org/10.3389/fimmu.2020.00601
+- [71] Pathogenesis of Graves’ Disease Determined Using Single-Cell Sequencing with Thyroid Autoantigen Peptide Stimulation in B Cells (2025). Cells. https://doi.org/10.3390/cells14141102
+- [72] Controversies Surrounding IGF-I Receptor Involvement in Thyroid-Associated Ophthalmopathy (2025). Thyroid®. https://doi.org/10.1089/thy.2024.0606
+- [73] Current perspectives on the role of orbital fibroblasts in the pathogenesis of Graves' ophthalmopathy (2016). Experimental Eye Research. https://doi.org/10.1016/j.exer.2015.02.007
+- [74] Thyroid eye disease (2022). Taiwan Journal of Ophthalmology. https://doi.org/10.4103/tjo.tjo_51_21
+- [75] Transcriptomic profiling of thyroid eye disease orbital fat demonstrates differences in adipogenicity and IGF-1R pathway (2024). JCI Insight. https://doi.org/10.1172/jci.insight.182352
+- [76] Immune checkpoints: new insights into the pathogenesis of thyroid eye disease (2024). Frontiers in Immunology. https://doi.org/10.3389/fimmu.2024.1392956
+- [77] Immunological Aspects of Graves' Ophthalmopathy (2019). BioMed Research International. https://doi.org/10.1155/2019/7453260
+- [78] Pathogenesis of thyroid eye disease: review and update on molecular mechanisms (2015). British Journal of Ophthalmology. https://doi.org/10.1136/bjophthalmol-2015-307399
+- [79] Recognizing the Putative Role for TSH Receptor Expressing Fibrocytes in Thyroid-Associated Ophthalmopathy may solve several mysteries (2015). Nature reviews. Endocrinology. https://doi.org/10.1038/nrendo.2014.226
+- [80] TSHR-IGF-IR complex drives orbital fibroblast misbehavior in thyroid eye disease (2024). Current Opinion in Endocrinology, Diabetes & Obesity. https://doi.org/10.1097/med.0000000000000878
+- [81] Insulin-like growth factor-1 enhances the expression of functional TSH receptor in orbital fibroblasts from thyroid-associated ophthalmopathy (2020). Immunobiology. https://doi.org/10.1016/j.imbio.2019.151902
+- [82] Unravelling the pathogenic mechanisms in Graves’ orbitopathy (2025). European Thyroid Journal. https://doi.org/10.1530/etj-25-0200
+- [83] Comparison of orbital fibroblasts from Graves’ ophthalmopathy and healthy control (2024). Heliyon. https://doi.org/10.1016/j.heliyon.2024.e28397
+- [84] A review of TSHR- and IGF-1R-related pathogenesis and treatment of Graves’ orbitopathy (2023). Frontiers in Immunology. https://doi.org/10.3389/fimmu.2023.1062045
+- [85] A Multicenter, Single-Blind, Case-Control, Immunohistochemical Study of Orbital Tissue in Thyroid Eye Disease (2022). . https://doi.org/10.1089/thy.2022.0173
+- [86] A stimulatory TSH receptor antibody enhances adipogenesis via phosphoinositide 3-kinase activation in orbital preadipocytes from patients with Graves' ophthalmopathy (2011). Journal of Molecular Endocrinology. https://doi.org/10.1530/jme-11-0006
+- [87] Orbital Signaling in Graves’ Orbitopathy (2021). Frontiers in Endocrinology. https://doi.org/10.3389/fendo.2021.739994
+- [88] Immunohistochemical analysis of human orbital tissue in Graves’ orbitopathy (2019). . https://link.springer.com/article/10.1007/s40618-019-01116-4
+- [89] Markers of Inflammation and Fibrosis in the Orbital Fat/Connective Tissue of Patients with Graves’ Orbitopathy: Clinical Implications (2014). Mediators of Inflammation. https://doi.org/10.1155/2014/412158
+- [90] T cells and fibroblasts in affected extraocular muscles in early and late thyroid associated ophthalmopathy (2000). British Journal of Ophthalmology. https://doi.org/10.1136/bjo.84.5.517
+- [91] Epidemiology, Natural History, Risk Factors, and Prevention of Graves’ Orbitopathy (2020). Frontiers in Endocrinology. https://doi.org/10.3389/fendo.2020.615993
+- [92] Graves' Ophthalmopathy: Epidemiology and Natural History (2014). Internal Medicine. https://doi.org/10.2169/internalmedicine.53.1518
+- [93] Risk factors and outcomes of Graves’ orbitopathy after radioactive iodine therapy (2025). Endocrine. https://doi.org/10.1007/s12020-025-04350-4
+- [94] Current concepts regarding Graves’ orbitopathy (2022). Journal of Internal Medicine. https://doi.org/10.1111/joim.13524
+- [95] Radioactive iodine treatment for Graves’ hyperthyroidism: incidence of Graves orbitopathy (2023). Nuclear Medicine Communications. https://doi.org/10.1097/mnm.0000000000001791
+- [96] Risk Factors for Developing Thyroid-Associated Ophthalmopathy Among Individuals With Graves Disease (2015). JAMA Ophthalmology. https://doi.org/10.1001/jamaophthalmol.2014.5103
+- [97] Low risk of thyroid eye disease (TED) following radioiodine (RAI) therapy in a multidisciplinary setting: a retrospective cohort study (2025). Thyroid Research. https://doi.org/10.1186/s13044-025-00259-2
+- [98] Influence of biological sex, age and smoking on Graves’ orbitopathy – a ten-year tertiary referral center analysis (2023). Frontiers in Endocrinology. https://doi.org/10.3389/fendo.2023.1160172
+- [99] Serial TSH-receptor antibody levels to guide the management of thyroid eye disease: the impact of smoking, immunosuppression, radio-iodine, and thyroidectomy (2018). Eye. https://doi.org/10.1038/s41433-018-0242-9
+- [100] Prevalence of thyroid eye disease in Graves’ disease: A meta-analysis and systematic review (2020). Clinical Endocrinology. https://doi.org/10.1111/cen.14296
+- [101] Thyroid Eye Disease: Epidemiology, Natural History, and Risk Factors (2023). Ophthalmic Plastic & Reconstructive Surgery. https://doi.org/10.1097/iop.0000000000002467
+- [102] Prevalence and Natural History of Graves' Orbitopathy in a Large Series of Patients With Newly Diagnosed Graves' Hyperthyroidism Seen at a Single Center (2013). . https://doi.org/10.1210/jc.2012-3873
+- [103] The Epidemiology of Thyroid Eye Disease in Olmsted County, Minnesota, 2005–2020 (2024). Thyroid®. https://doi.org/10.1089/thy.2024.0304
+- [104] Current Understanding of the Progression and Management of Thyroid Associated Orbitopathy: A Systematic Review (2019). Ophthalmology and Therapy. https://doi.org/10.1007/s40123-019-00226-9
+- [105] Natural history of thyroid associated ophthalmopathy (1995). Clinical Endocrinology. https://doi.org/10.1111/j.1365-2265.1995.tb02597.x
+- [106] Risk Factors for Development or Deterioration of Graves' Ophthalmopathy (2010). Thyroid. https://doi.org/10.1089/thy.2010.1634
+- [107] Thyroid eye disease (2013). . https://doi.org/10.1503/cmaj.121815
+- [108] Incidence of Pediatric Graves’ Disease in the United States: An Epidemiological Analysis of 2007–2022 Outpatient Insurance Claims (2025). Thyroid®. https://doi.org/10.1177/10507256251382559
+- [109] Thyroid storm in pediatrics: a systematic review (2022). Journal of Pediatric Endocrinology and Metabolism. https://doi.org/10.1515/jpem-2022-0309
+- [110] A Retrospective Analysis of Thyroid Storm at a Tertiary Care Center in Northern India (2025). Cureus. https://doi.org/10.7759/cureus.99537
+- [111] A Lower Prevalence of Central Nervous System and Higher Prevalence of Cardiac Symptoms Characterises Indian Patients with Thyrotoxic Storm: A Retrospective Analysis (2024). Indian Journal of Endocrinology and Metabolism. https://doi.org/10.4103/ijem.ijem_355_23
+- [112] Change in newly diagnosed Graves’ disease phenotype between the twentieth and the twenty-first centuries: meta-analysis and meta-regression (2020). Journal of Endocrinological Investigation. https://doi.org/10.1007/s40618-020-01479-z
+- [113] Graves' Disease and Toxic Nodular Goiter Are Both Associated with Increased Mortality But Differ with Respect to the Cause of Death: A Danish Population-Based Register Study (2013). Thyroid. https://doi.org/10.1089/thy.2012.0500
+- [114] Cancer and Mortality Risks of Graves’ Disease in South Korea Based on National Data from 2010 to 2019 (2023). Clinical Epidemiology. https://doi.org/10.2147/clep.s406361
+- [115] Incidence of Graves’ Disease with Validation and Completeness of the Diagnosis for Registry Extracts in the Danish National Patient Register (2024). Clinical Epidemiology. https://doi.org/10.2147/clep.s484335
+- [116] Does Age or Sex Relate to Severity or Treatment Prognosis in Graves' Disease? (2021). Thyroid. https://doi.org/10.1089/thy.2020.0881
+- [117] Increased Cardiovascular Mortality and Morbidity in Patients Treated for Toxic Nodular Goiter Compared to Graves' Disease and Nontoxic Goiter (2017). Thyroid®. https://doi.org/10.1089/thy.2017.0029
+- [118] Graves’ disease: Epidemiology, genetic and environmental risk factors and viruses (2020). Best Practice & Research Clinical Endocrinology & Metabolism. https://doi.org/10.1016/j.beem.2020.101387
+- [119] Graves’ disease: review of disease characteristics, burden, and treatments (2026). Frontiers in Endocrinology. https://doi.org/10.3389/fendo.2026.1884624
+- [120] The incidence of autoimmune thyroid disease: a systematic review of the literature (2008). Clinical Endocrinology. https://doi.org/10.1111/j.1365-2265.2008.03338.x
+- [121] Acute cardiovascular events and all-cause mortality in patients with hyperthyroidism: a population-based cohort study (2016). . https://doi.org/10.1530/eje-16-0576
+- [122] Primary therapy of Graves' disease and cardiovascular morbidity and mortality: a linked-record cohort study (2019). The Lancet Diabetes & Endocrinology. https://doi.org/10.1016/s2213-8587(19)30059-2
+- [123] Mortality Risks Associated with Antithyroid Drugs, Radioactive Iodine, and Surgery for Hyperthyroidism: A Systematic Review and Network Meta-Analysis (2025). Thyroid®. https://doi.org/10.1177/10507256251372193
+- [124] Global epidemiology of hyperthyroidism and hypothyroidism (2018). Nature Reviews Endocrinology. https://doi.org/10.1038/nrendo.2018.18
+- [125] Prevalence and mortality of cardiovascular events in patients with hyperthyroidism: a nationwide cohort study in the United States (2021). Gland Surgery. https://doi.org/10.21037/gs-21-236
+- [126] Factors Associated with Response to Intravenous Glucocorticoids in Active Moderate-to-Severe Thyroid Eye Disease (2025). Thyroid®. https://doi.org/10.1089/thy.2024.0629
+- [127] A Korean Clinical Practice Framework for Thyroid Eye Disease: Integrating International Recommendations with Survey-Informed Consensus (2026). Endocrinology and Metabolism. https://doi.org/10.3803/enm.2026.2920
+- [128] Dysthyroid optic neuropathy: emerging treatment strategies (2023). Journal of Endocrinological Investigation. https://doi.org/10.1007/s40618-023-02036-0
+- [129] Medical Therapy in Patients with Moderate to Severe, Steroid-Resistant, Thyroid Eye Disease (2023). Thyroid®. https://doi.org/10.1089/thy.2023.0167
+- [130] Long-Term Efficacy of Teprotumumab in Thyroid Eye Disease: Follow-Up Outcomes in Three Clinical Trials (2024). Thyroid®. https://doi.org/10.1089/thy.2023.0656
+- [131] Comparative effectiveness of different treatment modalities for active, moderate-to-severe Graves' orbitopathy: a systematic review and network meta-analysis (2021). Acta Ophthalmologica. https://doi.org/10.1111/aos.15074
+- [132] Consensus-based recommendations for the medical management of moderate-to-severe thyroid eye disease using the RAND/UCLA Appropriateness Method (2026). Revista Colombiana de Endocrinología, Diabetes & Metabolismo. https://doi.org/10.53853/encr.13.1.994
+- [133] Future Projections in Thyroid Eye Disease (2022). The Journal of Clinical Endocrinology & Metabolism. https://doi.org/10.1210/clinem/dgac252
+- [134] Letter to the Editor From Perros: Comprehensive Comparisons of Different Treatments for Active Graves’ Orbitopathy: A Systematic Review and Bayesian Model-based Network Meta-analysis (2025). The Journal of Clinical Endocrinology & Metabolism. https://doi.org/10.1210/clinem/dgaf455
+- [135] The 2021 European Group on Graves’ orbitopathy (EUGOGO) clinical practice guidelines for the medical management of Graves’ orbitopathy (2021). European Journal of Endocrinology. https://doi.org/10.1530/eje-21-0479
+- [136] Management of Thyroid Eye Disease: A Comparison Between Three Recent Clinical Guidelines (2026). Ophthalmology and Therapy. https://doi.org/10.1007/s40123-026-01326-z
+- [137] Recent advances in graves ophthalmopathy medical therapy: a comprehensive literature review (2022). International Ophthalmology. https://doi.org/10.1007/s10792-022-02537-6
+- [138] Comparison of the 2021 EUGOGO guidelines and the 2022 ATA/ETA consensus statement for the management of Graves’ orbitopathy (2025). . https://doi.org/10.1530/etj-25-0318
+- [139] Management of thyroid eye disease: a Consensus Statement by the American Thyroid Association and the European Thyroid Association (2022). European Thyroid Journal. https://doi.org/10.1530/etj-22-0189
+- [140] Horizon scanning from panel discussions at the EUGOGO Global TED Forum 2025 London (2026). Eye. https://doi.org/10.1038/s41433-025-04197-z
+- [141] Graves’ ophthalmopathy: the clinical and psychosocial outcomes of different medical interventions – a systematic review (2024). BMJ Open Ophthalmology. https://doi.org/10.1136/bmjophth-2023-001515
+- [142] Proof-of-concept and Randomized, Placebo-controlled Trials of an FcRn Inhibitor, Batoclimab, for Thyroid Eye Disease (2023). The Journal of Clinical Endocrinology & Metabolism. https://doi.org/10.1210/clinem/dgad381
+- [143] RF35 (2022). Journal of the Endocrine Society. https://doi.org/10.1210/jendso/bvac150.1782
+- [144] ODP509 Proof-of-concept, Multicenter, Open-Label Phase 2a Study of Batoclimab in Active and Moderate-to-Severe Thyroid Eye Disease (2022). Journal of the Endocrine Society. https://doi.org/10.1210/jendso/bvac150.1609
+- [145] Redefining Treatment Paradigms in Thyroid Eye Disease: Current and Future Therapeutic Strategies (2025). Journal of Clinical Medicine. https://doi.org/10.3390/jcm14155528
+- [146] Temporal Glycemic Patterns During IGF-1R Inhibitor Therapy for Thyroid Eye Disease: A Pooled Analysis of Two Clinical Trials (2026). Thyroid®. https://doi.org/10.1177/10507256261431846
+- [147] The efficacy and safety of FcRn inhibitors in patients with myasthenia gravis: a systematic review and meta-analysis (2024). Journal of Neurology. https://doi.org/10.1007/s00415-024-12247-x
+- [148] New horizons for autoimmune hyperthyroidism with FcRn blockers (2026). Current Opinion in Endocrinology, Diabetes & Obesity. https://doi.org/10.1097/med.0000000000000971
+- [149] FcRn Inhibitor Therapies in Neurologic Diseases (2024). CNS Drugs. https://doi.org/10.1007/s40263-024-01090-3
+- [150] Teprotumumab for patients with active thyroid eye disease: a pooled data analysis, subgroup analyses, and off-treatment follow-up results from two randomised, double-masked, placebo-controlled, multicentre trials (2021). The Lancet Diabetes & Endocrinology. https://doi.org/10.1016/s2213-8587(21)00056-5
+- [151] Double-Blind, Randomized, Placebo-controlled, Multicenter, Phase 2b Study of Batoclimab in Active and Moderate-to-Severe Thyroid Eye Disease (2022). . https://doi.org/10.48448/mmxw-gg57
+- [152] Recent Advances of Second-Line Targeted Biopharmaceutical Therapies in Thyroid Associated Ophthalmopathy (2024). Advanced Therapeutics. https://doi.org/10.1002/adtp.202400137
+- [153] Rozanolixizumab: First Approval (2023). . https://doi.org/10.1007/s40265-023-01933-1
+- [154] Emerging therapeutic approaches in graves’ ophthalmopathy: an update on pharmacological interventions (2025). Frontiers in Immunology. https://doi.org/10.3389/fimmu.2025.1647602
+- [155] Pharmacologic Therapies for Active Moderate-to-Severe TED: A Comprehensive Systematic Review (2026). Clinical Medicine Insights: Endocrinology and Diabetes. https://doi.org/10.1177/11795514261426446
+- [156] Immunomodulators in Graves’ ophthalmopathy: a systematic review (2026). Frontiers in Endocrinology. https://doi.org/10.3389/fendo.2026.1686786
+- [157] OR31-04 Efficacy and Safety of Veligrotug (VRDN-001), a Full Antagonist Monoclonal Antibody to IGF-1 Receptor, in Active Thyroid Eye Disease (TED): THRIVE Phase 3 Topline Results (2025). Journal of the Endocrine Society. https://doi.org/10.1210/jendso/bvaf149.2237
+- [158] TSH receptor specific monoclonal autoantibody K1-70TM targeting of the TSH receptor in subjects with Graves' disease and Graves' orbitopathy—Results from a phase I clinical trial (2022). Clinical Endocrinology. https://doi.org/10.1111/cen.14681
+- [159] A Novel Monoclonal Antibody Degrades the Thyrotropin Receptor Autoantibodies in Graves' Disease (2023). Endocrine Practice. https://doi.org/10.1016/j.eprac.2023.04.002
+- [160] Autoantibodies to the TSH Receptor—from discovery to understanding the mechanisms of action and to new therapeutics (2025). Endocrine Journal. https://doi.org/10.1507/endocrj.ej25-0127
+- [161] TSHR-based chimeric antigen receptor T cell specifically deplete auto-reactive B lymphocytes for treatment of autoimmune thyroid disease (2023). International Immunopharmacology. https://doi.org/10.1016/j.intimp.2023.110873
+- [162] TSHR-Targeting Nucleic Acid Aptamer Treats Graves' Ophthalmopathy via Novel Allosteric Inhibition (Adv. Sci. 4/2026) (2026). Advanced Science. https://doi.org/10.1002/advs.73392
+- [163] MON-365 Discovery and Characterization of an Orally Bioavailable Nonpeptide Thyroid Stimulating Hormone Receptor (TSHR) Antagonist for the Treatment of Graves’ Disease and Thyroid Eye Disease (2025). Journal of the Endocrine Society. https://doi.org/10.1210/jendso/bvaf149.2141
+- [164] Safety, pharmacokinetics, and potential benefits of TSH-receptor-specific monoclonal autoantibody K1-70TM in Japanese Graves’ disease patients: results of a phase 1 trial (2025). Endocrine Journal. https://doi.org/10.1507/endocrj.ej25-0043
+- [165] Blocking the Thyrotropin Receptor with K1-70 in a Patient with Follicular Thyroid Cancer, Graves' Disease, and Graves' Ophthalmopathy (2021). Thyroid. https://doi.org/10.1089/thy.2021.0053
+- [166] Lycia Therapeutics (2020). C&EN Global Enterprise. https://doi.org/10.1021/cen-09844-cover7
+- [167] Selective degradation of pathogenic autoantibodies by lysosomal targeting chimeras for the treatment of myasthenia gravis (2025). . https://doi.org/10.1101/2025.11.18.25340499
+- [168] Graves’ disease: a new era of pathophysiology-guided therapeutics (2026). . https://doi.org/10.1210/clinem/dgag010
+- [169] Diagnostic value of serum TSI levels in Graves' disease and direct comparison of diagnostic performance with TRAb: A systematic review and meta-analysis. (2025). Clinical biochemistry. https://doi.org/10.1016/j.clinbiochem.2025.110989
+- [170] Comparison between thyroid stimulating immunoglobulin and TSH-receptor antibodies in the diagnosis and management of Graves’ disease (2024). Frontiers in Endocrinology. https://doi.org/10.3389/fendo.2024.1487490
+- [171] Evaluation of the diagnostic performance of thyroid-stimulating immunoglobulin and thyrotropin receptor antibodies for Graves' disease (2023). Journal of Clinical Laboratory Analysis. https://doi.org/10.1002/jcla.24890
+- [172] Significance of Thyroid Stimulating Immunoglobulin and Thyrotropin Receptor Antibody in Graves' Disease. (2024). The Journal of clinical endocrinology and metabolism. https://doi.org/10.1210/clinem/dgae892
+- [173] Performance of thyroid-stimulating immunoglobulin bioassay and thyrotropin binding inhibitory immunoglobulin assay for the diagnosis of Graves' disease in patients with active thyrotoxicosis. (2022). Endocrine practice : official journal of the American College of Endocrinology and the American Association of Clinical Endocrinologists. https://doi.org/10.1016/j.eprac.2022.01.007
+- [174] Diagnostic Utility of a New Assay for Thyroid Stimulating Immunoglobulins in Graves' Disease and Thyroid Eye Disease (2021). Thyroid. https://doi.org/10.1089/thy.2021.0299
+- [175] The Early Changes in Thyroid-Stimulating Immunoglobulin Bioassay over Anti-Thyroid Drug Treatment Could Predict Prognosis of Graves’ Disease (2023). Endocrinology and Metabolism. https://doi.org/10.3803/enm.2023.1664
+- [176] Clinical evaluation of an automated TSI bridge immunoassay in the diagnosis of Graves’ disease and its relationship to the degree of hyperthyroidism (2022). BMC Endocrine Disorders. https://doi.org/10.1186/s12902-022-01114-3
+- [177] Performance evaluation and reference interval establishment of Abbott Alinity thyroid-stimulating hormone receptor antibody (TRAb) assay for diagnosing Graves’ disease (2026). PLOS One. https://doi.org/10.1371/journal.pone.0339494
+- [178] TSH receptor autoantibody immunoassay in patients with Graves' disease: improvement of diagnostic accuracy over different generations of methods. Systematic review and meta-analysis. (2012). Autoimmunity reviews. https://doi.org/10.1016/j.autrev.2012.07.003
+- [179] Diagnostic discordance and performance of third-generation competitive TRAb vs. sandwich TSI ELISA in the diagnosis of Graves’ disease (2026). Scandinavian Journal of Clinical and Laboratory Investigation. https://doi.org/10.1080/00365513.2026.2669918
+- [180] Best practices in the laboratory diagnosis, prognostication, prediction, and monitoring of Graves’ disease: role of TRAbs (2024). BMC Endocrine Disorders. https://doi.org/10.1186/s12902-024-01809-9
+- [181] Testing, Monitoring, and Treatment of Thyroid Dysfunction in Pregnancy (2020). The Journal of Clinical Endocrinology & Metabolism. https://doi.org/10.1210/clinem/dgaa945
+- [182] Comparison of two different TSH-receptor antibody assays: A clinical practice study (2023). Heliyon. https://doi.org/10.1016/j.heliyon.2023.e22468
+- [183] Predictive value of thyroid-related biomarkers in Graves’ disease – a systematic review (2026). Pediatria i Medycyna Rodzinna. https://doi.org/10.15557/pimr.2025.0032
+- [184] Can we predict relapse in Graves’ disease? Results from a systematic review and meta-analysis (2017). European Journal of Endocrinology. https://doi.org/10.1530/eje-16-0725
+- [185] Ten Year Outcome of Anti-Thyroid Drug Treatment for First Episode Graves' Thyrotoxicosis: The Predictive Importance of TRAb (2025). Clinical Endocrinology. https://doi.org/10.1111/cen.70003
+- [186] Prediction of Relapse After Antithyroid Drugs Withdrawal: A Narrative Review (2020). International Journal of Endocrinology and Metabolism. https://doi.org/10.5812/ijem.102346
+- [187] Extended Long-Term Follow-Up of Proptosis Regression After Teprotumumab Treatment for Thyroid Eye Disease. (2026). Ophthalmic plastic and reconstructive surgery. https://doi.org/10.1097/iop.0000000000003197
+- [188] Reactivation After Teprotumumab Treatment for Active Thyroid Eye Disease (2024). American Journal of Ophthalmology. https://doi.org/10.1016/j.ajo.2023.12.001
+- [189] Teprotumumab-Related Adverse Events in Thyroid Eye Disease (2024). Ophthalmology. https://doi.org/10.1016/j.ophtha.2023.10.018
+- [190] Efficacy and Safety of Teprotumumab in Patients With Thyroid Eye Disease of Long Duration and Low Disease Activity (2023). The Journal of Clinical Endocrinology and Metabolism. https://doi.org/10.1210/clinem/dgad637
+- [191] Teprotumumab Efficacy, Safety and Durability in Longer Duration Thyroid Eye Disease and Retreatment: Optic-X Study. (2021). Ophthalmology. https://doi.org/10.1016/j.ophtha.2021.10.017
+- [192] A randomised, double-masked, placebo-controlled trial evaluating the efficacy and safety of teprotumumab for active thyroid eye disease in Japanese patients (2025). The Lancet Regional Health: Western Pacific. https://doi.org/10.1016/j.lanwpc.2025.101464
+- [193] Teprotumumab: A Review in Thyroid Eye Disease (2022). Drugs. https://doi.org/10.1007/s40265-022-01804-1
+- [194] Time to improvement following teprotumumab treatment of thyroid eye disease: real world experience (2025). Graefe's Archive for Clinical and Experimental Ophthalmology. https://doi.org/10.1007/s00417-025-06855-0
+- [195] Short and Long Term Effects of Teprotumumab on Diplopia and Strabismus Associated with Thyroid Eye Disease (2025). Journal of Binocular Vision and Ocular Motility. https://doi.org/10.1080/2576117x.2025.2601910
+- [196] Teprotumumab for the Treatment of Active Thyroid Eye Disease (2020). New England Journal of Medicine. https://doi.org/10.1056/nejmoa1910434
+- [197] Teprotumumab for Thyroid-Associated Ophthalmopathy (2017). . https://doi.org/10.1056/nejmoa1614949
+- [198] SAT459 Teprotumumab Pooled Efficacy From The European Study Sites Participating In The Phase 2, OPTIC (Phase 3) And OPTIC-X Pivotal Trials (2023). Journal of the Endocrine Society. https://doi.org/10.1210/jendso/bvad114.1933
+- [199] Redefining evidence for teprotumumab in thyroid eye disease: an updated meta-analysis of efficacy and safety (2026). Frontiers in Endocrinology. https://doi.org/10.3389/fendo.2026.1735660
+- [200] OPTIC-X Study: teprotumumab use as retreatment and in longer duration thyearoid eye disease (TED) (2021). Journal of American Association for Pediatric Ophthalmology and Strabismus. https://doi.org/10.1016/j.jaapos.2021.08.020
+- [201] The Adverse Effects Profile of Teprotumumab (2023). The Journal of Clinical Endocrinology & Metabolism. https://doi.org/10.1210/clinem/dgad213
+- [202] Teprotumumab in the management of thyroid eye disease mechanistic insights and adverse reactions: a comprehensive review (2025). Frontiers in Endocrinology. https://doi.org/10.3389/fendo.2025.1480195
+- [203] Teprotumumab-Related Hyperglycemia (2022). The Journal of Clinical Endocrinology & Metabolism. https://doi.org/10.1210/clinem/dgac627
+- [204] Teprotumumab-Associated Hyperglycemia: A Large-Scale Multinational Cohort Study (2026). Thyroid®. https://doi.org/10.1177/10507256261442501
+- [205] Comparative efficacy and safety of rituximab, tocilizumab, and teprotumumab in Graves’ orbitopathy: a systematic review and meta-analysis (2025). Eye. https://doi.org/10.1038/s41433-025-03845-8
+- [206] Comprehensive Comparisons of Different Treatments for Active Graves Orbitopathy: A Systematic Review and Bayesian Model–Based Network Meta-Analysis (2024). The Journal of Clinical Endocrinology & Metabolism. https://doi.org/10.1210/clinem/dgae877
+- [207] Targeted immunotherapies for Graves’ thyroidal & orbital diseases (2025). Frontiers in Immunology. https://doi.org/10.3389/fimmu.2025.1571427
+- [208] Efficacy and safety of tocilizumab in the treatment of Graves’ orbitopathy: a systematic review and meta-analysis (2026). BMC Endocrine Disorders. https://doi.org/10.1186/s12902-026-02326-7
+- [209] Efficacy and Safety of Rituximab for the Treatment of Graves' Orbitopathy: A Meta-analysis of Randomized Controlled Trials (2018). Pharmacotherapy: The Journal of Human Pharmacology and Drug Therapy. https://doi.org/10.1002/phar.2111
+- [210] Understanding Pathogenesis Intersects With Effective Treatment for Thyroid Eye Disease (2022). The Journal of Clinical Endocrinology and Metabolism. https://doi.org/10.1210/clinem/dgac328
+- [211] Rituximab in the treatment of Graves’ orbitopathy: latest updates and perspectives (2022). Endocrine Connections. https://doi.org/10.1530/ec-22-0303
+- [212] Efficacy and Safety of intravenous monoclonal antibodies in patients with moderate-to-severe active Graves’ophthalmopathy: a systematic review and meta-analysis (2023). . https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2023.1160936/full
+- [213] Randomized Controlled Trial of Rituximab in Patients With Graves' Orbitopathy (2014). . https://doi.org/10.1210/jc.2014-2572
+- [214] Rituximab for thyroid-associated ophthalmopathy (2022). . https://doi.org/10.1002/14651858.cd009226.pub3
+- [215] Anti-IL-6 Receptor Tocilizumab in Refractory Graves’ Orbitopathy: National Multicenter Observational Study of 48 Patients (2020). . https://www.mdpi.com/2077-0383/9/9/2816
+- [216] Approach to the patient with thyroid storm (2026). The Journal of Clinical Endocrinology and Metabolism. https://doi.org/10.1210/clinem/dgag054
+- [217] Graves’ disease: moving forwards (2022). Archives of Disease in Childhood. https://doi.org/10.1136/archdischild-2022-323905
+- [218] Prospective Multicenter Registry–Based Study on Thyroid Storm: The Guidelines for Management From Japan Are Useful (2024). The Journal of Clinical Endocrinology and Metabolism. https://doi.org/10.1210/clinem/dgae124
+- [219] Management of Graves Thyroidal and Extrathyroidal Disease: An Update (2020). The Journal of Clinical Endocrinology and Metabolism. https://doi.org/10.1210/clinem/dgaa646
+- [220] Influence of Preoperative Thyroid Status on Clinical Outcomes in Graves' Disease Undergoing Thyroidectomy. (2025). World journal of surgery. https://doi.org/10.1002/wjs.70020
+- [221] Management of Hyperthyroidism during Pregnancy: A Systematic Literature Review (2023). Journal of Clinical Medicine. https://doi.org/10.3390/jcm12051811
+- [222] Management Aspects of Medical Therapy in Graves Disease (2025). Endocrine Practice. https://doi.org/10.1016/j.eprac.2024.12.012
+- [223] PICU treatment of 3 cases of pediatric thyroid storm: Case series and literature review (2023). Medicine. https://doi.org/10.1097/md.0000000000033447
+- [224] 2022 European Thyroid Association Guideline for the management of pediatric Graves’ disease (2022). European Thyroid Journal. https://doi.org/10.1530/etj-21-0073
+- [225] Thyroid storm in pregnancy: a review (2024). Thyroid Research. https://doi.org/10.1186/s13044-024-00190-y
+- [226] How to manage Graves’ disease in women of childbearing potential (2022). . https://doi.org/10.1111/cen.14705
+- [227] National Trends in Incidence, Mortality, and Clinical Outcomes of Patients Hospitalized for Thyrotoxicosis With and Without Thyroid Storm in the United States, 2004–2013 (2018). . https://doi.org/10.1089/thy.2018.0275
+- [228] A clinical profile of pediatric patients admitted for thryotoxicosis in a tertiary hospital using the 1992 Burch and Wartofsky criteria (2013). International Journal of Pediatric Endocrinology. https://doi.org/10.1186/1687-9856-2013-s1-p152
+- [229] American Thyroid Association 2026 Guidelines for Thyroid Disease in Preconception, Pregnancy, and Postpartum (2026). Thyroid®. https://doi.org/10.1177/10507256261445624
+- [230] THRIVE (2026). Ophthalmology. https://doi.org/10.1016/j.ophtha.2026.04.022
+- [231] IGF-1R Inhibitor IBI311 for the Treatment of Active Thyroid Eye Disease in Chinese Patients: The RESTORE-1 Randomized Clinical Trial. (2025). JAMA ophthalmology. https://doi.org/10.1001/jamaophthalmol.2025.3350
+- [232] Head-to-Head Comparison of an IGF-1R Inhibitor Versus Intravenous Glucocorticoid for Active Thyroid Eye Disease: Design of a Randomized Clinical Trial. (2026). Ophthalmology and Therapy. https://doi.org/10.1007/s40123-026-01451-9
+- [233] Teprotumumab: interpreting the clinical trials in the context of thyroid eye disease pathogenesis and current therapies. (2021). Ophthalmology. https://doi.org/10.1016/j.ophtha.2021.04.024
+- [234] A Review of Novel Medical Treatments for Thyroid Eye Disease (2024). Korean Journal of Ophthalmology. https://doi.org/10.3341/kjo.2024.0031
+- [235] Teprotumumab for Thyroid Eye Disease: Mechanism, Clinical Efficacy, and Current Challenges (2025). Antibodies. https://doi.org/10.3390/antib14030055
+- [236] Teprotumumab, an insulin-like growth factor-1 receptor antagonist antibody, in the treatment of active thyroid eye disease: a focus on proptosis (2018). Eye. https://doi.org/10.1038/s41433-018-0321-y
+- [237] What has changed in thyroid eye disease in the last five years (2020–2025) (2026). European Thyroid Journal. https://doi.org/10.1530/etj-25-0363
+- [238] Emerging therapies in the medical management of thyroid eye disease (2023). Frontiers in Ophthalmology. https://doi.org/10.3389/fopht.2023.1295902
+- [239] THRIVE-2 Phase 3 Trial of Veligrotug (VRDN-001) in Chronic Thyroid Eye Disease (TED): Efficacy and Safety at 15 Weeks (2025). Endocrine Practice. https://doi.org/10.1016/j.eprac.2025.05.006
+- [240] 6461 VRDN-003, a Full Antagonist Antibody to the IGF-1 Receptor for Thyroid Eye Disease (TED): Safety and Pharmacokinetic Results of Subcutaneous Administration in Healthy Volunteers (2024). Journal of the Endocrine Society. https://doi.org/10.1210/jendso/bvae163.2209
+- [241] MON-360 Lonigutamab (Anti-IGF-1R Monoclonal Antibody) Reduces IGF-1-Mediated Hyaluronan Production in Thyroid Eye Disease Orbital Fibroblasts (2025). Journal of the Endocrine Society. https://doi.org/10.1210/jendso/bvaf149.2136
+- [242] OR31-06 Lonigutamab (Anti-IGF-1R Monoclonal Antibody) Induces Efficient Degradation of IGF-1R in Thyroid Eye Disease Orbital Fibroblasts (2025). Journal of the Endocrine Society. https://doi.org/10.1210/jendso/bvaf149.2239
+- [243] 12318 Preliminary Safety and Efficacy of Subcutaneous Lonigutamab (anti-IGF-1R) from a Phase 1/2 Proof of Concept Study in Patients with Thyroid Eye Disease (2024). Journal of the Endocrine Society. https://doi.org/10.1210/jendso/bvae163.2040
+- [244] A Novel Anti-CD40 Monoclonal Antibody, Iscalimab, for Control of Graves Hyperthyroidism—A Proof-of-Concept Trial (2019). The Journal of Clinical Endocrinology & Metabolism. https://doi.org/10.1210/clinem/dgz013
+- [245] Immunotherapy With Apitopes Blocks the Immune Response to TSH Receptor in HLA-DR Transgenic Mice (2018). Endocrinology. https://doi.org/10.1210/en.2018-00306
+- [246] OR19-6 A Novel Anti-CD40 Monoclonal Antibody, Iscalimab, Successfully Treats Graves’ Hyperthyroidism (2019). Journal of the Endocrine Society. https://doi.org/10.1210/js.2019-or19-6
+- [247] Rituximab in relapsing Graves' disease, a phase II study. (2008). European journal of endocrinology. https://doi.org/10.1530/eje-08-0084
+- [248] Preclinical studies on the toxicology, pharmacokinetics and safety of K1-70TM a human monoclonal autoantibody to the TSH receptor with TSH antagonist activity (2019). Autoimmunity Highlights. https://doi.org/10.1186/s13317-019-0121-9
+- [249] Advances and Prospects in Pharmacotherapy for Graves’ Disease (2026). . https://doi.org/10.4236/ijcm.2026.173007
+- [250] ISCALIMAB-KAHALY-SUPPLEMENTAL (2019). . https://doi.org/10.6084/m9.figshare.8313122.v3
+- [251] Precision Medicine in Graves’ Disease: CD40 Gene Variants Predict Clinical Response to an Anti-CD40 Monoclonal Antibody (2021). . https://doi.org/10.3389/fendo.2021.691781
+- [252] Graves’ Disease: Is It Time for Targeted Therapy? A Narrative Review (2025). . https://doi.org/10.3390/medicina61030500
+- [253] Antigen-Specific Immunotherapy with Thyrotropin Receptor Peptides in Graves' Hyperthyroidism: A Phase I Study (2019). Thyroid®. https://doi.org/10.1089/thy.2019.0036
+
+## Additional official web records
+
+- [373] FDA. LUMVOA (veligrotug-vvze) Prescribing Information, revised 06/2026.
+- [726] FDA. BLA 761530 approval letter, effective 2026-06-26.
+- [727] FDA. Novel Drug Approvals for 2026: Lumvoa, 2026-06-26.
+- [699] SatraGO primary-results congress deck; secondary p-values marked nominal where applicable.
+- [701] Roche regulatory update on SatraGO and pending FDA action at the data cut.
+- [714] ClinicalTrials.gov NCT05276063 results.
+- [715] Sponsor topline for linsitinib.

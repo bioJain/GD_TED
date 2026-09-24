@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0.0",
+  "data_cut": "2026-09-10",
+  "fetched_at_utc": "2026-09-10T10:39:45+00:00",
+  "baseline_path": "/workspace/graves_ted_landscape/clinicaltrials_api_full_response.json",
+  "baseline_sha256": "bc8b63c6ded4a61819e934dbf1ee32dddee9e4d0922d89c95388ad7b8e25c8cb",
+  "snapshot_path": "/workspace/graves_ted_landscape/clinicaltrials_api_cut_2026-09-10.json",
+  "snapshot_sha256": "13011a71ff5e7e81769c2300bc6c7227a35c30f106ec5e02f21f3d6164305140",
+  "drift_path": "/workspace/graves_ted_landscape/registry_cut_drift_2026-09-10.csv",
+  "drift_sha256": "4217df3b7a3cd5ff7943f92165c40fe134dd196fa7980a1d7e64d94c57950cbc",
+  "query": {
+    "base_url": "https://clinicaltrials.gov/api/v2/studies",
+    "params": {
+      "query.cond": "\"Graves Disease\" OR \"Graves' Disease\" OR \"Basedow Disease\" OR \"Autoimmune Hyperthyroidism\" OR \"Thyroid Eye Disease\" OR \"Graves Ophthalmopathy\" OR \"Graves' Ophthalmopathy\" OR \"Graves Orbitopathy\" OR \"Thyroid-Associated Ophthalmopathy\" OR \"Thyroid-Associated Orbitopathy\" OR \"Dysthyroid Ophthalmopathy\" OR \"Endocrine Ophthalmopathy\"",
+      "filter.overallStatus": "NOT_YET_RECRUITING,RECRUITING,ENROLLING_BY_INVITATION,ACTIVE_NOT_RECRUITING,SUSPENDED,TERMINATED,COMPLETED,WITHDRAWN,UNKNOWN",
+      "pageSize": 1000,
+      "countTotal": "true",
+      "format": "json"
+    },
+    "conditions": [
+      "Graves Disease",
+      "Graves' Disease",
+      "Basedow Disease",
+      "Autoimmune Hyperthyroidism",
+      "Thyroid Eye Disease",
+      "Graves Ophthalmopathy",
+      "Graves' Ophthalmopathy",
+      "Graves Orbitopathy",
+      "Thyroid-Associated Ophthalmopathy",
+      "Thyroid-Associated Orbitopathy",
+      "Dysthyroid Ophthalmopathy",
+      "Endocrine Ophthalmopathy"
+    ],
+    "statuses": [
+      "NOT_YET_RECRUITING",
+      "RECRUITING",
+      "ENROLLING_BY_INVITATION",
+      "ACTIVE_NOT_RECRUITING",
+      "SUSPENDED",
+      "TERMINATED",
+      "COMPLETED",
+      "WITHDRAWN",
+      "UNKNOWN"
+    ],
+    "http_status": 200,
+    "resolved_url": "https://clinicaltrials.gov/api/v2/studies?query.cond=%22Graves+Disease%22+OR+%22Graves%27+Disease%22+OR+%22Basedow+Disease%22+OR+%22Autoimmune+Hyperthyroidism%22+OR+%22Thyroid+Eye+Disease%22+OR+%22Graves+Ophthalmopathy%22+OR+%22Graves%27+Ophthalmopathy%22+OR+%22Graves+Orbitopathy%22+OR+%22Thyroid-Associated+Ophthalmopathy%22+OR+%22Thyroid-Associated+Orbitopathy%22+OR+%22Dysthyroid+Ophthalmopathy%22+OR+%22Endocrine+Ophthalmopathy%22&filter.overallStatus=NOT_YET_RECRUITING%2CRECRUITING%2CENROLLING_BY_INVITATION%2CACTIVE_NOT_RECRUITING%2CSUSPENDED%2CTERMINATED%2CCOMPLETED%2CWITHDRAWN%2CUNKNOWN&pageSize=1000&countTotal=true&format=json"
+  },
+  "baseline_record_count": 324,
+  "cut_record_count": 324,
+  "added_ids": [],
+  "removed_ids": [],
+  "changed_record_count": 0,
+  "changed_ids": [],
+  "drift_row_count": 0,
+  "specific_checks": {
+    "NCT07753603_in_baseline": true,
+    "NCT07753603_in_cut": true,
+    "NCT06179875_in_baseline": true,
+    "NCT06179875_in_cut": true
+  }
+}
