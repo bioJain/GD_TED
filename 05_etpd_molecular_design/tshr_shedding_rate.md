@@ -5,6 +5,11 @@ source: claude-code
 milestone: cluster-5-etpd-molecular-design
 status: done
 search_cutoff: 2026-09-24
+pubmed_live_search: completed
+inputs:
+  - 00_legacy_unsorted/GD_TED_report.md
+  - 00_legacy_unsorted/meeting_notes_organized_260922.md
+  - 00_baseline_biomni/landscape_v2/report_graves_ted_landscape_v2.md
 ---
 
 # TSHR ectodomain shedding rate 및 circulating soluble TSHR 조사
@@ -26,6 +31,8 @@ search_cutoff: 2026-09-24
 | 2 | `(soluble TSH receptor[Title/Abstract] OR soluble thyrotropin receptor[Title/Abstract]) AND (serum OR plasma OR circulating OR concentration)` | 33 | 혈중 soluble TSHR 검색. soluble cytokine receptor 등 다수의 비관련 결과는 제외 |
 | 3 | `(TSHR[Title/Abstract]) AND (ectodomain shedding OR A subunit shedding)` | 22 | shed A-subunit 핵심 문헌 확인 |
 
+본 조사에서 `shedding rate`는 (a) 일정 시간 동안 방출되는 A-subunit 양, (b) 합성 또는 표면발현 receptor 중 방출되는 분율, 또는 (c) circulating A-subunit 농도와 반감기로부터 계산되는 flux로 정의했다. 단순 cleavage 유무, band intensity, detergent-soluble fraction 및 recombinant construct 분비는 사람 in vivo rate로 간주하지 않았다.
+
 검색 URL: [query 1](https://pubmed.ncbi.nlm.nih.gov/?term=%28TSH+receptor%5BTitle%2FAbstract%5D+OR+thyrotropin+receptor%5BTitle%2FAbstract%5D%29+AND+%28shedding%5BTitle%2FAbstract%5D+OR+shed%5BTitle%2FAbstract%5D+OR+soluble%5BTitle%2FAbstract%5D+OR+cleavage%5BTitle%2FAbstract%5D%29), [query 2](https://pubmed.ncbi.nlm.nih.gov/?term=%28soluble+TSH+receptor%5BTitle%2FAbstract%5D+OR+soluble+thyrotropin+receptor%5BTitle%2FAbstract%5D%29+AND+%28serum+OR+plasma+OR+circulating+OR+concentration%29), [query 3](https://pubmed.ncbi.nlm.nih.gov/?term=%28TSHR%5BTitle%2FAbstract%5D%29+AND+%28ectodomain+shedding+OR+A+subunit+shedding%29).
 
 ## 후보 PMID 및 서지사항 직접 검증
@@ -44,6 +51,17 @@ search_cutoff: 2026-09-24
 | [1497642](https://pubmed.ncbi.nlm.nih.gov/1497642/) | Murakami M, Miyashita K, Yamada M, Iriuchijima T, Mori M. *Characterization of human thyrotropin receptor-related peptide-like immunoreactivity in peripheral blood of Graves' disease.* **Biochem Biophys Res Commun.** 1992;186(2):1074-1080. doi:10.1016/0006-291X(92)90856-G. | 사람 혈장 직접 측정 | RIA dilution parallelism, 약 60 kDa 신호, Graves' disease군에서 normal 및 Hashimoto hypothyroidism군보다 유의하게 높은 immunoreactivity를 보고. 색인 초록에는 절대농도/단위 미기재 |
 | [6244931](https://pubmed.ncbi.nlm.nih.gov/6244931/) | Hashizume K, DeGroot LJ. *Release of thyrotropin receptor from thyroid plasma membranes: effect of hydrocortisone, propranolol, and adenosine 3',5'-monophosphate.* **Endocrinology.** 1980;106(5):1463-1468. doi:10.1210/endo-106-5-1463. | 간접, 비생리적 in vitro | bovine membrane/hypotonic buffer에서 receptor release를 관찰. 저자도 비생리적 조건임을 명시하므로 사람 shedding rate 또는 circulating concentration 근거로 사용하지 않음 |
 | [9685994](https://pubmed.ncbi.nlm.nih.gov/9685994/) | Misrahi M, Couet J, Milgrom E. *[Mechanisms of shedding of a soluble form of the TSH receptor].* **Ann Endocrinol (Paris).** 1997;58(5):365-369. DOI 미등재. | 종설/기전 요약 | PMID와 프랑스어 제목의 레코드 실재를 확인. PMID 8626810의 기전과 부합하지만 독립적인 rate 또는 농도값은 없음 |
+
+### 기존 merge본 후보와의 대조
+
+이전 merge본에 적힌 후보 식별자는 live PubMed record와 재대조했다. 이 과정에서 세 건의 PMID 오기재를 확인했으므로 그대로 병합하지 않았다.
+
+| 기존 기재 | live PubMed 대조 | 처리 |
+|---:|---|---|
+| `8626801` | HIV-1 protease 논문 | TSHR shedding 논문의 올바른 PMID `8626810`으로 교정 |
+| `9202231` | connexin 43 및 hypoglycemia 논문 | two-cleavage-site 논문의 올바른 PMID `9202233`으로 교정. 본 표의 핵심 rate/concentration 근거에는 포함하지 않음 |
+| `11397853` | preterm birth risk-factor 논문 | TSHR 문헌 식별자로 사용할 수 없어 제외 |
+| `16075037` | *Thyrotropin receptor-associated diseases: from adenomata to Graves disease*와 일치 | 유효한 종설 후보이나 직접 rate/concentration 자료가 아니므로 핵심 표에서는 제외 |
 
 ## Shedding rate 평가
 
@@ -80,6 +98,13 @@ PMID 1497642가 사람 peripheral blood에서 가장 직접적인 후보이나, 
 | shedding이 낮다고 전제해도 되는가? | 아니오 | membrane-bound 및 soluble A-subunit 양쪽에 대한 binding/clearance assay 설계 |
 | 후보 clone 비교에서 무엇을 측정해야 하는가? | soluble A-subunit interference와 membrane TSHR 결합을 분리 | recombinant A-subunit spike-in 농도구배, cell-surface binding, internalization 및 ternary-complex/clearance readout 포함 |
 | 어떤 임상 검체가 필요한가? | GD/TED 및 대조군 plasma/serum | orthogonal immunoassay와 immunoprecipitation-MS로 analyte identity 및 절대농도 확인 |
+
+## Repo 근거와 JHA-88 전달사항
+
+- `00_legacy_unsorted/meeting_notes_organized_260922.md` §0 및 §1-E의 질문처럼 IC 침착 기전과 shedding rate는 분리해 해석한다.
+- `00_legacy_unsorted/GD_TED_report.md` Section E1의 기본 cargo는 circulating TSAb이며, 정량되지 않은 free soluble TSHR를 primary clearance cargo로 재해석하지 않는다.
+- `00_baseline_biomni/landscape_v2/report_graves_ted_landscape_v2.md` §5.1-5.2의 LCA-0321/MER511 주장은 soluble TSHR 농도 또는 turnover의 임상 검증을 대신하지 않는다.
+- JHA-88의 현 molecule spec에는 shedding을 숫자로 채우지 않고 `unknown; empirical gate`로 전달한다.
 
 ## 최종 판정과 완료 조건
 
