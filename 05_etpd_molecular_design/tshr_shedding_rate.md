@@ -1,100 +1,123 @@
 ---
 linear_issue: JHA-83
 created: 2026-09-24
-source: manual
+source: claude-code
 milestone: cluster-5-etpd-molecular-design
 status: in-review
+search_cutoff: 2026-09-24
+pubmed_live_search: completed
+full_text_review: pending-pmid-1497642
 inputs:
   - 00_legacy_unsorted/GD_TED_report.md
   - 00_legacy_unsorted/meeting_notes_organized_260922.md
   - 00_baseline_biomni/landscape_v2/report_graves_ted_landscape_v2.md
-literature_checked: 2026-09-24
-pubmed_live_search: attempted-but-unavailable
 ---
 
-# TSHR ectodomain shedding rate 문헌 확인
+# TSHR ectodomain shedding rate 및 circulating soluble TSHR 조사
 
-## 결론 요약
+## 결론
 
-- **사람에서의 TSHR ectodomain shedding rate는 현재 검토 범위에서 미확인(잠정)**: 확인한 문헌은 TSHR의 constitutive intramolecular cleavage와 A-subunit shedding을 정성적으로 입증하지만, 정상인/GD 환자의 thyroid에서 단위 시간당 방출량, 전체 surface TSHR 중 방출 비율, 또는 in vivo half-life를 제시하지 않음[1-4]. 따라서 추정 백분율을 분자 스펙에 입력하지 않음.
-- **순환 soluble TSHR ectodomain 농도도 임상적으로 검증된 수치가 없음**: 확인 범위에서 정상인 또는 GD/TED 환자 plasma/serum의 intact soluble TSHR A-subunit을 절대농도(mass/volume 또는 molarity)로 정량한 검증된 assay/cohort를 찾지 못함. `TSHR mRNA splice variant`, recombinant TSHR, TRAb assay의 soluble receptor reagent는 환자 혈중 soluble antigen 측정치가 아니므로 제외함.
-- **free TSHR antigen을 sweeping target으로 삼는 설계는 현재 근거로 지지되지 않음**: 접근 가능한 농도와 turnover가 모두 미확정이므로, soluble TSHR 자체를 주된 clearance cargo로 설정하거나 antigen-sink 용량을 계산할 수 없음. 반면 TSAb/TRAb는 혈중 접근 가능한 IgG이므로, `TSHR ectodomain bait -> 병원성 autoantibody 포획 -> clearance`가 문헌과 개발 지형에 부합하는 기본 방향임. 이 결론은 효능 입증이 아니라 **design prior**임.
+- **TSHR ectodomain(A/alpha-subunit)이 세포 표면에서 실제로 shed된다는 정성적 근거는 있다.** 사람 갑상선세포 및 TSHR 발현 세포에서 관찰되었고, cleavage 뒤 세포표면 체류 및 proteolysis/disulfide-linked processing의 영향을 받는다.
+- 그러나 검색 범위에서 **사람 in vivo의 단위시간당 shedding rate, surface TSHR 중 shed되는 분율, 또는 shed A-subunit의 반감기를 수치화한 자료는 확인되지 않았다.** 따라서 현재 근거로 `x%/h`, `molecules/cell/day` 또는 systemic production rate를 설정할 수 없다.
+- 사람 혈중 soluble TSHR를 직접 다룬 문헌은 1992년 연구 한 건(PMID **1497642**)이 핵심이다. 약 60 kDa TSHR-related peptide-like immunoreactivity와 Graves' disease군의 증가를 보고했지만, PubMed 색인 초록에는 군별 절대농도와 분석단위가 없다. **현재 abstract-index 검색만으로 검증 가능한 circulating concentration 수치는 확보되지 않았다.** 이 신호가 이후 확립된 shed A-subunit과 완전히 동일하다는 것도 직접 입증되지 않았다.
+- 따라서 eTPD 설계에서 circulating soluble TSHR에 의한 target-mediated drug disposition 또는 peripheral antigen sink를 **존재 가능성은 있으나 정량 불가한 risk**로 취급한다. 현 단계에서 "shedding이 낮다", "혈중 농도가 낮다" 또는 "정량값이 문헌에 없다"고 단정할 근거는 없다.
 
-## 1. PubMed 검색 상태와 검색식
+## PubMed live search
 
-**중요 정정**: 초안 작성 시 PubMed live search를 시도했으나 실행 환경의 web-search 인증 오류와 NCBI network 차단으로 검색 결과 화면/record를 직접 열지 못함. 따라서 아래 참고문헌의 PMID는 live PubMed record와 대조 완료된 것으로 간주하면 안 되며, 본 문서는 `in-review` 상태임.
+2026-09-24에 NCBI PubMed E-utilities(`esearch`, `esummary`, `efetch`)로 live search를 실행했다. 검색은 제목/초록 필드를 우선 사용했고, 후보의 PMID, 저자, 제목, 저널, 연도, 권(호), 페이지 및 DOI를 PubMed XML에서 다시 대조했다.
 
-시도한 검색식:
+| # | PubMed query | 결과 수 | 판정 |
+|---|---|---:|---|
+| 1 | `(TSH receptor[Title/Abstract] OR thyrotropin receptor[Title/Abstract]) AND (shedding[Title/Abstract] OR shed[Title/Abstract] OR soluble[Title/Abstract] OR cleavage[Title/Abstract])` | 208 | 기전 및 후보 문헌 포괄 검색 |
+| 2 | `(soluble TSH receptor[Title/Abstract] OR soluble thyrotropin receptor[Title/Abstract]) AND (serum OR plasma OR circulating OR concentration)` | 33 | 혈중 soluble TSHR 검색. soluble cytokine receptor 등 다수의 비관련 결과는 제외 |
+| 3 | `(TSHR[Title/Abstract]) AND (ectodomain shedding OR A subunit shedding)` | 22 | shed A-subunit 핵심 문헌 확인 |
 
-- `TSH receptor ectodomain shedding cleavage A subunit`
-- `"Shedding of human thyrotropin receptor ectodomain"`
-- `soluble TSH receptor serum Graves concentration`
-- `thyrotropin receptor A-subunit shedding rate`
+본 조사에서 `shedding rate`는 (a) 일정 시간 동안 방출되는 A-subunit 양, (b) 합성 또는 표면발현 receptor 중 방출되는 분율, 또는 (c) circulating A-subunit 농도와 반감기로부터 계산되는 flux로 정의했다. 단순 cleavage 유무, band intensity, detergent-soluble fraction 및 recombinant construct 분비는 사람 in vivo rate로 간주하지 않았다.
 
-완료 조건은 PubMed에서 위 검색식 및 동의어(`thyrotropin receptor`, `TSHR`, `soluble receptor`, `cleavage`, `release`)를 직접 실행하고, 각 record의 PMID/서지사항/abstract를 대조하며, 관련 논문의 cited-by/reference chain을 검토하는 것임. 이 검증 전에는 `문헌상 미보고` 결론을 **잠정 결론**으로만 사용함.
+검색 URL: [query 1](https://pubmed.ncbi.nlm.nih.gov/?term=%28TSH+receptor%5BTitle%2FAbstract%5D+OR+thyrotropin+receptor%5BTitle%2FAbstract%5D%29+AND+%28shedding%5BTitle%2FAbstract%5D+OR+shed%5BTitle%2FAbstract%5D+OR+soluble%5BTitle%2FAbstract%5D+OR+cleavage%5BTitle%2FAbstract%5D%29), [query 2](https://pubmed.ncbi.nlm.nih.gov/?term=%28soluble+TSH+receptor%5BTitle%2FAbstract%5D+OR+soluble+thyrotropin+receptor%5BTitle%2FAbstract%5D%29+AND+%28serum+OR+plasma+OR+circulating+OR+concentration%29), [query 3](https://pubmed.ncbi.nlm.nih.gov/?term=%28TSHR%5BTitle%2FAbstract%5D%29+AND+%28ectodomain+shedding+OR+A+subunit+shedding%29).
 
-## 2. 질문과 판정 기준
+## 후보 PMID 및 서지사항 직접 검증
 
-본 조사에서 `shedding rate`는 (a) 일정 시간 동안 방출되는 TSHR A-subunit의 양, (b) 합성/표면발현된 receptor 중 방출되는 분율, 또는 (c) 사람 혈중 soluble A-subunit 농도와 half-life 중 하나가 수치로 제시된 경우로 한정함. 배양세포의 band intensity, cleavage 유무, detergent-soluble fraction 또는 recombinant construct 분비는 사람의 in vivo rate로 환산하지 않음.
+아래 서지사항은 검색결과 문자열을 재사용하지 않고 PubMed `efetch` XML의 각 레코드에서 직접 확인했다.
 
-## 3. 알려진 기전과 알려지지 않은 수치
+| PMID | PubMed에서 확인한 서지사항 | 이 질문에 대한 직접성 | 확인 결과 |
+|---:|---|---|---|
+| [8626810](https://pubmed.ncbi.nlm.nih.gov/8626810/) | Couet J, Sar S, Jolivet A, Hai MT, Milgrom E, Misrahi M. *Shedding of human thyrotropin receptor ectodomain. Involvement of a matrix metalloprotease.* **J Biol Chem.** 1996;271(8):4545-4552. doi:10.1074/jbc.271.8.4545. | 직접 실험 | 사람 thyrocyte와 transfected L/CHO cell에서 shedding 확인. endocytosis/recycling/lysosomal degradation 억제 시 증가, TSH 및 phorbol ester로 소폭 증가, serum 감소 시 증가, BB-2116으로 억제. 초록에는 절대 rate 또는 분율 없음 |
+| [10411305](https://pubmed.ncbi.nlm.nih.gov/10411305/) | Tanaka K, Chazenbalk GD, McLachlan SM, Rapoport B. *The shed thyrotropin receptor is primarily a carboxyl terminal truncated form of the A subunit, not the entire A subunit.* **Mol Cell Endocrinol.** 1999;150(1-2):113-119. doi:10.1016/S0303-7207(99)00018-0. | 직접 실험 | shed species의 주성분이 C-terminal truncated A-subunit임을 제시. 표준 serum 조건에서는 normal-sized A-subunit도 더 적은 양으로 검출. rate 및 혈중농도 없음 |
+| [10567361](https://pubmed.ncbi.nlm.nih.gov/10567361/) | Tanaka K, Chazenbalk GD, McLachlan SM, Rapoport B. *Subunit structure of thyrotropin receptors expressed on the cell surface.* **J Biol Chem.** 1999;274(48):33979-33984. doi:10.1074/jbc.274.48.33979. | 직접 실험 | 낮은 A/B subunit ratio를 partial shedding의 근거로 제시하지만, 일반화 가능한 시간당 rate는 제시하지 않음 |
+| [12919313](https://pubmed.ncbi.nlm.nih.gov/12919313/) | Quellari M, Desroches A, Beau I, Beaudeux E, Misrahi M. *Role of cleavage and shedding in human thyrotropin receptor function and trafficking.* **Eur J Biochem.** 2003;270(17):3486-3497. doi:10.1046/j.1432-1033.2003.03718.x. | 직접 실험 | cleavage/shedding 후 free beta-subunit의 activation 및 internalization을 연구. 생체 shedding rate/혈중농도 자료 아님 |
+| [15319351](https://pubmed.ncbi.nlm.nih.gov/15319351/) | Latif R, Ando T, Davies TF. *Monomerization as a prerequisite for intramolecular cleavage and shedding of the thyrotropin receptor.* **Endocrinology.** 2004;145(12):5580-5588. doi:10.1210/en.2004-0797. | 직접 실험 | CHO 모델에서 TSH가 cleavage 및 shedding을 시간·농도 의존적으로 증가시킴. cell-based cleavage assay는 있으나 사람 in vivo shedding rate로 전환할 수 없음 |
+| [17911409](https://pubmed.ncbi.nlm.nih.gov/17911409/) | Ando T, Latif R, Davies TF. *Antibody-induced modulation of TSH receptor post-translational processing.* **J Endocrinol.** 2007;195(1):179-186. doi:10.1677/JOE-07-0058. | 직접 실험 | 일부 TSHR antibody가 cleavage를 억제하고 receptor expression을 높이는 epitope-dependent 효과를 보고. 일정한 고유 shedding rate 가정이 부적절함을 뒷받침 |
+| [26799472](https://pubmed.ncbi.nlm.nih.gov/26799472/) | Rapoport B, McLachlan SM. *TSH Receptor Cleavage Into Subunits and Shedding of the A-Subunit; A Molecular and Clinical Perspective.* **Endocr Rev.** 2016;37(2):114-134. doi:10.1210/er.2015-1098. | 종설 | A-subunit shedding의 기전 및 Graves' disease 면역원성 가설을 종합. 정량적 사람 in vivo rate 또는 circulating concentration의 기준값은 PubMed 초록에 없음 |
+| [1497642](https://pubmed.ncbi.nlm.nih.gov/1497642/) | Murakami M, Miyashita K, Yamada M, Iriuchijima T, Mori M. *Characterization of human thyrotropin receptor-related peptide-like immunoreactivity in peripheral blood of Graves' disease.* **Biochem Biophys Res Commun.** 1992;186(2):1074-1080. doi:10.1016/0006-291X(92)90856-G. | 사람 혈장 직접 측정 | RIA dilution parallelism, 약 60 kDa 신호, Graves' disease군에서 normal 및 Hashimoto hypothyroidism군보다 유의하게 높은 immunoreactivity를 보고. 색인 초록에는 절대농도/단위 미기재. 원문 미검토이므로 논문 내 수치 부재를 뜻하지 않음 |
+| [6244931](https://pubmed.ncbi.nlm.nih.gov/6244931/) | Hashizume K, DeGroot LJ. *Release of thyrotropin receptor from thyroid plasma membranes: effect of hydrocortisone, propranolol, and adenosine 3',5'-monophosphate.* **Endocrinology.** 1980;106(5):1463-1468. doi:10.1210/endo-106-5-1463. | 간접, 비생리적 in vitro | bovine membrane/hypotonic buffer에서 receptor release를 관찰. 저자도 비생리적 조건임을 명시하므로 사람 shedding rate 또는 circulating concentration 근거로 사용하지 않음 |
+| [9685994](https://pubmed.ncbi.nlm.nih.gov/9685994/) | Misrahi M, Couet J, Milgrom E. *[Mechanisms of shedding of a soluble form of the TSH receptor].* **Ann Endocrinol (Paris).** 1997;58(5):365-369. DOI 미등재. | 종설/기전 요약 | PMID와 프랑스어 제목의 레코드 실재를 확인. PMID 8626810의 기전과 부합하지만 독립적인 rate 또는 농도값은 없음 |
 
-### 3.1 기전
+### 기존 merge본 후보와의 대조
 
-TSHR은 단일-chain precursor로 합성된 뒤 ectodomain 내 두 절단 부위 사이의 약 50-amino-acid segment가 제거되어 extracellular A-subunit과 membrane-spanning B-subunit을 형성함. 두 subunit은 disulfide bond로 연결될 수 있으며, 결합이 환원되면 A-subunit이 세포 표면에서 방출될 수 있음[1-3]. 세포계 연구는 metalloprotease activity가 ectodomain release에 관여함을 지지하지만, 특정 physiological sheddase, 조직별 flux와 사람에서의 조절인자는 확정되지 않음[1,2].
+이전 merge본에 적힌 후보 식별자는 live PubMed record와 재대조했다. 이 과정에서 세 건의 PMID 오기재를 확인했으므로 그대로 병합하지 않았다.
 
-### 3.2 수치 판정
+| 기존 기재 | live PubMed 대조 | 처리 |
+|---:|---|---|
+| `8626801` | HIV-1 protease 논문 | TSHR shedding 논문의 올바른 PMID `8626810`으로 교정 |
+| `9202231` | connexin 43 및 hypoglycemia 논문 | two-cleavage-site 논문의 올바른 PMID `9202233`으로 교정. 본 표의 핵심 rate/concentration 근거에는 포함하지 않음 |
+| `11397853` | preterm birth risk-factor 논문 | TSHR 문헌 식별자로 사용할 수 없어 제외 |
+| `16075037` | *Thyrotropin receptor-associated diseases: from adenomata to Graves disease*와 일치 | 유효한 종설 후보이나 직접 rate/concentration 자료가 아니므로 핵심 표에서는 제외 |
 
-| 질문 | 확인 결과 | 분자설계에 사용할 수 있는 값 |
+## Shedding rate 평가
+
+### 확인된 사실
+
+1. TSHR은 single-chain receptor에서 A- 및 B-subunit으로 cleavage되고, 일부 extracellular A-subunit이 세포표면에서 유리된다.
+2. 측정치는 실험계에 민감하다. cell-surface residency, serum 농도, TSH, phorbol ester, receptor monomerization 및 결합 항체가 processing/shedding을 바꾼다.
+3. 따라서 배양세포의 band intensity나 A/B ratio를 사람 조직의 정상상태 flux로 치환할 수 없다.
+
+### 찾지 못한 정량치
+
+- 사람 thyrocyte에서 `fraction shed / unit time`
+- 사람에서 soluble TSHR A-subunit의 production/clearance rate
+- shed A-subunit의 혈중 반감기
+- 정상인, Graves' disease 또는 TED에서 재현된 절대 circulating concentration reference range
+
+**판정:** biological phenomenon은 확인되지만, 이번 abstract-index 검색에서는 JHA-83에서 요구한 정량적 shedding rate를 **확인하지 못했다(not resolved)**. 이는 rate가 "0" 또는 "낮음"이거나, 전문을 포함한 문헌 전체에 수치가 없다는 뜻이 아니다.
+
+## Circulating soluble TSHR concentration 평가
+
+### 원문 접근 및 검토 상태
+
+PMID 1497642는 이 질문의 유일한 직접 사람 혈장 연구이므로 초록 확인만으로 완료 처리할 수 없다. PubMed/Europe PMC, Crossref, OpenAlex, Semantic Scholar 메타데이터를 대조했으나 2026-09-24 현재 공개 원문 또는 공개 PDF를 확인하지 못했다. OpenAlex와 Semantic Scholar는 이 논문을 closed access로 표시하고 Europe PMC는 `isOpenAccess: N`, `inPMC: N`, `hasPDF: N`으로 반환했다. 따라서 현재 결과는 **abstract-index review**이며, 논문 전문의 표·그림·Methods/Results에 절대농도가 있는지는 아직 미검증이다.
+
+PMID 1497642가 사람 peripheral blood에서 가장 직접적인 후보이나, 해당 assay는 TSHR amino acids 32-56 합성 peptide에 대한 antiserum으로 측정한 `TSHRP-1-like immunoreactivity`이다. 약 60 kDa라는 분자량 및 질환군 차이는 soluble extracellular-domain 가설과 일치하지만 다음 이유로 현대적인 intact/shed TSHR 농도 기준값으로 바로 사용할 수 없다.
+
+- epitope-specific immunoreactivity이며 molecular identity를 완전히 확정하지 않음
+- PubMed 초록에 절대 수치 및 단위가 없으나, 원문에 수치가 없다는 의미는 아님
+- 후속 독립 cohort 또는 표준화된 assay reference range를 이번 live search에서 확인하지 못함
+
+그러므로 현재 molar concentration으로의 변환, tissue-to-plasma partition 또는 decoy occupancy 계산은 보류한다. 원문 전문을 합법적으로 확보하면 우선 확인할 항목은 각 군의 `mean/median`, 분산, 표본수, 표준물질, 회수율, 검출한계 및 dilution linearity이다.
+
+## eTPD 분자설계에 대한 결정
+
+| 설계 질문 | 현재 답 | 후속 조치 |
 |---|---|---|
-| 전체 TSHR 중 cleavage되는 비율 | transfected-cell biochemical studies에서 cleavage/uncleaved species를 관찰했으나 사람 thyroid의 population rate 미보고[1-3] | 없음 |
-| cleavage된 receptor 중 A-subunit이 shed되는 비율 | shedding 현상은 입증됐으나 standardized denominator와 사람 in vivo time course 미보고[1-3] | 없음 |
-| plasma/serum soluble TSHR A-subunit 농도 | 검증된 endogenous antigen immunoassay 및 정상/GD reference range를 확인하지 못함[3,4] | 없음 |
-| soluble TSHR half-life/clearance | 사람 PK 자료 미보고[3,4] | 없음 |
-| alternative-splice soluble TSHR | transcript/construct 수준 근거를 proteolytic A-subunit shedding 또는 혈중 농도로 환산할 수 없음[4] | 없음 |
+| soluble antigen sink를 수치로 PK 모델에 넣을 수 있는가? | 아니오. 검증된 농도와 turnover가 없음 | 초기 모델은 0이 아닌 wide sensitivity range를 사용하고 가정으로 명시 |
+| shedding이 낮다고 전제해도 되는가? | 아니오 | membrane-bound 및 soluble A-subunit 양쪽에 대한 binding/clearance assay 설계 |
+| 후보 clone 비교에서 무엇을 측정해야 하는가? | soluble A-subunit interference와 membrane TSHR 결합을 분리 | recombinant A-subunit spike-in 농도구배, cell-surface binding, internalization 및 ternary-complex/clearance readout 포함 |
+| 어떤 임상 검체가 필요한가? | GD/TED 및 대조군 plasma/serum | orthogonal immunoassay와 immunoprecipitation-MS로 analyte identity 및 절대농도 확인 |
 
-핵심적으로 `cleavage`, `A/B-subunit 구조`, `A-subunit release`는 서로 연결되지만 동일한 endpoint가 아님. 세포에서 cleavage가 관찰됐다는 사실만으로 혈중 soluble antigen abundance가 높거나 낮다고 판정할 수 없음.
+## Repo 근거와 JHA-88 전달사항
 
-## 4. sweeping 접근성 판단
+- `00_legacy_unsorted/meeting_notes_organized_260922.md` §0 및 §1-E의 질문처럼 IC 침착 기전과 shedding rate는 분리해 해석한다.
+- `00_legacy_unsorted/GD_TED_report.md` Section E1의 기본 cargo는 circulating TSAb이며, 정량되지 않은 free soluble TSHR를 primary clearance cargo로 재해석하지 않는다.
+- `00_baseline_biomni/landscape_v2/report_graves_ted_landscape_v2.md` §5.1-5.2의 LCA-0321/MER511 주장은 soluble TSHR 농도 또는 turnover의 임상 검증을 대신하지 않는다.
+- JHA-88의 현 molecule spec에는 shedding을 숫자로 채우지 않고 `unknown; empirical gate`로 전달한다.
 
-### 4.1 판정
+## 최종 판정과 완료 조건
 
-**Free soluble TSHR ectodomain: 현재 `No-go as a quantified primary cargo`, 단 experimental validation 대상.** 농도, molecular form, epitope integrity, residence time이 모두 미확정이므로 dose, binding capacity 또는 target-mediated drug disposition을 계산하는 표적항원으로 사용할 근거가 부족함.
+PubMed live search와 후보 PMID/서지사항 검증은 성공했다. 그러나 유일한 직접 사람 혈장 연구(PMID 1497642)는 초록만 검토했고 원문 내 정량값 유무를 아직 확인하지 못했다. 따라서 review comment에 따라 문서 상태를 **`in-review`로 유지**하며, 현재 결과를 "정량 evidence 부재"가 아니라 "abstract-index 검색에서 정량 evidence 미확인"으로 제한한다.
 
-**Circulating anti-TSHR autoantibody: `Proceed as the intended cargo`, 단 selectivity/functional neutralization 검증 필요.** repo의 v2 landscape에서 LCA-0321은 anti-TSHR autoantibody 선택적 binding/removal, MER511은 engineered TSHR ectodomain-Fc를 통한 neutralization/clearance를 표방함. 두 프로그램 모두 human efficacy와 target-disposition 결과가 아직 확립되지 않았고 evidence confidence가 각각 Low, Low-moderate이므로 선행 validation의 대체물이 아님.
+`done` 전환 조건:
 
-### 4.2 설계 리스크
-
-1. **Soluble-antigen sink 불확실성**: endogenous soluble A-subunit이 존재하면 bait와 병원성 antibody의 경쟁, 또는 construct와의 complex 형성에 영향을 줄 수 있으나 현재 용량 계산 불가.
-2. **Epitope mismatch**: shed A-subunit의 processing/glycosylation/conformation이 membrane TSHR과 다르면 TSAb epitope를 완전히 재현하지 못할 가능성.
-3. **TSH/TRAb 기능 혼합**: blocking/neutral TRAb와 TSAb를 구분하지 않는 affinity-only readout은 병원성 cargo selectivity를 과대평가할 가능성.
-4. **Assay interference**: soluble TSHR, endogenous TSH, anti-drug antibody 및 bait-drug complex가 ligand-binding assay를 교란할 가능성.
-
-### 4.3 JHA-88에 전달할 최소 실험 입력
-
-- 사람 plasma/serum에서 immunocapture-LC-MS 또는 orthogonal sandwich assay로 soluble TSHR A-subunit의 LLOQ와 농도 범위를 먼저 설정.
-- full-length membrane TSHR, purified shed-like A-subunit, engineered bait 사이의 TSAb clone panel binding/competition을 비교.
-- GD/TED sample에서 free TSAb, total TSAb, drug-bound TSAb를 구분하고 functional cAMP bioassay를 병행.
-- 예상 therapeutic concentration 대비 soluble TSHR molar ratio를 측정한 후에만 antigen-sink/target-mediated disposition model에 포함.
-- 현재 molecule spec의 shedding 항목은 숫자가 아니라 `unknown; empirical gate`로 기록하고 임의의 low/high 가정을 base case로 사용하지 않음.
-
-## 5. 근거의 한계
-
-- 초기 핵심 문헌은 transfected mammalian cells, immunoblot, radiolabeling 중심이며 임상 biofluid 정량 연구가 아님[1-3].
-- `문헌상 미보고`는 존재하지 않음을 증명한 것이 아니라, 아래 후보 mechanism literature와 repo의 direct-TSHR program evidence를 검토한 범위에서 설계에 사용할 검증 수치를 발견하지 못했다는 의미임.
-- LCA-0321/MER511의 공개 설명에서 soluble TSHR concentration 또는 endogenous shedding-rate 기반 dose rationale은 repo frozen evidence package에 확인되지 않음. 사람 결과 공개 시 재평가 필요.
-
-## 참고문헌
-
-초안 입력일: **2026-09-24**. 아래 PMID는 live PubMed record 대조 전의 후보 식별자이며, 검증 완료 전 인용에 사용하지 않음.
-
-1. Couet J, Sar S, Jolivet A, Hai MT, Milgrom E, Misrahi M. *Shedding of human thyrotropin receptor ectodomain. Involvement of a matrix metalloprotease.* Journal of Biological Chemistry. 1996;271:4545-4552. **PMID: 8626801**.
-2. Chazenbalk GD, Tanaka K, Nagayama Y, Kakinuma A, Jaume JC, McLachlan SM, Rapoport B. *Evidence that the thyrotropin receptor ectodomain contains not one, but two, cleavage sites.* Endocrinology. 1997;138:2893-2899. **PMID: 9202231**.
-3. Rapoport B, McLachlan SM. *The thyrotropin receptor's great divide: cleavage into subunits, with shedding of the A-subunit.* Journal of Clinical Endocrinology & Metabolism. 2001;86:2600-2604. **PMID: 11397853**.
-4. Davies TF, Ando T, Lin RY, Tomer Y, Latif R. *Thyrotropin receptor-associated diseases: from adenomata to Graves disease.* Journal of Clinical Investigation. 2005;115:1972-1983. **PMID: 16075037**.
-
-## Repo 근거
-
-- `00_legacy_unsorted/meeting_notes_organized_260922.md` §0, §1-E: IC 침착 기전과 shedding rate 질문의 분리.
-- `00_legacy_unsorted/GD_TED_report.md` Section E1: circulating TSAb를 extracellular sweeping cargo로 보는 기존 개념.
-- `00_baseline_biomni/landscape_v2/report_graves_ted_landscape_v2.md` §5.1-5.2: LCA-0321/MER511 mechanism claim과 human-evidence boundary.
+1. PMID 1497642 전문을 합법적으로 확보해 표·그림·Methods/Results의 군별 농도, 단위, 표준물질 및 assay 성능을 직접 검토한다.
+2. 수치가 있으면 그대로 추출하고 modern intact/shed TSHR 농도로 사용할 수 있는지 한계를 평가한다.
+3. 수치가 없으면 그 negative finding을 전문 검토 근거와 함께 기록한다.
+4. 위 검토가 불가능한 채 deliverable 범위를 abstract-only search로 축소하려면 사용자의 명시적 승인을 받는다.
