@@ -13,7 +13,7 @@ source: claude-code
 | 1 | Repo 가시성 | **public** (`bioJain/GD_TED`) | 사용자 지정. 아래 "공개 범위 점검" 참조 |
 | 2 | 로컬 Obsidian vault 폴더의 역할 | repo가 원본. 별도 경로(`C:\Users\jain\repos\GD_TED`)에 clone하고 파일은 **복사** | vault 폴더(OneDrive 동기화)는 원본 스냅샷으로 남김. OneDrive 안에서 git 작업을 하지 않기 위함 |
 | 3 | PPTX 정책 | Google Drive 외부 저장 + 링크 | `.gitignore`에 `*.pptx`; `docs/EXTERNAL_ASSETS.md`, `00_baseline_biomni/external_assets_hashes.csv` |
-| 4 | deck architecture 문서 | `deck_architecture_and_scoring_framework.md`는 **가져오지 않고** report-deck-style 스킬을 사용 | `_shared/deck_style.md`. 부수효과: JHA-85가 참조하던 Gate G4 프레임 문서가 없어져 JHA-85 스펙을 "자체 정의"로 수정 |
+| 4 | deck architecture 문서 | `deck_architecture_and_scoring_framework.md`는 **가져오지 않고** deck 구성 규칙은 report-deck-style 스킬 사용 | `_shared/deck_style.md`. **미결**: 이 문서에 있는 Gate G1~G6 *scoring* 프레임(JHA-85, JHA-88이 참조)을 계속 쓸지는 사용자 확인 필요. 그동안 JHA-85/88은 자체 정의 평가축으로 진행하도록 이슈에 명시 |
 | 5 | Biomni 폴더 처리 | `00_baseline_biomni/`로 편입(동결), 아래 변경점 참조 | |
 | 6 | cluster 구조 | HANDOFF 3.2안 유지(6 cluster 병렬) + `00_baseline_biomni/` 추가 | 실제 작업 몇 건 후 재평가(HANDOFF §5-5) |
 
@@ -41,3 +41,10 @@ push 전에 사용자 확인이 필요한 항목:
 - `00_legacy_unsorted/GD_TED_report.md` C4 표와 `GD_TED_reference.md` [48]은 Cortellis(상업 DB) 파생 자료를 전재하거나 서술한다. 라이선스상 재배포 제한이 있을 수 있음.
 - `meeting_notes_organized_260922.md`, `GD_TED_execution_log.md`, `docs/HANDOFF...`에는 내부 논의(벤더 "프로티나", 에이프릴바이오 단서, 내부 eTPD 프로그램 맥락, 미팅 코멘트 원문)가 있음.
 - eTPD 분자설계 전략(Cluster 5)은 자산 전략 성격의 내용이다.
+
+## Linear 반영 (2026-09-24)
+
+- 자식 19개 이슈: 'Repo 산출물 경로 및 입력' 절 추가, 'Repo 미연결' 문구를 repo 경로 안내로 교체.
+- JHA-84 산출물명 `benchmark_spec_deepdive.md`로 변경(이슈 제목에 맞춤).
+- 상위 6개 이슈(JHA-64~69): cluster 폴더 안내 추가.
+- 미반영: 프로젝트 P-JHA-4의 GitHub 연동(Linear 워크스페이스 설정, API 미지원), 프로젝트 resource 링크.
