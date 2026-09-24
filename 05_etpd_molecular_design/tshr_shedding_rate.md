@@ -3,9 +3,10 @@ linear_issue: JHA-83
 created: 2026-09-24
 source: claude-code
 milestone: cluster-5-etpd-molecular-design
-status: done
+status: in-review
 search_cutoff: 2026-09-24
 pubmed_live_search: completed
+full_text_review: pending-pmid-1497642
 inputs:
   - 00_legacy_unsorted/GD_TED_report.md
   - 00_legacy_unsorted/meeting_notes_organized_260922.md
@@ -18,8 +19,8 @@ inputs:
 
 - **TSHR ectodomain(A/alpha-subunit)이 세포 표면에서 실제로 shed된다는 정성적 근거는 있다.** 사람 갑상선세포 및 TSHR 발현 세포에서 관찰되었고, cleavage 뒤 세포표면 체류 및 proteolysis/disulfide-linked processing의 영향을 받는다.
 - 그러나 검색 범위에서 **사람 in vivo의 단위시간당 shedding rate, surface TSHR 중 shed되는 분율, 또는 shed A-subunit의 반감기를 수치화한 자료는 확인되지 않았다.** 따라서 현재 근거로 `x%/h`, `molecules/cell/day` 또는 systemic production rate를 설정할 수 없다.
-- 사람 혈중 soluble TSHR를 직접 다룬 문헌은 1992년 연구 한 건(PMID **1497642**)이 핵심이다. 약 60 kDa TSHR-related peptide-like immunoreactivity와 Graves' disease군의 증가를 보고했지만, PubMed 색인 초록에는 군별 절대농도와 분석단위가 없다. **검증 가능한 circulating concentration 수치는 확보되지 않았다.** 이 신호가 이후 확립된 shed A-subunit과 완전히 동일하다는 것도 직접 입증되지 않았다.
-- 따라서 eTPD 설계에서 circulating soluble TSHR에 의한 target-mediated drug disposition 또는 peripheral antigen sink를 **존재 가능성은 있으나 정량 불가한 risk**로 취급한다. 현 단계에서 "shedding이 낮다" 또는 "혈중 농도가 낮다"고 단정할 근거는 없다.
+- 사람 혈중 soluble TSHR를 직접 다룬 문헌은 1992년 연구 한 건(PMID **1497642**)이 핵심이다. 약 60 kDa TSHR-related peptide-like immunoreactivity와 Graves' disease군의 증가를 보고했지만, PubMed 색인 초록에는 군별 절대농도와 분석단위가 없다. **현재 abstract-index 검색만으로 검증 가능한 circulating concentration 수치는 확보되지 않았다.** 이 신호가 이후 확립된 shed A-subunit과 완전히 동일하다는 것도 직접 입증되지 않았다.
+- 따라서 eTPD 설계에서 circulating soluble TSHR에 의한 target-mediated drug disposition 또는 peripheral antigen sink를 **존재 가능성은 있으나 정량 불가한 risk**로 취급한다. 현 단계에서 "shedding이 낮다", "혈중 농도가 낮다" 또는 "정량값이 문헌에 없다"고 단정할 근거는 없다.
 
 ## PubMed live search
 
@@ -48,7 +49,7 @@ inputs:
 | [15319351](https://pubmed.ncbi.nlm.nih.gov/15319351/) | Latif R, Ando T, Davies TF. *Monomerization as a prerequisite for intramolecular cleavage and shedding of the thyrotropin receptor.* **Endocrinology.** 2004;145(12):5580-5588. doi:10.1210/en.2004-0797. | 직접 실험 | CHO 모델에서 TSH가 cleavage 및 shedding을 시간·농도 의존적으로 증가시킴. cell-based cleavage assay는 있으나 사람 in vivo shedding rate로 전환할 수 없음 |
 | [17911409](https://pubmed.ncbi.nlm.nih.gov/17911409/) | Ando T, Latif R, Davies TF. *Antibody-induced modulation of TSH receptor post-translational processing.* **J Endocrinol.** 2007;195(1):179-186. doi:10.1677/JOE-07-0058. | 직접 실험 | 일부 TSHR antibody가 cleavage를 억제하고 receptor expression을 높이는 epitope-dependent 효과를 보고. 일정한 고유 shedding rate 가정이 부적절함을 뒷받침 |
 | [26799472](https://pubmed.ncbi.nlm.nih.gov/26799472/) | Rapoport B, McLachlan SM. *TSH Receptor Cleavage Into Subunits and Shedding of the A-Subunit; A Molecular and Clinical Perspective.* **Endocr Rev.** 2016;37(2):114-134. doi:10.1210/er.2015-1098. | 종설 | A-subunit shedding의 기전 및 Graves' disease 면역원성 가설을 종합. 정량적 사람 in vivo rate 또는 circulating concentration의 기준값은 PubMed 초록에 없음 |
-| [1497642](https://pubmed.ncbi.nlm.nih.gov/1497642/) | Murakami M, Miyashita K, Yamada M, Iriuchijima T, Mori M. *Characterization of human thyrotropin receptor-related peptide-like immunoreactivity in peripheral blood of Graves' disease.* **Biochem Biophys Res Commun.** 1992;186(2):1074-1080. doi:10.1016/0006-291X(92)90856-G. | 사람 혈장 직접 측정 | RIA dilution parallelism, 약 60 kDa 신호, Graves' disease군에서 normal 및 Hashimoto hypothyroidism군보다 유의하게 높은 immunoreactivity를 보고. 색인 초록에는 절대농도/단위 미기재 |
+| [1497642](https://pubmed.ncbi.nlm.nih.gov/1497642/) | Murakami M, Miyashita K, Yamada M, Iriuchijima T, Mori M. *Characterization of human thyrotropin receptor-related peptide-like immunoreactivity in peripheral blood of Graves' disease.* **Biochem Biophys Res Commun.** 1992;186(2):1074-1080. doi:10.1016/0006-291X(92)90856-G. | 사람 혈장 직접 측정 | RIA dilution parallelism, 약 60 kDa 신호, Graves' disease군에서 normal 및 Hashimoto hypothyroidism군보다 유의하게 높은 immunoreactivity를 보고. 색인 초록에는 절대농도/단위 미기재. 원문 미검토이므로 논문 내 수치 부재를 뜻하지 않음 |
 | [6244931](https://pubmed.ncbi.nlm.nih.gov/6244931/) | Hashizume K, DeGroot LJ. *Release of thyrotropin receptor from thyroid plasma membranes: effect of hydrocortisone, propranolol, and adenosine 3',5'-monophosphate.* **Endocrinology.** 1980;106(5):1463-1468. doi:10.1210/endo-106-5-1463. | 간접, 비생리적 in vitro | bovine membrane/hypotonic buffer에서 receptor release를 관찰. 저자도 비생리적 조건임을 명시하므로 사람 shedding rate 또는 circulating concentration 근거로 사용하지 않음 |
 | [9685994](https://pubmed.ncbi.nlm.nih.gov/9685994/) | Misrahi M, Couet J, Milgrom E. *[Mechanisms of shedding of a soluble form of the TSH receptor].* **Ann Endocrinol (Paris).** 1997;58(5):365-369. DOI 미등재. | 종설/기전 요약 | PMID와 프랑스어 제목의 레코드 실재를 확인. PMID 8626810의 기전과 부합하지만 독립적인 rate 또는 농도값은 없음 |
 
@@ -78,17 +79,21 @@ inputs:
 - shed A-subunit의 혈중 반감기
 - 정상인, Graves' disease 또는 TED에서 재현된 절대 circulating concentration reference range
 
-**판정:** biological phenomenon은 확인되지만, JHA-83에서 요구한 의미의 정량적 shedding rate는 현재 PubMed 문헌으로 **미확립(not established)** 이다. 이는 "0" 또는 "낮음"을 뜻하지 않는다.
+**판정:** biological phenomenon은 확인되지만, 이번 abstract-index 검색에서는 JHA-83에서 요구한 정량적 shedding rate를 **확인하지 못했다(not resolved)**. 이는 rate가 "0" 또는 "낮음"이거나, 전문을 포함한 문헌 전체에 수치가 없다는 뜻이 아니다.
 
 ## Circulating soluble TSHR concentration 평가
+
+### 원문 접근 및 검토 상태
+
+PMID 1497642는 이 질문의 유일한 직접 사람 혈장 연구이므로 초록 확인만으로 완료 처리할 수 없다. PubMed/Europe PMC, Crossref, OpenAlex, Semantic Scholar 메타데이터를 대조했으나 2026-09-24 현재 공개 원문 또는 공개 PDF를 확인하지 못했다. OpenAlex와 Semantic Scholar는 이 논문을 closed access로 표시하고 Europe PMC는 `isOpenAccess: N`, `inPMC: N`, `hasPDF: N`으로 반환했다. 따라서 현재 결과는 **abstract-index review**이며, 논문 전문의 표·그림·Methods/Results에 절대농도가 있는지는 아직 미검증이다.
 
 PMID 1497642가 사람 peripheral blood에서 가장 직접적인 후보이나, 해당 assay는 TSHR amino acids 32-56 합성 peptide에 대한 antiserum으로 측정한 `TSHRP-1-like immunoreactivity`이다. 약 60 kDa라는 분자량 및 질환군 차이는 soluble extracellular-domain 가설과 일치하지만 다음 이유로 현대적인 intact/shed TSHR 농도 기준값으로 바로 사용할 수 없다.
 
 - epitope-specific immunoreactivity이며 molecular identity를 완전히 확정하지 않음
-- PubMed 초록에 절대 수치 및 단위가 없음
+- PubMed 초록에 절대 수치 및 단위가 없으나, 원문에 수치가 없다는 의미는 아님
 - 후속 독립 cohort 또는 표준화된 assay reference range를 이번 live search에서 확인하지 못함
 
-그러므로 molar concentration으로의 변환, tissue-to-plasma partition 또는 decoy occupancy 계산은 보류한다. 원문 전문을 합법적으로 확보하면 우선 확인할 항목은 각 군의 `mean/median`, 분산, 표본수, 표준물질, 회수율, 검출한계 및 dilution linearity이다.
+그러므로 현재 molar concentration으로의 변환, tissue-to-plasma partition 또는 decoy occupancy 계산은 보류한다. 원문 전문을 합법적으로 확보하면 우선 확인할 항목은 각 군의 `mean/median`, 분산, 표본수, 표준물질, 회수율, 검출한계 및 dilution linearity이다.
 
 ## eTPD 분자설계에 대한 결정
 
@@ -108,4 +113,11 @@ PMID 1497642가 사람 peripheral blood에서 가장 직접적인 후보이나, 
 
 ## 최종 판정과 완료 조건
 
-PubMed live search는 정상 응답했고, 핵심 후보 PMID와 서지사항을 PubMed 원문 레코드에서 직접 검증했으며, shedding rate 및 circulating soluble TSHR concentration의 정량 근거 유무까지 평가했다. **검색은 성공했으므로 문서 상태를 `done`으로 변경한다.** `done`은 수치가 존재함을 뜻하는 것이 아니라, 현재 공개·색인 문헌에서 수치가 확립되지 않았다는 negative finding까지 포함해 JHA-83의 검색 작업을 완료했다는 뜻이다.
+PubMed live search와 후보 PMID/서지사항 검증은 성공했다. 그러나 유일한 직접 사람 혈장 연구(PMID 1497642)는 초록만 검토했고 원문 내 정량값 유무를 아직 확인하지 못했다. 따라서 review comment에 따라 문서 상태를 **`in-review`로 유지**하며, 현재 결과를 "정량 evidence 부재"가 아니라 "abstract-index 검색에서 정량 evidence 미확인"으로 제한한다.
+
+`done` 전환 조건:
+
+1. PMID 1497642 전문을 합법적으로 확보해 표·그림·Methods/Results의 군별 농도, 단위, 표준물질 및 assay 성능을 직접 검토한다.
+2. 수치가 있으면 그대로 추출하고 modern intact/shed TSHR 농도로 사용할 수 있는지 한계를 평가한다.
+3. 수치가 없으면 그 negative finding을 전문 검토 근거와 함께 기록한다.
+4. 위 검토가 불가능한 채 deliverable 범위를 abstract-only search로 축소하려면 사용자의 명시적 승인을 받는다.
