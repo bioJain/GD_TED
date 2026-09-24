@@ -17,7 +17,7 @@ inputs:
 ## 1. 범위와 해석 원칙
 
 - 대상: 성인 Graves' hyperthyroidism의 일반 경로와 재발, 임신, 소아 등 별도 환자군
-- 근거 시점: Biomni v2 data cut인 2026-09-10. URL 확인일도 2026-09-10으로 통일
+- 근거 시점: Biomni v2 data cut인 2026-09-10. 미확인 수치 보완을 위한 PubMed live search는 별도로 2026-09-24 수행하고 해당 참고문헌에 확인일 명시
 - 아래의 `1차 -> 2차 -> 재발/불응`은 실무용 순서화. 모든 환자에게 강제되는 보편적 단계 규칙은 아님
 - 미국 ATA는 overt GD의 초기 치료로 ATD, RAI, thyroidectomy를 모두 허용. 유럽 ETA는 newly diagnosed GD에서 ATD를 기본으로 두되 환자 선호에 따라 RAI 또는 thyroidectomy도 초기 선택 가능[1,2]
 - 따라서 `2차`는 주로 ATD 실패 후의 위치를 뜻하며, RAI와 thyroidectomy가 반드시 ATD 뒤에만 가능하다는 의미가 아님
@@ -26,10 +26,10 @@ inputs:
 
 | 실무 단계 | 대상/진입 조건 | 치료와 기간 | 평가 endpoint | 다음 선택 | 놓치는 환자군/미충족 수요 | remission/지속성 수치 |
 |---|---|---|---|---|---|---|
-| **1차: ATD** | Newly diagnosed 성인 GD. 대부분 MMI/CMZ 선택. 임신 제1삼분기는 PTU 예외 | MMI 약 **12-18개월**. TSH와 TRAb/TSHR-Ab 정상 시 중단 고려. 지속 고 TRAb이면 MMI를 **추가 12개월** 지속하거나 definitive therapy 선택[1,2] | 복용 중 biochemical control, off-ATD normalization, durable off-treatment remission을 분리. 중단 전 TRAb로 remission 가능성 평가 | 중단 후 relapse, 약물 불내성, poor control이면 RAI 또는 thyroidectomy. 환자 선호 시 장기 low-dose MMI 가능[1,2] | 12-18개월 후 비관해/재발, agranulocytosis/hepatotoxicity 위험, adherence 불량, 큰 goiter/압박, 빠른 definitive control 필요, 임신/임신 계획 | **성인 guideline population의 단일 remission 비율: 자료 미확인.** 입력 자료는 서로 다른 기간과 endpoint의 연구를 단일 수치로 통합하지 않음. 참고 가능한 제한적 근거로 중국 단일기관 n=103에서 MMI 중단 후 **1년 내 relapse 35%** 보고[3] |
-| **2차: definitive therapy, RAI** | ATD 후 relapse/poor control, ATD 부작용, 또는 초기부터 definitive therapy 선호. Pregnancy/lactation 및 TED 위험 별도 평가 | 미국 기준 통상 **10-15 mCi 단회**, 첫 **1-2개월** 평가 후 **4-6주** 간격으로 **6개월** 또는 안정화까지 monitoring[1] | Euthyroidism, hypothyroidism, persistent hyperthyroidism, retreatment를 구분. Destructive thyroid-source control을 autoimmune remission 또는 TED cure로 표현하지 않음 | **6개월** 후 persistent hyperthyroidism이면 repeat RAI 고려. Minimal response이면 선택적으로 **3개월**부터 추가 RAI 고려. 상황에 따라 surgery/ATD[1] | 임신/수유에서는 금기. Active/severe TED 또는 TED 악화 고위험군, 방사선 회피 선호, 큰 goiter/압박, 신속한 control 필요 환자에서 부적합 가능[2] | **Durable off-treatment remission 비율: 해당 없음/자료 미확인.** 목표가 흔히 hypothyroidism 유도 후 replacement인 destructive control이므로 ATD remission과 같은 지표로 비교하지 않음 |
-| **2차: definitive therapy, thyroidectomy** | ATD 후 relapse/poor control/불내성, RAI 부적합, 큰 goiter/압박 또는 malignancy 의심, 빠른 control 필요, 또는 초기 수술 선호 | Total 또는 near-total thyroidectomy. 수술 전 ATD와 필요 시 beta-blockade로 euthyroid 상태 유도, 수술 직전 KI-containing preparation[1,2] | 신속한 thyroid-source control, 수술 합병증, 이후 thyroid hormone replacement. Autoimmune remission/TED outcome과 분리 | 수술 부적합이면 RAI 또는 ATD. Persistent biochemical disease이면 진단과 잔존 조직 재평가 | High-volume surgeon 접근 제한, hypoparathyroidism, recurrent laryngeal nerve injury, 출혈/마취 위험, 평생 replacement 부담 | **수술 후 biochemical control/remission 비율: 자료 미확인.** 입력의 guideline anchor는 procedure 선택과 준비를 지지하지만 정량 비율을 제공하지 않음 |
-| **재발/불응: prior-therapy-specific rescue** | ATD 중단 후 relapse, ATD intolerance/poor control, RAI 후 persistence를 서로 다른 failure state로 분류 | Post-ATD relapse: RAI 또는 thyroidectomy, 선호 시 장기 low-dose MMI. Post-RAI persistence: repeat RAI, surgery 또는 ATD[1,2] | ATD relapse와 RAI persistence를 하나의 반응률로 합치지 않음. 현재 biochemical control과 치료 중단 후 durability도 분리 | 이전 modality, adverse event, TED, goiter, 임신 계획, comorbidity, 환자 선호에 따라 alternate modality | 반복 ATD toxicity, 반복 RAI/수술 위험, persistent thyrotoxicosis의 cardiovascular risk. 기존 치료로 durable remission에 도달하지 못한 환자 | **통합 remission 비율: 자료 미확인.** Failure state와 후속 modality가 이질적이므로 단일 수치 산출 부적절 |
+| **1차: ATD** | Newly diagnosed 성인 GD. 대부분 MMI/CMZ 선택. 임신 제1삼분기는 PTU 예외 | MMI 약 **12-18개월**. TSH와 TRAb/TSHR-Ab 정상 시 중단 고려. 지속 고 TRAb이면 MMI를 **추가 12개월** 지속하거나 definitive therapy 선택[1,2] | 복용 중 biochemical control, off-ATD normalization, durable off-treatment remission을 분리. 중단 전 TRAb로 remission 가능성 평가 | 중단 후 relapse, 약물 불내성, poor control이면 RAI 또는 thyroidectomy. 환자 선호 시 장기 low-dose MMI 가능[1,2] | 12-18개월 후 비관해/재발, agranulocytosis/hepatotoxicity 위험, adherence 불량, 큰 goiter/압박, 빠른 definitive control 필요, 임신/임신 계획 | 성인 RCT에서 MMI 중단 후 **84개월 relapse-free 44%**(통상군, median 18개월 치료) 대 **83%**(장기군, 60-120개월 치료). 재발은 각각 **56%**와 **17%**[8]. 특정 단일 RCT 결과이며 전체 guideline population의 고정 remission 비율로 일반화하지 않음 |
+| **2차: definitive therapy, RAI** | ATD 후 relapse/poor control, ATD 부작용, 또는 초기부터 definitive therapy 선호. Pregnancy/lactation 및 TED 위험 별도 평가 | 미국 기준 통상 **10-15 mCi 단회**, 첫 **1-2개월** 평가 후 **4-6주** 간격으로 **6개월** 또는 안정화까지 monitoring[1] | Euthyroidism, hypothyroidism, persistent hyperthyroidism, retreatment를 구분. Destructive thyroid-source control을 autoimmune remission 또는 TED cure로 표현하지 않음 | **6개월** 후 persistent hyperthyroidism이면 repeat RAI 고려. Minimal response이면 선택적으로 **3개월**부터 추가 RAI 고려. 상황에 따라 surgery/ATD[1] | 임신/수유에서는 금기. Active/severe TED 또는 TED 악화 고위험군, 방사선 회피 선호, 큰 goiter/압박, 신속한 control 필요 환자에서 부적합 가능[2] | 단일기관 370 MBq cohort(n=160)에서 **1년 thyroid-source control 81%**, 이 중 **61.8%가 hypothyroidism**으로 replacement 필요[9]. 이는 euthyroid와 hypothyroid를 합한 연구 정의상 `cure`이며 durable autoimmune remission 아님 |
+| **2차: definitive therapy, thyroidectomy** | ATD 후 relapse/poor control/불내성, RAI 부적합, 큰 goiter/압박 또는 malignancy 의심, 빠른 control 필요, 또는 초기 수술 선호 | Total 또는 near-total thyroidectomy. 수술 전 ATD와 필요 시 beta-blockade로 euthyroid 상태 유도, 수술 직전 KI-containing preparation[1,2] | 신속한 thyroid-source control, 수술 합병증, 이후 thyroid hormone replacement. Autoimmune remission/TED outcome과 분리 | 수술 부적합이면 RAI 또는 ATD. Persistent biochemical disease이면 진단과 잔존 조직 재평가 | High-volume surgeon 접근 제한, hypoparathyroidism, recurrent laryngeal nerve injury, 출혈/마취 위험, 평생 replacement 부담 | 홍콩 population cohort(n=6,385, median follow-up 90개월)의 first-line treatment 비교에서 relapse **2.41%**(수술), **19.53%**(RAI), **75.60%**(ATD)[10]. 비무작위 후향 cohort이므로 selection bias 가능성이 있고 autoimmune remission 수치가 아님 |
+| **재발/불응: prior-therapy-specific rescue** | ATD 중단 후 relapse, ATD intolerance/poor control, RAI 후 persistence를 서로 다른 failure state로 분류 | Post-ATD relapse: RAI 또는 thyroidectomy, 선호 시 장기 low-dose MMI. Post-RAI persistence: repeat RAI, surgery 또는 ATD[1,2] | ATD relapse와 RAI persistence를 하나의 반응률로 합치지 않음. 현재 biochemical control과 치료 중단 후 durability도 분리 | 이전 modality, adverse event, TED, goiter, 임신 계획, comorbidity, 환자 선호에 따라 alternate modality | 반복 ATD toxicity, 반복 RAI/수술 위험, persistent thyrotoxicosis의 cardiovascular risk. 기존 치료로 durable remission에 도달하지 못한 환자 | **통합 remission 비율: 산출하지 않음.** Failure state, 후속 modality, endpoint가 이질적이므로 단일 수치보다 위의 modality별 결과를 사용 |
 
 ## 3. Endpoint taxonomy
 
@@ -68,11 +68,21 @@ inputs:
 ## 6. 수치 사용에 대한 결론
 
 - 확인된 duration: 성인 ATD 12-18개월, persistent high TRAb에서 추가 12개월 선택, RAI 후 6개월까지 monitoring과 persistence 평가[1,2]
-- 확인된 제한적 relapse 수치: MMI 중단 후 1년 내 35%. 단일기관 중국 코호트 n=103이므로 전체 성인 GD에 일반화하지 않음[3]
-- 성인 ATD의 단일 remission 비율, RAI의 durable off-treatment remission 비율, thyroidectomy의 autoimmune remission 비율: **자료 미확인**
-- 미확인 사유: 입력 자료가 on-treatment control, off-ATD normalization, durable off-treatment remission, relapse, destructive/surgical control을 분리하며, 서로 다른 endpoint와 추적기간을 하나의 `remission` 값으로 합산하지 않기 때문
+- ATD: MMI 통상 치료군의 84개월 relapse-free 44%와 장기 치료군의 83%를 확인. 장기 투여가 통상 투여보다 재발을 낮춘 RCT 결과이나, 연구 대상과 protocol을 벗어난 일반화는 제한[8]
+- RAI: 1년 thyroid-source control 81%를 확인. 61.8%가 hypothyroidism이므로 이를 durable off-treatment remission으로 부르지 않음[9]
+- Thyroidectomy: 장기 real-world cohort의 relapse 2.41%를 확인. 비무작위 치료 선택에 따른 confounding 가능성이 있어 modality 간 인과 비교로 해석하지 않음[10]
+- 재발/불응 전체를 포괄하는 단일 remission 비율과 thyroidectomy 후 autoimmune remission 비율: **자료 미확인/단일 산출 부적절**. 서로 다른 endpoint와 추적기간을 합산하지 않음
 
-## 7. 근거 추적
+## 7. PubMed 보완 검색 기록
+
+| 검색일 | 검색 경로/검색어 | 채택 근거 | 제외 또는 해석 제한 |
+|---|---|---|---|
+| 2026-09-24 | PubMed E-utilities: `Graves methimazole randomized trial long term remission recurrence` | 성인 randomized trial의 치료기간별 장기 relapse 수치 채택[8] | Conventional duration과 long-term regimen의 추적조건이 달라 guideline 전체 비율로 확대 금지 |
+| 2026-09-24 | PubMed E-utilities: `Graves radioactive iodine treatment success cohort hypothyroidism` | 최신 단일기관 cohort의 1년 euthyroid/hypothyroid composite와 hypothyroidism 비율 채택[9] | 단일기관, retrospective, 연구 정의상 cure가 autoimmune remission과 다름 |
+| 2026-09-24 | PubMed E-utilities: DOI `10.1097/SLA.0000000000004828` | 세 modality를 비교한 population-based long-term cohort의 relapse 수치 채택[10] | First-line observational comparison으로 indication/selection confounding 가능 |
+| 2026-09-24 | PubMed E-utilities: `Graves total thyroidectomy recurrence systematic review` | Total thyroidectomy가 subtotal thyroidectomy보다 recurrent hyperthyroidism을 낮춘 방향성 확인[11] | OR 중심 meta-analysis로 현재 표의 절대 relapse 수치에는 cohort[10] 사용 |
+
+## 8. 근거 추적
 
 주요 행 키: `SOC-US-GD-ADULT-ATD`, `SOC-US-GD-ADULT-RAI`, `SOC-US-GD-ADULT-THYROIDECTOMY`, `SOC-US-GD-RELAPSE-REFRACTORY`, `SOC-EU-GD-ADULT-ATD`, `SOC-EU-GD-RELAPSE-REFRACTORY`, `SOC-UK-GD-*`, `SOC-KR-GD-*`, `SOC-JP-GD-*`.
 
@@ -83,3 +93,7 @@ inputs:
 5. National Institute for Health and Care Excellence. Thyroid disease: assessment and management, NG145. Anchors UK-NICE-NG145-1.6.10/1.6.11/1.6.12/1.6.13/1.6.14/1.6.22/1.6.26/1.7.1/1.7.11. https://www.nice.org.uk/guidance/ng145 (확인일: 2026-09-10)
 6. Korean Thyroid Association. 2025 Korean Thyroid Association Management Guidelines for Radioactive Iodine Therapy in Patients with Hyperthyroidism. Source ID 28. https://www.e-enm.org/upload/pdf/enm-2025-2464.pdf (확인일: 2026-09-10)
 7. Japan Thyroid Association. バセドウ病治療ガイドライン2019, guideline at a glance. Source ID 40. Anchors JP-JTA2019-BCQ1/BCQ2/BCQ6/BCQ7/BCQ26/BCQ28/BCQ30/BCQ32/BCQ33/BCQ34/BCQ35/BCQ36/FCQ1/FCQ4/FCQ5. https://www.jstage.jst.go.jp/article/naika/111/11/111_2279/_pdf (확인일: 2026-09-10)
+8. Azizi F, et al. Risk of recurrence at the time of withdrawal of short- or long-term methimazole therapy in patients with Graves' hyperthyroidism: a randomized trial and a risk-scoring model. Endocrine. 2024;84(2):577-588. PMID: 38165576. https://pubmed.ncbi.nlm.nih.gov/38165576/ (확인일: 2026-09-24)
+9. Montebello A, et al. Factors predicting cure at one year after administration of radioactive iodine to patients with Graves' disease. Hellenic J Nucl Med. 2025;28(3):196-199. PMID: 41389254. https://pubmed.ncbi.nlm.nih.gov/41389254/ (확인일: 2026-09-24)
+10. Liu X, et al. Outcomes of Graves' Disease Patients Following Antithyroid Drugs, Radioactive Iodine, or Thyroidectomy as the First-line Treatment. Ann Surg. 2021;273(6):1197-1206. PMID: 33914484. https://pubmed.ncbi.nlm.nih.gov/33914484/ (확인일: 2026-09-24)
+11. Feroci F, et al. A systematic review and meta-analysis of total thyroidectomy versus bilateral subtotal thyroidectomy for Graves' disease. Surgery. 2014;155(3):529-540. PMID: 24230962. https://pubmed.ncbi.nlm.nih.gov/24230962/ (확인일: 2026-09-24)
