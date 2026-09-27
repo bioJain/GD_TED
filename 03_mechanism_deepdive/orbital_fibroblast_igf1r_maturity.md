@@ -16,10 +16,10 @@ inputs:
 
 | 분화경로 | 종합 grade | 직접 human in vitro | 직접 in vivo | 판정 |
 |---|---:|---|---|---|
-| adipocyte | **B** | **있음, 반복됨.** 환자 유래 orbital adipose-derived stromal cell(이하 OADSC)에서 IGF-1 자극, IGF-1R antibody 차단 및 downstream PI3K 차단으로 lipid accumulation과 adipogenic marker 변화를 확인[2]. 독립 연구에서도 linsitinib이 TED orbital fibroblast(이하 OF) adipogenesis를 억제[8] | **제한적/비선택적.** TED mouse에서 linsitinib이 orbital brown adipose tissue 형성을 낮췄으나 IGF-1R/IR dual inhibitor이고 면역/갑상선 효과가 병존[5]. dual TSHR/IGF1R CRISPR도 mouse 및 organoid의 adipogenesis를 억제했으나 IGF1R 단독 인과효과와는 구분 불가[10] | IGF-1R이 adipogenic program을 촉진한다는 세포수준 인과성은 비교적 성숙. 그러나 OF lineage에 한정된 IGF1R 단독 perturbation의 in vivo 검증은 미완료 |
+| adipocyte | **B, lower confidence** | **있음, target-specific 연구 1건.** 환자 유래 orbital adipose-derived stromal cell(이하 OADSC)에서 IGF-1 자극, IGF-1R antibody 차단 및 downstream PI3K 차단으로 lipid accumulation과 adipogenic marker 변화를 확인[2]. 별도 linsitinib 연구[8]는 IGF-1R/IR dual inhibition이므로 direct replication이 아니라 supportive evidence로만 분류 | **제한적/비선택적.** TED mouse에서 linsitinib이 orbital brown adipose tissue 형성을 낮췄으나 IGF-1R/IR dual inhibitor이고 면역/갑상선 효과가 병존[5]. dual TSHR/IGF1R CRISPR도 mouse 및 organoid의 adipogenesis를 억제했으나 IGF1R 단독 인과효과와는 구분 불가[10] | 단일 human in vitro 연구가 IGF-1R-specific 인과성을 직접 지지하고 여러 비선택적 연구의 방향이 일치함. 다만 target-specific 독립 재현 및 OF lineage 한정 in vivo 검증은 미완료 |
 | myofibroblast | **C** | **직접 근거 부족.** TGF-β 유도 fibrosis assay와 IGF-1R 감소가 함께 관찰된 RBM47 knockdown 연구는 있으나, IGF1R 자체를 조작하여 α-SMA/collagen/contraction을 rescue한 실험은 아님[9] | **직접 근거 없음.** linsitinib mouse 연구는 inflammation, muscle edema, adipose tissue 개선을 보였지만 IGF-1R 의존적 myofibroblast fate 억제를 입증하지 않음[5]. dual CRISPR 연구의 fibrosis 개선도 두 receptor 동시 편집 결과[10] | IGF-1R이 OF의 myofibroblast commitment를 직접 구동한다는 주장은 현재 가설/간접근거 수준. TGF-β 중심 fibrosis biology와 IGF-1R pathway를 동일시하면 안 됨 |
 
-**핵심 해석:** IGF-1R의 기능 근거는 두 OF fate에 대칭적이지 않음. **adipocyte 경로는 direct human in vitro evidence가 있으나 in vivo target attribution이 제한된 B**, **myofibroblast 경로는 lineage-specific direct evidence가 부족한 C**로 판정함. Teprotumumab의 임상 효능은 IGF-1R pathway의 TED relevance를 강하게 지지하지만, proptosis/CAS/diplopia 같은 임상 endpoint만으로 adipogenesis와 fibrosis 중 어느 fate가 얼마나 매개되었는지는 분리할 수 없으므로 이 grading의 직접 근거로 승격하지 않음[11,12].
+**핵심 해석:** IGF-1R의 기능 근거는 두 OF fate에 대칭적이지 않음. **adipocyte 경로는 target-specific human in vitro evidence 1건과 복수의 supportive evidence가 있으나 독립적 target-specific 재현 및 in vivo attribution이 제한된 B, lower confidence**, **myofibroblast 경로는 lineage-specific direct evidence가 부족한 C**로 판정함. Teprotumumab의 임상 효능은 IGF-1R pathway의 TED relevance를 강하게 지지하지만, proptosis/CAS/diplopia 같은 임상 endpoint만으로 adipogenesis와 fibrosis 중 어느 fate가 얼마나 매개되었는지는 분리할 수 없으므로 이 grading의 직접 근거로 승격하지 않음[11,12].
 
 ## 1. Evidence grade 정의
 
@@ -28,7 +28,7 @@ inputs:
 | Grade | 사전 정의 | 이 문서에서 요구하는 최소 근거 |
 |---|---|---|
 | **A, established** | target-specific in vivo 인과성과 human relevance가 모두 확인됨 | IGF1R 선택적 genetic/pharmacologic perturbation이 적절한 TED in vivo model에서 해당 lineage endpoint를 변화시키고, human OF 또는 조직에서 방향이 일치. 가능하면 독립 재현 또는 임상 tissue/biomarker 연결 포함 |
-| **B, supported** | 직접 in vitro 인과성은 재현되었으나 in vivo attribution에 중요한 제한 존재 | 환자 유래 OF에서 ligand/receptor perturbation과 fate-specific endpoint가 확인되고 독립 근거가 있음. in vivo가 없거나, 약물의 다른 target/전신효과/복합 perturbation 때문에 IGF1R 단독효과를 분리하지 못함 |
+| **B, supported** | 직접 in vitro 인과성이 확인되었으나 재현성 또는 in vivo attribution에 중요한 제한 존재 | 환자 유래 OF에서 target-specific ligand/receptor perturbation과 fate-specific endpoint가 확인되고, 별도의 human tissue/비선택적 perturbation/in vivo 근거 중 하나 이상이 같은 방향을 지지. target-specific 독립 재현이 없으면 **lower confidence**를 병기 |
 | **C, preliminary/indirect** | 연관 또는 간접 perturbation 중심 | expression/correlation, upstream regulator 조작, 혼합 endpoint, 단일 탐색 연구. IGF1R 자체 조작과 lineage-specific endpoint 사이의 직접 인과 사슬이 불완전 |
 
 Grade는 **2026-09-27 PubMed 검색 기준**이며, A가 “임상 승인”, B가 “동물”, C가 “세포”라는 단순 단계표가 아님. 약물의 target selectivity, 세포 정체성, fate-specific endpoint, rescue 실험 유무를 함께 고려함.
@@ -46,7 +46,7 @@ Grade는 **2026-09-27 PubMed 검색 기준**이며, A가 “임상 승인”, B�
 ### 3.1 직접 근거
 
 1. **환자 유래 세포의 ligand-to-receptor 인과 사슬:** TAO 환자 유래 OADSC에서 IGF-1은 proliferation, lipid accumulation, adiponectin/leptin/AP2/FAS 및 PPARγ를 증가시킴. IGF-1R-blocking antibody 또는 PI3K inhibitor가 이 반응과 Akt phosphorylation을 낮춰 **IGF-1 → IGF-1R → PI3K/Akt → PPARγ → adipogenic differentiation** 축을 직접 지지함[2]. 단, donor 수/질환상태의 일반화 및 in vivo fate tracing은 제한됨.
-2. **독립적 pharmacologic 재현:** TED orbital fat single-nucleus RNA-seq 연구에서 adipogenic transition 증가와 IGF-1R pathway 이상이 함께 관찰되었고, 별도 primary OF 실험에서 linsitinib이 adipogenesis를 억제함[8]. 이는 human tissue association과 functional inhibition의 방향 일치를 제공하나 linsitinib의 IR co-inhibition 제한은 남음.
+2. **독립적 supportive pharmacology, direct replication 아님:** TED orbital fat single-nucleus RNA-seq 연구에서 adipogenic transition 증가와 IGF-1R pathway 이상이 함께 관찰되었고, 별도 primary OF 실험에서 linsitinib이 adipogenesis를 억제함[8]. 이는 human tissue association과 functional inhibition의 방향 일치를 제공하지만, linsitinib이 IR도 억제하므로 IGF-1R-specific 인과실험의 독립 재현으로 계산하지 않음.
 3. **supportive pathway evidence:** TSH/IGF-1R cross-talk 연구들은 IGF-1R blockade가 OF signaling/HA를 줄임을 반복 확인했지만 adipocyte fate 자체를 읽지 않은 경우가 많음[3,4,6,7]. 따라서 pathway plausibility는 강화하되 direct adipogenesis evidence와 구분함.
 
 ### 3.2 in vivo 수준
@@ -57,7 +57,7 @@ Grade는 **2026-09-27 PubMed 검색 기준**이며, A가 “임상 승인”, B�
 
 ### 3.3 왜 A가 아닌가
 
-- human OF in vitro에서는 receptor-blocking antibody를 포함한 직접 근거가 있으므로 C보다 높음.
+- human OF in vitro에서는 receptor-blocking antibody를 포함한 target-specific 직접 근거 1건과 방향이 일치하는 별도 human tissue/pharmacology 근거가 있으므로 C보다 높음. 다만 target-specific 독립 재현이 없어 **B, lower confidence**로 제한함.
 - 그러나 **OF-selective Igf1r loss-of-function 단독군 + lineage tracing 또는 fate-specific histology**를 갖춘 TED animal evidence가 확인되지 않음.
 - Teprotumumab RCT의 proptosis 개선은 임상적으로 매우 중요한 pathway validation이나, 감소한 orbital volume이 기존 adipocyte의 크기/생존, 신규 adipogenesis, HA/edema 또는 inflammation 중 무엇에서 비롯됐는지를 분해하지 않음[11,12]. 따라서 fate-specific A 기준을 충족하지 않음.
 
