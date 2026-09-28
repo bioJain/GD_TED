@@ -24,6 +24,7 @@ data_cut: 2026-09-10
 - Teprotumumab과 veligrotug의 공개 무작위시험에서 위 세 신호가 반복됨. Linsitinib에서는 muscle spasm이 보고됐지만, 공개 결과의 5% reporting threshold 아래 사건은 표에 나타나지 않을 수 있어 hearing AE나 hyperglycemia가 **0건이었다고 해석할 수 없음**.[2-5]
 - Linsitinib의 상대적 특징은 high-dose에서 더 뚜렷한 GI/fatigue/transaminase 신호임. 이는 insulin receptor kinase도 함께 억제하는 oral small molecule이라는 차이를 고려해 해석할 사항이나, 현재 자료만으로 표적별 인과성을 분리할 수 없음.[1,5]
 - Elegrobart는 `pipeline_assets_v2.csv`의 **VRDN-003**에 해당함. MHB-018A와 IBI311을 포함한 이들 개발 자산은 data cut 현재 공개된 수치형 AE 결과가 없어 모두 **미보고**로 표시함. 미보고는 0건과 다름.[1,6]
+- 이슈에 지정된 6개 자산 외에도 현재 `pipeline_assets_v2.csv`에서 target에 IGF-1R이 포함된 IBI3031, AMG 732, ZB001, lonigutamab, NTB003/BCG009를 scope reconciliation 표에 포함함. 따라서 master의 IGF-1R 관련 11개 자산을 누락 없이 확인하되, 상세 AE 표는 공개 수치가 있는 3개 자산과 이슈 지정 3개 미보고 자산을 중심으로 구성함.[1]
 - 아래 수치는 population, dose, 투여경로, 관찰기간, AE 수집 및 coding threshold가 다른 시험의 병렬 기술임. **발생률 순위, 간접비교, pooled estimate로 사용하지 않음.** Figure 4의 selected PRR은 efficacy의 descriptive plot이므로 안전성 비교 근거로 사용하지 않음.
 
 ### 용어 규칙
@@ -42,20 +43,32 @@ data_cut: 2026-09-10
 
 | 자산 / 근거 집단 | 고혈당 / 혈당상승 | 청각 관련 AE | Muscle spasm | 전체 중증도 지표 | 자산별 특이 또는 두드러진 AE |
 |---|---|---|---|---|---|
-| **Teprotumumab**, chronic/low-activity TED, NCT04583735, Week 24, 41 vs placebo 20 | hyperglycemia **6/41 (14.6%)** vs **2/20 (10.0%)** | hearing impairment **9/41 (22.0%)** vs **2/20 (10.0%)**. 별도 preferred term tinnitus **2/41 (4.9%)** vs **2/20 (10.0%)** | **17/41 (41.5%)** vs **3/20 (15.0%)** | SAE **1/41 (2.4%)** vs **1/20 (5.0%)** | fatigue **9/41 (22.0%)** vs **2/20 (10.0%)**; diarrhoea **8/41 (19.5%)** vs **4/20 (20.0%)**; infusion-related reaction **2/41 (4.9%)** vs **3/20 (15.0%)**. 공개 label은 hearing loss가 severe하거나 일부 permanent일 수 있음을 경고함.[2,7] |
-| **Veligrotug (Lumvoa)**, active TED THRIVE, NCT05176639, baseline-Week 52, 75 vs placebo 38 | blood glucose increased **7/75 (9.3%)** vs **1/38 (2.6%)**; hyperglycaemia **2/75 (2.7%)** vs **2/38 (5.3%)**. 서로 다른 preferred term이므로 합산하지 않음 | tinnitus **9/75 (12.0%)** vs **4/38 (10.5%)**; 그 밖의 hearing-related symptoms도 존재하나 항목별 수치는 본 요약 source에서 미보고 | **34/75 (45.3%)** vs **3/38 (7.9%)** | SAE **7/75 (9.3%)** vs **0/38 (0%)** | infusion-related reaction **13/75 (17.3%)** vs **2/38 (5.3%)**; alopecia **11/75 (14.7%)** vs **4/38 (10.5%)**; amenorrhoea **3/34 (8.8%)** vs **0/12 (0%)**.[3] |
-| **Veligrotug**, dose-ranging NCT06384547, baseline-Week 52, 10 mg/kg 173 vs 3 mg/kg 58 | blood glucose increased **10/173 (5.8%)** vs **3/58 (5.2%)** | tinnitus **21/173 (12.1%)** vs **8/58 (13.8%)**; hearing-related events의 세부 합계 미보고 | **77/173 (44.5%)** vs **17/58 (29.3%)** | SAE **10/173 (5.8%)** vs **3/58 (5.2%)**; death **0/173 vs 0/58** | amenorrhoea **23/70 (32.9%)** vs **5/26 (19.2%)**; alopecia **30/173 (17.3%)** vs **6/58 (10.3%)**; infusion-related reaction **14/173 (8.1%)** vs **5/58 (8.6%)**, 이 중 serious **1/173 vs 0/58**.[4] |
+| **Teprotumumab**, chronic/low-activity TED, NCT04583735, Week 24, 41 vs placebo 20 | hyperglycemia **6/41 (14.6%)** vs **2/20 (10.0%)**; grade 미보고 | hearing impairment **9/41 (22.0%)** vs **2/20 (10.0%)**. 별도 preferred term tinnitus **2/41 (4.9%)** vs **2/20 (10.0%)**; grade 미보고 | **17/41 (41.5%)** vs **3/20 (15.0%)**; grade 미보고 | SAE **1/41 (2.4%)** vs **1/20 (5.0%)** | fatigue **9/41 (22.0%)** vs **2/20 (10.0%)**; diarrhoea **8/41 (19.5%)** vs **4/20 (20.0%)**; infusion-related reaction **2/41 (4.9%)** vs **3/20 (15.0%)**. 개별 event grade 미보고. 공개 label은 hearing loss가 severe하거나 일부 permanent일 수 있음을 경고함.[2,7] |
+| **Veligrotug (Lumvoa)**, active TED THRIVE, NCT05176639, baseline-Week 52, 75 vs placebo 38 | blood glucose increased **7/75 (9.3%)** vs **1/38 (2.6%)**; hyperglycaemia **2/75 (2.7%)** vs **2/38 (5.3%)**. 서로 다른 preferred term이므로 합산하지 않음; grade 미보고 | ear discomfort **9/75 (12.0%)** vs **1/38 (2.6%)**; tinnitus **9/75 (12.0%)** vs **4/38 (10.5%)**. 서로 중복 가능하므로 합산하지 않음; grade 미보고 | **34/75 (45.3%)** vs **3/38 (7.9%)**; grade 미보고 | SAE **7/75 (9.3%)** vs **0/38 (0%)** | infusion-related reaction **13/75 (17.3%)** vs **2/38 (5.3%)**; alopecia **11/75 (14.7%)** vs **4/38 (10.5%)**; amenorrhoea **3/34 (8.8%)** vs **0/12 (0%)**. 개별 event grade 미보고.[3] |
+| **Veligrotug**, dose-ranging NCT06384547, baseline-Week 52, 10 mg/kg 173 vs 3 mg/kg 58 | blood glucose increased **10/173 (5.8%)** vs **3/58 (5.2%)**; grade 미보고 | ear discomfort **17/173 (9.8%)** vs **2/58 (3.4%)**; hypoacusis **5/173 (2.9%)** vs **3/58 (5.2%)**; tinnitus **21/173 (12.1%)** vs **8/58 (13.8%)**. preferred term 간 중복 가능; grade 미보고 | **77/173 (44.5%)** vs **17/58 (29.3%)**; grade 미보고 | SAE **10/173 (5.8%)** vs **3/58 (5.2%)**; death **0/173 vs 0/58** | amenorrhoea **23/70 (32.9%)** vs **5/26 (19.2%)**; alopecia **30/173 (17.3%)** vs **6/58 (10.3%)**; infusion-related reaction **14/173 (8.1%)** vs **5/58 (8.6%)**, 이 중 serious **1/173 vs 0/58**. 그 외 event grade 미보고.[4] |
 | **Linsitinib**, active moderate-to-severe TED LIDS, NCT05276063, AE 수집 consent-Week 120, placebo 31 / 75 mg BID 30 / 150 mg BID 29 safety set | 미보고, 공개 AE 표의 5% threshold 아래 사건은 배제될 수 있음 | 미보고, 공개 AE 표의 5% threshold 아래 사건은 배제될 수 있음 | placebo **1/31 (3.2%)**; 75 mg **2/30 (6.7%)**; 150 mg **3/29 (10.3%)** | SAE **1/31 (3.2%)**, **0/30 (0%)**, **2/29 (6.9%)**; death 각 군 **0** | dose별 placebo/75/150 mg: diarrhoea **2/31 (6.5%)/4/30 (13.3%)/6/29 (20.7%)**; nausea **1/31 (3.2%)/3/30 (10.0%)/6/29 (20.7%)**; fatigue **2/31 (6.5%)/6/30 (20.0%)/5/29 (17.2%)**; ALT increased **0/31/3/30 (10.0%)/4/29 (13.8%)**; AST increased **0/31/2/30 (6.7%)/3/29 (10.3%)**. 150 mg SAE는 abnormal ECG T wave와 Guillain-Barré syndrome 각 1명이며 relatedness 미판단.[5] |
 | **Elegrobart (VRDN-003)**, SC IGF-1R mAb, Phase 3 | 미보고 | 미보고 | 미보고 | 미보고 | 공개 수치형 AE 결과 미보고. NCT06812325와 NCT07155668은 TEAE incidence를 endpoint로 두지만 data cut 현재 posted result 없음.[1,6] |
 | **MHB-018A (MHB018A)**, SC IGF-1R mAb, Phase 3 | 미보고 | 미보고 | 미보고 | 미보고 | 공개 수치형 AE 결과 미보고. 등록시험은 protocol 수준이며 결과 미게시.[1,6] |
 | **IBI311**, IGF-1R mAb, active/chronic TED 프로그램 | 미보고 | 미보고 | 미보고 | 미보고 | 공개 수치형 AE 결과 미보고. `pipeline_assets_v2.csv`에 8개 registry trial이 연결되지만 deep-curated safety hypothesis도 미보고.[1,6] |
+
+### 2.1 Pipeline master scope reconciliation
+
+아래 5개 자산은 이슈에 열거된 6개에는 없지만 current master에서 target 문자열에 IGF-1R이 포함되므로 전체 자산 확인 범위에 추가함. `미보고`는 이 문서가 확인한 TED 공개 자료에서 event-level 수치를 찾지 못했다는 뜻이며 전 적응증 안전성 문헌의 체계적 부재 증명이 아님.
+
+| 추가 자산 | Target / master 상태 | TED 수치형 AE 결과 | 처리 |
+|---|---|---|---|
+| IBI3031 | IGF-1R and TSHR / recruiting, early | 미보고 | Early dual-target asset로 별도 추적 |
+| AMG 732 | IGF-1R / active | 미보고 | Registered trial 결과 게시 시 갱신 |
+| ZB001 | IGF-1R / clinical | 미보고 | Registered trial 결과 게시 시 갱신 |
+| Lonigutamab | IGF-1R / registered status completed | 미보고 | 완료 상태와 결과 공개를 구분하여 추적 |
+| NTB003 / BCG009 | IGF-1R / not yet recruiting | 미보고 | Protocol-only 자산으로 유지 |
 
 ## 3. Class-common 후보와 자산별 차이
 
 | 구분 | 관찰 근거 | 해석 경계 |
 |---|---|---|
 | **Class-common 후보: muscle spasm** | Teprotumumab 41.5%, veligrotug 45.3% 및 44.5%, linsitinib 6.7-10.3%에서 보고.[2-5] | 세 자산에서 반복되지만 대조군, dose, 기간이 다름. 단순 백분율로 자산 간 위험 순위를 만들 수 없음 |
-| **Class-common 후보: hearing-related AE** | Teprotumumab hearing impairment 22.0%; veligrotug tinnitus 12.0-12.1%와 기타 hearing-related event 보고. 두 승인자산 label 모두 severe/permanent hearing impairment 가능성과 치료 전/중/후 평가를 경고.[2-4,7,8] | `hearing impairment`, `tinnitus`, audiometric loss는 동일 endpoint가 아님. Linsitinib 및 개발 mAb의 미보고는 0건이 아님 |
+| **Class-common 후보: hearing-related AE** | Teprotumumab hearing impairment 22.0%; veligrotug에서 ear discomfort 9.8-12.0%, tinnitus 12.0-12.1%, hypoacusis 2.9%가 보고됨. 두 승인자산 label 모두 severe/permanent hearing impairment 가능성과 치료 전/중/후 평가를 경고.[2-4,7,8] | `ear discomfort`, `hearing impairment`, `hypoacusis`, `tinnitus`, audiometric loss는 동일 endpoint가 아니며 환자 중복 가능성이 있어 합산하지 않음. Linsitinib 및 개발 mAb의 미보고는 0건이 아님 |
 | **Class-common 후보: hyperglycemia / blood glucose increased** | Teprotumumab hyperglycemia 14.6%; veligrotug에서 blood glucose increased 5.8-9.3% 및 hyperglycaemia 2.7%. Veligrotug label은 임상시험 전체 hyperglycemia 12%와 그중 절반의 baseline diabetes/impaired glucose tolerance를 명시.[2-4,8] | MedDRA preferred term을 임의 합산하지 않음. 기저 diabetes와 검사 빈도의 영향을 받는 신호이며 시험 간 직접비교 불가 |
 | **반복되지만 투여경로 영향도 가능한 신호: infusion reaction** | IV teprotumumab과 IV veligrotug에서 보고.[2-4] | IGF-1R 표적 자체보다 IV biologic 투여 관련 가능성을 분리할 수 없음. Oral linsitinib 또는 SC 개발자산에 일반화하지 않음 |
 | **Teprotumumab/veligrotug에서 반복: alopecia, GI, reproductive/menstrual event** | Veligrotug에서 alopecia와 amenorrhoea 수치 확인; teprotumumab의 pivotal/label 및 chronic trial에서 alopecia/GI/menstrual event 계열이 알려져 있음.[2-4,7] | 성별 위험집단 denominator와 coding이 다름. 계열 전체 공통으로 확정하기에는 공개 자산 수가 제한적 |
@@ -72,19 +85,19 @@ data_cut: 2026-09-10
 
 ## 5. Source notes
 
-1. `pipeline_assets_v2.csv`, asset keys `Teprotumumab`, `Veligrotug (Lumvoa)`, `Linsitinib`, `VRDN-003`, `MHB018A`, `IBI311`; data cut 2026-09-10. 자산, target, 개발단계, trial crosswalk에 사용.
+1. `pipeline_assets_v2.csv`, asset keys `Teprotumumab`, `Veligrotug (Lumvoa)`, `Linsitinib`, `VRDN-003`, `MHB018A`, `IBI311`, `IBI3031`, `AMG 732`, `ZB001`, `Lonigutamab`, `NTB003 / BCG009`; data cut 2026-09-10. 자산, target, 개발단계, trial crosswalk에 사용.
 2. `clinical_trials_v2.csv`, trial_id `NCT04583735`, `safety_results`; frozen ClinicalTrials.gov result record `NCT04583735`. Week 24 teprotumumab 결과.
 3. `clinical_trials_v2.csv`, trial_id `NCT05176639`, `safety_results`; frozen ClinicalTrials.gov result record `NCT05176639`; Biomni v2 sources [230], [713], [829]. THRIVE Week 52 결과.
 4. `clinical_trials_v2.csv`, trial_id `NCT06384547`, `safety_results`; frozen ClinicalTrials.gov result record `NCT06384547`; Biomni v2 source [859]. Dose-ranging Week 52 결과.
 5. `clinical_trials_v2.csv`, trial_id `NCT05276063`, `safety_results`; frozen ClinicalTrials.gov result record `NCT05276063`; Biomni v2 sources [714], [715], [831]. LIDS 결과와 5% AE reporting threshold.
 6. `clinical_trials_v2.csv`, trial_id `NCT06625398`, `NCT06625411`, `NCT06812325`, `NCT07155668`, `NCT07211776` (VRDN-003); `NCT06989918`, `NCT07257185`, `NCT07262476`, `NCT07620405`, `NCT07622108`, `NCT07622121` (MHB018A); `NCT05795621`, `NCT06126783`, `NCT06269393`, `NCT06525506`, `NCT07113262`, `NCT07152340`, `NCT07152366`, `NCT07152392` (IBI311). 모두 data cut에서 수치형 posted safety result 미확인.
-7. DailyMed/FDA prescribing information, TEPEZZA, Biomni v2 source [728], anchors `US-TEPEZZA-LABEL-HEARING`, `US-TEPEZZA-LABEL-HYPERGLYCEMIA`.
-8. FDA prescribing information, LUMVOA, Biomni v2 source [373], anchors `US-LUMVOA-LABEL-HEARING`, `US-LUMVOA-LABEL-HYPERGLYCEMIA`, `US-LUMVOA-LABEL-IBD`.
+7. DailyMed/FDA prescribing information, TEPEZZA, Biomni v2 source [728], anchors `US-TEPEZZA-LABEL-HEARING`, `US-TEPEZZA-LABEL-HYPERGLYCEMIA`. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce
+8. FDA prescribing information, LUMVOA, Biomni v2 source [373], anchors `US-LUMVOA-LABEL-HEARING`, `US-LUMVOA-LABEL-HYPERGLYCEMIA`, `US-LUMVOA-LABEL-IBD`. https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761530Orig1s000lbl.pdf
 9. `00_legacy_unsorted/GD_TED_report.md`, Section C3, refs [45-47]. Teprotumumab 실사용 청각 AE의 측정법 및 reversibility 불확실성 맥락.
 
 ## 6. QA self-check
 
-- [x] 요청된 6개 자산(teprotumumab, linsitinib, veligrotug, elegrobart/VRDN-003, MHB-018A, IBI311) 모두 포함
+- [x] 요청된 6개 자산(teprotumumab, linsitinib, veligrotug, elegrobart/VRDN-003, MHB-018A, IBI311)과 current master의 추가 IGF-1R 관련 5개 자산 모두 확인
 - [x] class-common 후보와 자산별 신호를 분리하고 class 인과성의 불확실성 명시
 - [x] 공개된 AE는 `n/N (%)`, 관찰기간, comparator/dose와 함께 제시
 - [x] 수치가 없는 경우 `미보고`로 표시하고 `0건`과 구분
