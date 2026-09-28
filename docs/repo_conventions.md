@@ -46,9 +46,20 @@ inputs:                    # 이 산출물이 읽은 repo 내 파일(상대경�
   linear_issue: JHA-86
   ```
 
-- Deck에 실제로 쓰는 figure는 raw 그대로 삽입하지 않고, `06_deck/figures/`(또는 해당 cluster의 `figures_v2/`와 동일한 패턴)에 재작업한 SVG/PNG로 둔다. raw는 참고/근거 보존용이고, 재작업본만 최종 산출물에 들어간다.
+- Deck에 최종적으로 들어가는 figure는 raw 그대로 삽입하지 않고, `06_deck/figures/`(또는 해당 cluster의 `figures_v2/`와 동일한 패턴)에 재작업한 SVG/PNG로 둔다. raw는 참고/근거 보존용이고, 재작업본만 최종 산출물에 들어간다.
 - 재작업본의 frontmatter/메타에 `derived_from: <raw figure 경로>`를 적어 원본과의 연결을 남긴다.
 - PDF에서 embedded figure를 그대로 뽑을 때는 `PyMuPDF`(fitz), 페이지 레이아웃 일부를 크롭할 때는 `pdf2image` + bbox crop, 표는 `camelot`/`pdfplumber`를 기본으로 쓴다. 도구가 다르면 `.meta.yaml`의 `extraction_method`를 갱신한다.
+
+### Deck 배치 워크플로우 (draft → 확정 → 재작업 → 배치)
+
+Figure 재작업을 매 슬라이드마다 먼저 끝내고 배치/수정하는 방식은 무겁다. 대신 레이아웃을 먼저 확정한 뒤에만 재작업을 진행한다.
+
+1. **초안 deck (draft)**: 슬라이드별로 figure가 들어갈 자리를 box outline으로만 표시한다. box 안에는 최종 그림 대신 `[FIGURE: <raw figure 경로 또는 source_doc#page>]` 식으로 어떤 raw로부터 어떤 재작업본이 들어갈지 텍스트로 명시한다. 이 단계에서는 재작업을 하지 않는다.
+2. **레이아웃 검토**: 유저가 초안 deck 전체를 보고 figure 배치/구성(어떤 그림을 쓸지, 슬라이드당 몇 개, 위치)을 수정한다. 필요하면 box 자체를 옮기거나 빼거나 다른 raw로 바꾼다.
+3. **레이아웃 확정 후 재작업**: 확정된 box 목록만큼만 개별 figure를 재작업한다(SVG/PNG, `derived_from` 메타 포함). 확정 전 box에 대해서는 재작업하지 않는다.
+4. **최종 배치**: 재작업본을 확정된 box 자리에 넣어 deck을 완성한다.
+
+- Draft 단계의 box outline은 `06_deck/`의 슬라이드 개요 md에 슬라이드별 목록으로 남긴다(placeholder 텍스트 그대로 보존해 어떤 raw를 참조했는지 나중에도 추적 가능하게 한다).
 
 ## 문서 서식
 
