@@ -3,7 +3,7 @@ linear_issue: JHA-79
 created: 2026-09-28
 source: manual
 milestone: cluster-3-mechanism-deepdive
-status: done
+status: in-review
 inputs:
   - 00_legacy_unsorted/GD_TED_report.md
   - _shared/GD_TED_reference.md
@@ -244,7 +244,7 @@ TSAb → direct TSHR activation → TSHR/IGF-1R crosstalk → ERK/Akt → HA
 4. Neumann S, Krieger CC, Gershengorn MC. Inhibiting thyrotropin/insulin-like growth factor 1 receptor crosstalk to treat Graves' ophthalmopathy: studies in orbital fibroblasts in vitro. *Br J Pharmacol.* 2017;174:328-340. PMID: [27987211](https://pubmed.ncbi.nlm.nih.gov/27987211/). doi: [10.1111/bph.13693](https://doi.org/10.1111/bph.13693).
 5. Krieger CC, Place RF, Bevilacqua C, et al. Arrestin-β-1 physically scaffolds TSH and IGF1 receptors to enable crosstalk. *Endocrinology.* 2019;160:1468-1479. PMID: [31127272](https://pubmed.ncbi.nlm.nih.gov/31127272/). doi: [10.1210/en.2019-00055](https://doi.org/10.1210/en.2019-00055).
 6. Krieger CC, Neumann S. Proximity ligation assay to study TSH receptor homodimerization and crosstalk with IGF-1 receptors in human thyroid cells. *Front Endocrinol (Lausanne).* 2022;13:989626. PMID: [36246873](https://pubmed.ncbi.nlm.nih.gov/36246873/). doi: [10.3389/fendo.2022.989626](https://doi.org/10.3389/fendo.2022.989626).
-7. Latif R, Mezei M, Davies TF. Mechanisms in thyroid eye disease: the TSH receptor interacts directly with the IGF-1 receptor. *Endocrinology.* 2025;166:bqaf008. PMID: [39821041](https://pubmed.ncbi.nlm.nih.gov/39821041/). doi: [10.1210/endocr/bqaf009](https://doi.org/10.1210/endocr/bqaf009).
+7. Latif R, Mezei M, Davies TF. Mechanisms in thyroid eye disease: the TSH receptor interacts directly with the IGF-1 receptor. *Endocrinology.* 2025;166:bqaf008. PMID: [39821041](https://pubmed.ncbi.nlm.nih.gov/39821041/). doi: [10.1210/endocr/bqaf008](https://doi.org/10.1210/endocr/bqaf008).
 8. Krieger CC, Neumann S, Marcus-Samuels B, Gershengorn MC. Inhibition of TSH/IGF-1 receptor crosstalk by teprotumumab as a treatment modality of thyroid eye disease. *J Clin Endocrinol Metab.* 2022;107:e1653-e1660. PMID: [34788857](https://pubmed.ncbi.nlm.nih.gov/34788857/). doi: [10.1210/clinem/dgab824](https://doi.org/10.1210/clinem/dgab824).
 9. Lanzolla G, Rotondo Dottore G, Comi S, et al. In vivo and in vitro evidence for a protective role of autoantibodies against the insulin-like growth factor-1 receptor in Graves' orbitopathy. *Endocrine.* 2025;89:137-142. PMID: [40156685](https://pubmed.ncbi.nlm.nih.gov/40156685/). doi: [10.1007/s12020-025-04219-6](https://doi.org/10.1007/s12020-025-04219-6).
 10. Nowak M, Wielkoszyński T, Londzin-Olesik M, et al. Antibodies against the receptor for insulin-like growth factor 1, IGF-1, and IGFBP-3 in Graves' and Basedow's disease with and without orbitopathy. *Endokrynol Pol.* 2025;76:40-51. PMID: [40071798](https://pubmed.ncbi.nlm.nih.gov/40071798/). doi: [10.5603/ep.102336](https://doi.org/10.5603/ep.102336).
