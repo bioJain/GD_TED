@@ -18,7 +18,7 @@ inputs:
 
 - 2024-2026 재검색 결과, "IGF-1R이 TSAb와 무관하게 그 자체로 자가항체의 직접 표적(자가항원)인가"라는 질문에 대한 근거는 **강화되지 않고 오히려 기존 NIH 반박 입장(B4 세 번째 가설[23])과 같은 방향으로 재확인/정교화**되었다.
 - 다만 2025년 두 개의 독립적 임상 코호트 연구(Pisa 그룹[N2], Katowice 그룹[N3])가 처음으로 **혈청 anti-IGF-1R 자가항체를 정량 ELISA로 측정**했고, 공통적으로 **IGF-1R 자가항체가 GO 발생/중증도와 역상관(보호적/억제성 방향)**을 보고했다 — 이는 "IGF-1R directly-stimulating antibody 근거 부족"이라는 2020년 NIH 결론[23]을 뒤집는 것이 아니라, 오히려 그 결론이 예측한 범위 밖에서 **새로운 하위 발견(자가항체는 존재하되 기능은 자극성이 아닌 억제성)**을 추가한 것이다.
-- 동물모델 근거(TSHR 유전자면역은 TED 모델을 재현하나 IGF-1R 면역화는 재현하지 않음)는 2025년 review에서도 그대로 재확인되어[N7], TSHR이 유일한 확립된 primary autoantigen이라는 입장은 변하지 않았다[N7, N9].
+- 동물모델 근거(TSHR 유전자면역은 TED 모델을 재현하나 IGF-1R 면역화는 재현하지 않음)는 2025년 review에서도 그대로 재확인되어[N7], TSHR이 유일한 확립된 primary autoantigen이라는 입장은 변하지 않았다.
 - TSHR-IGF-1R 물리적 상호작용(receptor crosstalk) 쪽 근거는 계속 축적되고 있으나(직접 결합[21], TSHR Ab에 의한 IGF-1R 발현 동시 상향조절[N1]), 이는 "IGF-1R 자체가 자가항원"이라는 명제와는 별개 질문이며 crosstalk 기전 자체는 JHA-79(별도 이슈)의 범위다.
 - 따라서 신규 근거는 (1) 독립 섹션을 정당화할 만큼 disease-defining한 새 기전을 확립하지 못했고, (2) 방향성상 오히려 "IGF-1R 자가항체 = 병인성" 가설에 불리한 쪽으로 축적되고 있어, B4의 기존 세 번째 가설 서술에 **"자가항체는 실재하나 방향은 억제/보호적일 가능성"**이라는 문장을 추가하는 것으로 충분하다고 판단한다. 아래 5절에 B4 반영용 문안을 제시한다.
 
@@ -73,7 +73,7 @@ inputs:
 | **지지(약함)** | HPV와 TSHR/IGF-1R 간 분자모방 가능성[N8] | exploratory, n=22, 검증 초기 단계 |
 | **반박** | TSHR 유전자면역만이 TED 동물모델을 재현, IGF-1R 면역화는 재현 안 됨[N7] | TSHR이 유일한 established primary autoantigen이라는 입장 변화 없음 |
 | **반박** | IGF-1R 자가항체 고역가가 오히려 GO 비발생/경증과 연관[N2, N3] | "IGF-1R 자가항체 → 병인 촉발"이라는 방향과 반대 |
-| **반박** | 2025-2026 review 다수가 "IGF-1R은 신호복합체 구성요소/치료표적"으로만 서술, 독립 자가항원으로 격상하지 않음[N4, N5, N6, N9] | 학계 컨센서스가 B4 서술과 일치 |
+| **반박** | 2025-2026 review 다수가 "IGF-1R은 신호복합체 구성요소/치료표적"으로만 서술, 독립 자가항원으로 격상하지 않음[N4, N5, N6, N7] | 학계 컨센서스가 B4 서술과 일치 |
 
 ## 4. 독립 섹션 신설 여부 판단 근거
 
@@ -84,11 +84,12 @@ inputs:
 
 > 기존 B4 세 번째 bullet 뒤에 아래 문장 추가 권고:
 >
-> "— 이후 2025년 두 개의 독립 코호트 연구(Pisa, n=147[N2]; Katowice, n=67[N3])는 ELISA로 혈청 anti-IGF-1R 자가항체를 정량 측정한 결과, 이 항체가 GD 환자 일부에서 실제로 검출되나 **GO 발생 및 중증도와 역상관**하며 orbital fibroblast 증식을 억제하는 방향으로 작용함을 보고 — 이는 IGF-1R을 표적으로 하는 자가항체가 존재할 수 있음을 시사하는 동시에, 그 방향이 '자극성(stimulating)/병인성'이 아닌 **억제성/보호적**일 가능성을 제기하여 NIH 연구팀의 기존 결론[23]과 상충하지 않고 오히려 보완함. 단일기관 cross-sectional 설계로 'proposed' 수준의 근거이며 독립 재현이 필요함(QA D2/F6 대응)."
+> "— 이후 2025년 두 개의 독립 코호트 연구(Pisa, n=147[N2]; Katowice, n=67[N3])는 ELISA로 혈청 anti-IGF-1R 자가항체를 정량 측정한 결과, 이 항체가 GD 환자 일부에서 실제로 검출되나 **GO 발생 및 중증도와 역상관**함을 보고. Pisa 연구는 추가로 IGF-1R-Ab 고역가 혈청에서 정제한 (항원-특이적으로 분리되지 않은) 총 IgG를 orbital fibroblast에 처리했을 때 증식이 억제됨을 관찰했으나, 이 억제 효과가 anti-IGF-1R 항체 자체에 의한 것인지 동일 IgG 분획 내 다른 항체에 의한 것인지는 항원-특이적 정제/고갈 실험으로 아직 분리 확인되지 않음 — 이는 IGF-1R을 표적으로 하는 자가항체가 존재할 수 있음을 시사하는 동시에, 그 방향이 '자극성(stimulating)/병인성'이 아닌 **억제성/보호적**일 가능성을 제기하여 NIH 연구팀의 기존 결론[23]과 상충하지 않고 오히려 보완함. 단일기관 cross-sectional 설계이며 IgG 실험의 항원 특이성도 미확정인 'proposed' 수준의 근거로, 독립 재현 및 항원-특이적 기능 검증이 필요함(QA D2/F6 대응)."
 
 ## 6. 남은 gap 및 후속 권고
 
 - Lanzolla[N2]/Nowak[N3] 두 연구의 IGF-1RAb ELISA는 각 기관 in-house 구축으로 cut-off/표준화가 상이함 — 메타분석 또는 독립 재현 전까지 정량 수치를 report.md 본문에 절대치로 인용하지 않고 방향성(역상관)만 인용 권고.
+- Lanzolla[N2]의 fibroblast 증식억제 실험은 IGF-1R-Ab 고역가 혈청에서 정제한 **총 IgG**를 사용했으며 항원-특이적으로 분리된 anti-IGF-1R 항체가 아님 — 증식억제 효과를 anti-IGF-1R 항체 자체의 기능으로 단정하지 말 것. 항원-특이적 정제(affinity purification) 또는 IGF-1R depletion 실험으로 재검증 필요.
 - HPV 분자모방 가설[N8]은 n=22 exploratory 연구로, 필요 시 별도 Linear 이슈로 분리해 후속 검색 권고(현재 이슈 범위 외).
 - JHA-79(TSHR-IGF1R crosstalk 딥다이브)에서 [21], [N1](Xiang 2026)을 상세 다룰 예정이므로 본 문서는 자가항원/자가항체 존재 여부에 초점을 유지함.
 
@@ -100,6 +101,6 @@ inputs:
 - N4. Smith TJ. Controversies Surrounding IGF-I Receptor Involvement in Thyroid-Associated Ophthalmopathy. *Thyroid.* 2025;35(3):232-244. PMID: [39909461](https://pubmed.ncbi.nlm.nih.gov/39909461/). doi: [10.1089/thy.2024.0606](https://doi.org/10.1089/thy.2024.0606).
 - N5. Smith TJ. TSHR-IGF-IR complex drives orbital fibroblast misbehavior in thyroid eye disease. *Curr Opin Endocrinol Diabetes Obes.* 2024;31(5):177-183. PMID: [39082947](https://pubmed.ncbi.nlm.nih.gov/39082947/). doi: [10.1097/MED.0000000000000878](https://doi.org/10.1097/MED.0000000000000878).
 - N6. Lanzolla G, Marinò M, Menconi F. Graves disease: latest understanding of pathogenesis and treatment options. *Nat Rev Endocrinol.* 2024;20(11):647-660. PMID: [39039206](https://pubmed.ncbi.nlm.nih.gov/39039206/). doi: [10.1038/s41574-024-01016-5](https://doi.org/10.1038/s41574-024-01016-5).
-- N7/N9. Wiersinga WM, Eckstein AK, Žarković M. Thyroid eye disease (Graves' orbitopathy): clinical presentation, epidemiology, pathogenesis, and management. *Lancet Diabetes Endocrinol.* 2025;13(7):600-614. PMID: [40324443](https://pubmed.ncbi.nlm.nih.gov/40324443/). doi: [10.1016/S2213-8587(25)00066-X](https://doi.org/10.1016/S2213-8587(25)00066-X).
+- N7. Wiersinga WM, Eckstein AK, Žarković M. Thyroid eye disease (Graves' orbitopathy): clinical presentation, epidemiology, pathogenesis, and management. *Lancet Diabetes Endocrinol.* 2025;13(7):600-614. PMID: [40324443](https://pubmed.ncbi.nlm.nih.gov/40324443/). doi: [10.1016/S2213-8587(25)00066-X](https://doi.org/10.1016/S2213-8587(25)00066-X).
 - N8. Garg I, Meyer BI, Gallo RA, Wester ST, Pelaez D. Human Papillomavirus and Thyroid Eye Disease. *JAMA Ophthalmol.* 2025;143(6):524-528. PMC: [PMC12022865](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12022865/). PMID: [40272832](https://pubmed.ncbi.nlm.nih.gov/40272832/). doi: [10.1001/jamaophthalmol.2025.0847](https://doi.org/10.1001/jamaophthalmol.2025.0847).
 - 레거시 인용(재확인용, 번호는 `_shared/GD_TED_reference.md` 그대로): [21] Latif R, Mezei M, Davies TF. Mechanisms in Thyroid Eye Disease: The TSH Receptor Interacts Directly With the IGF-1 Receptor. *Endocrinology.* 2025;166(2). PMID: [39821041](https://pubmed.ncbi.nlm.nih.gov/39821041/). [22] Cui X, Wang F, Liu C. A review of TSHR- and IGF-1R-related pathogenesis and treatment of Graves' orbitopathy. *Front Immunol.* 2023;14:1062045. PMID: [36742308](https://pubmed.ncbi.nlm.nih.gov/36742308/). [23] Krieger CC, Neumann S, Gershengorn MC. Is There Evidence for IGF1R-Stimulating Abs in Graves' Orbitopathy Pathogenesis? *Int J Mol Sci.* 2020;21(18):6561. PMID: [32911689](https://pubmed.ncbi.nlm.nih.gov/32911689/).
