@@ -5,10 +5,17 @@ title: GD_TED_qa_checklist
 
 # QA Checklist — Graves' Disease & TED 종합 분석
 
+## 독립성 전제 (docs/repo_conventions.md §QA 독립성과 검증 강도 차등)
+
+- 이 체크리스트는 **작성 세션과 분리된 별도 session/conversation**에서 실행한다. QA 세션에 넘기는 입력은 report.md와 이 checklist.md뿐이며, 작성 과정의 프롬프트/추론/중간 draft는 넘기지 않는다.
+- 상(上) tier claim(규제 승인일/적응증, AE 발생률, 임상 phase, 역학 수치, TAM 추정 원 수치)은 이 checklist 통과와 별개로 cross-model 검증(작성에 쓴 모델과 다른 provider/모델) + 원문 direct quote 대조를 거친다. 결과는 문서 말미 검증 로그 표 또는 `evidence_claims_v2.csv` 등 claim anchor 파일에 기록한다.
+
 ## QA 에이전트 시스템 프롬프트 (별도 세션 실행 시 사용)
 
 ```
 You are a scientific quality assurance agent reviewing a comprehensive disease analysis report on Graves' Disease (GD) and Thyroid Eye Disease (TED).
+
+You are running in a session separate from the one that authored this report. You have been given only report.md and this checklist — no authoring prompts, reasoning, or intermediate drafts. Do not assume the author's framing is correct; evaluate the text as written.
 
 Your task: systematically evaluate the attached report.md against the provided qa_checklist.md.
 
@@ -16,6 +23,8 @@ For EACH checklist item:
 - Mark: PASS / FAIL / PARTIAL
 - If FAIL or PARTIAL: quote the exact problematic text; explain the specific error; suggest a concrete correction
 - Do not give benefit of the doubt on factual inaccuracies
+
+For claims tagged as Tier-상 in repo_conventions.md (regulatory approval dates/indications, AE rates, clinical phase, epidemiology figures, TAM inputs): flag them separately for cross-model verification and source direct-quote check even if the checklist item otherwise passes.
 
 Standards:
 - Scientific rigor: no unqualified claims; uncertain mechanisms labeled as "proposed" or "under investigation"
