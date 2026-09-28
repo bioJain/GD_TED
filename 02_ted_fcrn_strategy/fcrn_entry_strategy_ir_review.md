@@ -3,7 +3,7 @@ linear_issue: JHA-74
 created: 2026-09-28
 source: manual
 milestone: cluster-2-ted-fcrn-strategy
-status: done
+status: in-review
 inputs:
   - 00_legacy_unsorted/GD_TED_report.md
   - 00_baseline_biomni/landscape_v2/pipeline_assets_v2.csv
@@ -29,7 +29,7 @@ inputs:
 | 회사 | 자산 | 정확한 대응 | GD/TED 상태(as-of 2026-09-28) | 근거 |
 |---|---|---|---|---|
 | Immunovant | batoclimab | **IMVT-1401**, 과거 RVT-1401 | GD Phase 2 POC 완료; TED Phase 3 두 건 primary endpoint 미달 후 전 적응증 개발 중단 | [S1,S9,S10] |
-| Immunovant | imeroprubart | **IMVT-1402**, batoclimab과 별개인 차세대 FcRn mAb | GD potentially registrational Phase 2 프로그램 진행; TED 등록시험 없음 | [S1,S11,S12,S14] |
+| Immunovant | imeroprubart | **IMVT-1402**, batoclimab과 별개인 차세대 FcRn mAb | GD potentially registrational Phase 2 프로그램 진행; TED 등록시험 없음 | [S1,S11,S12,S15] |
 | argenx | efgartigimod alfa/efgartigimod PH20 SC | Fc fragment; SC는 rHuPH20 병용 제형 | TED UplighTED 중단; GD Phase 3 두 건 시작 | [S2,S5-S8] |
 
 > **명칭 정정:** 이슈 본문의 “imeroprubart(舊 batoclimab RVT-1401 계열)”는 부정확하다. 같은 HanAll-origin FcRn 계열이지만, 공시상 batoclimab은 former IMVT-1401이고 imeroprubart는 IMVT-1402의 INN이다.[S1]
@@ -42,7 +42,7 @@ inputs:
 
 **포트폴리오 문구가 전략을 분리한다.** 회사는 GD 등을 “first- and best-in-class” 미충족수요 영역으로, MG/CIDP는 이미 anti-FcRn commercial presence가 있는 시장에서 differentiated best-in-class를 노리는 영역으로 별도 기술했다.[S1] 따라서 GD 선택은 gMG/CIDP 영업 기반 활용보다 **새 endocrine franchise/first-in-class 시장 창출**에 더 가깝다는 해석이 타당하다(추론, 근거 수준: 중간).
 
-**batoclimab에서 imeroprubart로의 전환.** batoclimab GD 단일군 POC(NCT05907668)는 24주에 ATD 증량 없이 FT3/FT4 정상화 68.8%, baseline ATD의 50% 이하에서 정상화 53.1%, off-ATD 정상화 31.3%를 보고했다.[S9] 회사는 이 POC와 깊은 IgG 감소-임상반응 관계를 IMVT-1402 성공확률의 근거로 제시한다.[S1] 동시에 batoclimab은 albumin 감소/LDL 상승이라는 off-target profile이 있었고, 2026년 TED Phase 3 두 건 실패 후 전체 개발을 중단했다.[S1] 즉 imeroprubart 진입은 “batoclimab의 이름 변경”이 아니라 **GD human POC와 운영 자산은 승계하되 분자 profile을 바꾸는 후속 전략**이다(추론, 근거 수준: 높음/중간).
+**batoclimab에서 imeroprubart로의 전환.** batoclimab GD 단일군 POC(NCT05907668)는 24주에 ATD 증량 없이 FT3/FT4 정상화 **또는** FT3/FT4가 정상 하한(LLN) 미만인 composite 68.8%, baseline ATD의 50% 이하에서 순수 정상화 53.1%, off-ATD 상태에서 같은 정상화-또는-LLN-미만 composite 31.3%를 보고했다.[S9] 68.8%/31.3%는 정상화만이 아니라 갑상선호르몬이 정상범위 미만으로 떨어진 경우도 반응자로 포함하는 composite endpoint이므로, 순수 정상화율(53.1%)과 구분 없이 인용하면 POC 효능을 과대평가할 위험이 있다. 회사는 이 POC와 깊은 IgG 감소-임상반응 관계를 IMVT-1402 성공확률의 근거로 제시한다.[S1] 동시에 batoclimab은 albumin 감소/LDL 상승이라는 off-target profile이 있었고, 2026년 TED Phase 3 두 건 실패 후 전체 개발을 중단했다.[S1] 즉 imeroprubart 진입은 “batoclimab의 이름 변경”이 아니라 **GD human POC와 운영 자산은 승계하되 분자 profile을 바꾸는 후속 전략**이다(추론, 근거 수준: 높음/중간).
 
 ### 3.2 argenx: TED의 명시적 mechanistic thesis, GD의 제한된 공개 설명
 
@@ -102,14 +102,16 @@ inputs:
 - **[S12]** ClinicalTrials.gov, NCT07018323, IMVT-1402 GD dose-ranging/placebo study. https://clinicaltrials.gov/study/NCT07018323
 - **[S13]** ClinicalTrials.gov API search, rozanolixizumab/UCB7665 + Graves/TED (0 applicable intervention studies identified). https://clinicaltrials.gov/api/v2/studies?query.term=%28rozanolixizumab%20OR%20UCB7665%29%20AND%20%28Graves%20OR%20%22thyroid%20eye%20disease%22%20OR%20thyrotoxicosis%29&pageSize=100
 - **[S14]** ClinicalTrials.gov API search, nipocalimab/M281 + Graves/TED (0 applicable intervention studies identified). https://clinicaltrials.gov/api/v2/studies?query.term=%28nipocalimab%20OR%20M281%29%20AND%20%28Graves%20OR%20%22thyroid%20eye%20disease%22%20OR%20thyrotoxicosis%29&pageSize=100
+- **[S15]** ClinicalTrials.gov API search, imeroprubart/IMVT-1402 + TED/Graves (3개 시험 모두 GD가 condition이며 TED는 exclusion criteria로만 등장; 별도 TED 중재시험 0건, 2026-09-28 확인). https://clinicaltrials.gov/api/v2/studies?query.term=%28imeroprubart%20OR%20IMVT-1402%29%20AND%20%28%22thyroid%20eye%20disease%22%20OR%20TED%20OR%20Graves%29&pageSize=100
 
 ### Claim verification log
 
 | claim | tier | 검증 방법 | 결과 | 일자 |
 |---|---|---|---|---|
 | Batoclimab=IMVT-1401, imeroprubart=IMVT-1402 | 중 | SEC 10-K 원문 내 naming 문구 대조 | PASS | 2026-09-28 |
-| Batoclimab TED Phase 3 실패/전체 중단 | 상 | SEC 10-K와 두 registry record 대조 | PASS | 2026-09-28 |
-| UplighTED futility 종료 | 상 | argenx 20-F와 ClinicalTrials.gov 두 record 대조 | PASS | 2026-09-28 |
-| Batoclimab GD endpoint 수치 | 상 | ClinicalTrials.gov posted results와 repo v2 `clinical_trials_v2.csv` NCT05907668 행 대조 | PASS | 2026-09-28 |
-| IMVT-1402/efgartigimod GD 설계 | 상 | 각 registry live record와 repo v2 trial_id 행 대조 | PASS | 2026-09-28 |
+| Batoclimab TED Phase 3 실패/전체 중단 | 상 | SEC 10-K와 두 registry record 대조 (동일 세션, 동일 모델) | PENDING QA — cross-model 재확인 및 원문 direct-quote 대조 미실시(`docs/repo_conventions.md` 상 claim 요건) | 2026-09-28 |
+| UplighTED futility 종료 | 상 | argenx 20-F와 ClinicalTrials.gov 두 record 대조 (동일 세션, 동일 모델) | PENDING QA — cross-model 재확인 및 원문 direct-quote 대조 미실시 | 2026-09-28 |
+| Batoclimab GD endpoint 수치 | 상 | ClinicalTrials.gov posted results와 repo v2 `clinical_trials_v2.csv` NCT05907668 행 대조 (동일 세션, 동일 모델) | PENDING QA — cross-model 재확인 및 원문 direct-quote 대조 미실시. 최초 대조 과정에서 68.8%/31.3%를 composite(정상화 또는 LLN 미만) 대신 순수 정상화로 잘못 기술한 오류가 있었음(본문 3.1절에서 수정) | 2026-09-28 |
+| IMVT-1402/efgartigimod GD 설계 | 상 | 각 registry live record와 repo v2 trial_id 행 대조 (동일 세션, 동일 모델) | PENDING QA — cross-model 재확인 및 원문 direct-quote 대조 미실시 | 2026-09-28 |
 | Rozanolixizumab/nipocalimab GD/TED 등록시험 부재 | 중 | ClinicalTrials.gov API 자산명/코드/질환 조합 검색 | PASS, 단 부재 증거의 한계 명시 | 2026-09-28 |
+| Imeroprubart/IMVT-1402 TED 등록시험 부재 | 중 | ClinicalTrials.gov API `imeroprubart OR IMVT-1402` + TED/Graves 조합 검색([S15]); 이전 버전은 이 claim에 nipocalimab 검색([S14])을 오인용 | PASS, 단 부재 증거의 한계 명시 | 2026-09-28 |
