@@ -21,9 +21,9 @@ data_cut: 2026-09-10
 ## 1. 결론과 읽는 법
 
 - TED에서 두 개 이상 IGF-1R 억제 자산에 관찰된 반복 신호는 **muscle spasm, hearing-related AE, hyperglycemia/increased blood glucose**임. 다만 이는 관찰된 계열 패턴이며, 각 사건이 모두 IGF-1R 억제에 의해 발생한다는 인과성 또는 모든 계열 자산에서 발생한다는 의미는 아님.[1-5]
-- Teprotumumab과 veligrotug의 공개 무작위시험에서 위 세 신호가 반복됨. Linsitinib에서는 muscle spasm이 보고됐지만, 공개 결과의 5% reporting threshold 아래 사건은 표에 나타나지 않을 수 있어 hearing AE나 hyperglycemia가 **0건이었다고 해석할 수 없음**.[2-5]
+- Teprotumumab과 veligrotug의 공개 무작위시험에서 위 세 신호가 반복되고, IBI311 RESTORE-1도 세 범주의 발생과 mild/moderate severity를 보고함. Linsitinib에서는 muscle spasm이 보고됐지만, 공개 결과의 5% reporting threshold 아래 사건은 표에 나타나지 않을 수 있어 hearing AE나 hyperglycemia가 **0건이었다고 해석할 수 없음**.[2-5,10]
 - Linsitinib의 상대적 특징은 high-dose에서 더 뚜렷한 GI/fatigue/transaminase 신호임. 이는 insulin receptor kinase도 함께 억제하는 oral small molecule이라는 차이를 고려해 해석할 사항이나, 현재 자료만으로 표적별 인과성을 분리할 수 없음.[1,5]
-- Elegrobart는 `pipeline_assets_v2.csv`의 **VRDN-003**에 해당함. MHB-018A와 IBI311을 포함한 이들 개발 자산은 data cut 현재 공개된 수치형 AE 결과가 없어 모두 **미보고**로 표시함. 미보고는 0건과 다름.[1,6]
+- Elegrobart는 `pipeline_assets_v2.csv`의 **VRDN-003**에 해당함. Elegrobart와 MHB-018A는 data cut 현재 공개된 수치형 AE 결과가 없어 **미보고**로 표시함. 반면 IBI311은 registry 결과가 미게시 상태여도 RESTORE-1 RCT 논문이 있으므로 해당 논문의 공개 safety 결과를 반영함. 미보고는 0건과 다름.[1,6,10]
 - 이슈에 지정된 6개 자산 외에도 현재 `pipeline_assets_v2.csv`에서 target에 IGF-1R이 포함된 IBI3031, AMG 732, ZB001, lonigutamab, NTB003/BCG009를 scope reconciliation 표에 포함함. 따라서 master의 IGF-1R 관련 11개 자산을 누락 없이 확인하되, 상세 AE 표는 공개 수치가 있는 3개 자산과 이슈 지정 3개 미보고 자산을 중심으로 구성함.[1]
 - 아래 수치는 population, dose, 투여경로, 관찰기간, AE 수집 및 coding threshold가 다른 시험의 병렬 기술임. **발생률 순위, 간접비교, pooled estimate로 사용하지 않음.** Figure 4의 selected PRR은 efficacy의 descriptive plot이므로 안전성 비교 근거로 사용하지 않음.
 
@@ -49,7 +49,7 @@ data_cut: 2026-09-10
 | **Linsitinib**, active moderate-to-severe TED LIDS, NCT05276063, AE 수집 consent-Week 120, placebo 31 / 75 mg BID 30 / 150 mg BID 29 safety set | 미보고, 공개 AE 표의 5% threshold 아래 사건은 배제될 수 있음 | 미보고, 공개 AE 표의 5% threshold 아래 사건은 배제될 수 있음 | placebo **1/31 (3.2%)**; 75 mg **2/30 (6.7%)**; 150 mg **3/29 (10.3%)** | SAE **1/31 (3.2%)**, **0/30 (0%)**, **2/29 (6.9%)**; death 각 군 **0** | dose별 placebo/75/150 mg: diarrhoea **2/31 (6.5%)/4/30 (13.3%)/6/29 (20.7%)**; nausea **1/31 (3.2%)/3/30 (10.0%)/6/29 (20.7%)**; fatigue **2/31 (6.5%)/6/30 (20.0%)/5/29 (17.2%)**; ALT increased **0/31/3/30 (10.0%)/4/29 (13.8%)**; AST increased **0/31/2/30 (6.7%)/3/29 (10.3%)**. 150 mg SAE는 abnormal ECG T wave와 Guillain-Barré syndrome 각 1명이며 relatedness 미판단.[5] |
 | **Elegrobart (VRDN-003)**, SC IGF-1R mAb, Phase 3 | 미보고 | 미보고 | 미보고 | 미보고 | 공개 수치형 AE 결과 미보고. NCT06812325와 NCT07155668은 TEAE incidence를 endpoint로 두지만 data cut 현재 posted result 없음.[1,6] |
 | **MHB-018A (MHB018A)**, SC IGF-1R mAb, Phase 3 | 미보고 | 미보고 | 미보고 | 미보고 | 공개 수치형 AE 결과 미보고. 등록시험은 protocol 수준이며 결과 미게시.[1,6] |
-| **IBI311**, IGF-1R mAb, active/chronic TED 프로그램 | 미보고 | 미보고 | 미보고 | 미보고 | 공개 수치형 AE 결과 미보고. `pipeline_assets_v2.csv`에 8개 registry trial이 연결되지만 deep-curated safety hypothesis도 미보고.[1,6] |
+| **IBI311**, active moderate-to-severe TED RESTORE-1, NCT05795621, Week 24, randomized 54 vs placebo 28 | 발생 확인; event별 `n/N` 미보고; mild/moderate | 발생 확인; event별 `n/N` 미보고; mild/moderate | 발생 확인; event별 `n/N` 미보고; mild/moderate | IBI311군 SAE **0/54 (0%)**, death **0/54 (0%)**; placebo군 SAE/death 수치는 abstract에 미보고 | Infusion reaction 및 nausea/diarrhea도 발생 확인; event별 `n/N` 미보고; 모두 mild/moderate. 이는 RESTORE-1 논문 abstract에서 확인되는 범위이며, 8개 registry record의 posted-results 부재만으로 자산 전체 safety를 미보고 처리하지 않음.[10] |
 
 ### 2.1 Pipeline master scope reconciliation
 
@@ -67,9 +67,9 @@ data_cut: 2026-09-10
 
 | 구분 | 관찰 근거 | 해석 경계 |
 |---|---|---|
-| **Class-common 후보: muscle spasm** | Teprotumumab 41.5%, veligrotug 45.3% 및 44.5%, linsitinib 6.7-10.3%에서 보고.[2-5] | 세 자산에서 반복되지만 대조군, dose, 기간이 다름. 단순 백분율로 자산 간 위험 순위를 만들 수 없음 |
-| **Class-common 후보: hearing-related AE** | Teprotumumab hearing impairment 22.0%; veligrotug에서 ear discomfort 9.8-12.0%, tinnitus 12.0-12.1%, hypoacusis 2.9%가 보고됨. 두 승인자산 label 모두 severe/permanent hearing impairment 가능성과 치료 전/중/후 평가를 경고.[2-4,7,8] | `ear discomfort`, `hearing impairment`, `hypoacusis`, `tinnitus`, audiometric loss는 동일 endpoint가 아니며 환자 중복 가능성이 있어 합산하지 않음. Linsitinib 및 개발 mAb의 미보고는 0건이 아님 |
-| **Class-common 후보: hyperglycemia / blood glucose increased** | Teprotumumab hyperglycemia 14.6%; veligrotug에서 blood glucose increased 5.8-9.3% 및 hyperglycaemia 2.7%. Veligrotug label은 임상시험 전체 hyperglycemia 12%와 그중 절반의 baseline diabetes/impaired glucose tolerance를 명시.[2-4,8] | MedDRA preferred term을 임의 합산하지 않음. 기저 diabetes와 검사 빈도의 영향을 받는 신호이며 시험 간 직접비교 불가 |
+| **Class-common 후보: muscle spasm** | Teprotumumab 41.5%, veligrotug 45.3% 및 44.5%, linsitinib 6.7-10.3%에서 보고. IBI311에서도 발생했으나 event별 빈도는 abstract에 미보고.[2-5,10] | 네 자산에서 반복되지만 대조군, dose, 기간이 다름. 단순 백분율로 자산 간 위험 순위를 만들 수 없음 |
+| **Class-common 후보: hearing-related AE** | Teprotumumab hearing impairment 22.0%; veligrotug에서 ear discomfort 9.8-12.0%, tinnitus 12.0-12.1%, hypoacusis 2.9%가 보고됨. IBI311에서도 hearing impairment가 발생했으나 event별 빈도는 abstract에 미보고. Teprotumumab/veligrotug label은 severe/permanent hearing impairment 가능성과 치료 전/중/후 평가를 경고.[2-4,7,8,10] | `ear discomfort`, `hearing impairment`, `hypoacusis`, `tinnitus`, audiometric loss는 동일 endpoint가 아니며 환자 중복 가능성이 있어 합산하지 않음. Linsitinib 및 다른 개발 mAb의 미보고는 0건이 아님 |
+| **Class-common 후보: hyperglycemia / blood glucose increased** | Teprotumumab hyperglycemia 14.6%; veligrotug에서 blood glucose increased 5.8-9.3% 및 hyperglycaemia 2.7%. IBI311에서도 hyperglycemia가 발생했으나 event별 빈도는 abstract에 미보고. Veligrotug label은 임상시험 전체 hyperglycemia 12%와 그중 절반의 baseline diabetes/impaired glucose tolerance를 명시.[2-4,8,10] | MedDRA preferred term을 임의 합산하지 않음. 기저 diabetes와 검사 빈도의 영향을 받는 신호이며 시험 간 직접비교 불가 |
 | **반복되지만 투여경로 영향도 가능한 신호: infusion reaction** | IV teprotumumab과 IV veligrotug에서 보고.[2-4] | IGF-1R 표적 자체보다 IV biologic 투여 관련 가능성을 분리할 수 없음. Oral linsitinib 또는 SC 개발자산에 일반화하지 않음 |
 | **Teprotumumab/veligrotug에서 반복: alopecia, GI, reproductive/menstrual event** | Veligrotug에서 alopecia와 amenorrhoea 수치 확인; teprotumumab의 pivotal/label 및 chronic trial에서 alopecia/GI/menstrual event 계열이 알려져 있음.[2-4,7] | 성별 위험집단 denominator와 coding이 다름. 계열 전체 공통으로 확정하기에는 공개 자산 수가 제한적 |
 | **Linsitinib에서 두드러짐: GI/fatigue/transaminase** | 150 mg BID에서 diarrhoea와 nausea 각 20.7%, ALT increased 13.8%, AST increased 10.3%; placebo는 각각 6.5%, 3.2%, 0%, 0%.[5] | small molecule의 IGF-1R/insulin receptor kinase dual activity, oral exposure와 연관 가능성은 가설 수준. mAb와 직접 비교 불가 |
@@ -77,7 +77,7 @@ data_cut: 2026-09-10
 ## 4. 데이터 공백과 후속 안전성 확인 항목
 
 1. **Elegrobart/VRDN-003 명칭 고정:** 자산 master에는 VRDN-003으로만 존재하므로 본 문서에서 elegrobart와 같은 자산으로 처리함. 향후 source가 두 이름을 다르게 정의하면 crosswalk 수정 필요.[1,6]
-2. **미보고 자산:** Elegrobart, MHB-018A, IBI311은 첫 posted results, 학회 포스터 또는 CSR 공개 시 사건별 `n/N`, grade, serious/relatedness, discontinuation을 갱신해야 함.
+2. **미보고 또는 부분 보고 자산:** Elegrobart와 MHB-018A는 첫 posted results, 학회 포스터 또는 CSR 공개 시 사건별 `n/N`, grade, serious/relatedness, discontinuation을 갱신해야 함. IBI311은 RESTORE-1 full-text safety table을 직접 확보하면 abstract에 없는 event별 `n/N`과 placebo SAE/death를 보완해야 함.[10]
 3. **청각 endpoint 표준화:** 증상 설문, MedDRA hearing impairment/tinnitus, baseline-adjusted audiometry를 분리 수집해야 함. Teprotumumab real-world cohort의 높은 증상 또는 audiometric 빈도는 trial 표와 별도 근거층으로 유지함.[9]
 4. **대사 위험 층화:** baseline diabetes/impaired glucose tolerance, HbA1c, rescue medication 및 회복 여부를 함께 기록해야 함.
 5. **생식 안전성:** amenorrhoea와 menstrual irregularity는 female-at-risk denominator를 사용하고, pregnancy/fetal risk warning과 임상 AE를 혼합하지 않아야 함.
@@ -94,6 +94,7 @@ data_cut: 2026-09-10
 7. DailyMed/FDA prescribing information, TEPEZZA, Biomni v2 source [728], anchors `US-TEPEZZA-LABEL-HEARING`, `US-TEPEZZA-LABEL-HYPERGLYCEMIA`. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce
 8. FDA prescribing information, LUMVOA, Biomni v2 source [373], anchors `US-LUMVOA-LABEL-HEARING`, `US-LUMVOA-LABEL-HYPERGLYCEMIA`, `US-LUMVOA-LABEL-IBD`. https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761530Orig1s000lbl.pdf
 9. `00_legacy_unsorted/GD_TED_report.md`, Section C3, refs [45-47]. Teprotumumab 실사용 청각 AE의 측정법 및 reversibility 불확실성 맥락.
+10. Zhang H, et al. IGF-1R Inhibitor IBI311 for the Treatment of Active Thyroid Eye Disease in Chinese Patients: The RESTORE-1 Randomized Clinical Trial. JAMA Ophthalmology. 2025;143(11):964-971. PMID 41066129; DOI 10.1001/jamaophthalmol.2025.3350; Biomni v2 source [231]. Structured abstract는 IBI311 54명/placebo 28명과 AE of interest의 mild/moderate severity, IBI311군 SAE/death 부재를 보고하지만 event별 빈도는 제공하지 않음. https://doi.org/10.1001/jamaophthalmol.2025.3350
 
 ## 6. QA self-check
 
