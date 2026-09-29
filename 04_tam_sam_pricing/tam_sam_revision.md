@@ -102,14 +102,14 @@ Therapy-line SAM은 biomarker가 아니라 실제 치료경로상의 위치를 �
 
 ### 4.2 `SCLC_Graves_population_model.xlsx` 검토 및 채택 판정
 
-2026-09-28 공유된 [Google Sheets 원본](https://docs.google.com/spreadsheets/d/1urdrkYPYPKDpIBIhP0GsPKjK62GlxgtKkq8T2hIr_gk/edit?usp=sharing)의 `01_Assumptions`, `03_Graves`, `04_Sensitivity`, `05_Sources` 시트와 수식을 직접 확인함. 이 모델은 미국 성인 신규 환자를 1차 ATD/RAI/수술, 1차 ATD 관해/재발, 2차 ATD/definitive therapy 및 장기 저용량 ATD로 분기하므로 **therapy-line 구조에는 relevant**함. 그러나 아래 이유로 모델 출력은 모두 **E, D의 exploratory US scenario**로만 채택함.
+2026-09-28 공유된 [Google Sheets 원본](https://docs.google.com/spreadsheets/d/1urdrkYPYPKDpIBIhP0GsPKjK62GlxgtKkq8T2hIr_gk/edit?usp=sharing)의 `01_Assumptions`, `03_Graves`, `04_Sensitivity`, `05_Sources` 시트와 수식을 직접 확인함. 이 모델은 미국 성인 신규 환자를 1차 ATD/RAI/수술, 1차 ATD 관해/비관해 또는 재발, 2차 ATD/definitive therapy 및 장기 저용량 ATD로 분기하므로 **therapy-line 구조에는 relevant**함. 그러나 아래 이유로 모델 출력은 모두 **E, D의 exploratory US scenario**로만 채택함.
 
 | 검토 항목 | 판정 | 반영 방식 |
 |---|---|---|
 | Stock/flow 분리 | 적절 | 전체 유병 104.8만/131.0만/157.2만 명과 연간 신규 5.24만/7.86만/10.48만 명을 구분 |
 | 1차 modality 분기 | 방향성 relevant | ATD 75%/82%/88%, RAI 11.1%를 사용하되 ATD share는 간접 역산 C, 수술은 잔차이므로 최종 base case로 고정하지 않음 |
-| 1차 ATD 관해 | relevant | 37%/45%/56%를 사용해 post-ATD 재발 flow 산출. 문헌별 관해 정의/시점 차이를 유지 |
-| 재발 후 2차 ATD/장기 유지 | 구조는 relevant, 비율은 취약 | 2차 ATD 선택 50%/60%/70%와 장기 유지 20%/30%/40%는 analyst assumption D이므로 sensitivity로만 표시 |
+| 1차 ATD 관해 | relevant | 37%/45%/56%를 사용해 post-ATD 비관해/재발 flow 산출. 문헌별 관해 정의/시점 차이를 유지 |
+| 비관해/재발 후 2차 ATD/장기 유지 | 구조는 relevant, 비율은 취약 | 2차 ATD 선택 50%/60%/70%와 장기 유지 20%/30%/40%는 analyst assumption D이므로 sensitivity로만 표시 |
 | ATD uncontrolled | 상업 target proxy로 relevant | 25%/27.5%/30%는 Immunovant 단일 기업 공시 B에 의존. 독립 검증 전 core SAM으로 채택하지 않음 |
 | 출처 추적성 | 부분 미흡 | 일부 source row가 선행 세션/2차 경유 링크이고 원문 식별자가 없음. 특히 R08은 JAMA review를 명시하지만 URL은 Wikipedia 경유, R10/R12/R13은 원문 URL 미기재 |
 | Scenario 결합 | 한계 있음 | Low/Base/High가 상관관계를 반영한 확률구간이 아니며 high에서 수술 share가 0.9%까지 축소됨. 범위 끝값을 신뢰구간으로 해석하지 않음 |
@@ -125,9 +125,9 @@ Workbook의 성별 유병률 입력은 전체 유병률 계산에 사용되지 �
 |---|---:|---|---|
 | 연간 신규 진단 | **5.24만/7.86만/10.48만 명** | 미국 성인 2.62억 x incidence 20/30/40 per 100,000 | 치료 전 flow. incidence는 역사적 단일 county 자료 기반 |
 | 1차 ATD 시작 | **3.93만/6.45만/9.22만 명** | 신규 진단 x ATD share 75%/82%/88% | RAI/수술 initial choice를 제외하므로 기존 `전체 신규 x failure`보다 치료선 정의가 개선됨 |
-| 1차 ATD 후 재발 | **2.48만/3.54만/4.06만 명** | 1차 ATD x (1 - remission 37%/45%/56%) | post-ATD therapy-line SAM의 우선 proxy. 각 scenario 내 연동값이며 단순 최솟값/최댓값 조합이 아님 |
-| 2차 ATD 진입 | **1.24만/2.13만/2.84만 명** | 1차 재발 x 2차 ATD 선택 50%/60%/70% | 선택률이 D assumption이므로 sensitivity only |
-| 1차 재발 후 즉시 RAI/수술 | **1.24만/1.42만/1.22만 명** | 1차 재발 - 2차 ATD | scenario가 단조롭지 않음. base가 low/high보다 큰 것은 결합 가정의 결과이며 오류가 아님 |
+| 1차 ATD 후 비관해/재발 | **2.48만/3.54만/4.06만 명** | 1차 ATD x (1 - remission 37%/45%/56%) | post-ATD therapy-line SAM의 우선 proxy. 각 scenario 내 연동값이며 단순 최솟값/최댓값 조합이 아님 |
+| 2차 ATD 진입 | **1.24만/2.13만/2.84만 명** | 1차 비관해/재발 x 2차 ATD 선택 50%/60%/70% | 선택률이 D assumption이므로 sensitivity only |
+| 1차 비관해/재발 후 즉시 RAI/수술 | **1.24만/1.42만/1.22만 명** | 1차 비관해/재발 - 2차 ATD | scenario가 단조롭지 않음. base가 low/high보다 큰 것은 결합 가정의 결과이며 오류가 아님 |
 | 2차 ATD 후 재발/불응 | **0.77만/0.96만/0.69만 명** | 2차 ATD x (1 - 2차 remission 38%/55%/75.8%) | 2차 remission 범위가 넓고 source trace가 약해 exploratory only |
 | ATD uncontrolled | **1.33만/2.44만/3.70만 명** | workbook의 활성 ATD flow x 25%/27.5%/30% | novel therapy unmet-need proxy이나 unique annual patients가 아님. 순차 state 합산과 treatment duration 차이로 중복/시간축 왜곡 가능 |
 
@@ -146,7 +146,7 @@ Workbook의 성별 유병률 입력은 전체 유병률 계산에 사용되지 �
 
 | 적응증 | Therapy-line pool (E, D) | Mechanism factor | 교집합 proxy (E, D) | 판정 |
 |---|---:|---:|---:|---|
-| 미국 GD, 1차 ATD 후 재발 | 연간 2.48만/3.54만/4.06만 명 | TSAb serology 90-95% | **Low 약 2.23만-2.35만, Base 약 3.19만-3.37만, High 약 3.65만-3.85만 명/년** | post-ATD mechanism-fit의 우선 방향성 proxy. 실제 label, contraindication 및 access 차감 필요 |
+| 미국 GD, 1차 ATD 후 비관해/재발 | 연간 2.48만/3.54만/4.06만 명 | TSAb serology 90-95% | **Low 약 2.23만-2.35만, Base 약 3.19만-3.37만, High 약 3.65만-3.85만 명/년** | post-ATD mechanism-fit의 우선 방향성 proxy. 실제 label, contraindication 및 access 차감 필요 |
 | 미국 GD, ATD uncontrolled | 연간 1.33만/2.44만/3.70만 명 | TSAb serology 90-95% | **Low 약 1.20만-1.26만, Base 약 2.19만-2.32만, High 약 3.33만-3.52만 명/년** | unmet-need sensitivity. workbook flow의 중복/시간축 한계와 단일 기업 공시 의존 때문에 core SAM으로 채택하지 않음 |
 | TED systemic/targeted therapy 후보 | 2.9만-7.7만 명 prevalent | 약 90% serology proxy | 산술상 약 2.6만-7.0만 명이나 **채택 보류** | TED는 serology가 clinical mechanism response를 보장하지 않으므로 별도 response/causality factor 없이는 SAM이 아님 |
 
@@ -155,7 +155,7 @@ Workbook의 성별 유병률 입력은 전체 유병률 계산에 사용되지 �
 ### 4.5 Dollar therapy-line SAM 산출에 추가로 필요한 입력
 
 1. 지역별 diagnosed/treated rate와 치료선별 annual flow.
-2. GD의 first ATD course 종료, relapse 및 장기 low-dose MMI 선택 비율; RAI/thyroidectomy 이동 비율.
+2. GD의 first ATD course 종료, non-remission/relapse 및 장기 low-dose MMI 선택 비율; RAI/thyroidectomy 이동 비율.
 3. TED의 severity x activity x phenotype joint distribution과 각 1차 치료 mix.
 4. 치료선별 product uptake, contraindication, payer authorization 및 reimbursement.
 5. 제품별 regimen/vial rounding, gross-to-net 및 재치료 비용.
@@ -173,7 +173,7 @@ JHA-81 repo 산출물은 작성되어 있으나 제공된 Linear context에서�
 
 ## 6. 발표용 메시지
 
-> **GD는 현재 약 $3.11B에서 forecast 약 $5.04B 규모의 top-down TAM으로 보이며, TSAb가 확립된 driver이고 serology coverage가 약 90-95%여서 mechanism-fit이 높다. 미국 population workbook을 반영한 별도 therapy-line 관점에서는 1차 ATD 후 재발이 Low/Base/High 연간 약 2.48만/3.54만/4.06만 명이고, TSAb 교집합은 각각 약 2.23만-2.35만/3.19만-3.37만/3.65만-3.85만 명이다. 다만 치료분배와 재발 후 선택 가정이 취약해 E, D의 방향성 scenario다. TED는 현재 약 $4.53B, scope-adjusted forecast 약 $8.09B이고 systemic/targeted therapy 후보는 약 2.9만-7.7만 명으로 추정되나, 약 90% serology proxy를 임상 SAM으로 직접 환산하지 않는다. Tepezza 실매출 $1.903B는 관측 anchor로 유지하고, Lumvoa의 약 $450,000/course WAC signal은 제품별 가격 scenario로만 참조한다.**
+> **GD는 현재 약 $3.11B에서 forecast 약 $5.04B 규모의 top-down TAM으로 보이며, TSAb가 확립된 driver이고 serology coverage가 약 90-95%여서 mechanism-fit이 높다. 미국 population workbook을 반영한 별도 therapy-line 관점에서는 1차 ATD 후 비관해/재발이 Low/Base/High 연간 약 2.48만/3.54만/4.06만 명이고, TSAb 교집합은 각각 약 2.23만-2.35만/3.19만-3.37만/3.65만-3.85만 명이다. 다만 치료분배와 비관해/재발 후 선택 가정이 취약해 E, D의 방향성 scenario다. TED는 현재 약 $4.53B, scope-adjusted forecast 약 $8.09B이고 systemic/targeted therapy 후보는 약 2.9만-7.7만 명으로 추정되나, 약 90% serology proxy를 임상 SAM으로 직접 환산하지 않는다. Tepezza 실매출 $1.903B는 관측 anchor로 유지하고, Lumvoa의 약 $450,000/course WAC signal은 제품별 가격 scenario로만 참조한다.**
 
 ## 7. 한계, next step 및 QA 상태
 
