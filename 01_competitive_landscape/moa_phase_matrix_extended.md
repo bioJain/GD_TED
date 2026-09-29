@@ -16,7 +16,7 @@ inputs:
 
 # GD/TED MoA class x indication-specific 개발단계 통합 매트릭스
 
-**확인일:** 2026-09-24  
+**최종 검토일:** 2026-09-29
 **registry data cut:** 2026-09-10  
 **범위:** GD 또는 TED에서 개발 중이거나 승인된 disease-directed 자산. 중단, 철회, suspended, NDR/상태 불명 프로그램은 본 매트릭스에서 제외하고 별도 부표에 보존했다.
 
@@ -39,10 +39,11 @@ inputs:
 
 | MoA class | Approved / regulatory review | Phase 3 | Phase 2 | Phase 1 / early Phase 1 | Preclinical / discovery |
 |---|---|---|---|---|---|
-| TSHR 직접 차단/길항 | — | — | GenSci098/YB-101 (GD P2) | GenSci098/YB-101 (TED P1); K1-70 (GD P1); MER511 (GD P1) | CRN-12755; ETHY-001; REGN-24493; SP-1351 |
-| anti-TSHR autoantibody 제거/항원특이 면역관용 | — | BHV-1300 (GD P3) | — | LCA-0321 (GD/TED P1) | BHV-1440 |
+| TSHR 직접 차단/길항 | — | — | GenSci098/YB-101 (GD P2) | GenSci098/YB-101 (TED P1); K1-70 (GD P1) | CRN-12755; ETHY-001; REGN-24493; SP-1351 |
+| anti-TSHR autoantibody 제거/항원특이 면역조절 | — | — | — | MER511 (GD P1); LCA-0321 (GD/TED P1) | BHV-1440 |
+| pan-IgG 제거 | — | BHV-1300 (GD P3) | — | — | — |
 | FcRn 억제 | — | Efgartigimod PH20 SC (GD P3) | IMVT-1402/imeroprubart (GD P2) | — | — |
-| IGF-1R 억제 | Teprotumumab (TED A); IBI311 (TED A, 중국); Veligrotug/Lumvoa (TED A) | Linsitinib; MHB018A; KHN939; VRDN-003/elegrobart (모두 TED P3) | AMG 732; NTB003/BCG009; SCTT11 (모두 TED P2) | ZB001 (TED P1) | IGF-1-methotrexate |
+| IGF-1R 억제 | Teprotumumab (TED A); IBI311 (TED A, 중국); Veligrotug/Lumvoa (TED A) | Linsitinib; MHB018A; VRDN-003/elegrobart (모두 TED P3) | AMG 732; NTB003/BCG009 (모두 TED P2) | ZB001 (TED P1) | IGF-1-methotrexate |
 | IGF-1R/TSHR 이중표적 | — | — | — | IBI3031 (TED P1) | VBS-102 |
 | IL-6/IL-6R | Satralizumab (TED RR) | — | TOUR006/pacibekitug (TED P2) | — | — |
 | IL-11R | — | — | — | — | — |
@@ -51,6 +52,7 @@ inputs:
 | BTK 억제 | — | — | Rilzabrutinib (GD P2) | — | — |
 | JAK/mTOR/기타 면역조절 | — | — | Tofacitinib (TED P2); Sirolimus (TED P2) | — | — |
 | 보조 치료 | — | — | — | — | — |
+| 표적 미공개 | — | KHN939 (TED P3) | SCTT11 (TED P1/2) | — | — |
 
 > **읽기 주의:** 위 표는 자산 수가 아니라 “자산 x 적응증의 최고 active 단계”를 압축한 것이다. Teprotumumab/IBI311의 Phase 4 연구와 승인 후 제형 연구는 Approved 셀에 중복 계수하지 않았다. Hydroxychloroquine Phase 4와 tocilizumab Phase 4는 disease-modifying pipeline과 구분되는 보조/off-label 연구이므로 아래 상세표에만 표시했다.
 
@@ -60,18 +62,18 @@ inputs:
 
 | 자산 | 개발사/owner at cut | MoA | GD 단계 | TED 단계 | 핵심 trial ID | source | 판정 메모 |
 |---|---|---|---|---|---|---|---|
-| BHV-1300 | Biohaven | IgG-directed extracellular degradation | P3 | — | NCT07661056; NCT06980649 | both | 두 GD 시험 모두 recruiting |
+| BHV-1300 | Biohaven | pan-IgG extracellular degradation | P3 | — | NCT07661056; NCT06980649 | both | anti-TSHR 선택적 제거제가 아니라 pan-IgG MoDE. 두 GD 시험 모두 recruiting |
 | Efgartigimod PH20 SC | argenx | FcRn inhibition | P3 | 제외, P3 terminated | NCT07570316; NCT07596849 / NCT06307613; NCT06307626 | both | Highest Status trap 대표 사례 |
 | GenSci098/YB-101 (legacy GS-098) | GenSci | TSHR antagonism | P2 | P1 | NCT07682896 / NCT06569758 | both | 적응증별 최고 active 단계 분리 |
 | IMVT-1402/imeroprubart | Immunovant | FcRn inhibition | P2 | — | NCT06727604; NCT07018323; NCT07286006 | both | recruiting/invitation |
 | Felzartamab | Biogen | CD38 plasma-cell depletion | P2 | — | NCT07722546 | both | recruiting |
 | Rilzabrutinib | Sanofi | BTK inhibition | P2 | GD 동반 GO subset 허용, TED 독립단계 아님 | NCT06984627 | both | frozen registry 원문의 condition/title/FT4 endpoint로 GD 판정. CSV의 `Active TED` label을 교정 |
-| MER511 | Merida Biosciences | anti-TSHR AAb neutralization/clearance | P1 | 잠재 적응증, 임상 단계 미확인 | NCT07305818 | both | TED는 v2에 `potential TED`일 뿐 TED trial 없음 |
+| MER511 | Merida Biosciences | anti-TSHR AAb neutralization/clearance 및 항원특이 B-cell 억제 | P1 | 회사 pipeline 적응증, 임상 단계 없음 | NCT07305818 | both | TSHR receptor 길항제가 아님. NEXUS의 condition은 GD뿐이며, 회사 pipeline은 GD/TED를 함께 명시 |
 | K1-70 | AV7/academic collaborators | TSHR blockade | P1 completed, 후속 확인 필요 | legacy P2, v2 TED trial 미확인 | NCT02904330 | both | 본 매트릭스에는 검증 가능한 GD P1만 반영 |
 | LCA-0321 | Lycia Therapeutics | anti-TSHR autoantibody LYTAC | P1 | P1 | CTIS 2025-524053-14-00; LCA-0321-01 | both | CT.gov 외 CTIS 근거, GD/TED 병기 |
 | Allogeneic CD19/BCMA CAR-T | Shanghai Zhongshan Hospital | CD19/BCMA CAR-T | early P1 | — | NCT07129642; NCT07261345 | v2 | recruiting |
 | HN2301 in-vivo CAR-T | Shanghai Zhongshan Hospital | in-vivo CD19/BCMA CAR-T | early P1 | — | NCT07333677 | v2 | recruiting |
-| BHV-1440 | Biohaven | anti-TSHR AAb degrader | PC | PC | registry ID 없음 | legacy | v2 48개 목록에는 없음 |
+| BHV-1440 | Biohaven | anti-TSHR AAb degrader | PC | PC | registry ID 없음 | legacy | Biohaven pipeline은 TSHR AAb degrader, GD/TED로 명시 |
 | CRN-12755 | Crinetics/Vertex | TSHR | PC | PC | registry ID 없음 | legacy | legacy active preclinical |
 | ETHY-001 | Ethyreal Bio | TSHR | PC | PC | registry ID 없음 | legacy | legacy active preclinical |
 | REGN-24493 | Regeneron | TSHR | PC | PC | registry ID 없음 | legacy | legacy active preclinical |
@@ -151,16 +153,52 @@ inputs:
 | LASN01 | TED P2 completed | active 후속 또는 규제 심사 근거가 snapshot에 없어 관찰 목록으로 이동 |
 | Lonigutamab | TED P1/2 completed | 후속 active 시험 미확인, legacy도 전략 재검토 flag |
 
-## 6. QA E6/E7 결론
+## 6. 2026-09-29 주요 자산 cross-confirm
+
+본 절은 2026-09-10 frozen matrix를 바꾸어 읽지 않도록 분리한 **live source 재확인**이다. 임상 단계/상태는 ClinicalTrials.gov API의 2026-09-29 응답, MoA/회사 적응증은 sponsor의 같은 날 공개 pipeline을 대조했다.
+
+| 자산 | 확인 결과 | 판정 |
+|---|---|---|
+| MER511 | Merida는 MER511을 TSHR autoantibody에 선택적으로 결합해 제거하고 해당 B-cell source를 억제하는 Fc biotherapeutic으로 설명한다. 정상 TSH signaling은 보존한다고 명시하므로 receptor 직접 길항제로 분류하면 안 된다. | **anti-TSHR autoantibody 제거/항원특이 면역조절로 이동** |
+| MER511 적응증 | 회사 pipeline heading은 `Graves’ disease and thyroid eye disease (TED)`이지만, NEXUS Phase 1 NCT07305818의 condition과 모집 대상은 GD뿐이다. | **현재 임상은 GD만**. TED는 회사가 표방한 pipeline 적응증이지만 TED 임상 단계로 세지 않음 |
+| BHV-1300 | Biohaven은 BHV-1300을 `therapeutic pan-IgG depletion`으로 설명한다. GD에서 P3이지만 anti-TSHR 선택적 자산은 아니다. | **pan-IgG 제거 class로 분리** |
+| BHV-1440 | Biohaven 공개 pipeline은 BHV-1440을 `TSHR AAb Degrader`, 적응증을 GD/TED, 단계를 preclinical로 표시한다. | anti-TSHR autoantibody 제거 class의 PC 유지 |
+| GenSci098/YB-101 | NCT07682896은 GD P2, NCT06569758은 TED P1이다. | 적응증별 단계 분리가 맞음 |
+| KHN939 | NCT07720635/648은 TED P3이지만 공개 registry의 intervention은 코드명과 투여법만 제시한다. 입력 CSV도 target을 `Not publicly verified`로 둔다. | **IGF-1R class에서 표적 미공개로 이동** |
+| SCTT11 | NCT06769984는 TED P1/2이나 공개 registry와 입력 CSV에서 target이 확인되지 않는다. | **IGF-1R class에서 표적 미공개로 이동** |
+| LCA-0321 | 입력 자료의 MoA는 anti-TSHR autoantibody를 lysosomal elimination하는 LYTAC이며 CTIS 기반 GD/TED P1이다. | anti-TSHR autoantibody 제거 class 유지 |
+| GenSci098/YB-101, K1-70, IBI3031 | 각각 TSHR antagonism, competitive TSHR blockade, IGF-1R/TSHR dual blockade로 receptor를 직접 차단한다. | 현재 receptor-blockade 분류 유지 |
+
+### 6.1 판정에 사용한 직접 출처
+
+- Merida, [Pipeline & Programs](https://meridabio.com/pipeline-programs/) 및 [Science & Platform](https://meridabio.com/science-platform/): MER511의 autoantibody clearance, FcγRIIB 기반 B-cell 억제, 회사 표방 GD/TED 범위.
+- ClinicalTrials.gov, [NCT07305818](https://clinicaltrials.gov/study/NCT07305818): MER511 NEXUS Phase 1의 GD-only condition과 recruiting 상태.
+- Biohaven, [Pipeline](https://www.biohaven.com/pipeline/): BHV-1300의 pan-IgG MoDE와 BHV-1440의 TSHR AAb degrader 분류.
+- ClinicalTrials.gov, [NCT07682896](https://clinicaltrials.gov/study/NCT07682896) 및 [NCT06569758](https://clinicaltrials.gov/study/NCT06569758): GenSci098/YB-101의 GD P2 및 TED P1.
+- ClinicalTrials.gov, [NCT07720635](https://clinicaltrials.gov/study/NCT07720635), [NCT07720648](https://clinicaltrials.gov/study/NCT07720648), [NCT06769984](https://clinicaltrials.gov/study/NCT06769984): KHN939/SCTT11의 TED phase와 공개된 intervention 정보.
+
+### 6.2 검증 로그
+
+아래의 `1차 대조`는 본 작성 세션에서 수행한 source 확인이다. `_shared/GD_TED_qa_checklist.md`에 따른 분리 세션 및 다른 provider/model의 cross-model QA를 뜻하지 않는다. 임상 phase가 포함된 상 tier claim은 독립 QA와 그 세션의 원문 direct-quote 대조가 끝날 때까지 **PENDING**이며, 이 표만으로 QA 완료로 해석하지 않는다.
+
+| claim | tier | 1차 대조 결과 | 독립 cross-model QA | 원문 direct-quote 대조 | 일자 |
+|---|---|---|---|---|---|
+| MER511 MoA/class | 중 | sponsor pipeline/platform와 v2 mechanism row를 대조해 anti-TSHR AAb 제거/항원특이 B-cell 억제로 교정 | 비대상 | 비대상 | 2026-09-29 |
+| MER511 GD/TED 단계 | 상 | live registry에서 GD P1 recruiting, sponsor pipeline에서 TED 개발 의도를 확인 | **PENDING, 별도 QA 세션 필요** | **PENDING, 독립 QA 세션에서 수행** | 2026-09-29 |
+| BHV-1300/BHV-1440 class | 중 | sponsor 공개 pipeline에서 각각 pan-IgG 및 TSHR AAb-specific로 확인 | 비대상 | 비대상 | 2026-09-29 |
+| GenSci098 indication-specific phase | 상 | 두 live registry protocol에서 GD P2/TED P1을 확인 | **PENDING, 별도 QA 세션 필요** | **PENDING, 독립 QA 세션에서 수행** | 2026-09-29 |
+| KHN939/SCTT11 phase 및 target | 상/중 | live registry에서 phase를 확인했으며 target은 공개 근거가 없어 미공개 유지 | **PENDING, 별도 QA 세션 필요** | **PENDING, 독립 QA 세션에서 수행** | 2026-09-29 |
+
+## 7. QA E6/E7 결론
 
 | QA | 결과 | 근거 |
 |---|---|---|
-| E6 indication-specific staging | **PASS** | 모든 v2 임상 자산을 `trial_ids`와 trial의 `indication`, `phase`, `overall_status`로 재판정. Efgartigimod, GenSci098, MER511처럼 자산 최고단계와 적응증 단계가 다른 경우를 분리 표기 |
+| E6 indication-specific staging | **PROVISIONAL, independent QA pending** | 작성 세션에서 모든 v2 임상 자산을 `trial_ids`와 trial의 `indication`, `phase`, `overall_status`로 재판정했으나, 상 tier phase claim의 분리 세션/cross-model QA와 direct-quote 대조는 아직 완료되지 않음 |
 | E7 discontinued/NDR 제외 | **PASS** | stopped/failed/suspended 10개와 NDR/범위외 8개를 active 매트릭스 밖 부표에 명시적으로 보존. TED-terminated efgartigimod는 TED에서만 제외하고 GD는 유지 |
 
-## 7. 해석상 한계
+## 8. 해석상 한계
 
-- 이 문서는 2026-09-10 frozen registry cut을 재분석한 산출물이며 live registry 조회가 아니다.
+- 본 매트릭스의 단계 판정은 2026-09-10 frozen registry cut을 재분석한 결과이다. 2026-09-29 live 조회는 6절의 cross-confirm에만 사용했으며 frozen 단계와 혼합하지 않았다.
 - legacy commercial DB의 자산별 원표는 public repo 정책상 재전재하지 않았다. legacy-only 목록은 C4 공개 요약에 이름이 나온 범위이며, 그 결과 비공개 원표의 51개 active program을 완전히 역산하는 용도로 사용하면 안 된다.
 - `pipeline_assets_v2.csv`의 indication 요약과 trial row가 충돌하면 trial row를 우선하고, trial row 내부가 모순되면 frozen registry 원문을 우선했다. 대표적으로 GenSci098은 GD P2와 TED P1로 분리했고, efgartigimod는 GD active/TED terminated로 분리했으며, Rilzabrutinib은 CSV의 `Active TED` 대신 registry condition/title/FT4 endpoint에 따라 GD P2로 교정했다.
 - `COMPLETED`는 성공, 중단 또는 후속 개발을 자동 의미하지 않는다. 따라서 완료-only 자산에 대해서는 보수적으로 `지속 확인 필요` 또는 관찰 목록을 사용했다.
