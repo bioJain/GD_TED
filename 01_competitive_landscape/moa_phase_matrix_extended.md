@@ -179,19 +179,21 @@ inputs:
 
 ### 6.2 검증 로그
 
-| claim | tier | 검증 방법 | 결과 | 일자 |
-|---|---|---|---|---|
-| MER511 MoA/class | 중 | sponsor pipeline/platform 원문과 v2 mechanism row 대조 | receptor antagonist가 아닌 anti-TSHR AAb 제거/항원특이 B-cell 억제로 교정 | 2026-09-29 |
-| MER511 GD/TED 단계 | 상 | live ClinicalTrials.gov protocol의 condition/phase/status와 sponsor pipeline 대조 | GD P1 recruiting 확인, TED 임상시험은 확인되지 않음 | 2026-09-29 |
-| BHV-1300/BHV-1440 class | 중 | sponsor 공개 pipeline 원문 대조 | 각각 pan-IgG 및 TSHR AAb-specific로 분리 | 2026-09-29 |
-| GenSci098 indication-specific phase | 상 | 두 live registry protocol 대조 | GD P2/TED P1 확인 | 2026-09-29 |
-| KHN939/SCTT11 phase 및 target | 상/중 | live registry protocol과 v2 asset row 대조 | phase 확인, target은 공개 근거 없어 미공개 유지 | 2026-09-29 |
+아래의 `1차 대조`는 본 작성 세션에서 수행한 source 확인이다. `_shared/GD_TED_qa_checklist.md`에 따른 분리 세션 및 다른 provider/model의 cross-model QA를 뜻하지 않는다. 임상 phase가 포함된 상 tier claim은 독립 QA와 그 세션의 원문 direct-quote 대조가 끝날 때까지 **PENDING**이며, 이 표만으로 QA 완료로 해석하지 않는다.
+
+| claim | tier | 1차 대조 결과 | 독립 cross-model QA | 원문 direct-quote 대조 | 일자 |
+|---|---|---|---|---|---|
+| MER511 MoA/class | 중 | sponsor pipeline/platform와 v2 mechanism row를 대조해 anti-TSHR AAb 제거/항원특이 B-cell 억제로 교정 | 비대상 | 비대상 | 2026-09-29 |
+| MER511 GD/TED 단계 | 상 | live registry에서 GD P1 recruiting, sponsor pipeline에서 TED 개발 의도를 확인 | **PENDING, 별도 QA 세션 필요** | **PENDING, 독립 QA 세션에서 수행** | 2026-09-29 |
+| BHV-1300/BHV-1440 class | 중 | sponsor 공개 pipeline에서 각각 pan-IgG 및 TSHR AAb-specific로 확인 | 비대상 | 비대상 | 2026-09-29 |
+| GenSci098 indication-specific phase | 상 | 두 live registry protocol에서 GD P2/TED P1을 확인 | **PENDING, 별도 QA 세션 필요** | **PENDING, 독립 QA 세션에서 수행** | 2026-09-29 |
+| KHN939/SCTT11 phase 및 target | 상/중 | live registry에서 phase를 확인했으며 target은 공개 근거가 없어 미공개 유지 | **PENDING, 별도 QA 세션 필요** | **PENDING, 독립 QA 세션에서 수행** | 2026-09-29 |
 
 ## 7. QA E6/E7 결론
 
 | QA | 결과 | 근거 |
 |---|---|---|
-| E6 indication-specific staging | **PASS** | 모든 v2 임상 자산을 `trial_ids`와 trial의 `indication`, `phase`, `overall_status`로 재판정. Efgartigimod, GenSci098, MER511처럼 자산 최고단계와 적응증 단계가 다른 경우를 분리 표기 |
+| E6 indication-specific staging | **PROVISIONAL, independent QA pending** | 작성 세션에서 모든 v2 임상 자산을 `trial_ids`와 trial의 `indication`, `phase`, `overall_status`로 재판정했으나, 상 tier phase claim의 분리 세션/cross-model QA와 direct-quote 대조는 아직 완료되지 않음 |
 | E7 discontinued/NDR 제외 | **PASS** | stopped/failed/suspended 10개와 NDR/범위외 8개를 active 매트릭스 밖 부표에 명시적으로 보존. TED-terminated efgartigimod는 TED에서만 제외하고 GD는 유지 |
 
 ## 8. 해석상 한계
