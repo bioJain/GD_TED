@@ -179,21 +179,23 @@ inputs:
 
 ### 6.2 검증 로그
 
-아래의 `1차 대조`는 본 작성 세션에서 수행한 source 확인이다. `_shared/GD_TED_qa_checklist.md`에 따른 분리 세션 및 다른 provider/model의 cross-model QA를 뜻하지 않는다. 임상 phase가 포함된 상 tier claim은 독립 QA와 그 세션의 원문 direct-quote 대조가 끝날 때까지 **PENDING**이며, 이 표만으로 QA 완료로 해석하지 않는다.
+아래의 `1차 대조`는 본 작성 세션에서 수행한 source 확인이다. `_shared/GD_TED_qa_checklist.md`에 따른 분리 세션 및 다른 provider/model의 cross-model QA를 뜻하지 않는다. 상 tier claim의 독립 cross-model QA와 원문 direct-quote 대조는 2026-09-29에 완료되었으며, 결과는 `01_competitive_landscape/moa_phase_matrix_extended_qa.md`에 기록했다. 아래 표의 독립 QA 결과는 해당 보고서의 3절 registry direct-quote 대조를 근거로 한다.
 
 | claim | tier | 1차 대조 결과 | 독립 cross-model QA | 원문 direct-quote 대조 | 일자 |
 |---|---|---|---|---|---|
 | MER511 MoA/class | 중 | sponsor pipeline/platform와 v2 mechanism row를 대조해 anti-TSHR AAb 제거/항원특이 B-cell 억제로 교정 | 비대상 | 비대상 | 2026-09-29 |
-| MER511 GD/TED 단계 | 상 | live registry에서 GD P1 recruiting, sponsor pipeline에서 TED 개발 의도를 확인 | **PENDING, 별도 QA 세션 필요** | **PENDING, 독립 QA 세션에서 수행** | 2026-09-29 |
-| BHV-1300/BHV-1440 class | 중 | sponsor 공개 pipeline에서 각각 pan-IgG 및 TSHR AAb-specific로 확인 | 비대상 | 비대상 | 2026-09-29 |
-| GenSci098 indication-specific phase | 상 | 두 live registry protocol에서 GD P2/TED P1을 확인 | **PENDING, 별도 QA 세션 필요** | **PENDING, 독립 QA 세션에서 수행** | 2026-09-29 |
-| KHN939/SCTT11 phase 및 target | 상/중 | live registry에서 phase를 확인했으며 target은 공개 근거가 없어 미공개 유지 | **PENDING, 별도 QA 세션 필요** | **PENDING, 독립 QA 세션에서 수행** | 2026-09-29 |
+| MER511 GD/TED 단계 | 상 | live registry에서 GD P1 recruiting, sponsor pipeline에서 TED 개발 의도를 확인 | **완료, 일치** (독립 QA 세션, 2026-09-29) | **완료** NCT07305818 원문: `PHASE1`, `RECRUITING`, conditions `["Graves Disease"]`; `query.intr=MER511` 전수 검색에서 시험 1건 | 2026-09-29 |
+| BHV-1300/BHV-1440 class | 중 | sponsor 공개 pipeline에서 각각 pan-IgG 및 TSHR AAb-specific로 확인 | **완료, 일치** (독립 QA 세션, 2026-09-29) | **완료** Biohaven pipeline 원문 대조 (QA 보고서 3.2절) | 2026-09-29 |
+| GenSci098 indication-specific phase | 상 | 두 live registry protocol에서 GD P2/TED P1을 확인 | **완료, 일치** (독립 QA 세션, 2026-09-29) | **완료** NCT07682896: `PHASE2`, `RECRUITING`, `["Graves' Disease"]`; NCT06569758: `PHASE1`, `RECRUITING`, conditions에 `Thyroid Eye Disease (TED)`. 보완: NCT07286656(GD P1) 추가 확인, 판정 불변 | 2026-09-29 |
+| KHN939/SCTT11 phase 및 target | 상/중 | live registry에서 phase를 확인했으며 target은 공개 근거가 없어 미공개 유지 | **완료, 일치** (독립 QA 세션, 2026-09-29) | **완료** NCT07720635/648: `PHASE3`, `NOT_YET_RECRUITING`, `["Thyroid Eye Disease"]`; NCT06769984: `["PHASE1","PHASE2"]`, `NOT_YET_RECRUITING`, `["TED"]` | 2026-09-29 |
+| 승인/심사 자산 상태 (Teprotumumab, IBI311, Veligrotug, Satralizumab) | 상 | frozen v2 cut 기준 Approved/RR 표기 | **완료, 일치** (독립 QA 세션, 2026-09-29) | **완료** FDA approval letter(2020-01-21), Innovent NMPA 승인 공시(2025-03-14), Viridian FDA 승인 보도자료(2026-06-26), Genentech priority review 보도자료(2026-06-29, 결정 예정 2026-10-15) 원문 대조 | 2026-09-29 |
+| Efgartigimod GD/TED 분리 | 상 | GD P3 active 본표 유지, TED P3 terminated 부표 이동 | **완료, 일치** (독립 QA 세션, 2026-09-29) | **완료** NCT07570316/7596849: `PHASE3`, `RECRUITING`, GD conditions; NCT06307613/26: `PHASE3`, `TERMINATED`, `["Thyroid Eye Disease"]` | 2026-09-29 |
 
 ## 7. QA E6/E7 결론
 
 | QA | 결과 | 근거 |
 |---|---|---|
-| E6 indication-specific staging | **PROVISIONAL, independent QA pending** | 작성 세션에서 모든 v2 임상 자산을 `trial_ids`와 trial의 `indication`, `phase`, `overall_status`로 재판정했으나, 상 tier phase claim의 분리 세션/cross-model QA와 direct-quote 대조는 아직 완료되지 않음 |
+| E6 indication-specific staging | **PASS** (독립 QA 완료, 2026-09-29) | 작성 세션의 재판정에 더해, 분리된 독립 QA 세션(`moa_phase_matrix_extended_qa.md`)이 상 tier phase claim 전부(MER511, GenSci098/YB-101, KHN939, SCTT11)와 승인/심사 자산(Teprotumumab, IBI311, Veligrotug, Satralizumab, Efgartigimod)을 ClinicalTrials.gov API v2 및 규제/sponsor 원문 direct quote로 대조해 일치를 확인. 교정 필수 사항 없음, 권고 3건은 QA 보고서 5절 참조 |
 | E7 discontinued/NDR 제외 | **PASS** | stopped/failed/suspended 10개와 NDR/범위외 8개를 active 매트릭스 밖 부표에 명시적으로 보존. TED-terminated efgartigimod는 TED에서만 제외하고 GD는 유지 |
 
 ## 8. 해석상 한계
