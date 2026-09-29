@@ -334,6 +334,7 @@ title: GD_TED_report
 
 ### C6. Unmet Needs (중립 서술)
 
+- **Class별 비교표:** 8개 class(ATD, RAI, 수술, IVMP, IGF-1R 억제, FcRn 억제, TSHR 직접 차단/길항, TSAb-IgG sweeping concept)의 핵심 한계는 `01_competitive_landscape/class_limitation_matrix.md`에 한 장으로 재편집했다. 명칭과 indication-specific 개발단계는 Section C4의 갱신본인 `01_competitive_landscape/moa_phase_matrix_extended.md`를 기준으로 하며, 마지막 개념군의 해석은 Section E의 가설/근거 수준을 따른다.
 - Teprotumumab 이후: 고비용(가격 정보는 이번 raw search 범위 밖), 청각 AE의 실제 빈도가 초기 등록임상 대비 실사용에서 상당히 높게 관찰되며 일부 비가역적 소견 존재[45, 46]; 정량화된 모집단 수준 재발률은 미확정(위 C5 한계 참조)
 - Inactive TED: 이번 라운드에서 승인된 systemic therapy 부재를 직접 뒷받침하는 원저 별도 미대조(review 수준에서는 일관되게 언급됨)
 - TRAb 음성 TED: TSHRAb 검출 assay 병용 시에도 위음성 가능(9.4% 불일치)[15] — TRAb-seronegative TED의 정확한 비율(계획서 기재 5-10%)은 이번 라운드 직접 확인 안 됨
