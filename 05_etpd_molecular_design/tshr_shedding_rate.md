@@ -46,7 +46,7 @@ inputs:
 | [10411305](https://pubmed.ncbi.nlm.nih.gov/10411305/) | Tanaka K, Chazenbalk GD, McLachlan SM, Rapoport B. *The shed thyrotropin receptor is primarily a carboxyl terminal truncated form of the A subunit, not the entire A subunit.* **Mol Cell Endocrinol.** 1999;150(1-2):113-119. doi:10.1016/S0303-7207(99)00018-0. | 직접 실험 | shed species의 주성분이 C-terminal truncated A-subunit임을 제시. 표준 serum 조건에서는 normal-sized A-subunit도 더 적은 양으로 검출. rate 및 혈중농도 없음 |
 | [10567361](https://pubmed.ncbi.nlm.nih.gov/10567361/) | Tanaka K, Chazenbalk GD, McLachlan SM, Rapoport B. *Subunit structure of thyrotropin receptors expressed on the cell surface.* **J Biol Chem.** 1999;274(48):33979-33984. doi:10.1074/jbc.274.48.33979. | 직접 실험 | 낮은 A/B subunit ratio를 partial shedding의 근거로 제시하지만, 일반화 가능한 시간당 rate는 제시하지 않음 |
 | [12919313](https://pubmed.ncbi.nlm.nih.gov/12919313/) | Quellari M, Desroches A, Beau I, Beaudeux E, Misrahi M. *Role of cleavage and shedding in human thyrotropin receptor function and trafficking.* **Eur J Biochem.** 2003;270(17):3486-3497. doi:10.1046/j.1432-1033.2003.03718.x. | 직접 실험 | cleavage/shedding 후 free beta-subunit의 activation 및 internalization을 연구. 생체 shedding rate/혈중농도 자료 아님 |
-| [15319351](https://pubmed.ncbi.nlm.nih.gov/15319351/) | Latif R, Ando T, Davies TF. *Monomerization as a prerequisite for intramolecular cleavage and shedding of the thyrotropin receptor.* **Endocrinology.** 2004;145(12):5580-5588. doi:10.1210/en.2004-0797. | 직접 실험 | CHO 모델에서 TSH가 cleavage 및 shedding을 시간·농도 의존적으로 증가시킴. cell-based cleavage assay는 있으나 사람 in vivo shedding rate로 전환할 수 없음 |
+| [15319351](https://pubmed.ncbi.nlm.nih.gov/15319351/) | Latif R, Ando T, Davies TF. *Monomerization as a prerequisite for intramolecular cleavage and shedding of the thyrotropin receptor.* **Endocrinology.** 2004;145(12):5580-5588. doi:10.1210/en.2004-0797. | 직접 실험 | CHO 모델에서 TSH가 cleavage 및 shedding을 시간/농도 의존적으로 증가시킴. cell-based cleavage assay는 있으나 사람 in vivo shedding rate로 전환할 수 없음 |
 | [17911409](https://pubmed.ncbi.nlm.nih.gov/17911409/) | Ando T, Latif R, Davies TF. *Antibody-induced modulation of TSH receptor post-translational processing.* **J Endocrinol.** 2007;195(1):179-186. doi:10.1677/JOE-07-0058. | 직접 실험 | 일부 TSHR antibody가 cleavage를 억제하고 receptor expression을 높이는 epitope-dependent 효과를 보고. 일정한 고유 shedding rate 가정이 부적절함을 뒷받침 |
 | [26799472](https://pubmed.ncbi.nlm.nih.gov/26799472/) | Rapoport B, McLachlan SM. *TSH Receptor Cleavage Into Subunits and Shedding of the A-Subunit; A Molecular and Clinical Perspective.* **Endocr Rev.** 2016;37(2):114-134. doi:10.1210/er.2015-1098. | 종설 | A-subunit shedding의 기전 및 Graves' disease 면역원성 가설을 종합. 정량적 사람 in vivo rate 또는 circulating concentration의 기준값은 PubMed 초록에 없음 |
 | [1497642](https://pubmed.ncbi.nlm.nih.gov/1497642/) | Murakami M, Miyashita K, Yamada M, Iriuchijima T, Mori M. *Characterization of human thyrotropin receptor-related peptide-like immunoreactivity in peripheral blood of Graves' disease.* **Biochem Biophys Res Commun.** 1992;186(2):1074-1080. doi:10.1016/0006-291X(92)90856-G. | 사람 혈장 직접 측정 | RIA dilution parallelism, 약 60 kDa 신호, Graves' disease군에서 normal 및 Hashimoto hypothyroidism군보다 유의하게 높은 immunoreactivity를 보고. 색인 초록에는 절대농도/단위 미기재. 원문 미검토이므로 논문 내 수치 부재를 뜻하지 않음 |
@@ -85,7 +85,7 @@ inputs:
 
 ### 원문 접근 및 검토 상태
 
-PMID 1497642는 이 질문의 유일한 직접 사람 혈장 연구이므로 초록 확인만으로 완료 처리할 수 없다. PubMed/Europe PMC, Crossref, OpenAlex, Semantic Scholar 메타데이터를 대조했으나 2026-09-24 현재 공개 원문 또는 공개 PDF를 확인하지 못했다. OpenAlex와 Semantic Scholar는 이 논문을 closed access로 표시하고 Europe PMC는 `isOpenAccess: N`, `inPMC: N`, `hasPDF: N`으로 반환했다. 따라서 현재 결과는 **abstract-index review**이며, 논문 전문의 표·그림·Methods/Results에 절대농도가 있는지는 아직 미검증이다.
+PMID 1497642는 이 질문의 유일한 직접 사람 혈장 연구이므로 초록 확인만으로 완료 처리할 수 없다. PubMed/Europe PMC, Crossref, OpenAlex, Semantic Scholar 메타데이터를 대조했으나 2026-09-24 현재 공개 원문 또는 공개 PDF를 확인하지 못했다. OpenAlex와 Semantic Scholar는 이 논문을 closed access로 표시하고 Europe PMC는 `isOpenAccess: N`, `inPMC: N`, `hasPDF: N`으로 반환했다. 따라서 현재 결과는 **abstract-index review**이며, 논문 전문의 표/그림/Methods/Results에 절대농도가 있는지는 아직 미검증이다.
 
 PMID 1497642가 사람 peripheral blood에서 가장 직접적인 후보이나, 해당 assay는 TSHR amino acids 32-56 합성 peptide에 대한 antiserum으로 측정한 `TSHRP-1-like immunoreactivity`이다. 약 60 kDa라는 분자량 및 질환군 차이는 soluble extracellular-domain 가설과 일치하지만 다음 이유로 현대적인 intact/shed TSHR 농도 기준값으로 바로 사용할 수 없다.
 
@@ -117,7 +117,33 @@ PubMed live search와 후보 PMID/서지사항 검증은 성공했다. 그러나
 
 `done` 전환 조건:
 
-1. PMID 1497642 전문을 합법적으로 확보해 표·그림·Methods/Results의 군별 농도, 단위, 표준물질 및 assay 성능을 직접 검토한다.
+1. PMID 1497642 전문을 합법적으로 확보해 표/그림/Methods/Results의 군별 농도, 단위, 표준물질 및 assay 성능을 직접 검토한다.
 2. 수치가 있으면 그대로 추출하고 modern intact/shed TSHR 농도로 사용할 수 있는지 한계를 평가한다.
 3. 수치가 없으면 그 negative finding을 전문 검토 근거와 함께 기록한다.
 4. 위 검토가 불가능한 채 deliverable 범위를 abstract-only search로 축소하려면 사용자의 명시적 승인을 받는다.
+
+## 정정 이력
+
+본 문서의 이전 버전과 PR 기재에서 확인된 오류와 정정 경위이다. 팩트체크는 2026-10-01에 독립 QA 세션에서 수행했다(#1, #2 참고).
+
+| 대상 | 내용 | 처리 |
+|---|---|---|
+| #1 merge본 참고문헌 | PMID `8626801`은 TSHR shedding 논문이 아니라 HIV-1 protease precursor 논문이었음 | #2에서 `8626810`(Couet et al., J Biol Chem 1996)으로 교정. 2026-10-01 QA에서 재확인 |
+| #1 merge본 참고문헌 | PMID `9202231`은 two-cleavage-site 논문이 아니라 connexin 43/hypoglycemia 논문이었음 | #2에서 `9202233`(Chazenbalk et al., Endocrinology 1997)으로 교정. 2026-10-01 QA에서 재확인 |
+| #1 merge본 참고문헌 | PMID `11397853`은 TSHR 문헌이 아니라 preterm birth risk-factor 논문이었음 | #2에서 참고문헌에서 제외. 2026-10-01 QA에서 재확인 |
+| #2 PR 본문 | 본문과 testing 기재가 frontmatter `status: done`으로 서술했으나, 실제 merge 본문은 `status: in-review`임 | 본문 기재 오류. 문서 내용은 Codex P1 review(#2)와 본 문서의 done 전환 조건에 따라 `in-review`가 올바르므로 문서는 수정하지 않음 |
+| 본 문서 (이번 PR) | 가운뎃점 3건이 `docs/repo_conventions.md`의 사용 금지 규칙 위반으로 남아 있었음 | `/`로 대체하여 수정 |
+
+## 검증 로그
+
+`docs/repo_conventions.md`의 검증 로그 규칙에 따라 독립 QA 세션의 팩트체크 결과를 기록한다. QA 실행일: 2026-10-01.
+
+| claim | tier | 검증 방법 | 결과 | 일자 |
+|---|---|---|---|---|
+| 참고문헌 표 10건의 PMID/서지사항(저자, 제목, 저널, 연도, 권호, 페이지, DOI) | 하(서지) | PubMed `esummary`/`efetch`로 10건 전부 재대조 | 10건 모두 레코드와 일치 | 2026-10-01 |
+| PubMed query 결과 수 208/33/22 | 하 | 동일 검색식 `esearch` 재실행 | 3건 모두 동일한 결과 수 재현 | 2026-10-01 |
+| PMID 1497642 초록 서술(TSHRP-1 amino acids 32-56 antiserum, RIA dilution parallelism, 약 60 kDa, Graves군이 normal 및 Hashimoto hypothyroidism군보다 유의하게 높음) | 중 | PubMed `efetch` 초록 direct 대조 | 서술과 일치. 초록에 절대농도/단위 없음 확인 | 2026-10-01 |
+| PMID 8626810 초록 서술(human thyrocyte 및 transfected L/CHO cell, endocytosis/recycling/lysosomal degradation 억제 시 증가, TSH 및 phorbol ester로 소폭 증가, serum 감소 시 증가, BB-2116으로 억제) | 중 | PubMed `efetch` 초록 direct 대조 | 서술과 일치 | 2026-10-01 |
+| LCA-0321/MER511 mechanism 서술 및 evidence confidence(Low, Low-moderate) | 상(임상 phase 포함) | `00_baseline_biomni/landscape_v2/report_graves_ted_landscape_v2.md` §5.1-5.2와 대조 | repo 내 서술과 일치. 1차 원문 대조는 landscape report의 기존 검증에 의존하므로 본 로그는 repo 내부 일치성 확인까지만 담보 | 2026-10-01 |
+| frontmatter `inputs` 3건의 파일 존재 | 하 | main branch tree에서 경로 확인 | 3건 모두 존재 | 2026-10-01 |
+| PMID 1497642 원문 전문 정량값 유무 | - | 미검증(abstract-index review). 본문의 done 전환 조건 1항 그대로 유지 | pending | 2026-10-01 |
