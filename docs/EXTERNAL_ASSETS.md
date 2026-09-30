@@ -14,6 +14,7 @@ git에 넣지 않은 파일 목록. 무결성은 SHA-256으로 확인한다(전�
 | `presentation_graves_ted_landscape_v2.slides/slide-001~015.png` (렌더) | 약 2.7 MB | `landscape_v2/` | TODO(pptx와 같은 폴더) |
 | `worker-0.ipynb` (v1/v2 실행 trace) | 8,012,145 B | `execution_trace/` | TODO |
 | `GD_TED_deck_260914.pptx` (29 slide, claude.ai Project 보관) | 미확인 | 이 폴더에 없음 | TODO(claude.ai에서 확보 필요) |
+| `SCLC_Graves_population_model.xlsx` (2026-09-28 검토본) | 60,121 B | Google Sheets ID `1urdrkYPYPKDpIBIhP0GsPKjK62GlxgtKkq8T2hIr_gk` | [Drive 원본](https://docs.google.com/spreadsheets/d/1urdrkYPYPKDpIBIhP0GsPKjK62GlxgtKkq8T2hIr_gk/edit?usp=sharing), [XLSX direct export](https://docs.google.com/spreadsheets/d/1urdrkYPYPKDpIBIhP0GsPKjK62GlxgtKkq8T2hIr_gk/export?format=xlsx); 검토 시점 SHA-256은 `04_tam_sam_pricing/sources/README.md` |
 
 ## 참고
 
