@@ -6,6 +6,7 @@ milestone: cluster-1-competitive-landscape
 status: in-review
 inputs:
   - 00_legacy_unsorted/GD_TED_report.md
+  - 00_baseline_biomni/landscape_v2/soc_outcomes_v2.csv
   - 00_baseline_biomni/landscape_v2/pipeline_assets_v2.csv
   - 00_baseline_biomni/landscape_v2/report_graves_ted_landscape_v2.md
   - 01_competitive_landscape/moa_phase_matrix_extended.md
