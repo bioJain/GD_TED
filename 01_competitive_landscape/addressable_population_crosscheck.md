@@ -66,7 +66,7 @@ inputs:
 | 임신/수유 또는 pediatric GD | 임신 시기별 PTU/MMI, 전문 수술; RAI 제한/금기 | 해당 special population을 직접 포괄하는 후기 자산 확인 안 됨 | fetal/infant/growth safety와 장기 disease modification 자료 부족 | **조건부 잔여군** |
 | Mild active TED | Local/supportive care, selected selenium | 다수 TED pipeline은 moderate-to-severe 중심 | 진행 예측과 조기 disease modification 기준 부족 | 부분 포괄 |
 | Active moderate-to-severe, inflammation 중심 TED | IVMP 기반, 지역에 따라 IGF-1R therapy | IGF-1R P3/P2/P1, IL-6 계열, 기타 면역조절 | steroid/IGF-1R 부적합 또는 nonresponse, phenotype별 직접 비교 부족 | **조건부 잔여군** |
-| IGF-1R 치료 후 nonresponse/relapse | 재평가 후 alternate immunomodulation, RT, surgery | 다른 IGF-1R 및 IL-6/CD40L/plasma-cell 축 | class 내 교체 효과, relapse 정의, retreatment와 장기 durability 불확실 | **durability 잔여군** |
+| IGF-1R 치료 후 nonresponse/relapse | 재평가 후 alternate immunomodulation, RT, surgery | 다른 IGF-1R 및 IL-6/plasma-cell 축. CD40L은 TED 개발 중단으로 watchlist(7.10) | class 내 교체 효과, relapse 정의, retreatment와 장기 durability 불확실 | **durability 잔여군** |
 | Chronic/inactive TED, 고정 구조 이상 | Staged surgery; 미국에서는 teprotumumab과 veligrotug가 activity/duration 무관 승인, EU/UK에서는 teprotumumab이 성인 moderate-to-severe TED에 승인; 중국은 IBI311 승인 | IBI311/MHB018A 등 inactive/chronic 연구 | 지역별 authorization/access 차이, IGF-1R 부적합/무반응, durability/retreatment와 실제 surgery-avoidance 근거, 이미 고정된 deficit의 잔존 | **조건부/durability 잔여군** [13,15,16,26] |
 | TRAb 음성/assay-discordant TED | 임상상, imaging, 복수 assay를 포함한 진단 | TSHR/TSAb 표적 및 broad immune class가 존재하나 seronegative subgroup 근거 미확인 | 진단 지연, trial enrichment 누락, target biology와 response 예측 불확실 | **biomarker 잔여군** |
 | DON/각막 위협 | Emergency IVMP, urgent decompression | 일반 pipeline sequence로 대체 불가 | referral/decompression 접근성과 vision-specific evidence가 핵심 | **경로 잔여군** |
@@ -136,8 +136,8 @@ inputs:
 | 잔여군 | 계산 논리 | 5개국/지역 대략 규모 | Confidence | 해석 |
 |---|---|---:|---|---|
 | GD, 첫 ATD course 후 비관해/재발 | 연간 신규 GD 60.6만 x ATD-first 90% x 비관해/재발 50-70% | **연 27.3만-38.2만 명의 incident cohort** | **낮음-중간** | 12-18개월 뒤 발생하는 failure이므로 같은 calendar year의 환자 수가 아님. 90%는 국제 clinician survey, 50-70%는 remission 30-50%의 역산이며 국가별 practice와 장기 ATD로 크게 변동[2,3] |
-| TED, 추가치료가 필요한 refractory/relapse | TED 연간 신규 저/고 11.2만-25.1만 x 22-30% | **연 2.5만-7.5만 명** | **낮음** | 22-30%는 일본 guidance context이며 전 지역 efficacy rate가 아님. Active/inactive와 약물별 failure가 혼재[13] |
-| Chronic/inactive TED | TED 연간 신규 저/고 x 일본 inactive 74% | **연 8.3만-18.6만 명** | **매우 낮음** | 질환 자연사상 언젠가 inactive가 되는 사람의 scenario로, residual deficit이나 치료 필요 환자 수가 아님. 일본 한 국가의 단면 분포를 타 지역에 외삽[5] |
+| TED, pulse therapy 후 refractory/relapse | TED 연간 신규 저/고 11.2만-25.1만 x non-mild 15% x pulse therapy 시행율 15-32% x 22-30% | **연 0.06만-0.36만 명** | **매우 낮음** | 22-30%는 일본 guidance의 pulse therapy 후 불응/재발 환자 기준 context이므로 분모를 pulse therapy 시행 환자로 재한했다. 시행율 15%(current)-32%(ever-use 포함)는 US chart review의 active moderate-to-severe TED 관찰값이며, EU guideline은 IV glucocorticoid가 사실상 표준이라 상단 과소추정 가능. US 분모 x 일본 rate의 이중 외삽과 pre-teprotumumab 자료 시점도 경계[13,27] |
+| Chronic/inactive TED | TED 연간 신규 저/고 x 일본 inactive 74% | **연 8.3만-18.6만 명** | **매우 낮음** | 74%는 유병 표본의 단면 inactive 점유율이지 incidence가 inactive로 전환할 확률이 아니며, inactive 상태가 수년 지속되는 만큼 duration-weighted 값이다. 따라서 이 값은 연간 flow가 아니라 어느 시점의 inactive 유병 규모 scenario로만 해석해야 하고, residual deficit이나 치료 필요 환자 수도 아님. 일본 한 국가의 단면 분포를 타 지역에 외삽[5] |
 | TRAb 음성/assay-discordant TED | 검증된 공통 rate 없음 | **산출 불가** | **매우 낮음** | Legacy의 assay 불일치 9.4%를 진성 seronegative prevalence로 치환할 수 없음 |
 | DON/각막 위협, special population, 수술 부적합 | 중복 없는 5개국 분모/rate 없음 | **산출 불가** | **매우 낮음** | 각각 임상 상태, contraindication, 선호, access가 겹치며 repo 입력에 joint distribution 부재 |
 
@@ -205,7 +205,7 @@ Pros는 sponsor/preclinical design intent, cons와 전략은 그 intent가 충�
 | **TED biological ceiling** | 신규 TED 저/고 scenario 전체 | **연 약 11.2만-25.1만 명** | **낮음** |
 | **Early/active TED proxy** | 신규 TED x active 26%, 일본 inactive 74%의 역산 | **연 약 2.9만-6.5만 명** | **매우 낮음** |
 
-이 수치는 **technical addressability ceiling**이다. 실제 eligible population을 계산하려면 최소한 국가별 진단/치료율, functional TSAb 양성률, prior RAI/surgery, age/comorbidity, pregnancy, goiter, active TED, payer access의 joint distribution이 필요하지만 현재 repo에 없다. 특히 `TRAb 양성률`을 추가로 곱하지 않은 이유는 assay 종류와 disease stage에 따라 sensitivity가 달라지고, 이 class에는 단순 binding TRAb보다 functional TSAb 및 epitope coverage가 더 중요한 enrollment variable이기 때문이다. 따라서 priority GD의 27.3만-38.2만 명은 **asset별 label-eligible 수가 아니라 임상개발이 겨냥할 수 있는 line-level 후보군**으로만 사용한다.[7,8,9,10,11,12]
+이 수치는 **technical addressability ceiling**이다. 실제 eligible population을 계산하려면 최소한 국가별 진단/치료율, functional TSAb 양성률, prior RAI/surgery, age/comorbidity, pregnancy, goiter, active TED, payer access의 joint distribution이 필요하지만 현재 repo에 없다. 특히 `TRAb 양성률`을 추가로 곱하지 않은 이유는 assay 종류와 disease stage에 따라 sensitivity가 달라지고, 이 class에는 단순 binding TRAb보다 functional TSAb 및 epitope coverage가 더 중요한 enrollment variable이기 때문이다. 따라서 priority GD의 27.3만-38.2만 명은 **asset별 label-eligible 수가 아니라 임상개발이 겨냥할 수 있는 line-level 후보군**으로만 사용한다.[7,8,9,10,11,12] `Early/active TED proxy`의 26%도 일본 유병 표본의 단면 점유율 역산으로, 연간 신규가 active 상태로 유지될 확률이 아니므로 위 chronic/inactive 행과 같은 prevalence-incidence mismatch를 가진 proxy다.
 
 ### 6.6 Coverage를 넓히는 임상개발 순서
 
@@ -220,24 +220,24 @@ Pros는 sponsor/preclinical design intent, cons와 전략은 그 intent가 충�
 
 ### 7.1 공통 산정 archetype과 지역별 patient flow
 
-향후 class 간 비교에는 동일한 분모가 필요하므로 아래 다섯 archetype을 사용한다. 이는 forecast가 아니라 **어떤 therapy line을 겨냥할 수 있는지 보여주는 technical patient-flow scenario**다. 모든 비율은 지역별 직접 관찰값이 아니며, 특히 TED의 15%, 22-30%, 26%는 일본 자료/경로를 5개국에 외삽하므로 confidence가 낮거나 매우 낮다.[1,2,3,5,13]
+향후 class 간 비교에는 동일한 분모가 필요하므로 아래 다섯 archetype을 사용한다. 이는 forecast가 아니라 **어떤 therapy line을 겨냥할 수 있는지 보여주는 technical patient-flow scenario**다. 모든 비율은 지역별 직접 관찰값이 아니며, 특히 TED의 15%, 22-30%, 26%는 일본 자료/경로를 5개국에 외삽하고 pulse therapy 시행율 15-32%는 US 관찰값을 타 지역에 적용하므로 confidence가 낮거나 매우 낮다.[1,2,3,5,13,27]
 
 - `G0`: 신규 GD x ATD-first 90%, broad medical-treatment ceiling
 - `G1`: 신규 GD x ATD-first 90% x 첫 course 비관해/재발 50-70%, priority post-ATD line
 - `T0`: 전체 신규 TED 저/고 scenario, broad biological/label ceiling
 - `T1`: 신규 TED x non-mild 15%, systemic clinically significant proxy
-- `T2`: 신규 TED x 추가치료 22-30%, refractory/relapse proxy
+- `T2`: 신규 TED x non-mild 15% x pulse therapy 시행율 15-32% x 추가치료 22-30%, pulse 후 refractory/relapse proxy
 
-| 지역 | G0, broad GD | G1, post-ATD failure | T0, 전체 신규 TED | T1, systemic proxy | T2, refractory/relapse proxy |
+| 지역 | G0, broad GD | G1, post-ATD failure | T0, 전체 신규 TED | T1, systemic proxy | T2, pulse 후 refractory proxy |
 |---|---:|---:|---:|---:|---:|
-| 미국 | 8.2만 | 4.1만-5.7만 | 1.7만-3.8만 | 0.26만-0.57만 | 0.37만-1.14만 |
-| EU5 | 7.9만 | 4.0만-5.5만 | 1.6만-3.7만 | 0.24만-0.56만 | 0.35만-1.11만 |
-| 한국 | 1.5만 | 0.77만-1.07만 | 0.26만-0.57만 | 0.04만-0.09만 | 0.06만-0.17만 |
-| 일본 | 3.0만 | 1.5만-2.1만 | 0.6만-1.4만 | 0.09만-0.21만 | 0.13만-0.42만 |
-| 중국 | 33.9만 | 17.0만-23.8만 | 7.0만-15.6만 | 1.05만-2.34만 | 1.54만-4.68만 |
-| **5개국/지역 합계** | **54.5만** | **27.3만-38.2만** | **11.2만-25.1만** | **1.7만-3.8만** | **2.5만-7.5만** |
+| 미국 | 8.2만 | 4.1만-5.7만 | 1.7만-3.8만 | 0.26만-0.57만 | 0.01만-0.05만 |
+| EU5 | 7.9만 | 4.0만-5.5만 | 1.6만-3.7만 | 0.24만-0.56만 | 0.01만-0.05만 |
+| 한국 | 1.5만 | 0.77만-1.07만 | 0.26만-0.57만 | 0.04만-0.09만 | 0.001만-0.009만 |
+| 일본 | 3.0만 | 1.5만-2.1만 | 0.6만-1.4만 | 0.09만-0.21만 | 0.003만-0.02만 |
+| 중국 | 33.9만 | 17.0만-23.8만 | 7.0만-15.6만 | 1.05만-2.34만 | 0.03만-0.22만 |
+| **5개국/지역 합계** | **54.5만** | **27.3만-38.2만** | **11.2만-25.1만** | **1.7만-3.8만** | **0.06만-0.36만** |
 
-> `T1`과 `T2`는 서로 독립 모집단이 아니며 크기 역전도 가능하다. `T1`은 한 시점의 severity proxy, `T2`는 치료 과정 중 추가치료 event proxy이기 때문이다. 두 값을 더하거나 funnel의 연속 단계로 사용하지 않는다.
+> `T1`과 `T2`는 서로 독립 모집단이 아니다. `T1`은 한 시점의 severity proxy, `T2`는 그 하위에서 pulse therapy를 시행받은 환자의 추가치료 event proxy로, `T2`는 `T1`의 부분집합 성격을 가진다. 두 값을 더하거나 funnel의 연속 단계로 사용하지 않는다.
 
 ### 7.2 IGF-1R inhibition
 
@@ -304,7 +304,7 @@ Pros는 sponsor/preclinical design intent, cons와 전략은 그 intent가 충�
 | 평가축 | 판단 |
 |---|---|
 | 가능한 positioning | 반복 재발/high-TRAb GD에서 autoantibody source를 줄이는 remission-directed 2차; steroid/IGF-1R refractory TED의 high-severity niche |
-| Priority population | GD upper line은 `G1` 연 27.3만-38.2만 명이나 실제 benefit-risk 적합군은 훨씬 작을 가능성. TED는 `T2` 연 2.5만-7.5만 명의 refractory proxy가 상단 |
+| Priority population | GD upper line은 `G1` 연 27.3만-38.2만 명이나 실제 benefit-risk 적합군은 훨씬 작을 가능성. TED는 `T2` 연 0.06만-0.36만 명의 pulse 후 refractory proxy가 상단 |
 | Address하기 어려운 영역 | Mild/self-limited disease, 감염/혈액학적 위험이 큰 환자, fixed fibrosis, emergency decompression 필요군 |
 | Class-intrinsic risk | Broad B/plasma-cell depletion, infection, hypogammaglobulinemia, cytokine-release/lymphodepletion 등 modality별 치료강도; antibody가 아닌 downstream pathology는 잔존 |
 | Asset differentiation | Antigen-specific vs broad depletion, outpatient feasibility, immune reconstitution, vaccine response, finite-course remission, no-lymphodepletion platform |
@@ -318,7 +318,7 @@ Pros는 sponsor/preclinical design intent, cons와 전략은 그 intent가 충�
 | 평가축 | 판단 |
 |---|---|
 | 가능한 positioning | Active moderate-to-severe TED의 steroid-sparing alternative; steroid-resistant/intolerant 환자; IGF-1R 부적합 또는 접근 제한 환자의 mechanism switch |
-| Priority population | Broad systemic proxy `T1` 연 1.7만-3.8만 명. Refractory focus는 `T2` 연 2.5만-7.5만 명이나 두 proxy는 중복되고 직접 funnel이 아님 |
+| Priority population | Broad systemic proxy `T1` 연 1.7만-3.8만 명. Refractory focus는 `T2` 연 0.06만-0.36만 명이나 두 proxy는 중복되고 직접 funnel이 아님 |
 | Address하기 어려운 영역 | GD hyperthyroidism, inactive fixed proptosis/diplopia, DON에서 decompression 지연, infection/hepatic/neutropenia risk군 |
 | Class-intrinsic risk | Inflammation은 낮춰도 structural response와 durable drug-free remission이 제한될 수 있음; chronic immune blockade/monitoring |
 | Asset differentiation | Proptosis/diplopia 동반효과, SC convenience, steroid-sparing design, flare prevention, infection/liver/neutrophil safety, IGF-1R head-to-head |
@@ -374,7 +374,7 @@ Pros는 sponsor/preclinical design intent, cons와 전략은 그 intent가 충�
 | 평가축 | 판단 |
 |---|---|
 | 가능한 positioning | Steroid-resistant/intolerant active TED의 oral/repurposed rescue; access가 제한된 시장의 off-label 또는 lower-cost alternative 가능성 |
-| Priority population | `T2` 연 2.5만-7.5만 명의 refractory proxy. 실제 eligibility는 infection, age, comorbidity로 감소 |
+| Priority population | `T2` 연 0.06만-0.36만 명의 pulse 후 refractory proxy. 실제 eligibility는 infection, age, comorbidity로 감소 |
 | Address하기 어려운 영역 | Fixed inactive fibrosis, DON emergency, GD durable remission, 강한 structural response가 필요한 proptosis/diplopia |
 | Class-intrinsic risk | Pleiotropic immunosuppression과 class별 infection/metabolic/thrombotic monitoring; TED-specific target selectivity 부족 |
 | Asset differentiation | Short-course regimen, local/orbital delivery, biomarker-selected inflammation, comparative steroid-sparing trial, generic/access advantage |
@@ -401,7 +401,7 @@ IL-11R은 JHA-73 frozen matrix에 active asset이 없고, KHN939/SCTT11은 phase
 | IGF-1R/TSHR dual | Active TED, GD+TED 탐색 | `T1` 1.7만-3.8만 | Premium differentiated TED option | Fibrosis, emergency, complexity | Component contribution, superior efficacy | 매우 낮음 |
 | BTK | GD oral add-on | `G1` 27.3만-38.2만 | Convenience-driven oral niche | TED structure, definitive need | Selectivity, safety, remission vs ATD | 낮음 |
 | CD40L | 현재 active market asset 없음 | 0 | Watchlist/biomarker 기반 재진입 | Target validation, fibrosis | Safety engineering, responder biomarker | 낮음 |
-| JAK/mTOR/기타 | Refractory active TED | `T2` 2.5만-7.5만 | Access/repurposing 기반 niche | GD remission, fixed TED | Short course, comparative data, affordability | 낮음 |
+| JAK/mTOR/기타 | Refractory active TED | `T2` 0.06만-0.36만 | Access/repurposing 기반 niche | GD remission, fixed TED | Short course, comparative data, affordability | 낮음 |
 
 > 각 행의 patient flow는 **경쟁 class가 공유하는 동일 환자 pool**이다. 예를 들어 GD `G1`을 FcRn, pan-IgG, anti-TSHR, TSHR blockade, B/plasma-cell, BTK에 각각 배정한 뒤 합산하면 동일 환자를 여러 번 세는 오류가 된다.
 
@@ -481,6 +481,7 @@ Legacy report는 동결하고, C6의 다섯 항목을 아래와 같이 현재 �
 24. JHA-80. *R1b 자산 식별 및 CD40L 적응증 분석*. `03_mechanism_deepdive/r1b_asset_identification.md`.
 25. ClinicalTrials.gov. [NCT07547930, tofacitinib in refractory/intolerant TED](https://clinicaltrials.gov/study/NCT07547930); [NCT04936854, sirolimus in active TED](https://clinicaltrials.gov/study/NCT04936854).
 26. US National Library of Medicine DailyMed. [TEPEZZA (teprotumumab-trbw) current prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce). Regulator/NLM label repository; 확인일: 2026-09-10.
+27. Wang Y, Sharma AR, Padnick-Silver L, et al. Trends in Treatment of Active, Moderate-to-Severe Thyroid Eye Disease in the United States. *J Endocr Soc.* 2020. DOI: [10.1210/jendso/bvaa140](https://doi.org/10.1210/jendso/bvaa140).
 
 ## 13. 검증 로그
 
@@ -495,3 +496,6 @@ Legacy report는 동결하고, C6의 다섯 항목을 아래와 같이 현재 �
 | 지역별 scenario 산술 | 상 | 5개 지역 G0/G1/T0/T1/T2 산식과 합계 재계산 | PASS, 원 비율의 독립 QA 대기 | 2026-09-30 |
 | Chronic/inactive TED 현재 coverage | 상 | JHA-71 authorization table, US teprotumumab/veligrotug label scope 및 JHA-73 IBI311 status 대조 | PASS, 지역 access unresolved 유지 | 2026-09-30 |
 | 가운뎃점 미사용 | 하 | 문자 검색 | PASS | 2026-09-30 |
+| Refractory flow 분모 재판정 | 상 | 22-30%를 pulse therapy 시행 환자 분모로 재한하고 US chart review 시행율 15-32%로 재계산, 기존 2.5만-7.5만과 비교 후 신규 추정치 채택 | PASS, T2를 연 0.06만-0.36만으로 수정 | 2026-09-30 |
+| Inactive TED 연간 flow 경고 강화 | 하 | 74% 단면 점유율과 incidence transition probability의 혼동 방지 주석을 5.2/6.5에 추가 | PASS, 수치는 유지 | 2026-09-30 |
+| CD40L coverage map 정합성 | 하 | 3절 active pipeline 축에서 CD40L 제거 및 7.10 watchlist 표기와 정합 확인 | PASS | 2026-09-30 |
