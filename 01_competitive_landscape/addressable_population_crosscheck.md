@@ -14,6 +14,7 @@ inputs:
   - 00_baseline_biomni/landscape_v2/soc_outcomes_v2.csv
   - 00_baseline_biomni/landscape_v2/direct_source_documents_v2.jsonl
   - 00_baseline_biomni/landscape_v2/reference_v2.md
+  - 03_mechanism_deepdive/r1b_asset_identification.md
 ---
 
 # GD/TED address 가능 환자군 교차분석
@@ -214,7 +215,215 @@ Pros는 sponsor/preclinical design intent, cons와 전략은 그 intent가 충�
 5. **Combination 전략:** Downstream inflammation에는 IGF-1R/anti-inflammatory, persistent antibody production에는 plasma-cell/B-cell 축과 순차 또는 병용을 검토
 6. **제형/진단 동시개발:** SC dosing, functional TSAb companion assay, response-based stopping/retreatment rule로 접근성과 benefit-risk 개선
 
-## 7. Legacy Section C6 통합본
+## 7. 주요 개발 class별 10년 positioning scenario
+
+### 7.1 공통 산정 archetype과 지역별 patient flow
+
+향후 class 간 비교에는 동일한 분모가 필요하므로 아래 다섯 archetype을 사용한다. 이는 forecast가 아니라 **어떤 therapy line을 겨냥할 수 있는지 보여주는 technical patient-flow scenario**다. 모든 비율은 지역별 직접 관찰값이 아니며, 특히 TED의 15%, 22-30%, 26%는 일본 자료/경로를 5개국에 외삽하므로 confidence가 낮거나 매우 낮다.[1,2,3,5,13]
+
+- `G0`: 신규 GD x ATD-first 90%, broad medical-treatment ceiling
+- `G1`: 신규 GD x ATD-first 90% x 첫 course 비관해/재발 50-70%, priority post-ATD line
+- `T0`: 전체 신규 TED 저/고 scenario, broad biological/label ceiling
+- `T1`: 신규 TED x non-mild 15%, systemic clinically significant proxy
+- `T2`: 신규 TED x 추가치료 22-30%, refractory/relapse proxy
+
+| 지역 | G0, broad GD | G1, post-ATD failure | T0, 전체 신규 TED | T1, systemic proxy | T2, refractory/relapse proxy |
+|---|---:|---:|---:|---:|---:|
+| 미국 | 8.2만 | 4.1만-5.7만 | 1.7만-3.8만 | 0.26만-0.57만 | 0.37만-1.14만 |
+| EU5 | 7.9만 | 4.0만-5.5만 | 1.6만-3.7만 | 0.24만-0.56만 | 0.35만-1.11만 |
+| 한국 | 1.5만 | 0.77만-1.07만 | 0.26만-0.57만 | 0.04만-0.09만 | 0.06만-0.17만 |
+| 일본 | 3.0만 | 1.5만-2.1만 | 0.6만-1.4만 | 0.09만-0.21만 | 0.13만-0.42만 |
+| 중국 | 33.9만 | 17.0만-23.8만 | 7.0만-15.6만 | 1.05만-2.34만 | 1.54만-4.68만 |
+| **5개국/지역 합계** | **54.5만** | **27.3만-38.2만** | **11.2만-25.1만** | **1.7만-3.8만** | **2.5만-7.5만** |
+
+> `T1`과 `T2`는 서로 독립 모집단이 아니며 크기 역전도 가능하다. `T1`은 한 시점의 severity proxy, `T2`는 치료 과정 중 추가치료 event proxy이기 때문이다. 두 값을 더하거나 funnel의 연속 단계로 사용하지 않는다.
+
+### 7.2 IGF-1R inhibition
+
+**현재 신호:** Teprotumumab, veligrotug/Lumvoa 및 중국 IBI311이 승인 축을 형성하고, linsitinib, MHB018A, VRDN-003 등 후기 자산이 active/chronic TED를 확장하고 있다. 이 class는 pipeline에서 가장 성숙한 TED 경쟁축이다.[15,16,17]
+
+| 평가축 | 판단 |
+|---|---|
+| 가능한 positioning | Active moderate-to-severe TED의 proptosis/diplopia 중심 systemic backbone; chronic/inactive TED의 비수술 structural-improvement option; IV/SC/oral 및 dosing convenience 경쟁 |
+| Priority population | `T1` 연 1.7만-3.8만 명. 미국 0.26만-0.57만, EU5 0.24만-0.56만, 한국 0.04만-0.09만, 일본 0.09만-0.21만, 중국 1.05만-2.34만 |
+| Broad ceiling | Label과 근거가 activity/duration을 넓힐 경우 `T0` 연 11.2만-25.1만 명. 모든 mild TED가 약물치료 대상이라는 뜻은 아님 |
+| Address하기 어려운 영역 | GD hyperthyroidism 자체, hearing/metabolic/IBD risk로 부적합한 환자, class nonresponder, DON emergency, fixed deficit 중 약물 비가역 영역 |
+| Class-intrinsic risk | IGF-1R biology 관련 safety와 GD thyroid endpoint 부재; class 내 efficacy가 유사해지면 가격, route, cycle length와 durability가 경쟁축으로 이동 |
+| Asset differentiation | Shorter course, SC/oral, hearing/glucose risk 완화, inactive-specific evidence, retreatment rule, surgery-avoidance endpoint |
+| 2036 market role | **TED backbone 가능성 높음.** 다만 단일 독점보다 phenotype, activity, route별 다자 경쟁 구조 예상 |
+| Confidence | **중간-높음**, 승인/후기 randomized evidence는 강하나 10년 sequencing과 장기 durability는 불확실 |
+
+### 7.3 FcRn inhibition
+
+**현재 신호:** Efgartigimod는 inadequately controlled GD Phase 3이 active인 반면 TED Phase 3 두 건은 terminated됐다. Imeroprubart는 GD Phase 2 축이다. 따라서 GD와 TED를 반드시 분리해 평가한다.[15,18]
+
+| 평가축 | 판단 |
+|---|---|
+| 가능한 positioning | ATD에 inadequately controlled인 GD의 add-on/ATD-sparing; 빠른 total IgG/TRAb 감소가 필요한 pre-definitive line |
+| Priority population | `G1` 연 27.3만-38.2만 명. 미국 4.1만-5.7만, EU5 4.0만-5.5만, 한국 0.77만-1.07만, 일본 1.5만-2.1만, 중국 17.0만-23.8만 |
+| Broad ceiling | Newly diagnosed add-on까지 성공하면 `G0` 연 54.5만 명이나, ATD 단독 대비 incremental benefit과 반복투여 필요성을 입증해야 함 |
+| Address하기 어려운 영역 | TED는 class extrapolation 불가; fixed orbital fibrosis, structural goiter, post-ablation thyroid endpoint, infection/high-risk IgG-lowering 부적합군 |
+| Class-intrinsic risk | Protective IgG까지 낮추는 비선택성, infection/monitoring, IgG/autoantibody rebound와 chronic dosing |
+| Asset differentiation | Albumin/IgG selectivity, 깊이와 회복속도, SC convenience, finite-course remission, baseline IgG/TRAb 기반 stopping rule |
+| 2036 market role | **GD의 broad upstream competitor 가능성 중간.** ATD-free durability가 없으면 chronic add-on niche에 머물 수 있음 |
+| Confidence | **중간**, GD 후기개발은 존재하나 efficacy result와 durable remission 미확립 |
+
+### 7.4 Pan-IgG depletion/degradation
+
+**현재 신호:** BHV-1300은 GD Phase 3과 biomarker study가 진행 중이며 anti-TSHR 선택적 제거가 아닌 pan-IgG extracellular degradation으로 분류된다.[15,19]
+
+| 평가축 | 판단 |
+|---|---|
+| 가능한 positioning | FcRn과 유사한 post-ATD inadequate-control line; rapid/deep IgG reduction이 차별화될 경우 rescue-like finite induction |
+| Priority population | `G1`과 동일한 연 27.3만-38.2만 명의 line-level ceiling. FcRn/anti-TSHR/TSHR blockade와 완전히 중복하므로 합산 금지 |
+| Address하기 어려운 영역 | TED 독립 근거 없음, fixed fibrosis, true antibody-independent disease, protective IgG 감소가 위험한 환자 |
+| Class-intrinsic risk | Pathogenic/non-pathogenic IgG 비선택성, infection와 rebound, 반복투여 시 cumulative immune burden |
+| Asset differentiation | Depletion depth/onset, FcRn 대비 IgG recovery profile, finite dosing, infection signal, vaccine-response 보존, TRAb-to-total-IgG PD ratio |
+| 2036 market role | **FcRn과 동일 GD segment를 두고 경쟁하는 high-efficacy/high-monitoring option.** superior finite-course durability가 없으면 차별화가 약함 |
+| Confidence | **중간**, Phase 3 registry는 강한 개발 신호이나 결과 미확립 |
+
+### 7.5 TSHR direct blockade/antagonism
+
+**현재 신호:** GenSci098/YB-101은 GD P2/TED P1, K1-70은 GD 초기 임상이며 다수 preclinical TSHR program이 존재한다. Receptor-level pharmacology이므로 antibody titer와 무관하게 signaling을 차단할 잠재력이 있다.[15]
+
+| 평가축 | 판단 |
+|---|---|
+| 가능한 positioning | GD의 ATD add-on 또는 대체, rapid biochemical control; anti-TSHR 제거제가 epitope escape를 보이는 환자의 대안; TED는 early active exploratory line |
+| Priority population | GD는 `G1` 연 27.3만-38.2만 명; 성공적인 safety/route 확보 시 `G0` 54.5만 명까지 확장 가능 |
+| Address하기 어려운 영역 | Fixed inactive TED, structural goiter/malignancy, DON emergency, post-thyroidectomy hyperthyroidism endpoint |
+| Class-intrinsic risk | Native TSH signaling도 막아 hypothyroid pharmacology/hormone replacement 가능; disease driver를 제거하지 않아 drug-off rebound 가능 |
+| Asset differentiation | Partial vs full antagonism, TSH/TSAb bias, oral/SC exposure, thyroid-selective distribution, titratability, treatment-free remission 또는 clean on/off control |
+| 2036 market role | **GD의 receptor-level precision control niche.** 장기 약리 차단제로 자리잡거나 safety가 우수하면 ATD 대체 가능 |
+| Confidence | **낮음-중간**, P2 이하이며 human durability/TED efficacy 부족 |
+
+### 7.6 Plasma-cell/B-cell targeting
+
+**현재 신호:** Felzartamab은 GD P2에서 CD38 plasma-cell depletion을, Cizutamig는 TED P1에서 BCMA x CD3 접근을 평가한다. Allogeneic/in-vivo CD19/BCMA CAR-T는 GD early P1이나 치료강도가 현 SoC와 크게 다르다.[15,20]
+
+| 평가축 | 판단 |
+|---|---|
+| 가능한 positioning | 반복 재발/high-TRAb GD에서 autoantibody source를 줄이는 remission-directed 2차; steroid/IGF-1R refractory TED의 high-severity niche |
+| Priority population | GD upper line은 `G1` 연 27.3만-38.2만 명이나 실제 benefit-risk 적합군은 훨씬 작을 가능성. TED는 `T2` 연 2.5만-7.5만 명의 refractory proxy가 상단 |
+| Address하기 어려운 영역 | Mild/self-limited disease, 감염/혈액학적 위험이 큰 환자, fixed fibrosis, emergency decompression 필요군 |
+| Class-intrinsic risk | Broad B/plasma-cell depletion, infection, hypogammaglobulinemia, cytokine-release/lymphodepletion 등 modality별 치료강도; antibody가 아닌 downstream pathology는 잔존 |
+| Asset differentiation | Antigen-specific vs broad depletion, outpatient feasibility, immune reconstitution, vaccine response, finite-course remission, no-lymphodepletion platform |
+| 2036 market role | **고위험 refractory niche 또는 finite-course remission class.** 안전성이 크게 개선되지 않으면 broad first-line은 어려움 |
+| Confidence | **낮음**, P2/P1/early P1이며 GD/TED human outcome 미확립 |
+
+### 7.7 IL-6/IL-6R blockade
+
+**현재 신호:** Satralizumab은 TED regulatory-review 축, TOUR006은 P2이며, tocilizumab은 steroid-resistant TED의 off-label/연구 근거를 제공한다. 주된 가치는 orbital inflammation control이다.[13,15,21]
+
+| 평가축 | 판단 |
+|---|---|
+| 가능한 positioning | Active moderate-to-severe TED의 steroid-sparing alternative; steroid-resistant/intolerant 환자; IGF-1R 부적합 또는 접근 제한 환자의 mechanism switch |
+| Priority population | Broad systemic proxy `T1` 연 1.7만-3.8만 명. Refractory focus는 `T2` 연 2.5만-7.5만 명이나 두 proxy는 중복되고 직접 funnel이 아님 |
+| Address하기 어려운 영역 | GD hyperthyroidism, inactive fixed proptosis/diplopia, DON에서 decompression 지연, infection/hepatic/neutropenia risk군 |
+| Class-intrinsic risk | Inflammation은 낮춰도 structural response와 durable drug-free remission이 제한될 수 있음; chronic immune blockade/monitoring |
+| Asset differentiation | Proptosis/diplopia 동반효과, SC convenience, steroid-sparing design, flare prevention, infection/liver/neutrophil safety, IGF-1R head-to-head |
+| 2036 market role | **TED의 non-IGF-1R systemic alternative.** 가격/route/safety 우위가 있으면 second backbone, 아니면 refractory niche |
+| Confidence | **중간**, 후기개발과 임상 신호가 있으나 최종 authorization/access 및 장기 positioning 변동 가능 |
+
+### 7.8 IGF-1R/TSHR dual targeting
+
+**현재 신호:** IBI3031은 TED Phase 1이고 VBS-102는 preclinical이다. 두 receptor 축을 동시에 겨냥하지만 dual blockade가 임상적으로 단일 IGF-1R보다 우월하다는 근거는 없다.[15,22]
+
+| 평가축 | 판단 |
+|---|---|
+| 가능한 positioning | Active moderate-to-severe TED에서 inflammation/structural phenotype과 TSHR-driven biology를 동시에 겨냥; GD+TED 동반 subgroup의 통합 endpoint 탐색 |
+| Priority population | TED `T1` 연 1.7만-3.8만 명. GD biochemical benefit이 입증되기 전에는 `G1`을 포함하지 않음 |
+| Address하기 어려운 영역 | Inactive fixed fibrosis, seronegative/antibody-independent TED, DON emergency, dual-pathway safety 부적합군 |
+| Class-intrinsic risk | 두 target 차단에 따른 safety/PK/PD 복잡성, 어느 component가 benefit을 만드는지 불명확, single-target 대비 개발비/증분효과 입증 부담 |
+| Asset differentiation | Balanced potency, tissue exposure, receptor-specific PD, component-contribution design, GD/TED dual endpoint, IGF-1R safety 개선 |
+| 2036 market role | **IGF-1R crowded market의 premium differentiation bet.** 명확한 superior efficacy 또는 GD 동시효과 없이는 자리 확보가 어려움 |
+| Confidence | **매우 낮음**, P1/preclinical 중심 |
+
+### 7.9 BTK inhibition
+
+**현재 신호:** Rilzabrutinib은 adult GD P2이며 TED 독립 임상 단계로 계수하지 않는다. Oral immune signaling modulation이라는 사용 편의 잠재력이 있다.[15,23]
+
+| 평가축 | 판단 |
+|---|---|
+| 가능한 positioning | ATD inadequate-control GD의 oral add-on; biologic 주사를 원치 않는 환자; B-cell/innate signaling phenotype의 precision option |
+| Priority population | `G1` 연 27.3만-38.2만 명의 상단 line. Biomarker-defined responsive fraction은 미확인 |
+| Address하기 어려운 영역 | TED structural disease, fixed fibrosis, structural goiter, definitive control이 긴급한 환자 |
+| Class-intrinsic risk | Target가 TSHR-specific하지 않고 chronic systemic kinase inhibition 안전성/상호작용 부담; drug-off durability 불확실 |
+| Asset differentiation | Reversible/covalent profile, selectivity, oral dose, bleeding/infection/hepatic safety, TSAb/TRAb response enrichment, finite-course 가능성 |
+| 2036 market role | **편의성 중심 oral GD niche.** ATD보다 명확한 remission/안전성 우위가 없으면 add-on에 제한 |
+| Confidence | **낮음**, 단일 P2 축이며 efficacy result 미확립 |
+
+### 7.10 CD40L blockade
+
+**현재 신호:** Frozen JHA-73에는 Lu AG22515 P1/2가 포함됐으나 2026-08 공개 후속정보에서는 TED 개발 중단이 보고됐다. 따라서 현재 시장형성 자산이 아니라 **target validation lesson**으로 취급한다.[15,24]
+
+| 평가축 | 판단 |
+|---|---|
+| 가능한 positioning | 재진입 시 active TED의 upstream T-cell/B-cell costimulation modulation, steroid/IGF-1R alternative |
+| Priority population | 활성 자산이 없으므로 **현재 evidence-based addressable flow는 0으로 처리**. 이론적 재진입 ceiling은 `T1`이나 시장 추정에 사용하지 않음 |
+| Address하기 어려운 영역 | Fixed fibrosis, emergency DON, GD biochemical control; target modulation이 임상효과로 연결되지 않는 responder-selection 문제 |
+| Class-intrinsic risk | Broad immune costimulation 조절, 감염/면역 risk, historical anti-CD40L thrombosis concern과 construct engineering 부담 |
+| Asset differentiation | Fc-effector 제거, thrombotic risk 관리, target engagement-response biomarker, responder enrichment, 다른 적응증의 platform validation |
+| 2036 market role | **Watchlist/재진입 option.** 신규 자산 또는 biomarker breakthrough 없이는 GD/TED 시장 비중 낮음 |
+| Confidence | **낮음**, 해당 자산의 TED 중단과 class-wide 결론을 동일시할 수 없음 |
+
+### 7.11 JAK/mTOR 및 기타 면역조절
+
+**현재 신호:** Tofacitinib은 glucocorticoid-resistant/intolerant active TED P2, sirolimus는 active moderate-to-severe TED P2 investigator-led 축이다. Approved-in-other-disease repurposing은 개발속도 이점이 있지만 TED-specific benefit-risk가 별도로 필요하다.[15,25]
+
+| 평가축 | 판단 |
+|---|---|
+| 가능한 positioning | Steroid-resistant/intolerant active TED의 oral/repurposed rescue; access가 제한된 시장의 off-label 또는 lower-cost alternative 가능성 |
+| Priority population | `T2` 연 2.5만-7.5만 명의 refractory proxy. 실제 eligibility는 infection, age, comorbidity로 감소 |
+| Address하기 어려운 영역 | Fixed inactive fibrosis, DON emergency, GD durable remission, 강한 structural response가 필요한 proptosis/diplopia |
+| Class-intrinsic risk | Pleiotropic immunosuppression과 class별 infection/metabolic/thrombotic monitoring; TED-specific target selectivity 부족 |
+| Asset differentiation | Short-course regimen, local/orbital delivery, biomarker-selected inflammation, comparative steroid-sparing trial, generic/access advantage |
+| 2036 market role | **지역/access 기반 refractory niche.** Large registrational evidence가 없으면 premium targeted class와 직접 경쟁하기 어려움 |
+| Confidence | **낮음**, 소규모/단일기관 또는 investigator-led P2 중심 |
+
+### 7.12 Emerging/표적미공개 자산의 처리
+
+IL-11R은 JHA-73 frozen matrix에 active asset이 없고, KHN939/SCTT11은 phase는 확인되지만 target이 공개 검증되지 않았다. 이들은 asset watchlist에는 포함하되 mechanism class별 10년 positioning 또는 환자 수에 배분하지 않는다. 표적을 임의 추정하면 class coverage를 이중계수할 위험이 있기 때문이다.[15]
+
+## 8. 2036 종합 비교와 시장구조
+
+### 8.1 Class positioning 비교표
+
+| Class | 주 질환/우선 line | 연간 5개국 priority flow | 10년 가능한 역할 | 구조적으로 어려운 영역 | 핵심 승부처 | Confidence |
+|---|---|---:|---|---|---|---|
+| IGF-1R | TED systemic, active 및 chronic 확장 | `T1` 1.7만-3.8만 | TED backbone, phenotype/route별 다자경쟁 | GD control, class nonresponder, emergency DON | Durability, hearing/metabolic safety, route, inactive evidence | 중간-높음 |
+| FcRn | GD post-ATD/add-on | `G1` 27.3만-38.2만 | Broad upstream GD competitor | TED 외삽, protective IgG 감소 | Finite-course remission, infection, rebound | 중간 |
+| Pan-IgG 제거 | GD post-ATD/add-on | `G1` 27.3만-38.2만 | FcRn 대체/경쟁 high-depletion option | TED 근거, 비선택성 | Depletion/recovery profile, durability | 중간 |
+| Anti-TSHR AAb 제거 | GD post-ATD, TED 탐색 | `G1` 27.3만-38.2만 | Pathogen-selective thyroid-preserving class | 진성 seronegative, fixed fibrosis | Polyclonal breadth, B-cell source/rebound, SC | 낮음 |
+| TSHR blockade | GD biochemical control | `G1` 27.3만-38.2만 | Precision receptor-control niche/ATD 대체 | Fixed TED, native TSH blockade | Biased/partial antagonism, oral/SC, titration | 낮음-중간 |
+| Plasma/B-cell | Refractory GD/TED | GD `G1`, TED `T2` 상단 | Finite-course remission 또는 high-risk niche | Mild disease, infection-risk, fibrosis | Antigen specificity, immune reconstitution, outpatient use | 낮음 |
+| IL-6/IL-6R | Active systemic/refractory TED | `T1` 1.7만-3.8만 | Non-IGF-1R second backbone | GD, fixed structural deficit | Steroid sparing, route, structural response | 중간 |
+| IGF-1R/TSHR dual | Active TED, GD+TED 탐색 | `T1` 1.7만-3.8만 | Premium differentiated TED option | Fibrosis, emergency, complexity | Component contribution, superior efficacy | 매우 낮음 |
+| BTK | GD oral add-on | `G1` 27.3만-38.2만 | Convenience-driven oral niche | TED structure, definitive need | Selectivity, safety, remission vs ATD | 낮음 |
+| CD40L | 현재 active market asset 없음 | 0 | Watchlist/biomarker 기반 재진입 | Target validation, fibrosis | Safety engineering, responder biomarker | 낮음 |
+| JAK/mTOR/기타 | Refractory active TED | `T2` 2.5만-7.5만 | Access/repurposing 기반 niche | GD remission, fixed TED | Short course, comparative data, affordability | 낮음 |
+
+> 각 행의 patient flow는 **경쟁 class가 공유하는 동일 환자 pool**이다. 예를 들어 GD `G1`을 FcRn, pan-IgG, anti-TSHR, TSHR blockade, B/plasma-cell, BTK에 각각 배정한 뒤 합산하면 동일 환자를 여러 번 세는 오류가 된다.
+
+### 8.2 10년 시장 형성 시나리오
+
+| Scenario | 시장 구조 | 승자 조건 | 뒤처질 가능성이 큰 접근 |
+|---|---|---|---|
+| **Base case: phenotype별 다중 backbone** | TED는 IGF-1R backbone + IL-6/기타 rescue, GD는 ATD 뒤 복수 immune/TSHR class 경쟁 | 승인 efficacy, manageable safety, 편한 route, 명확한 sequencing | 초기단계에서 biomarker/endpoint 차별화가 없는 me-too |
+| **Durable-remission case** | GD에서 finite-course로 ATD-free remission을 만드는 class가 post-ATD line을 통합 | 6-12개월 이상 drug-free durability, rebound 억제, thyroid 보존 | Chronic dosing만 가능하고 RAI/수술 대비 lifetime burden이 큰 class |
+| **Precision-segmentation case** | Functional TSAb, TRAb, activity, fibrosis, hearing/metabolic risk로 시장 세분화 | Companion biomarker와 responder enrichment | Broad immunosuppression이나 target-negative 환자를 구분하지 못하는 개발 |
+| **Combination/sequencing case** | Upstream antibody/B-cell class 뒤 downstream IGF-1R/IL-6 또는 반대 순서 | 비중복 toxicity, additive endpoint, 짧은 총 치료기간 | 같은 독성을 중첩하거나 component contribution을 설명하지 못하는 병용 |
+| **Access-driven case** | 고가 biologic은 미국/중국 일부 중심, repurposed/oral/SC가 지역별 share 확보 | SC/oral, 짧은 cycle, 낮은 monitoring, reimbursement evidence | Infusion-heavy chronic regimen, specialist-center 의존 class |
+| **Failure/consolidation case** | 후기 실패와 safety로 IGF-1R/SoC 중심 시장 유지 | Hard clinical outcome과 real-world durability | Biomarker 개선만 있고 proptosis/diplopia/euthyroidism으로 연결되지 않는 class |
+
+### 8.3 임상 + 시장구조 관점의 우선순위
+
+1. **TED:** IGF-1R은 가장 높은 시장형성 확률, IL-6는 가장 가까운 non-IGF 대안, dual/B-cell/JAK-mTOR는 differentiation 또는 refractory niche
+2. **GD:** 가장 큰 미충족 flow는 `G1`이나 여섯 class가 같은 pool을 경쟁. 승부는 초기 biochemical response보다 **finite-course ATD-free durability와 thyroid preservation**
+3. **공통:** 단일 class가 GD thyroid function, TED inflammation, inactive fibrosis를 모두 해결할 가능성은 낮아 sequencing/combination 시장이 기본 case
+4. **Asset differentiation:** 같은 target 내에서는 efficacy만이 아니라 route, treatment duration, retreatment, safety monitoring, regional reimbursement가 share를 결정
+5. **수치 해석:** 이 절은 환자 수 forecast나 매출 추정이 아니다. 국가별 diagnosis/treatment/access/price/share 데이터가 추가되기 전에는 clinical opportunity ceiling으로만 사용
+
+## 9. Legacy Section C6 통합본
 
 Legacy report는 동결하고, C6의 다섯 항목을 아래와 같이 현재 결과에 통합한다.
 
@@ -226,7 +435,7 @@ Legacy report는 동결하고, C6의 다섯 항목을 아래와 같이 현재 �
 | GD 재발/장기관리/임신 | RAI/수술/장기 low-dose ATD 경로는 있으나 비침습적 durable disease modification과 special-population evidence 부족 | Off-treatment remission, TSAb/TRAb-stratified response, pregnancy/pediatric safety |
 | TED 진행 및 active-inactive 전환 예측 | 치료 전 activity/phenotype 분류는 가능하지만 진행/재활성화/섬유화 전환을 예측하는 검증 biomarker 부족 | Longitudinal biomarker-imaging cohort, transition/relapse endpoint 표준화 |
 
-## 8. 개발 및 연구 우선순위
+## 10. 개발 및 연구 우선순위
 
 1. **GD:** `ATD-free euthyroidism`뿐 아니라 치료 중단 후 durability, TRAb/TSAb rebound, TED outcome을 함께 측정
 2. **Inactive TED:** 수술 회피, diplopia/function, proptosis, QoL 및 장기 재활성화를 별도 endpoint로 측정
@@ -235,7 +444,7 @@ Legacy report는 동결하고, C6의 다섯 항목을 아래와 같이 현재 �
 5. **교차 적응증:** GD biochemical control과 TED activity/structure를 동시에 추적하며 한쪽 개선을 다른 쪽 cure로 표현하지 않음
 6. **Special population:** Pregnancy/lactation, pediatric, diabetes, IBD, hearing impairment, infection risk별 안전성/대체기전 자료 확보
 
-## 9. 해석 한계와 QA 상태
+## 11. 해석 한계와 QA 상태
 
 - 본 분석은 class의 기전상 가능성과 임상적으로 입증된 coverage를 구분한다. Preclinical/P1 자산은 환자군 coverage로 계수하지 않았다.
 - 지역별 authorization/reimbursement가 `unresolved`인 경우 비승인/비급여로 단정하지 않았다.
@@ -243,7 +452,7 @@ Legacy report는 동결하고, C6의 다섯 항목을 아래와 같이 현재 �
 - 상 tier인 역학 원 수치는 baseline 문서 값을 재사용했다. 신규 DOI 3건의 metadata는 Crossref로 대조했지만 역학 원 수치의 독립 cross-model QA와 원문 direct-quote 대조는 수행하지 않았으므로 그 절차가 끝날 때까지 `draft`를 유지한다.
 - 가설 단계의 TSAb-IgG sweeping을 MER511/LCA-0321/BHV-1300 또는 다른 임상 class의 실증으로 간주하지 않았다.
 
-## 10. 참고문헌
+## 12. 참고문헌
 
 1. Biomni. *Graves' Disease 및 Thyroid Eye Disease 경쟁환경 조사: 역학, 진단, 병기, 표준치료*. 2026-09-14. `00_baseline_biomni/epi_soc_run_260914/report_graves_ted_landscape.md`.
 2. Villagelin D, et al. A 2023 International Survey of Clinical Practice Patterns in the Management of Graves Disease: A Decade of Change. *J Clin Endocrinol Metab.* 2024. DOI: [10.1210/clinem/dgae222](https://doi.org/10.1210/clinem/dgae222).
@@ -260,14 +469,26 @@ Legacy report는 동결하고, C6의 다섯 항목을 아래와 같이 현재 �
 13. JHA-71. *TED 치료 line-of-therapy*. `01_competitive_landscape/ted_line_of_therapy.md`.
 14. JHA-72. *GD/TED class별 핵심 한계 비교표*. `01_competitive_landscape/class_limitation_matrix.md`.
 15. JHA-73. *GD/TED MoA class x indication-specific 개발단계 통합 매트릭스*. `01_competitive_landscape/moa_phase_matrix_extended.md`.
+16. US FDA. [LUMVOA (veligrotug-vvze) Prescribing Information](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761530Orig1s000lbl.pdf). 2026.
+17. ClinicalTrials.gov. [NCT06989918, MHB018A in active TED](https://clinicaltrials.gov/study/NCT06989918); [NCT07753603, linsitinib Phase 3](https://clinicaltrials.gov/study/NCT07753603). Frozen/live cross-confirm은 JHA-73 참조.
+18. ClinicalTrials.gov. [NCT07570316, efgartigimod in GD](https://clinicaltrials.gov/study/NCT07570316); [NCT06307613, terminated TED study](https://clinicaltrials.gov/study/NCT06307613). Frozen/live cross-confirm은 JHA-73 참조.
+19. ClinicalTrials.gov. [NCT07661056, BHV-1300 Phase 3 GD](https://clinicaltrials.gov/study/NCT07661056); [NCT06980649, biomarker study](https://clinicaltrials.gov/study/NCT06980649).
+20. ClinicalTrials.gov. [NCT07722546, felzartamab in GD](https://clinicaltrials.gov/study/NCT07722546); [NCT07597200, cizutamig in TED](https://clinicaltrials.gov/study/NCT07597200).
+21. ClinicalTrials.gov. [NCT05987423](https://clinicaltrials.gov/study/NCT05987423) and [NCT06106828](https://clinicaltrials.gov/study/NCT06106828), satralizumab Phase 3 TED.
+22. ClinicalTrials.gov. [NCT07622368, IBI3031 Phase 1 TED](https://clinicaltrials.gov/study/NCT07622368).
+23. ClinicalTrials.gov. [NCT06984627, rilzabrutinib Phase 2 GD](https://clinicaltrials.gov/study/NCT06984627).
+24. JHA-80. *R1b 자산 식별 및 CD40L 적응증 분석*. `03_mechanism_deepdive/r1b_asset_identification.md`.
+25. ClinicalTrials.gov. [NCT07547930, tofacitinib in refractory/intolerant TED](https://clinicaltrials.gov/study/NCT07547930); [NCT04936854, sirolimus in active TED](https://clinicaltrials.gov/study/NCT04936854).
 
-## 11. 검증 로그
+## 13. 검증 로그
 
 | 점검 항목 | Tier | 방법 | 결과 | 일자 |
 |---|---|---|---|---|
 | JHA-70/71/72/73 반영 | 하 | 네 산출물의 line, class 한계, indication-specific phase를 수동 교차 | PASS | 2026-09-30 |
-| Legacy C6 통합 | 하 | C6 다섯 bullet을 7절에서 1:1 대조 | PASS | 2026-09-30 |
+| Legacy C6 통합 | 하 | C6 다섯 bullet을 9절에서 1:1 대조 | PASS | 2026-09-30 |
 | 5개국/지역 pool 산술 | 상 | baseline 1.2/2.2 표의 표시값 단순 합산 | PASS, 독립 QA/direct quote 대조 대기 | 2026-09-30 |
 | 잔여군 정량 과장 방지 | 하 | TRAb 음성/ATD relapse/중복 subgroup의 전 population 외삽 금지 확인 | PASS | 2026-09-30 |
 | 신규 참고문헌 DOI metadata | 상/중 | Crossref API에서 DOI 3건 title/author/year 대조 | PASS | 2026-09-30 |
+| 10년 class scope | 하 | JHA-73 active matrix의 주요 10개 class + emerging watchlist 대조 | PASS | 2026-09-30 |
+| 지역별 scenario 산술 | 상 | 5개 지역 G0/G1/T0/T1/T2 산식과 합계 재계산 | PASS, 원 비율의 독립 QA 대기 | 2026-09-30 |
 | 가운뎃점 미사용 | 하 | 문자 검색 | PASS | 2026-09-30 |
