@@ -52,18 +52,18 @@ inputs:
 | E4 ATD 재발률 출처 | N/A | 해당 수치 미포함 |
 | E5 RAI 후 prednisolone 권고 | N/A | 해당 서술 미포함 |
 | E6 indication-specific 임상 단계 판정 | PASS | 지정 4개 상 tier claim(MER511, GenSci098/YB-101, KHN939, SCTT11)과 확장 검증한 승인/심사 자산(Teprotumumab, IBI311, Veligrotug, Satralizumab, Efgartigimod) 전부가 registry/규제 원문과 일치했다. 상세는 3절. §7의 PROVISIONAL을 해제할 수 있다 |
-| E7 discontinued/NDR 자산 제외 | PASS | §5.1에 stopped/failed/suspended 10개, §5.2에 NDR/범위외 8개를 명시 보존. TED-terminated efgartigimod는 TED에서만 제외하고 GD P3는 본표 유지한 것이 registry 원문과 일치(NCT06307613/26 TERMINATED, NCT07570316/7596849 RECRUITING) |
+| E7 discontinued/NDR 자산 제외 | PASS | §5.1에 stopped/failed/suspended 10개, §5.2에 NDR/범위외 및 관찰 10개를 명시 보존. TED-terminated efgartigimod는 TED에서만 제외하고 GD P3는 본표 유지한 것이 registry 원문과 일치(NCT06307613/26 TERMINATED, NCT07570316/7596849 RECRUITING) |
 | F1 모든 사실 claim에 [x] 인용 | PARTIAL | [x] 번호 인용은 없다. 대신 §6.1에 direct source 목록을 두고 본표에 trial ID를 병기했으며, 이는 repo_conventions.md 인용 규칙("신규 산출물은 본문에서 출처 파일명을 명시하고, 새 문헌은 문서 말미에 자체 참고문헌 목록을 둔다")과는 부합한다. checklist F1의 문언(번호 인용)과는 불일치이므로 PARTIAL로 기재하며, 번호 체계 통합은 conventions이 별도 작업으로 규정한 사항이다 |
 | F2 [x] 번호와 reference.md 일치 | N/A | 번호 인용 체계를 사용하지 않는다 |
 | F3 reference.md 중복 항목 | N/A | 본 문서는 reference.md를 인용 대상으로 하지 않는다 |
 | F4 PMID 5개 이상 실존 검증 | PARTIAL | PMID 인용이 없어 검증 대상이 없다. 대신 §6.1의 source URL 5건 전부를 본 QA에서 live 재확인했으며 모두 실존하고 내용이 문서 서술과 일치했다(3절 인용 참조) |
 | F5 마케팅 언어 | PASS | "revolutionary", "breakthrough", "game-changing", "혁신적", "획기적" 등의 표현이 전문에서 검출되지 않았다 |
-| F6 근거 수준 표현 | PASS | 불확실한 판정에 "후속 확인 필요"(K1-70, ZB001), "관찰 목록"(LASN01, Aflibercept, Lonigutamab), "PENDING"(§6.2), "PROVISIONAL"(§7) 등 근거 수준을 명시했다 |
+| F6 근거 수준 표현 | PASS | 불확실한 판정에 "관찰 목록"(K1-70, ZB001, LASN01, Aflibercept, Lonigutamab), "PENDING"(§6.2), "PROVISIONAL"(§7) 등 근거 수준을 명시했다 |
 | G1 eTPD Section E 한정 | N/A | 본 문서에 eTPD 서술이 없다. 분리 원칙 위반 없음 |
 | G2 eTPD speculative 항목 근거 수준 | N/A | eTPD 서술 없음 |
 | G3 FcRn vs eTPD 차별화 | N/A | eTPD 서술 없음. 다만 FcRn 억제(Efgartigimod, IMVT-1402)와 anti-TSHR AAb 제거(MER511), pan-IgG 제거(BHV-1300)를 별개 MoA class로 분리한 것은 차별화 관점과 정합적이다 |
 | H1 영문 기술 용어 유지 | PASS | TSHR, IGF-1R, FcRn, BTK, JAK, mTOR, CAR-T, LYTAC, MoDE, CD40L, BCMA 등이 영문으로 유지되었다 |
-| H2 가운뎃점(·) 미사용 | PASS | 전문 grep 결과 가운뎃점이 검출되지 않았다 |
+| H2 가운뎃점 미사용 | PASS | 전문 grep 결과 가운뎃점이 검출되지 않았다 |
 | H3 개조식(명사 종결형) 문체 | PARTIAL | 표와 단계 표기는 개조식이나, 서술부(§1 판정 방법, 판정 메모)가 "~사용했다", "~분리했다" 식의 평서형 종결이다. checklist 문언(명사 종결형)과 문자적으로는 불일치하나, 표 중심 문서에서 가독성 문제는 없다. 심각도 낮음 |
 
 **판정 요약:** PASS 8, PARTIAL 4 (A1, F1, F4, H3), FAIL 0, N/A 18. FAIL 없음. PARTIAL 4건은 모두 본 문서의 문서 유형(매트릭스)이 checklist 원래 대상(report.md)과 다른 데서 오는 것으로, 데이터 정확성 결함이 아니다.
@@ -95,9 +95,9 @@ inputs:
 - Source: https://clinicaltrials.gov/study/NCT07720635 , https://clinicaltrials.gov/study/NCT07720648
 - Registry direct quote (NCT07720635 briefTitle): "A Phase III Study of KHN939 in Chinese Patients With Moderate-to-Severe Active Thyroid Eye Disease" / (phases): `PHASE3` / (overallStatus): `NOT_YET_RECRUITING` / (conditions): `["Thyroid Eye Disease"]`
 - Registry direct quote (NCT07720648 briefTitle): "A Phase III Study of KHN939 in Chinese Patients With Moderate-to-Severe Inactive Thyroid Eye Disease" / (phases): `PHASE3` / (overallStatus): `NOT_YET_RECRUITING` / (conditions): `["Thyroid Eye Disease"]`
-- (leadSponsor, 양쪽 공통): `Beijing Kanghong Biological Medicine Co., Ltd.`
+- (leadSponsor, 양쪽 공통): `Chengdu Kanghong Pharmaceutical Group Co., Ltd.`
 - TED P3 판정은 원문과 일치한다. intervention은 "KHN939", "Placebo"뿐이므로 표적 미공개 유지 판정도 타당하다.
-- 교정 제안: 개발사 열의 "registry sponsor"는 실제 leadSponsor인 "Beijing Kanghong Biological Medicine Co., Ltd."로 명시할 것을 권고한다.
+- 교정 제안: 개발사 열의 "registry sponsor"는 실제 leadSponsor인 "Chengdu Kanghong Pharmaceutical Group Co., Ltd."로 명시할 것을 권고한다.
 
 **Claim 4. SCTT11: TED Phase 1/2 — 기존 판정과 일치 (CONFIRMED)**
 
@@ -171,16 +171,16 @@ inputs:
 | Satralizumab TED RR | §3.2 | FDA priority review 원문과 일치 | 일치 |
 | Efgartigimod GD P3 / TED terminated 분리 | §3.1, §5.1 | 4개 registry 원문과 일치 | 일치 |
 | BHV-1300 pan-IgG / BHV-1440 TSHR AAb degrader | §3.1, §6 | sponsor pipeline과 일치 | 일치 |
-| §7 E6 PROVISIONAL | §7 | 본 QA로 상 tier phase claim 전수 확인 | PASS로 갱신 근거 충분 |
+| §7 E6 PROVISIONAL | §7 | 본 QA 범위의 주요 상 tier phase claim 확인 | 대조 범위 PASS. 작성 모델/provider 미확인으로 cross-model 충족은 별도 확인 필요 |
 | §7 E7 PASS | §7 | 부표 보존 확인 | 일치 |
 
-## 5. 교정안 (필수 사항 없음, 권고 3건)
+## 5. 최초 QA 교정안 (필수 사항 없음, 권고 3건)
 
 1. **GenSci098/YB-101 행 핵심 trial ID 보완:** NCT07286656(GenSci098 GD P1, recruiting)을 병기 권고. GD 최고 active 단계 판정(P2)은 불변이다.
-2. **KHN939, SCTT11 개발사 명시:** "registry sponsor"를 각각 "Beijing Kanghong Biological Medicine Co., Ltd.", "Sinocelltech Ltd."로 교체 권고. registry leadSponsor 필드 근거이다.
+2. **KHN939, SCTT11 개발사 명시:** "registry sponsor"를 각각 "Chengdu Kanghong Pharmaceutical Group Co., Ltd.", "Sinocelltech Ltd."로 교체 권고. registry leadSponsor 필드 근거이다.
 3. **(선택) H3 문체:** 서술부를 명사 종결형으로 통일. 심각도 낮음.
 
-매트릭스 본표의 단계/상태 데이터에 대한 교정 필요 사항은 없었다. 위 권고는 데이터 판정을 바꾸지 않는 완전성/가독성 개선이다.
+최초 QA 시점에는 매트릭스 본표의 단계/상태 데이터에 대한 교정 필요 사항이 없었다. 위 권고는 데이터 판정을 바꾸지 않는 완전성/가독성 개선이며, 2026-09-30 후속 review 반영 결과는 7절에 기록한다.
 
 ## 6. 검증 일자 및 한계
 
@@ -189,3 +189,10 @@ inputs:
 - Cortellis 기반 legacy-only preclinical 자산(CRN-12755, ETHY-001, REGN-24493, SP-1351, VBS-102, BHV-1440 등)의 원표는 공개 출처로 재전재할 수 없어, 이 중 BHV-1440만 sponsor pipeline으로 검증했다. 나머지는 본 QA의 registry 검증 범위 밖이다.
 - CTIS 기반 LCA-0321(CTIS 2025-524053-14-00)은 본 QA에서 CTIS 원문 재확인을 하지 못했다. 문서 표기는 입력 자료와 일치했으나 1차 원문 대조는 미수행이다.
 - 승인 상태는 규제 당국 원문 또는 회사 공시를 기준으로 하며, 중국 NMPA의 경우 공시문 원문으로 대신했다.
+
+
+## 7. 2026-09-30 후속 review 반영
+
+- GenSci098/YB-101 행에 NCT07286656을 추가하고, KHN939/SCTT11의 registry lead sponsor를 명시해 5절의 권고 1, 2를 반영했다.
+- `COMPLETED`만 있고 후속 active 개발이 확인되지 않은 K1-70과 ZB001을 active 한 장 매트릭스/상세표에서 5.2절 관찰 목록으로 이동했다. 이는 1절의 completed-only 처리 원칙과 본표를 일치시킨 교정이다.
+- 작성 세션의 모델/provider가 확인되지 않았으므로 독립 세션 실행 사실과 cross-model 요건 충족을 구분했다. 또한 6절의 한계대로 legacy-only 자산과 LCA-0321의 1차 원문 직접 대조는 미완료 상태로 유지한다. 따라서 JHA-73 QA gate는 이 두 항목이 해소될 때까지 열어 둔다.
