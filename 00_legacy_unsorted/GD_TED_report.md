@@ -358,7 +358,7 @@ title: GD_TED_report
 
 ## Section D — Key Clinical Trials to Follow
 
-> 원안 계획서 우선 추적 후보 10건 중 **iscalimab은 discontinued 확인(Section C4)으로 제외**, batoclimab/rozanolixizumab/nipocalimab은 ClinicalTrials.gov에서 GD/TED 적응증 등록 시험이 확인되지 않아(다른 적응증 개발 중이거나 GD/TED 프로그램 자체가 조기 종료된 것으로 추정) 목록에서 제외. 대신 Section C4에서 확인된 active 자산 중 임상적으로 가장 주시할 가치가 높은 10건을 ClinicalTrials.gov 직접 조회로 재구성.
+> 원안 계획서 우선 추적 후보 중 **iscalimab은 discontinued 확인(Section C4)으로 제외**. FcRn 계열은 자산별로 구분해야 한다. Batoclimab(IMVT-1401)은 GD Phase 2와 TED Phase 2/3 이력이 있으나 개발이 중단됐고, imeroprubart(IMVT-1402)는 별개 후속 자산으로 GD 개발 중이다. Rozanolixizumab/nipocalimab은 2026-09-28 현재 공개 GD/TED 등록시험을 확인하지 못했다. 상세 명칭/전략 판독은 `02_ted_fcrn_strategy/fcrn_entry_strategy_ir_review.md` 참조.
 
 ### D1. GD 대상 핵심 시험
 
@@ -385,9 +385,26 @@ title: GD_TED_report
 - **K1-70**(TSHR direct antagonist, GD/TED)[61]: 2016-2021 완료된 Phase 1(NCT02904330) 이후 CT.gov 등록 후속 대형 시험 확인 안 됨 — C4에서 확인된 일본 Phase 1/2(2019, 2024)는 로컬 레지스트리 기반으로 추정되며 이번 조회 범위에서 직접 검증 못함. TSHR 직접 길항 기전 전체가 임상 초기 단계에 정체된 양상(C4 관찰 3과 일치)
 - **Rituximab/Tocilizumab**(TED)[62]: 최근(2024-2026) 신규 등록된 대형 확증적 placebo-controlled RCT 없음 — 기존 근거(C5 참조)를 기반으로 한 off-label 활용 단계에 머무르는 것으로 판단, Section D 우선 추적 대상에서 제외
 
+### D4. Placebo 대비 공개 결과 요약
+
+아래 표는 Biomni v2의 2026-09-10 frozen cut에서 placebo-controlled 주요 결과만 재편집한 것이다. 전체 25건 result-bearing trial과 17건 stopped trial의 completeness ledger, arm/eligibility/placebo 구성은 `02_ted_fcrn_strategy/placebo_competitive_summary.md`에 수록했다. Population, endpoint 정의, timepoint가 달라 수치를 pooling하거나 자산 순위로 해석하지 않는다.
+
+| Class / 자산 | Population / primary endpoint | Placebo 대비 판정 | 해석 경계 |
+|---|---|---|---|
+| IGF-1R / teprotumumab | Active TED Phase 2 및 OPTIC Week 24 response; chronic/inactive TED Week 24 proptosis change | **성공**: 세 randomized trial에서 각 prespecified primary 충족 | Active와 chronic population, endpoint 정의가 달라 trial 간 효과크기 비교 금지 |
+| IGF-1R / veligrotug | THRIVE active TED 및 THRIVE-2 chronic TED, Week 15 PRR | **성공**: 두 시험 primary 충족 | Teprotumumab의 Week 24 결과와 직접 순위 비교 금지 |
+| IGF-1R/IR / linsitinib | Active TED, Week 24 PRR, 150 mg/75 mg/placebo | **부분 성공**: 150 mg만 유의, 75 mg 미유의 | Dose별 결론 분리 |
+| IL-6R / satralizumab | SatraGO-1/2 active TED, Week 24 PRR | **불일치**: SatraGO-1 실패, SatraGO-2 성공 | Replicate 결과를 pooling하지 않음 |
+| FcRn / batoclimab | ASCEND GO-2 active TED, Week 13 PRR | **실패**: 세 용량 모두 primary 미유의 | IgG/anti-TSHR PD signal을 proptosis efficacy로 대체하지 않음 |
+| FcRn / efgartigimod PH20 SC | UplighTED 두 Phase 3, Week 24 PRR | **실패/futility**: 결과 수치 미게시, 안전성과 무관한 조기 종료 | Effect size 및 실패 기전 추정 불가 |
+| IL-17A / secukinumab | Active TED, Week 16 response | **실패/futility** | Safety failure로 분류하지 않음 |
+| IL-11R / LASN01 | Anti-IGF-1R-naive randomized subset, PRR | **혼재/primary PRR 미입증**; CAS secondary signal | Small randomized subset, endpoint별 결론 분리 |
+
+GD 요법 최적화 placebo 시험에서는 early levothyroxine after RAI와 alfacalcidol+PTU가 각각 primary를 충족하지 못했다. 이는 TED disease-modifying asset 경쟁과 다른 질문이므로 별도 범주로 유지한다.
+
 ### Section D 관련 참고 사항
 
-- 원안 계획서의 batoclimab/rozanolixizumab/nipocalimab(FcRn 억제제 3종)은 GD/TED 적응증으로 ClinicalTrials.gov에 등록된 시험이 확인되지 않음 — Section C4 파이프라인 데이터(discontinued 21건 목록)에도 명시적으로 포함되어 있지 않아, GD/TED 프로그램이 애초에 진행되지 않았거나 매우 초기에 종료되었을 가능성으로 해석됨(batoclimab은 C4에서 GD+TED 모두 discontinued로 별도 확인됨). 확정적 결론을 위해서는 기업 공시/press release 추가 확인 필요 — **QA 대응 시 한계로 명기**
+- Batoclimab은 IMVT-1401/RVT-1401이고 imeroprubart는 별개인 IMVT-1402다. Batoclimab GD/TED 시험 이력과 중단은 확인됐으며, rozanolixizumab/nipocalimab에 대해서만 공개 GD/TED 등록시험을 확인하지 못했다. Registry 부재는 회사의 “개발 계획 없음”을 입증하지 않으므로 no public trial identified로만 해석한다(`02_ted_fcrn_strategy/fcrn_entry_strategy_ir_review.md`).
 - 위 표의 "예상 Readout"은 ClinicalTrials.gov에 등록된 primary/study completion date 기준이며, 실제 topline 발표는 이보다 지연되는 경우가 일반적(등록시험 관행상 통상 2-6개월 추가 소요)
 
 ---
@@ -413,6 +430,15 @@ title: GD_TED_report
   2. **UplighTED(TED) 종료 사유**: CT.gov 공식 기록은 종료 사유를 "This study was terminated early on 15 December 2025 as the pre-defined interim analysis concluded that continuing the trials is unlikely to demonstrate the intended efficacy. This decision is not related to safety concerns..."로 명시[52] — 즉 **active moderate-to-severe TED 환자를 직접 대상으로 한 전용 Phase 3에서, 사전 정의된 중간분석 결과 proptosis responder rate(1차 endpoint) 등에 대한 의도된 효능을 입증하기 어렵다고 판단되어 안전성과 무관하게 futility로 조기 종료됨**이 공식 확인됨
   - → 종합하면, GD 시험의 TED 제외기준은 시험설계상 confounding 회피 목적으로 별개 사안이나, TED 전용 시험 자체가 효능 futility로 종료되었다는 사실은 "TSAb를 포함한 IgG를 비선택적으로 줄이는 접근이 GD의 갑상선기능 회복에는 여전히 유효한 가설로 남아있으나, TED의 안와 병리(proptosis 등)를 통제하는 데는 단독으로 충분하지 않을 가능성"을 뒷받침하는 **직접적 임상 근거**(정황 증거 수준에서 상향)로 볼 수 있음. 다만 futility 판정의 세부 데이터(중간분석 시점 responder rate 등)는 공개되지 않아, "IGF-1R 경로 관여로 인한 실패"라는 기전적 해석 자체는 여전히 추론 단계임에 유의
 - 환자군 규모/모집 용이성: GD가 TED보다 발생률이 높고(A2) 진단이 더 조기/명확해 임상시험 모집이 상대적으로 용이할 가능성(추론)
+
+#### FcRn 개발사의 진입 의도 통합 판독
+
+- **Immunovant, 명시적 mechanistic + commercial rationale:** FY2026 Form 10-K는 stimulating TRAb가 직접 병인이고 ATD가 이를 제거하지 않는다는 기전, 재발/불충분 반응/불내약 이후 비파괴적 치료 공백, first-in-class 시장 기회를 함께 제시한다. MG/CIDP는 established FcRn market에서의 best-in-class 전략으로 별도 분류했다. 따라서 GD 진입을 기존 neurology 처방 기반 재사용만으로 설명하는 것은 공시와 맞지 않는다(근거 수준: 높음, 회사 공시; 시장 규모 수치는 회사 추정치).
+- **argenx, mechanistic rationale는 명시적이나 GD 상업 논리는 불명확:** TED 진입 시 TSHR autoantibody 병인성, pathogenic IgG 감소, steroid/teprotumumab 한계를 제시했다. UplighTED 중단 뒤 GD Phase 3를 시작했지만 GD 선택의 별도 market-sizing 또는 gMG/CIDP commercial infrastructure synergy 발언은 공개자료에서 확인하지 못했다. 기존 franchise가 실행위험을 낮춘다는 해석은 합리적이나 회사 발언으로 확인되지 않은 추론이다(근거 수준: 낮음).
+- **임상설계가 시사하는 목표:** Batoclimab GD POC는 단일군 ATD-sparing signal로 빠르게 de-risking했고, imeroprubart/efgartigimod GD 시험은 placebo contrast, off-ATD euthyroidism, TRAb seronegativity, 치료중단 후 durability를 포함해 단순 hormone control보다 drug-free remission을 겨냥한다. 다만 registry가 공식 2L/3L label을 일관되게 지정하지 않으므로 “ATD 이후/ATD-sparing population” 이상으로 단정하지 않는다.
+- **Class 일반화 한계:** Rozanolixizumab/nipocalimab은 공개 GD/TED 등록시험을 확인하지 못했으며, 이는 실패 또는 개발 의사결정의 증거가 아니다. UplighTED의 orbital endpoint futility도 GD biochemical hypothesis 또는 FcRn class 전체 실패로 외삽할 수 없다.
+
+상세 회사 공시, 시험별 arm/eligibility, URL 및 2026-09-28 확인 로그는 `02_ted_fcrn_strategy/fcrn_entry_strategy_ir_review.md`에 수록했다. 종합 결론은 기존 E2와 방향상 일치하지만, GD Phase 3 결과 전에는 **GD 우월성**이 아니라 **mechanistic fit 가설**이다.
 
 ### E3. FcRn 억제제와의 차별화 포인트
 
