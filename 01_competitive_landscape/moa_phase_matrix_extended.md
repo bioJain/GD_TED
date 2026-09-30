@@ -20,6 +20,8 @@ inputs:
 **registry data cut:** 2026-09-10  
 **범위:** GD 또는 TED에서 개발 중이거나 승인된 disease-directed 자산. 중단, 철회, suspended, NDR/상태 불명 프로그램은 본 매트릭스에서 제외하고 별도 부표에 보존했다.
 
+**연관 문서:** 8개 class의 핵심 한계 한 장 요약은 JHA-72 [`class_limitation_matrix.md`](./class_limitation_matrix.md)에 있다.
+
 ## 1. 판정 방법
 
 1. legacy C4의 Cortellis 파생 목록은 자산 원표를 재전재하지 않고 집계와 이름 대조에만 사용했다. legacy 기준은 72개 프로그램 중 active 51개, discontinued 21개이다.
