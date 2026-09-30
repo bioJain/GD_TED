@@ -182,7 +182,7 @@ JHA-81 repo 산출물은 작성되어 있으나 제공된 Linear context에서�
 - **필수 next step:** 동일 지역/연도 기준 `prevalence/incidence -> diagnosed -> severity/activity -> therapy line -> TSAb-positive -> response-eligible -> access` cascade와 제품별 net course price를 적용한 bottom-up model 구축.
 - **데이터 gap:** TED 직접 TSAb-positive population estimate, severity/activity별 환자 수, 진단/치료율, 2026 Tepezza unit WAC/net price, Lumvoa 공식 unit WAC/HCPCS/CMS payment limit.
 - **업데이트 trigger:** Lumvoa 공식 가격/수가 또는 누적 매출, TED TSAb cohort, GD biologic 승인, 상업 report 원문 scope 확보 시 재산정.
-- **QA 상태:** PR #19 follow-up에서 독립 QA 리뷰, 산술 재계산, workbook 수식 대조, 일부 1차 출처 대조를 수행함. 상세 결과와 미해결 gap은 [`tam_sam_revision_qa.md`](tam_sam_revision_qa.md)에 기록함. 상업 report 원문 scope, workbook의 R08/R10-R13 원출처, TED direct TSAb cohort는 미확인이므로 본 문서는 `in-review`를 유지함.
+- **QA 상태:** PR #19 follow-up에서 A1-H3 전 항목 QA, 산술 재계산, workbook 수식 대조, 일부 1차 출처 대조를 수행함. 다만 Tier-상 cross-model 검증이 남아 full QA는 미완료임. 상세 결과와 미해결 gap은 [`tam_sam_revision_qa.md`](tam_sam_revision_qa.md)에 기록함. 상업 report 원문 scope, workbook의 R08/R10-R13 원출처, TED direct TSAb cohort는 미확인이므로 본 문서는 `in-review`를 유지함.
 
 ## 8. 근거 추적
 
