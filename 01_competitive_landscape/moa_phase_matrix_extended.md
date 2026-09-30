@@ -41,11 +41,11 @@ inputs:
 
 | MoA class | Approved / regulatory review | Phase 3 | Phase 2 | Phase 1 / early Phase 1 | Preclinical / discovery |
 |---|---|---|---|---|---|
-| TSHR 직접 차단/길항 | — | — | GenSci098/YB-101 (GD P2) | GenSci098/YB-101 (TED P1); K1-70 (GD P1) | CRN-12755; ETHY-001; REGN-24493; SP-1351 |
+| TSHR 직접 차단/길항 | — | — | GenSci098/YB-101 (GD P2) | GenSci098/YB-101 (TED P1) | CRN-12755; ETHY-001; REGN-24493; SP-1351 |
 | anti-TSHR autoantibody 제거/항원특이 면역조절 | — | — | — | MER511 (GD P1); LCA-0321 (GD/TED P1) | BHV-1440 |
 | pan-IgG 제거 | — | BHV-1300 (GD P3) | — | — | — |
 | FcRn 억제 | — | Efgartigimod PH20 SC (GD P3) | IMVT-1402/imeroprubart (GD P2) | — | — |
-| IGF-1R 억제 | Teprotumumab (TED A); IBI311 (TED A, 중국); Veligrotug/Lumvoa (TED A) | Linsitinib; MHB018A; VRDN-003/elegrobart (모두 TED P3) | AMG 732; NTB003/BCG009 (모두 TED P2) | ZB001 (TED P1) | IGF-1-methotrexate |
+| IGF-1R 억제 | Teprotumumab (TED A); IBI311 (TED A, 중국); Veligrotug/Lumvoa (TED A) | Linsitinib; MHB018A; VRDN-003/elegrobart (모두 TED P3) | AMG 732; NTB003/BCG009 (모두 TED P2) | — | IGF-1-methotrexate |
 | IGF-1R/TSHR 이중표적 | — | — | — | IBI3031 (TED P1) | VBS-102 |
 | IL-6/IL-6R | Satralizumab (TED RR) | — | TOUR006/pacibekitug (TED P2) | — | — |
 | IL-11R | — | — | — | — | — |
@@ -66,12 +66,11 @@ inputs:
 |---|---|---|---|---|---|---|---|
 | BHV-1300 | Biohaven | pan-IgG extracellular degradation | P3 | — | NCT07661056; NCT06980649 | both | anti-TSHR 선택적 제거제가 아니라 pan-IgG MoDE. 두 GD 시험 모두 recruiting |
 | Efgartigimod PH20 SC | argenx | FcRn inhibition | P3 | 제외, P3 terminated | NCT07570316; NCT07596849 / NCT06307613; NCT06307626 | both | Highest Status trap 대표 사례 |
-| GenSci098/YB-101 (legacy GS-098) | GenSci | TSHR antagonism | P2 | P1 | NCT07682896 / NCT06569758 | both | 적응증별 최고 active 단계 분리 |
+| GenSci098/YB-101 (legacy GS-098) | GenSci | TSHR antagonism | P2 | P1 | NCT07682896; NCT07286656 / NCT06569758 | both | 적응증별 최고 active 단계 분리 |
 | IMVT-1402/imeroprubart | Immunovant | FcRn inhibition | P2 | — | NCT06727604; NCT07018323; NCT07286006 | both | recruiting/invitation |
 | Felzartamab | Biogen | CD38 plasma-cell depletion | P2 | — | NCT07722546 | both | recruiting |
 | Rilzabrutinib | Sanofi | BTK inhibition | P2 | GD 동반 GO subset 허용, TED 독립단계 아님 | NCT06984627 | both | frozen registry 원문의 condition/title/FT4 endpoint로 GD 판정. CSV의 `Active TED` label을 교정 |
 | MER511 | Merida Biosciences | anti-TSHR AAb neutralization/clearance 및 항원특이 B-cell 억제 | P1 | 회사 pipeline 적응증, 임상 단계 없음 | NCT07305818 | both | TSHR receptor 길항제가 아님. NEXUS의 condition은 GD뿐이며, 회사 pipeline은 GD/TED를 함께 명시 |
-| K1-70 | AV7/academic collaborators | TSHR blockade | P1 completed, 후속 확인 필요 | legacy P2, v2 TED trial 미확인 | NCT02904330 | both | 본 매트릭스에는 검증 가능한 GD P1만 반영 |
 | LCA-0321 | Lycia Therapeutics | anti-TSHR autoantibody LYTAC | P1 | P1 | CTIS 2025-524053-14-00; LCA-0321-01 | both | CT.gov 외 CTIS 근거, GD/TED 병기 |
 | Allogeneic CD19/BCMA CAR-T | Shanghai Zhongshan Hospital | CD19/BCMA CAR-T | early P1 | — | NCT07129642; NCT07261345 | v2 | recruiting |
 | HN2301 in-vivo CAR-T | Shanghai Zhongshan Hospital | in-vivo CD19/BCMA CAR-T | early P1 | — | NCT07333677 | v2 | recruiting |
@@ -92,18 +91,17 @@ inputs:
 | Satralizumab | Roche/Chugai | IL-6R blockade | Regulatory review | NCT05987423; NCT06106828 | both | v2 cutoff에 TED 승인 아님 |
 | Linsitinib | Slingshot Therapeutics | IGF-1R/IR kinase inhibition | P3 | NCT07753603; NCT06112340 | both | recruiting |
 | MHB018A | Minghui Pharmaceutical | IGF-1R inhibition | P3 | NCT06989918; NCT07257185 | both | active 및 chronic/inactive TED |
-| KHN939 | registry sponsor | target 미공개 | P3 | NCT07720635; NCT07720648 | both | pipeline row의 `Clinical` 대신 trial phase 사용 |
+| KHN939 | Chengdu Kanghong Pharmaceutical Group Co., Ltd. | target 미공개 | P3 | NCT07720635; NCT07720648 | both | pipeline row의 `Clinical` 대신 trial phase 사용 |
 | VRDN-003/elegrobart | Viridian | IGF-1R inhibition | P3 | NCT06625411; NCT06625398 | both | active-not-recruiting |
 | AMG 732 | Amgen | IGF-1R inhibition | P2 | NCT06401044; NCT07438405 | both | recruiting/active-not-recruiting |
 | NTB003/BCG009 | Nanjing Chia-tai Tianqing/Biocytogen | IGF-1R inhibition | P2 | NCT07462130 | both | not-yet-recruiting |
-| SCTT11 | registry sponsor | target 미공개 | P2 | NCT06769984 | both | P1/2, not-yet-recruiting |
+| SCTT11 | Sinocelltech Ltd. | target 미공개 | P2 | NCT06769984 | both | P1/2, not-yet-recruiting |
 | TOUR006/pacibekitug | Tourmaline Bio/Novartis | IL-6 pathway blockade | P2 | NCT06088979 | both | active-not-recruiting |
 | Tofacitinib | First Affiliated Hospital of Xiamen University | JAK inhibition | P2 | NCT07547930 | v2 | recruiting investigator-led trial |
 | Sirolimus | academic sponsors | mTOR inhibition | P2 | NCT04936854 | v2 | recruiting trial만 단계 근거로 사용 |
 | Lu AG22515/velaprumig | Lundbeck | CD40L blockade | P1/2 | NCT06557850 | both | active-not-recruiting |
 | Cizutamig/CND106 | Candid Therapeutics | BCMA x CD3 plasma-cell/B-lineage depletion | P1 | NCT07597200 | both | active moderate-to-severe TED, recruiting |
 | IBI3031 | Innovent | IGF-1R/TSHR dual blockade | P1 | NCT07622368 | both | recruiting |
-| ZB001 | Zenas | IGF-1R inhibition | P1 completed, 지속 확인 필요 | NCT05776121 | v2 | 후속 active trial 미확인 |
 | Hydroxychloroquine | National Taiwan University Hospital | pleiotropic immunomodulation | P4, adjunct | NCT05126147 | v2 | recruiting, pipeline matrix에서는 보조 치료로 분리 |
 | Tocilizumab | academic sponsors | IL-6R blockade | P4, off-label study | NCT06927375 | v2 | recruiting trial만 사용, withdrawn trial은 무시 |
 | IGF-1-methotrexate | Lirum | targeted conjugate | PC | registry ID 없음 | legacy | legacy active preclinical |
@@ -154,6 +152,8 @@ inputs:
 | ATX-GD-59 | GD P1 completed; follow-on WP1302 suspended | 후속 중단으로 본표 제외 |
 | LASN01 | TED P2 completed | active 후속 또는 규제 심사 근거가 snapshot에 없어 관찰 목록으로 이동 |
 | Lonigutamab | TED P1/2 completed | 후속 active 시험 미확인, legacy도 전략 재검토 flag |
+| K1-70 | GD P1 completed; legacy TED P2, v2 TED trial 미확인 | 후속 active 시험을 확인하지 못해 관찰 목록으로 이동 |
+| ZB001 | TED P1 completed | 후속 active 시험을 확인하지 못해 관찰 목록으로 이동 |
 
 ## 6. 2026-09-29 주요 자산 cross-confirm
 
@@ -181,9 +181,9 @@ inputs:
 
 ### 6.2 검증 로그
 
-아래의 `1차 대조`는 본 작성 세션에서 수행한 source 확인이다. `_shared/GD_TED_qa_checklist.md`에 따른 분리 세션 및 다른 provider/model의 cross-model QA를 뜻하지 않는다. 상 tier claim의 독립 cross-model QA와 원문 direct-quote 대조는 2026-09-29에 완료되었으며, 결과는 `01_competitive_landscape/moa_phase_matrix_extended_qa.md`에 기록했다. 아래 표의 독립 QA 결과는 해당 보고서의 3절 registry direct-quote 대조를 근거로 한다.
+아래의 `1차 대조`는 본 작성 세션에서 수행한 source 확인이다. `_shared/GD_TED_qa_checklist.md`에 따른 분리 세션 및 다른 provider/model의 cross-model QA를 뜻하지 않는다. 분리된 독립 QA와 주요 registry/규제 claim의 원문 direct-quote 대조는 2026-09-29에 수행되었으며, 결과는 `01_competitive_landscape/moa_phase_matrix_extended_qa.md`에 기록했다. 다만 작성 세션의 모델/provider가 확인되지 않아 cross-model 요건 충족은 미확정이고, legacy-only 자산과 LCA-0321은 원문 직접 대조가 남아 있다. 아래 표의 독립 QA 결과는 해당 보고서의 3절 registry direct-quote 대조를 근거로 한다.
 
-| claim | tier | 1차 대조 결과 | 독립 cross-model QA | 원문 direct-quote 대조 | 일자 |
+| claim | tier | 1차 대조 결과 | 독립 QA 결과 | 원문 direct-quote 대조 | 일자 |
 |---|---|---|---|---|---|
 | MER511 MoA/class | 중 | sponsor pipeline/platform와 v2 mechanism row를 대조해 anti-TSHR AAb 제거/항원특이 B-cell 억제로 교정 | 비대상 | 비대상 | 2026-09-29 |
 | MER511 GD/TED 단계 | 상 | live registry에서 GD P1 recruiting, sponsor pipeline에서 TED 개발 의도를 확인 | **완료, 일치** (독립 QA 세션, 2026-09-29) | **완료** NCT07305818 원문: `PHASE1`, `RECRUITING`, conditions `["Graves Disease"]`; `query.intr=MER511` 전수 검색에서 시험 1건 | 2026-09-29 |
@@ -197,12 +197,12 @@ inputs:
 
 | QA | 결과 | 근거 |
 |---|---|---|
-| E6 indication-specific staging | **PASS** (독립 QA 완료, 2026-09-29) | 작성 세션의 재판정에 더해, 분리된 독립 QA 세션(`moa_phase_matrix_extended_qa.md`)이 상 tier phase claim 전부(MER511, GenSci098/YB-101, KHN939, SCTT11)와 승인/심사 자산(Teprotumumab, IBI311, Veligrotug, Satralizumab, Efgartigimod)을 ClinicalTrials.gov API v2 및 규제/sponsor 원문 direct quote로 대조해 일치를 확인. 교정 필수 사항 없음, 권고 3건은 QA 보고서 5절 참조 |
-| E7 discontinued/NDR 제외 | **PASS** | stopped/failed/suspended 10개와 NDR/범위외 8개를 active 매트릭스 밖 부표에 명시적으로 보존. TED-terminated efgartigimod는 TED에서만 제외하고 GD는 유지 |
+| E6 indication-specific staging | **PASS** (독립 QA 완료, 2026-09-29) | 작성 세션의 재판정에 더해, 분리된 독립 QA 세션(`moa_phase_matrix_extended_qa.md`)이 QA 범위의 주요 상 tier phase claim(MER511, GenSci098/YB-101, KHN939, SCTT11)과 승인/심사 자산(Teprotumumab, IBI311, Veligrotug, Satralizumab, Efgartigimod)을 ClinicalTrials.gov API v2 및 규제/sponsor 원문 direct quote로 대조해 일치를 확인. 대조 범위에서는 일치. cross-model 여부와 legacy-only/LCA-0321 직접 검증은 미완료 |
+| E7 discontinued/NDR 제외 | **PASS** | stopped/failed/suspended 10개와 NDR/범위외 및 관찰 10개를 active 매트릭스 밖 부표에 명시적으로 보존. TED-terminated efgartigimod는 TED에서만 제외하고 GD는 유지 |
 
 ## 8. 해석상 한계
 
 - 본 매트릭스의 단계 판정은 2026-09-10 frozen registry cut을 재분석한 결과이다. 2026-09-29 live 조회는 6절의 cross-confirm에만 사용했으며 frozen 단계와 혼합하지 않았다.
 - legacy commercial DB의 자산별 원표는 public repo 정책상 재전재하지 않았다. legacy-only 목록은 C4 공개 요약에 이름이 나온 범위이며, 그 결과 비공개 원표의 51개 active program을 완전히 역산하는 용도로 사용하면 안 된다.
 - `pipeline_assets_v2.csv`의 indication 요약과 trial row가 충돌하면 trial row를 우선하고, trial row 내부가 모순되면 frozen registry 원문을 우선했다. 대표적으로 GenSci098은 GD P2와 TED P1로 분리했고, efgartigimod는 GD active/TED terminated로 분리했으며, Rilzabrutinib은 CSV의 `Active TED` 대신 registry condition/title/FT4 endpoint에 따라 GD P2로 교정했다.
-- `COMPLETED`는 성공, 중단 또는 후속 개발을 자동 의미하지 않는다. 따라서 완료-only 자산에 대해서는 보수적으로 `지속 확인 필요` 또는 관찰 목록을 사용했다.
+- `COMPLETED`는 성공, 중단 또는 후속 개발을 자동 의미하지 않는다. 따라서 완료-only 자산에 대해서는 보수적으로 active 본표에서 제외하고 관찰 목록을 사용했다.
