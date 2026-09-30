@@ -11,6 +11,8 @@ inputs:
   - 01_competitive_landscape/gd_line_of_therapy.md
   - 01_competitive_landscape/ted_line_of_therapy.md
   - 04_tam_sam_pricing/teprotumumab_veligrotug_pricing.md
+  - 04_tam_sam_pricing/sources/README.md
+  - 04_tam_sam_pricing/tam_sam_revision_qa.md
 ---
 
 # GD/TED TAM/SAM range 및 TSAb-IgG coverage 재검토
@@ -102,7 +104,7 @@ Therapy-line SAM은 biomarker가 아니라 실제 치료경로상의 위치를 �
 
 ### 4.2 `SCLC_Graves_population_model.xlsx` 검토 및 채택 판정
 
-2026-09-28 공유된 [Google Sheets 원본](https://docs.google.com/spreadsheets/d/1urdrkYPYPKDpIBIhP0GsPKjK62GlxgtKkq8T2hIr_gk/edit?usp=sharing)의 `01_Assumptions`, `03_Graves`, `04_Sensitivity`, `05_Sources` 시트와 수식을 직접 확인함. 이 모델은 미국 성인 신규 환자를 1차 ATD/RAI/수술, 1차 ATD 관해/비관해 또는 재발, 2차 ATD/definitive therapy 및 장기 저용량 ATD로 분기하므로 **therapy-line 구조에는 relevant**함. 그러나 아래 이유로 모델 출력은 모두 **E, D의 exploratory US scenario**로만 채택함.
+2026-09-28 공유된 [Google Sheets 원본](https://docs.google.com/spreadsheets/d/1urdrkYPYPKDpIBIhP0GsPKjK62GlxgtKkq8T2hIr_gk/edit?usp=sharing)의 `01_Assumptions`, `03_Graves`, `04_Sensitivity`, `05_Sources` 시트와 수식을 직접 확인함. PR에 binary XLSX를 포함하지 않고 [Google Drive XLSX direct export](https://docs.google.com/spreadsheets/d/1urdrkYPYPKDpIBIhP0GsPKjK62GlxgtKkq8T2hIr_gk/export?format=xlsx)로 연결했으며, 출처/검토일/검토 당시 export SHA-256은 [`sources/README.md`](sources/README.md)에 기록함. 이 모델은 미국 성인 신규 환자를 1차 ATD/RAI/수술, 1차 ATD 관해/비관해 또는 재발, 2차 ATD/definitive therapy 및 장기 저용량 ATD로 분기하므로 **therapy-line 구조에는 relevant**함. 그러나 아래 이유로 모델 출력은 모두 **E, D의 exploratory US scenario**로만 채택함.
 
 | 검토 항목 | 판정 | 반영 방식 |
 |---|---|---|
@@ -129,7 +131,7 @@ Workbook의 성별 유병률 입력은 전체 유병률 계산에 사용되지 �
 | 2차 ATD 진입 | **1.24만/2.13만/2.84만 명** | 1차 비관해/재발 x 2차 ATD 선택 50%/60%/70% | 선택률이 D assumption이므로 sensitivity only |
 | 1차 비관해/재발 후 즉시 RAI/수술 | **1.24만/1.42만/1.22만 명** | 1차 비관해/재발 - 2차 ATD | scenario가 단조롭지 않음. base가 low/high보다 큰 것은 결합 가정의 결과이며 오류가 아님 |
 | 2차 ATD 후 재발/불응 | **0.77만/0.96만/0.69만 명** | 2차 ATD x (1 - 2차 remission 38%/55%/75.8%) | 2차 remission 범위가 넓고 source trace가 약해 exploratory only |
-| ATD uncontrolled | **1.33만/2.44만/3.70만 명** | workbook의 활성 ATD flow x 25%/27.5%/30% | novel therapy unmet-need proxy이나 unique annual patients가 아님. 순차 state 합산과 treatment duration 차이로 중복/시간축 왜곡 가능 |
+| ATD uncontrolled state-entry sensitivity | **1.33만/2.44만/3.70만 건** | workbook의 `1차+2차+장기유지` state-entry 합 x 25%/27.5%/30% | **환자 수 또는 연간 SAM으로 사용 금지.** 동일 신규 cohort의 순차 state를 합산하여 환자 중복이 있고, state별 treatment duration을 반영하지 않음 |
 
 기존 문서의 `7MM 신규 21.2만 x 비관해/재발 50-70% = 10.6만-14.8만 명`은 1차 ATD 이외 modality를 차감하지 않아 therapy-line SAM을 과대평가할 수 있음. 따라서 **core therapy-line proxy에서 제외**하고, 지역별 치료분배 자료가 없는 7MM coarse ceiling으로만 보존함.
 
@@ -147,7 +149,7 @@ Workbook의 성별 유병률 입력은 전체 유병률 계산에 사용되지 �
 | 적응증 | Therapy-line pool (E, D) | Mechanism factor | 교집합 proxy (E, D) | 판정 |
 |---|---:|---:|---:|---|
 | 미국 GD, 1차 ATD 후 비관해/재발 | 연간 2.48만/3.54만/4.06만 명 | TSAb serology 90-95% | **Low 약 2.23만-2.35만, Base 약 3.19만-3.37만, High 약 3.65만-3.85만 명/년** | post-ATD mechanism-fit의 우선 방향성 proxy. 실제 label, contraindication 및 access 차감 필요 |
-| 미국 GD, ATD uncontrolled | 연간 1.33만/2.44만/3.70만 명 | TSAb serology 90-95% | **Low 약 1.20만-1.26만, Base 약 2.19만-2.32만, High 약 3.33만-3.52만 명/년** | unmet-need sensitivity. workbook flow의 중복/시간축 한계와 단일 기업 공시 의존 때문에 core SAM으로 채택하지 않음 |
+| 미국 GD, ATD uncontrolled | **교집합 산출 보류** | TSAb serology 90-95% | **NR** | 입력이 unique annual patients가 아니므로 serology를 곱해도 SAM이 되지 않음. 환자 단위 deduplication, state 점유기간, 관찰 기간을 통일한 후에만 재산출 |
 | TED systemic/targeted therapy 후보 | 2.9만-7.7만 명 prevalent | 약 90% serology proxy | 산술상 약 2.6만-7.0만 명이나 **채택 보류** | TED는 serology가 clinical mechanism response를 보장하지 않으므로 별도 response/causality factor 없이는 SAM이 아님 |
 
 위 결과는 **환자 수 SAM**이며 dollar SAM이 아님. 특히 top-down TAM은 generic ATD, RAI, surgery, steroid, 진단 및 biologic 지출을 서로 다른 비중으로 포함할 수 있어, 환자 비율을 시장금액에 바로 곱하면 치료선별 지출 구조를 왜곡함.
@@ -180,7 +182,7 @@ JHA-81 repo 산출물은 작성되어 있으나 제공된 Linear context에서�
 - **필수 next step:** 동일 지역/연도 기준 `prevalence/incidence -> diagnosed -> severity/activity -> therapy line -> TSAb-positive -> response-eligible -> access` cascade와 제품별 net course price를 적용한 bottom-up model 구축.
 - **데이터 gap:** TED 직접 TSAb-positive population estimate, severity/activity별 환자 수, 진단/치료율, 2026 Tepezza unit WAC/net price, Lumvoa 공식 unit WAC/HCPCS/CMS payment limit.
 - **업데이트 trigger:** Lumvoa 공식 가격/수가 또는 누적 매출, TED TSAb cohort, GD biologic 승인, 상업 report 원문 scope 확보 시 재산정.
-- **QA 상태:** 산술/정의/내부 일관성 self-check는 수행. 역학 및 TAM input은 Tier-상 claim이므로, repo 규약이 요구하는 **별도 session의 cross-model 검증과 1차 출처 direct-quote 대조는 아직 미실행**이며 본 문서 상태를 `in-review`로 유지함.
+- **QA 상태:** PR #19 follow-up에서 A1-H3 전 항목 QA, 산술 재계산, workbook 수식 대조, 일부 1차 출처 대조를 수행함. 다만 Tier-상 cross-model 검증이 남아 full QA는 미완료임. 상세 결과와 미해결 gap은 [`tam_sam_revision_qa.md`](tam_sam_revision_qa.md)에 기록함. 상업 report 원문 scope, workbook의 R08/R10-R13 원출처, TED direct TSAb cohort는 미확인이므로 본 문서는 `in-review`를 유지함.
 
 ## 8. 근거 추적
 
@@ -200,4 +202,4 @@ JHA-81 repo 산출물은 작성되어 있으나 제공된 Linear context에서�
 - `01_competitive_landscape/gd_line_of_therapy.md`: GD 치료선 정의, ATD 기간/재발 및 definitive therapy 분기.
 - `01_competitive_landscape/ted_line_of_therapy.md`: TED severity/activity 선분기, systemic/targeted/refractory 치료경로.
 - `04_tam_sam_pricing/teprotumumab_veligrotug_pricing.md`: JHA-81 course price, coding 및 anchor 처리 결론.
-- 외부 `SCLC_Graves_population_model.xlsx`, Google Sheets ID `1urdrkYPYPKDpIBIhP0GsPKjK62GlxgtKkq8T2hIr_gk`: 미국 GD state-transition 구조와 Low/Base/High formula. 2026-09-28 XLSX export본을 검토했으며 repo에는 저장하지 않음.
+- [`Google Drive XLSX direct export`](https://docs.google.com/spreadsheets/d/1urdrkYPYPKDpIBIhP0GsPKjK62GlxgtKkq8T2hIr_gk/export?format=xlsx): Google Sheets ID `1urdrkYPYPKDpIBIhP0GsPKjK62GlxgtKkq8T2hIr_gk`의 외부 workbook. 미국 GD state-transition 구조와 Low/Base/High formula 검토용. 가변 원본이므로 검토 시점 hash는 `sources/README.md`에서 대조.
