@@ -3,7 +3,7 @@ title: "Cluster 2: TED 임상경쟁 및 FcRn 항체 전략"
 linear_parent: JHA-65
 milestone: cluster-2-ted-fcrn-strategy
 created: 2026-09-24
-status: active
+status: in-review
 ---
 
 # Cluster 2: TED 임상경쟁 및 FcRn 항체 전략
@@ -14,6 +14,8 @@ status: active
 |---|---|
 | JHA-74 | `fcrn_entry_strategy_ir_review.md` |
 | JHA-75 | `placebo_competitive_summary.md` |
+
+두 자식 산출물의 핵심 결론은 `00_legacy_unsorted/GD_TED_report.md` Section D4/E2에 통합했다. 독립 QA 및 상 tier cross-model/direct-quote 검증이 남아 있어 cluster 상태는 `in-review`로 유지한다.
 
 ## 입력 파일
 
