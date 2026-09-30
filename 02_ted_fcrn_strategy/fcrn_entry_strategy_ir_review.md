@@ -3,7 +3,7 @@ linear_issue: JHA-74
 created: 2026-09-28
 source: manual
 milestone: cluster-2-ted-fcrn-strategy
-status: in-review
+status: done
 inputs:
   - 00_legacy_unsorted/GD_TED_report.md
   - 00_baseline_biomni/landscape_v2/pipeline_assets_v2.csv
@@ -14,6 +14,8 @@ inputs:
 # FcRn 항체 개발사의 GD/TED 진입 전략: 공개 IR 및 임상설계 검토
 
 **조사 기준일:** 2026-09-28  
+**독립 QA 확인일:** 2026-09-30 (`fcrn_entry_strategy_ir_review_qa.md`)
+
 **v2 기준일:** repo의 Biomni v2 수치/상태는 2026-09-10 data cut이며, 그 이후 공개된 내용은 아래에 별도로 날짜를 표시했다.  
 **범위:** argenx의 efgartigimod, Immunovant의 batoclimab/imeroprubart, 비교군인 rozanolixizumab 및 nipocalimab의 GD/TED 개발.
 
@@ -90,7 +92,7 @@ inputs:
 
 - **[S1]** Immunovant, FY2026 Form 10-K: asset naming, business strategy, GD rationale/market estimate, batoclimab discontinuation, IMVT-1402 program. https://www.sec.gov/Archives/edgar/data/1764013/000176401326000064/imvt-20260331.htm
 - **[S2]** argenx, FY2024 Form 20-F: TED rationale and UplighTED design. https://www.sec.gov/Archives/edgar/data/1697862/000169786225000024/argx-20241231.htm
-- **[S3]** argenx, FY2025 results (Form 6-K exhibit): GD registrational study and `thyroid-driven autoimmunity`. https://www.sec.gov/Archives/edgar/data/1697862/000169786226000010/argenxex991q42025earnings.htm
+- **[S3]** argenx, FY2025 results (Form 6-K exhibit): GD registrational study and `thyroid-driven autoimmunity`. https://www.sec.gov/Archives/edgar/data/1697862/000169786226000010/a09earningspressreleaseq4.htm
 - **[S4]** argenx, FY2025 Form 20-F: GD pipeline entry, UplighTED discontinuation, commercial franchise context. https://www.sec.gov/Archives/edgar/data/1697862/000169786226000032/argx-20251231.htm
 - **[S5]** ClinicalTrials.gov, NCT06307613, UplighTED study 1. https://clinicaltrials.gov/study/NCT06307613
 - **[S6]** ClinicalTrials.gov, NCT06307626, UplighTED study 2. https://clinicaltrials.gov/study/NCT06307626
@@ -109,9 +111,9 @@ inputs:
 | claim | tier | 검증 방법 | 결과 | 일자 |
 |---|---|---|---|---|
 | Batoclimab=IMVT-1401, imeroprubart=IMVT-1402 | 중 | SEC 10-K 원문 내 naming 문구 대조 | PASS | 2026-09-28 |
-| Batoclimab TED Phase 3 실패/전체 중단 | 상 | SEC 10-K와 두 registry record 대조 (동일 세션, 동일 모델) | PENDING QA — cross-model 재확인 및 원문 direct-quote 대조 미실시(`docs/repo_conventions.md` 상 claim 요건) | 2026-09-28 |
-| UplighTED futility 종료 | 상 | argenx 20-F와 ClinicalTrials.gov 두 record 대조 (동일 세션, 동일 모델) | PENDING QA — cross-model 재확인 및 원문 direct-quote 대조 미실시 | 2026-09-28 |
-| Batoclimab GD endpoint 수치 | 상 | ClinicalTrials.gov posted results와 repo v2 `clinical_trials_v2.csv` NCT05907668 행 대조 (동일 세션, 동일 모델) | PENDING QA — cross-model 재확인 및 원문 direct-quote 대조 미실시. 최초 대조 과정에서 68.8%/31.3%를 composite(정상화 또는 LLN 미만) 대신 순수 정상화로 잘못 기술한 오류가 있었음(본문 3.1절에서 수정) | 2026-09-28 |
-| IMVT-1402/efgartigimod GD 설계 | 상 | 각 registry live record와 repo v2 trial_id 행 대조 (동일 세션, 동일 모델) | PENDING QA — cross-model 재확인 및 원문 direct-quote 대조 미실시 | 2026-09-28 |
+| Batoclimab TED Phase 3 실패/전체 중단 | 상 | 독립 QA에서 Immunovant 10-K와 NCT05517421/NCT05524571 원문 대조, direct quote 확인 | PASS — 두 Phase 3의 primary endpoint 미달 및 batoclimab 전 적응증 중단 확인 | 2026-09-30 |
+| UplighTED futility 종료 | 상 | 독립 QA에서 argenx 20-F와 NCT06307613/NCT06307626의 `whyStopped` 원문 대조, direct quote 확인 | PASS — 두 시험 `TERMINATED`, 사전 interim analysis상 intended efficacy 입증 가능성이 낮아 중단 | 2026-09-30 |
+| Batoclimab GD endpoint 수치 | 상 | 독립 QA에서 NCT05907668 posted results의 outcome title/value direct quote 대조 | PASS — 68.8%/31.3%는 정상화 또는 LLN 미만 composite, 53.1%만 정상화 endpoint임을 재확인 | 2026-09-30 |
+| IMVT-1402/efgartigimod GD 설계 | 상 | 독립 QA에서 NCT06727604/NCT07018323/NCT07570316/NCT07596849의 phase, arm, outcome 원문 대조 | PASS — phase, 대조군, Week 24/26 endpoint, TRAb 관련 secondary endpoint 확인 | 2026-09-30 |
 | Rozanolixizumab/nipocalimab GD/TED 등록시험 부재 | 중 | ClinicalTrials.gov API 자산명/코드/질환 조합 검색 | PASS, 단 부재 증거의 한계 명시 | 2026-09-28 |
 | Imeroprubart/IMVT-1402 TED 등록시험 부재 | 중 | ClinicalTrials.gov API `imeroprubart OR IMVT-1402` + TED/Graves 조합 검색([S15]); 이전 버전은 이 claim에 nipocalimab 검색([S14])을 오인용 | PASS, 단 부재 증거의 한계 명시 | 2026-09-28 |
