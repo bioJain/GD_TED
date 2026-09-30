@@ -28,7 +28,7 @@ inputs:
 이 선택지 집합이 가장 잘 address하는 영역은 GD의 **thyroid hormone source control**과 TED의 **active inflammation/proptosis**다. 반대로 아래 환자군은 하나의 승인 또는 후기개발 class가 질환 상태, phenotype, 내약성, durability를 동시에 해결하지 못한다.
 
 1. **ATD 장기불응/불내성 또는 중단 후 재발 GD 중 RAI/수술을 원치 않거나 부적합한 환자**
-2. **Chronic/inactive TED의 고정 diplopia/proptosis/eyelid deficit 중 수술을 원치 않거나 부적합한 환자**
+2. **Chronic/inactive TED 중 승인 IGF-1R 치료에 접근할 수 없거나 부적합/무반응이고, 고정 diplopia/proptosis/eyelid deficit에 수술도 원치 않거나 부적합한 환자**
 3. **TRAb 음성 또는 assay-discordant TED**: 진단과 target engagement 선별에서 누락될 수 있고, TSHR/TSAb 표적 접근의 생물학적 적용 가능성도 불확실
 4. **Steroid-resistant/intolerant active TED 및 IGF-1R inhibitor nonresponder/relapser**
 5. **청각질환, diabetes, IBD, 감염 고위험, pregnancy/lactation, pediatric 등 독성 또는 근거 공백으로 주요 class 선택이 제한되는 환자**
@@ -67,7 +67,7 @@ inputs:
 | Mild active TED | Local/supportive care, selected selenium | 다수 TED pipeline은 moderate-to-severe 중심 | 진행 예측과 조기 disease modification 기준 부족 | 부분 포괄 |
 | Active moderate-to-severe, inflammation 중심 TED | IVMP 기반, 지역에 따라 IGF-1R therapy | IGF-1R P3/P2/P1, IL-6 계열, 기타 면역조절 | steroid/IGF-1R 부적합 또는 nonresponse, phenotype별 직접 비교 부족 | **조건부 잔여군** |
 | IGF-1R 치료 후 nonresponse/relapse | 재평가 후 alternate immunomodulation, RT, surgery | 다른 IGF-1R 및 IL-6/CD40L/plasma-cell 축 | class 내 교체 효과, relapse 정의, retreatment와 장기 durability 불확실 | **durability 잔여군** |
-| Chronic/inactive TED, 고정 구조 이상 | Staged decompression/strabismus/eyelid surgery | IBI311 approved(중국) 및 inactive 시험; MHB018A P3의 chronic/inactive 연구 | 비수술 systemic option의 지역별 승인/근거가 제한되고 수술 부적합/거부 환자의 durable option 부족 | **우선 잔여군** |
+| Chronic/inactive TED, 고정 구조 이상 | Staged surgery; 미국에서는 teprotumumab과 veligrotug가 activity/duration 무관 승인, EU/UK에서는 teprotumumab이 성인 moderate-to-severe TED에 승인; 중국은 IBI311 승인 | IBI311/MHB018A 등 inactive/chronic 연구 | 지역별 authorization/access 차이, IGF-1R 부적합/무반응, durability/retreatment와 실제 surgery-avoidance 근거, 이미 고정된 deficit의 잔존 | **조건부/durability 잔여군** [13,15,16,26] |
 | TRAb 음성/assay-discordant TED | 임상상, imaging, 복수 assay를 포함한 진단 | TSHR/TSAb 표적 및 broad immune class가 존재하나 seronegative subgroup 근거 미확인 | 진단 지연, trial enrichment 누락, target biology와 response 예측 불확실 | **biomarker 잔여군** |
 | DON/각막 위협 | Emergency IVMP, urgent decompression | 일반 pipeline sequence로 대체 불가 | referral/decompression 접근성과 vision-specific evidence가 핵심 | **경로 잔여군** |
 | GD + 치료 필요 TED 동반 | GD modality와 TED therapy를 병행/순차 선택 | GD 자산과 TED 자산은 indication-specific으로 분리 개발 | Thyroid control, orbital disease, autoimmunity를 동시에 해결하는 검증된 class 없음. RAI는 TED 위험 때문에 제한 가능 | **교차 적응증 잔여군** |
@@ -89,11 +89,12 @@ inputs:
 
 **진입 조건:** inflammatory activity가 안정화됐으나 proptosis, strabismus/diplopia, eyelid abnormality, exposure 등 기능/외형 후유증이 남은 상태.
 
-- 현재 표준 경로는 안정된 inactive/euthyroid 상태에서 decompression, strabismus surgery, eyelid correction 순의 staged rehabilitation이다.
-- IVMP는 inactive fibrotic deficit을 일관되게 해결하지 못하고 반복 독성이 있다. IGF-1R class는 inactive/chronic 연구가 확대 중이지만 지역별 authorization와 장기 수술 회피 효과가 균일하게 확립된 것으로 볼 수 없다.
-- JHA-73은 IBI311의 active/inactive 시험과 MHB018A의 chronic/inactive P3을 포착한다. 이는 gap에 직접 대응하는 개발 신호이나, `class 전체가 inactive TED를 포괄`한다는 뜻은 아니다.
+- 고정된 기능/외형 후유증의 표준 재활 경로는 안정된 inactive/euthyroid 상태에서 decompression, strabismus surgery, eyelid correction 순의 staged surgery다.[13]
+- 그러나 systemic option이 전혀 없는 것은 아니다. 미국에서는 teprotumumab과 veligrotug가 TED activity/duration과 무관하게 승인돼 chronic/inactive 환자도 label상 포함하며, teprotumumab에는 chronic/low-activity trial 근거도 있다. EU/UK teprotumumab label은 성인 moderate-to-severe TED를 포함하고, 중국에서는 IBI311이 승인돼 있다. 반면 일본 teprotumumab 승인은 active TED이고, 한국의 IGF-1R authorization/access는 curated input에서 unresolved다.[13,15,16,26]
+- IVMP는 inactive fibrotic deficit을 일관되게 해결하지 못한다. 승인 IGF-1R therapy도 모든 고정 diplopia/eyelid deficit의 가역성, 장기 durability, retreatment 및 실제 surgery avoidance를 보장하지 않으며 hearing/metabolic/IBD risk나 access로 사용이 제한될 수 있다.[13,14]
+- JHA-73은 IBI311의 active/inactive 시험과 MHB018A의 chronic/inactive P3을 추가로 포착한다. IBI311은 승인 자산이므로 `pipeline-only`로 분류하지 않고, ongoing inactive 연구는 승인 후 evidence expansion으로 구분한다.[15]
 
-**잔여 정의:** 수술을 원치 않거나 마취/수술 위험, 활동성 불안정, 전문 surgeon 접근 제한이 있으면서 durable systemic/비침습 교정 옵션이 필요한 환자.
+**잔여 정의:** 승인 IGF-1R option의 지역 access가 없거나, safety/contraindication/nonresponse 때문에 사용할 수 없거나, 치료 후에도 고정 deficit이 남으면서 수술도 원치 않거나 부적합한 환자. 따라서 chronic/inactive TED 전체를 `현재 systemic option 부재`로 계수하지 않는다.
 
 ### 4.3 TRAb 음성 또는 assay-discordant TED
 
@@ -430,7 +431,7 @@ Legacy report는 동결하고, C6의 다섯 항목을 아래와 같이 현재 �
 | Legacy C6 항목 | JHA-70/71/72/73 교차 후 통합 판정 | 후속 데이터 요구 |
 |---|---|---|
 | Teprotumumab 이후 비용/청각 AE/durability | IGF-1R class는 active TED의 중요한 축이나 hearing impairment, hyperglycemia 등 safety와 nonresponse/relapse 후 경로가 남음. 다른 IGF-1R 후기 자산의 존재만으로 class gap 해소 판정 불가 | 독립 장기 추적, standardized relapse, retreatment, class-switch, 지역 access |
-| Inactive TED systemic option 부족 | 수술 재활이 SoC. Inactive/chronic 개발은 존재하나 지역별 승인/장기 수술 회피 근거가 제한적 | Activity별 trial, functional outcome, 수술 회피, 장기 durability |
+| Legacy의 inactive TED systemic option 부재 주장 | **현재 기준으로 교정:** 미국 teprotumumab/veligrotug는 activity/duration 무관 승인이고 EU/UK teprotumumab 및 중국 IBI311도 현재 systemic coverage를 제공한다. 수술 재활은 고정 deficit에 여전히 중요하며, 잔여 gap은 지역 access, IGF-1R 부적합/무반응, durability/retreatment 및 surgery-avoidance 근거 부족이다.[13,15,16,26] | Region/activity별 access, fixed-deficit functional outcome, 수술 회피, 장기 durability |
 | TRAb 음성 TED | 9.4% assay discordance는 진단 gap을 지지하나 seronegative prevalence 5-10%는 미확인 상태 유지 | 복수 assay와 imaging을 쓴 prospective prevalence, target-positive tissue/response 분석 |
 | GD 재발/장기관리/임신 | RAI/수술/장기 low-dose ATD 경로는 있으나 비침습적 durable disease modification과 special-population evidence 부족 | Off-treatment remission, TSAb/TRAb-stratified response, pregnancy/pediatric safety |
 | TED 진행 및 active-inactive 전환 예측 | 치료 전 activity/phenotype 분류는 가능하지만 진행/재활성화/섬유화 전환을 예측하는 검증 biomarker 부족 | Longitudinal biomarker-imaging cohort, transition/relapse endpoint 표준화 |
@@ -479,6 +480,7 @@ Legacy report는 동결하고, C6의 다섯 항목을 아래와 같이 현재 �
 23. ClinicalTrials.gov. [NCT06984627, rilzabrutinib Phase 2 GD](https://clinicaltrials.gov/study/NCT06984627).
 24. JHA-80. *R1b 자산 식별 및 CD40L 적응증 분석*. `03_mechanism_deepdive/r1b_asset_identification.md`.
 25. ClinicalTrials.gov. [NCT07547930, tofacitinib in refractory/intolerant TED](https://clinicaltrials.gov/study/NCT07547930); [NCT04936854, sirolimus in active TED](https://clinicaltrials.gov/study/NCT04936854).
+26. US National Library of Medicine DailyMed. [TEPEZZA (teprotumumab-trbw) current prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce). Regulator/NLM label repository; 확인일: 2026-09-10.
 
 ## 13. 검증 로그
 
@@ -491,4 +493,5 @@ Legacy report는 동결하고, C6의 다섯 항목을 아래와 같이 현재 �
 | 신규 참고문헌 DOI metadata | 상/중 | Crossref API에서 DOI 3건 title/author/year 대조 | PASS | 2026-09-30 |
 | 10년 class scope | 하 | JHA-73 active matrix의 주요 10개 class + emerging watchlist 대조 | PASS | 2026-09-30 |
 | 지역별 scenario 산술 | 상 | 5개 지역 G0/G1/T0/T1/T2 산식과 합계 재계산 | PASS, 원 비율의 독립 QA 대기 | 2026-09-30 |
+| Chronic/inactive TED 현재 coverage | 상 | JHA-71 authorization table, US teprotumumab/veligrotug label scope 및 JHA-73 IBI311 status 대조 | PASS, 지역 access unresolved 유지 | 2026-09-30 |
 | 가운뎃점 미사용 | 하 | 문자 검색 | PASS | 2026-09-30 |
