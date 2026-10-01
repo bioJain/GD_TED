@@ -1,0 +1,75 @@
+slide,claim_id,claim,value,unit_or_definition,evidence,as_of,source_doc,source_ref
+7,C-001,TED 환자 중 GD 동반 비율,약 90,%,A,2026-09-14,00_legacy_unsorted/GD_TED_report.md A1/A3,"legacy ref [5,6]"
+7,C-002,hyperthyroidism 발병 1년 이내 TED 동반,61,%,A,2026-09-14,00_legacy_unsorted/GD_TED_report.md A1,"legacy ref [4,7]"
+8,C-003,중국 성인 GD prevalence,450,/100000,A,2026-09-14,00_legacy_unsorted/GD_TED_report.md A2,legacy ref [75]
+8,C-004,한국 40세 이상 GD incidence (NHIS),4.6,/10000 person-years,A,2026-09-14,00_legacy_unsorted/GD_TED_report.md A2,legacy ref [68]
+8,C-005,7MM 개별국가(DE/FR/UK/IT/ES) 수치,미확보,-,D,2026-09-14,00_legacy_unsorted/GD_TED_report.md A2,상업 forecast만 존재하여 미채택
+9,C-006,GD 환자 중 TED pooled prevalence,40,%(57개 연구/26804명),A,2026-09-14,00_legacy_unsorted/GD_TED_report.md A2,legacy ref [2]
+9,C-007,TED 중증도 분포,77/22/1,% mild/moderate-to-severe/sight-threatening,A,2026-09-14,00_legacy_unsorted/GD_TED_report.md A3,legacy ref [1]
+9,C-008,TED incidence (Olmsted),16.0 / 2.9,/100000/yr 여/남,A,2026-09-14,00_legacy_unsorted/GD_TED_report.md A2,"legacy ref [4,5]"
+10,C-009,CAS 체계,7점 초진 + 3점 추적 = 10점; CAS>=3 active,점,A,2026-09-10,01_competitive_landscape/ted_line_of_therapy.md 1절,"v2 ref [135,139]"
+10,C-010,TRAb bioassay vs binding assay 불일치,9.4,%,A,2026-09-14,00_legacy_unsorted/GD_TED_report.md A5,legacy ref [15]
+12,C-011,TSHR 유전자면역만 TED 모델 재현; IGF-1R 면역화는 미재현,정성,-,A,2026-09-28,03_mechanism_deepdive/igf1r_autoantigen_review.md 2.2,PMID 40324443
+13,C-012,OF adipocyte 경로 IGF-1R evidence grade,B (lower confidence),-,A,2026-09-27,03_mechanism_deepdive/orbital_fibroblast_igf1r_maturity.md,target-specific human in vitro 1건
+13,C-013,OF myofibroblast 경로 IGF-1R evidence grade,C,-,A,2026-09-27,03_mechanism_deepdive/orbital_fibroblast_igf1r_maturity.md,lineage-specific direct evidence 부족
+14,C-014,TSHR-IGF-1R crosstalk 분자배치,proposed (3가설 병존),-,A,2026-09-28,03_mechanism_deepdive/tshr_igf1r_crosstalk_deepdive.md,"PMID 31127272, 39821041, 32911689"
+14,C-015,ECD-only TSHR과 IGF-1R의 co-IP complex,약 360,kDa,A,2026-09-28,03_mechanism_deepdive/tshr_igf1r_crosstalk_deepdive.md 4절,PMID 39821041 (engineered cell)
+15,C-016,혈청 anti-IGF-1R Ab (Pisa non-GO vs GO),29.3 vs 19.8,ng/mL; P=0.005,A,2026-09-28,03_mechanism_deepdive/igf1r_autoantigen_review.md 2.1,PMID 40156685 (n=147 횡단)
+15,C-017,Katowice sight-threatening TO군 IGF-1RAb,non-TO군보다 유의하게 낮음,P=0.004,A,2026-09-28,03_mechanism_deepdive/igf1r_autoantigen_review.md 2.1,PMID 40071798 (n=47+20)
+18,C-018,MMI 표준 투여기간,12-18,개월,A,2026-09-10,01_competitive_landscape/gd_line_of_therapy.md 2절,"ATA 2016 / ETA 2018 [1,2]"
+19,C-019,MMI 중단 후 84개월 relapse,56 vs 17,% 통상군 vs 장기군,A,2026-09-24,01_competitive_landscape/gd_line_of_therapy.md 2절,PMID 38165576 (단일 RCT)
+19,C-020,RAI 1년 thyroid-source control,81,%(그중 61.8% hypothyroidism),A,2026-09-24,01_competitive_landscape/gd_line_of_therapy.md 2절,PMID 41389254 (단일기관 n=160)
+19,C-021,first-line별 relapse (홍콩 cohort),2.41 / 19.53 / 75.60,% 수술/RAI/ATD,A,2026-09-24,01_competitive_landscape/gd_line_of_therapy.md 2절,PMID 33914484 (n=6385; 비무작위)
+20,C-022,임신 중 ATD 선택,"1분기 PTU, 이후 MMI; RAI 금기",-,A,2026-09-10,01_competitive_landscape/gd_line_of_therapy.md 4절,"ATA R80 / ETA R21,R35"
+22,C-023,IVMP 표준 regimen,0.5g x6주 + 0.25g x6주 = 누적 4.5,g (cycle 8g 이하),A,2026-09-10,01_competitive_landscape/ted_line_of_therapy.md 2절,"v2 ref [127,135]"
+22,C-024,IVMP 3개월 composite response (4.5g RCT),77 vs 51,% vs oral prednisolone; P<0.01,A,2026-09-24,01_competitive_landscape/ted_line_of_therapy.md 2절,PMID 15998777 (n=70)
+22,C-025,Teprotumumab / Veligrotug 투여 과정,8회 약 21주 / 5회 약 12주,-,A,2026-09-27,04_tam_sam_pricing/teprotumumab_veligrotug_pricing.md 2절,FDA label
+23,C-026,한국 teprotumumab authorization/reimbursement,unresolved,-,C,2026-09-10,01_competitive_landscape/ted_line_of_therapy.md 3절,"v2 ref [745,746]; 비승인 증거 아님"
+23,C-027,Veligrotug FDA 승인일,2026-06-26,-,A,2026-09-27,04_tam_sam_pricing/teprotumumab_veligrotug_pricing.md 2절,BLA 761530 approval letter
+24,C-028,Teprotumumab OPTIC Week 24 PRR,82.9 vs 9.5,%,A,2026-09-10,01_competitive_landscape/ted_line_of_therapy.md 4절,NCT03298867; v2 ref [807]
+24,C-029,Teprotumumab pooled Week 72 proptosis response,38/56 (67.9%),-,A,2026-09-24,01_competitive_landscape/ted_line_of_therapy.md 4절,PMID 38824618
+24,C-030,최종 dose 후 99주 내 추가 TED 치료,19/106 (17.9%),-,A,2026-09-24,01_competitive_landscape/ted_line_of_therapy.md 4절,PMID 38824618
+24,C-031,독립 real-world reactivation,initial responder 17명 중 8명 (47%),-,A,2026-09-24,01_competitive_landscape/ted_line_of_therapy.md 4절,PMID 38142982 (단일기관 n=21)
+25,C-032,8개 class 핵심 한계,정성,-,A/D,2026-09-29,01_competitive_landscape/class_limitation_matrix.md,eTPD 행은 임상 자산 없음
+27,C-033,MoA class x indication-specific 단계 매트릭스,14 class,-,A,2026-09-10,01_competitive_landscape/moa_phase_matrix_extended.md 2절,frozen registry cut
+28,C-034,Efgartigimod 적응증별 분리,GD P3 active / TED P3 terminated,-,A,2026-09-29,01_competitive_landscape/moa_phase_matrix_extended.md 6절,"NCT07570316,07596849 / NCT06307613,06307626"
+29,C-035,Veligrotug THRIVE Week 15 PRR,70.0 vs 5.26,%; P<0.0001,A,2026-09-10,02_ted_fcrn_strategy/placebo_competitive_summary.md 2.1,NCT05176639 (n=113); v2 ref [829]
+29,C-036,Veligrotug THRIVE-2 Week 15 PRR,57.28 vs 8.22,%; P<0.0001,A,2026-09-10,02_ted_fcrn_strategy/placebo_competitive_summary.md 2.1,NCT06021054 (n=188); v2 ref [845]
+29,C-037,Teprotumumab chronic TED Week 24 proptosis,-2.41 vs -0.92,mm; diff -1.48 (95% CI -2.28~-0.69),A,2026-09-10,02_ted_fcrn_strategy/placebo_competitive_summary.md 2.1,NCT04583735 (n=62); v2 ref [817]
+29,C-038,Linsitinib Week 24 PRR,150mg 51.7 vs 18.8 (P=0.01); 75mg 38.9 (P=0.090),%,A,2026-09-10,02_ted_fcrn_strategy/placebo_competitive_summary.md 2.1,NCT05276063 (n=90); v2 ref [831]
+29,C-039,Satralizumab SatraGO-1 / SatraGO-2,49.0 vs 31.2 (P=0.0715) / 52.9 vs 23.4 (P=0.0011),% Week 24 PRR,A,2026-09-10,02_ted_fcrn_strategy/placebo_competitive_summary.md 2.1,"NCT05987423 (n=131) / NCT06106828 (n=127); v2 ref [844,849]"
+29,C-040,Batoclimab ASCEND GO-2 Week 13 PRR,30.0/30.8/0 vs 8.3,% 680/340/255mg vs placebo; 전 용량 미유의,A,2026-09-10,02_ted_fcrn_strategy/placebo_competitive_summary.md 2.1,NCT03938545 (n=65); v2 ref [813]
+29,C-041,UplighTED 종료,interim futility; 수치 미공개,-,A,2026-09-10,02_ted_fcrn_strategy/placebo_competitive_summary.md 2.1,"NCT06307613/06307626; v2 ref [857,858]"
+31,C-042,OPTIC placebo arm 투여물,normal saline IV q3W,-,A,2026-09-28,02_ted_fcrn_strategy/placebo_competitive_summary.md 2.3,registry arm/intervention 원문
+31,C-043,시험별 placebo PRR 편차,9.5 / 18.8 / 31.2,% OPTIC/linsitinib/SatraGO-1,A,2026-09-10,02_ted_fcrn_strategy/placebo_competitive_summary.md 2.3,"v2 ref [807,831,844]"
+32,C-044,중단 시험 전수,17,건 (TERMINATED/WITHDRAWN/SUSPENDED),A,2026-09-28,02_ted_fcrn_strategy/placebo_competitive_summary.md 5절,efficacy futility는 4건
+34,C-045,Muscle spasm,teprotumumab 41.5 / veligrotug 45.3 및 44.5 / linsitinib 6.7-10.3,%,A,2026-09-27,03_mechanism_deepdive/igf1r_class_effect_ae.md 2절,시험별 관찰기간 상이
+34,C-046,청각 관련 AE (veligrotug THRIVE),ear discomfort 12.0 / tinnitus 12.0,%,A,2026-09-27,03_mechanism_deepdive/igf1r_class_effect_ae.md 2절,PT 합산 금지
+34,C-047,Elegrobart / MHB-018A AE,미보고,-,A,2026-09-10,03_mechanism_deepdive/igf1r_class_effect_ae.md 2절,미보고는 0건이 아님
+35,C-048,Immunovant GD 선정 논리,기전 + 상업 모두 공시에 명시,-,B,2026-09-28,02_ted_fcrn_strategy/fcrn_entry_strategy_ir_review.md 3.1,Immunovant FY2026 Form 10-K
+35,C-049,argenx GD 선정 논리,기전까지만 공개; 상업 논리 미확인,-,B,2026-09-28,02_ted_fcrn_strategy/fcrn_entry_strategy_ir_review.md 3.2,argenx FY2025 20-F / 6-K
+36,C-050,Batoclimab GD POC Week 24,68.8 composite / 53.1 정상화 / 31.3 off-ATD,% (n=32 단일군),A,2026-09-27,05_etpd_molecular_design/benchmark_spec_deepdive.md,NCT05907668 posted results
+36,C-051,imeroprubart GD 설계,26주 후 placebo 전환; 치료중단 후 6/12개월 지속 평가,-,A,2026-09-28,02_ted_fcrn_strategy/fcrn_entry_strategy_ir_review.md 4절,NCT06727604 / NCT07018323
+37,C-052,VitaliThy,NCT07570316 PHASE3 RECRUITING n=230,-,A,2026-10-01,본 세션 ClinicalTrials.gov 직접 조회,primary = Week 24 euthyroid off-ATD
+38,C-053,TSHR/자가항체 축 자산 단계,BHV-1300 GD P3 (pan-IgG) / MER511 GD P1 / LCA-0321 GD-TED P1 / GenSci098 GD P2-TED P1,-,A,2026-09-29,01_competitive_landscape/moa_phase_matrix_extended.md 3.1,sponsor pipeline + registry
+39,C-054,Lu AG22515 TED Phase 1b 중간신호,proptosis 약 2.06mm 감소; TRAb 저하,-,C,2026-09-28,03_mechanism_deepdive/r1b_asset_identification.md,NCT06557850 단일군 비맹검 n=20
+39,C-055,Lu AG22515 TED 적응증 중단,2026-08-19,-,B,2026-09-28,03_mechanism_deepdive/r1b_asset_identification.md,Lundbeck Q2 발표; registry 상태는 ACTIVE_NOT_RECRUITING
+41,C-056,GD TAM FLOOR / PREMIUM,3.11 / 5.04,$B (E),D,2026-09-28,04_tam_sam_pricing/tam_sam_revision.md 1.2,원자료 범위 2.26-4.56 / 3.69-6.78
+41,C-057,TED TAM FLOOR / PREMIUM,4.53 / 8.09,$B (E; PREMIUM은 scope-adjusted),D,2026-09-28,04_tam_sam_pricing/tam_sam_revision.md 1.2,base 범위 약 32.4배
+42,C-058,GD TSAb serology coverage,90-95,%,D,2026-09-28,04_tam_sam_pricing/tam_sam_revision.md 3.1,TSI assay sensitivity 93.3 / TRAb 88.9
+42,C-059,GD mechanism SAM,2.80-2.96 / 4.54-4.79,$B (E) FLOOR/PREMIUM,D,2026-09-28,04_tam_sam_pricing/tam_sam_revision.md 3.1,screening ceiling 방향성 scenario
+42,C-060,TED mechanism SAM,NR,-,D,2026-09-28,04_tam_sam_pricing/tam_sam_revision.md 3.2,serology proxy 90%는 상한 근사치
+42,C-061,미국 GD post-ATD 비관해/재발 flow,2.48 / 3.54 / 4.06,만명/년 Low-Base-High (E),D,2026-09-28,04_tam_sam_pricing/tam_sam_revision.md 4.3,외부 workbook; exploratory
+43,C-062,Tepezza FY2025 글로벌 매출,1.903,$B,B,2026-09-27,04_tam_sam_pricing/teprotumumab_veligrotug_pricing.md,관측 실매출 anchor
+43,C-063,Lumvoa WAC,약 450000,$/course (75kg 기준),C,2026-09-27,04_tam_sam_pricing/teprotumumab_veligrotug_pricing.md 2.2,경영진 인용 2차 보도; unit WAC 아님
+43,C-064,Tepezza HCPCS 및 CMS 2026 Q4 payment limit,J3241; 381.627,$/10mg,A,2026-09-27,04_tam_sam_pricing/teprotumumab_veligrotug_pricing.md 2절,CMS October 2026 파일
+45,C-065,미포괄 환자군,7,개 범주,A/D,2026-09-30,01_competitive_landscape/addressable_population_crosscheck.md 1절,우선 잔여군 2개
+46,C-066,TSHR shedding rate,미확인,-,A,2026-09-24,05_etpd_molecular_design/tshr_shedding_rate.md,"사람 in vivo rate/반감기/농도 모두 not resolved"
+46,C-067,circulating soluble TSHR 농도,미확인 (PMID 1497642 abstract-index only),-,A,2026-09-24,05_etpd_molecular_design/tshr_shedding_rate.md,전문 미확보
+47,C-068,K1-70 reported association constant,4e10,L/mol (apparent KD 약 25 pM),A,2026-09-27,05_etpd_molecular_design/benchmark_spec_deepdive.md,PMID 20550534; assay 간 비교 금지
+47,C-069,GenSci098 cell-based TSHR binding EC50 / cAMP IC50,1.11 / 2.3,nM,B,2026-09-27,05_etpd_molecular_design/benchmark_spec_deepdive.md,ETA 2024 sponsor poster
+47,C-070,LCA-0321 patent example mouse clearance,70.5,% serum anti-TSHR at 4h,B,2026-09-27,05_etpd_molecular_design/benchmark_spec_deepdive.md,WO2025207934A1; clinical construct 아님
+47,C-071,Efgartigimod multiple dosing total IgG 감소,평균 75,%,A,2026-09-27,05_etpd_molecular_design/benchmark_spec_deepdive.md,PMID 30040076 (n=62 FIH)
+48,C-072,K1-70 정상 TSH signaling 차단 liability,rat/monkey T3/T4 저하; Phase 1 고용량 L-thyroxine 보조,-,A,2026-09-27,05_etpd_molecular_design/benchmark_spec_deepdive.md,"PMID 32257067, 40301067"
+49,C-073,eTPD 설계 결정 대기 변수,5,개 (전부 미확정),D,2026-10-01,05_etpd_molecular_design/benchmark_spec_deepdive.md,JHA-85/JHA-88 미착수
+51,C-074,Satralizumab 규제 결정 예정,2026-10-15,-,B,2026-09-29,01_competitive_landscape/moa_phase_matrix_extended_qa.md,Genentech priority review 보도자료
