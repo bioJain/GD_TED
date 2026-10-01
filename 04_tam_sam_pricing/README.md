@@ -3,7 +3,7 @@ title: "Cluster 4: TAM/SAM 및 약가"
 linear_parent: JHA-67
 milestone: cluster-4-tam-sam-pricing
 created: 2026-09-24
-status: done
+status: in-review
 ---
 
 # Cluster 4: TAM/SAM 및 약가
@@ -15,11 +15,11 @@ status: done
 | JHA-81 | `teprotumumab_veligrotug_pricing.md` |
 | JHA-82 | `tam_sam_revision.md` (JHA-81 반영) |
 
-## 완료 판정
+## 현재 판정
 
 - **JHA-81:** Tepezza/Lumvoa의 미국 WAC, regimen, HCPCS/CMS payment limit 및 미국 외 가격 확인 범위를 비교 완료. 두 제품은 unit price를 동일 적용하지 않고, Lumvoa의 공개 가격 signal은 75 kg 환자 기준 약 $450,000/course의 course-price parity로만 사용함.
-- **JHA-82:** Legacy FLOOR/PREMIUM TAM, TSAb-IgG coverage 및 baseline 환자 pool을 재검토하고 JHA-81 가격 결론을 반영 완료. 산출값은 모두 추정치(E), Evidence grade D의 방향성 scenario이며 valuation 또는 확정 매출 예측으로 사용하지 않음.
-- **JHA-67:** 두 자식 산출물과 Section 2.3 후속 anchor 해석을 본 폴더에 연결 완료. 동결된 legacy report 자체는 수정하지 않음.
+- **JHA-82 (in-review):** Legacy FLOOR/PREMIUM TAM, TSAb-IgG coverage 및 baseline 환자 pool을 재검토하고 JHA-81 가격 결론을 반영했으나, Tier-상 claim의 cross-model 검증과 미확인 원문 대조가 남아 있음. 산출값은 모두 추정치(E), Evidence grade D의 방향성 scenario이며 valuation 또는 확정 매출 예측으로 사용하지 않음.
+- **JHA-67 (in-review):** 두 자식 산출물과 Section 2.3 후속 anchor 해석을 본 폴더에 연결했으나 JHA-82의 필수 QA가 완료되지 않았으므로 상위 cluster도 검토 상태를 유지함. 동결된 legacy report 자체는 수정하지 않음.
 
 ## 입력 파일
 

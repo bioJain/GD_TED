@@ -3,7 +3,7 @@ linear_issue: JHA-82
 created: 2026-09-28
 source: manual
 milestone: cluster-4-tam-sam-pricing
-status: done
+status: in-review
 inputs:
   - 00_legacy_unsorted/GD_TED_market_sizing_report.md
   - 00_legacy_unsorted/GD_TED_market_sizing_plan.md
@@ -182,7 +182,7 @@ JHA-81 가격 비교 결과를 아래와 같이 반영함. 다만 공개된 제�
 - **필수 next step:** 동일 지역/연도 기준 `prevalence/incidence -> diagnosed -> severity/activity -> therapy line -> TSAb-positive -> response-eligible -> access` cascade와 제품별 net course price를 적용한 bottom-up model 구축.
 - **데이터 gap:** TED 직접 TSAb-positive population estimate, severity/activity별 환자 수, 진단/치료율, 2026 Tepezza unit WAC/net price, Lumvoa 공식 unit WAC/HCPCS/CMS payment limit.
 - **업데이트 trigger:** Lumvoa 공식 가격/수가 또는 누적 매출, TED TSAb cohort, GD biologic 승인, 상업 report 원문 scope 확보 시 재산정.
-- **QA 상태:** PR #19 follow-up에서 A1-H3 전 항목 QA, 산술 재계산, workbook 수식 대조, 일부 1차 출처 대조를 수행함. JHA-82의 요약/재검토 산출물은 완료했으나 Tier-상 cross-model 검증은 남아 있음. 상세 결과와 미해결 gap은 [`tam_sam_revision_qa.md`](tam_sam_revision_qa.md)에 기록함. 따라서 `done`은 요청된 산출물의 완료를 뜻하며, 상업 report 원문 scope, workbook의 R08/R10-R13 원출처, TED direct TSAb cohort가 미확인인 상태에서 valuation-ready 또는 full-QA 통과를 뜻하지 않음.
+- **QA 상태:** PR #19 follow-up에서 A1-H3 전 항목 QA, 산술 재계산, workbook 수식 대조, 일부 1차 출처 대조를 수행함. JHA-82의 요약/재검토 산출물은 작성했으나 Tier-상 cross-model 검증은 남아 있음. 상세 결과와 미해결 gap은 [`tam_sam_revision_qa.md`](tam_sam_revision_qa.md)에 기록함. 상업 report 원문 scope, workbook의 R08/R10-R13 원출처, TED direct TSAb cohort 확인과 Tier-상 cross-model 검증을 마치기 전까지 `status: in-review`를 유지하며, 현재 결과는 valuation-ready 또는 full-QA 통과로 간주하지 않음.
 
 ## 8. 근거 추적
 
