@@ -1,0 +1,28 @@
+{
+  "version": "v0.1 content/layout review",
+  "as_of": "2026-10-01",
+  "slide_count": 63,
+  "native_tables": 62,
+  "figure_slot_slides": [
+    11,
+    12,
+    13,
+    16
+  ],
+  "files": [
+    {
+      "name": "GD_TED_Research_Report_Review_v0.1_20261001_checked.pptx",
+      "size": 288658,
+      "sha256": "e87fb6f27dad2210dafab777924684665c77e3b395f8c400751142a5b0f2d0ad",
+      "external_url": null,
+      "upload_status": "Drive upload blocked; awaiting explicit destination approval"
+    },
+    {
+      "name": "GD_TED_Research_Report_Review_v0.1_20261001_checked.pdf",
+      "size": 1303534,
+      "sha256": "a2b39a05debfe6db1e2c35a2aebccc0dc0f9a8287606e10f9d03956a58bee787",
+      "external_url": null,
+      "upload_status": "Drive upload blocked; awaiting explicit destination approval"
+    }
+  ]
+}
