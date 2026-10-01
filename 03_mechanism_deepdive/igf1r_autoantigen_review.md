@@ -91,7 +91,7 @@ inputs:
 - Lanzolla[N2]/Nowak[N3] 두 연구의 IGF-1RAb ELISA는 각 기관 in-house 구축으로 cut-off/표준화가 상이함 — 메타분석 또는 독립 재현 전까지 정량 수치를 report.md 본문에 절대치로 인용하지 않고 방향성(역상관)만 인용 권고.
 - Lanzolla[N2]의 fibroblast 증식억제 실험은 IGF-1R-Ab 고역가 혈청에서 정제한 **총 IgG**를 사용했으며 항원-특이적으로 분리된 anti-IGF-1R 항체가 아님 — 증식억제 효과를 anti-IGF-1R 항체 자체의 기능으로 단정하지 말 것. 항원-특이적 정제(affinity purification) 또는 IGF-1R depletion 실험으로 재검증 필요.
 - HPV 분자모방 가설[N8]은 n=22 exploratory 연구로, 필요 시 별도 Linear 이슈로 분리해 후속 검색 권고(현재 이슈 범위 외).
-- JHA-79(TSHR-IGF1R crosstalk 딥다이브)에서 [21], [N1](Xiang 2026)을 상세 다룰 예정이므로 본 문서는 자가항원/자가항체 존재 여부에 초점을 유지함.
+- JHA-79(TSHR-IGF1R crosstalk 딥다이브)에서 [21], [N1] (Xiang 2026)을 상세 다룰 예정이므로 본 문서는 자가항원/자가항체 존재 여부에 초점을 유지함.
 
 ## 7. 참고문헌 (신규, 자체 번호 — 레거시 [21][22][23]과 별개)
 

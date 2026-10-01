@@ -285,7 +285,7 @@ TSAb → direct TSHR activation → TSHR/IGF-1R crosstalk → ERK/Akt → HA
 | F5 (마케팅 언어) | PASS | 해당 없음 |
 | F6 (근거 수준 표현) | PASS | proposed/supported/unsupported/suggested 사용 |
 | H1 (영문 용어 유지) | PASS | TSHR, IGF-1R, TSAb 등 영문 유지 |
-| H2 (가운뎃점 미사용) | PASS | `·` 0건 |
+| H2 (가운뎃점 미사용) | PASS | U+00B7 0건 |
 | H3 (개조식 문체) | PASS | 명사 종결형 유지 |
 | A/B/C/E 항목 | 범위 밖 | 역학/staging/치료제 수치는 본 문서가 다루지 않음 |
 
