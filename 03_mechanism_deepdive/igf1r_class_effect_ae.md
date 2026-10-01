@@ -82,11 +82,12 @@ data_cut: 2026-09-10
 4. **대사 위험 층화:** baseline diabetes/impaired glucose tolerance, HbA1c, rescue medication 및 회복 여부를 함께 기록해야 함.
 5. **생식 안전성:** amenorrhoea와 menstrual irregularity는 female-at-risk denominator를 사용하고, pregnancy/fetal risk warning과 임상 AE를 혼합하지 않아야 함.
 6. **중증도:** 현재 공개 registry는 많은 사건에 CTCAE grade와 treatment-relatedness를 제공하지 않음. 이 경우 빈도가 있어도 grade는 **미보고**이며, SAE 여부만 별도 제시함.
+7. **상위 curation 레이어 정정:** 본 문서의 정정 원인이 된 통합 term 텍스트("hyperglycemia 6/41 vs 2/20", "hearing impairment 9/41 vs 2/20", "muscle spasms 17/41 vs 2/20")가 `result_trial_curation_v2.csv`(NCT04583735, field=safety), `evidence_claims_v2.csv`(TRIAL-015-SAFETY), `report_graves_ted_landscape_v2.md`(139행), `clinical_trials_v2.csv`(safety_results) 4곳에 그대로 남아 있음. 이 파일들은 baseline v2 입력파일이므로 본 문서 범위에서 수정하지 않고 별도 이슈로 1차 레코드 기준 정정을 추적해야 함.
 
 ## 5. Source notes
 
 1. `pipeline_assets_v2.csv`, asset keys `Teprotumumab`, `Veligrotug (Lumvoa)`, `Linsitinib`, `VRDN-003`, `MHB018A`, `IBI311`, `IBI3031`, `AMG 732`, `ZB001`, `Lonigutamab`, `NTB003 / BCG009`; data cut 2026-09-10. 자산, target, 개발단계, trial crosswalk에 사용.
-2. `clinical_trials_v2.csv`, trial_id `NCT04583735`, `safety_results`; frozen ClinicalTrials.gov result record `NCT04583735`. Week 24 teprotumumab 결과.
+2. `clinical_trials_v2.csv`, trial_id `NCT04583735`, `safety_results`; frozen ClinicalTrials.gov result record `NCT04583735`. Week 24 teprotumumab 결과. 주의: 이 CSV의 `safety_results` 요약 컬럼은 preferred term을 통합/재기재한 2차 요약으로 1차 레코드와 불일치가 확인됨(검증 로그 참조). Event-level 수치의 근거는 frozen registry record/posted results이며, CSV 요약을 그대로 인용하지 않음.
 3. `clinical_trials_v2.csv`, trial_id `NCT05176639`, `safety_results`; frozen ClinicalTrials.gov result record `NCT05176639`; Biomni v2 sources [230], [713], [829]. THRIVE Week 52 결과.
 4. `clinical_trials_v2.csv`, trial_id `NCT06384547`, `safety_results`; frozen ClinicalTrials.gov result record `NCT06384547`; Biomni v2 source [859]. Dose-ranging Week 52 결과.
 5. `clinical_trials_v2.csv`, trial_id `NCT05276063`, `safety_results`; frozen ClinicalTrials.gov result record `NCT05276063`; Biomni v2 sources [714], [715], [831]. LIDS 결과와 5% AE reporting threshold.
@@ -125,3 +126,6 @@ data_cut: 2026-09-10
 | 미보고 자산의 posted result 부재(VRDN-003 5건, MHB018A 6건, IBI311 registry 8건, IBI3031, AMG 732, ZB001, lonigutamab, NTB003) | 중 | ClinicalTrials.gov API v2 hasResults 필드 25건 라이브 확인 | PASS, 전부 posted result 없음 (as-of 2026-10-01) | 2026-10-01 |
 | IGF-1R 자산 11건의 asset key, target, status, trial ID 및 §2.1 상태 표기 | 중 | `pipeline_assets_v2.csv` 대조 | PASS, 일치 | 2026-10-01 |
 | % 산술 재계산, 인용 앵커 [1]-[10] 본문-Source notes 대응, 가운뎃점 미사용 | 하 | 스크립트 재계산 및 grep | PASS | 2026-10-01 |
+| 정정 수치 2건의 근원 추적: 통일 term("hyperglycemia 6/41", "hearing impairment 9/41")의 출처 | 상 | 근거 사슬 역추적: `result_trial_curation_v2.csv`(field=safety, `curation_version: v2 (v1 exact interpretation retained)`, `verification_status: PASS_RETAINED`) → `evidence_claims_v2.csv` TRIAL-015-SAFETY → `report_graves_ted_landscape_v2.md` 139행 → `clinical_trials_v2.csv` safety_results 순차 대조 | 원인 확정. 통일 term은 1차 레지스트리가 아니라 v1에서 승계된 curation 요약 레이어에서 기원하며, 해당 레이어는 source_anchor로 frozen record를 명시하지만 실제 텍스트는 1차 레코드와 불일치. blind QA는 within-agent라 미검출. PR #8은 이 요약을 hyperglycemia/hearing에 혼용하고 muscle spasm만 1차 레코드 값(3/20)을 사용한 소스 혼용 상태였음 | 2026-10-01 |
+| curation 레이어 muscle spasms placebo 오기 | 상 | `result_trial_curation_v2.csv` safety 텍스트 vs frozen/live 1차 레코드 대조 | curation 레이어는 "muscle spasms 17/41 vs 2/20"이나 1차 레코드는 3/20. 본 문서는 3/20을 사용 중이므로 문서 수정 불필요, 상위 레이어 정정 시 함께 반영할 항목으로 기록 | 2026-10-01 |
+| 세분화 PT 수치의 1차 소스 재현성 (data cut 차이 통제) | 상 | frozen registry record(2026-09-10)와 live ClinicalTrials.gov API(2026-10-01)의 NCT04583735 전체 PT 목록 전수 비교 | PASS, 두 시점의 PT-level 데이터가 완전히 일치. 정정 수치는 data cut 차이와 무관하게 유효 | 2026-10-01 |
