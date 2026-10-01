@@ -166,12 +166,12 @@ Workbook의 성별 유병률 입력은 전체 유병률 계산에 사용되지 �
 
 ## 5. JHA-81 약가 비교 반영
 
-JHA-81 repo 산출물은 작성되어 있으나 제공된 Linear context에서는 **In Review** 상태임. 따라서 아래 결론은 이번 문서에 **참조만** 하고 FLOOR/PREMIUM 산식에는 아직 편입하지 않음. JHA-81 review가 확정되면 그 결과를 최종 모델에 반영할 예정임.
+JHA-81 가격 비교 결과를 아래와 같이 반영함. 다만 공개된 제품별 가격 근거의 성격이 다르고 Lumvoa의 누적 매출이 아직 없으므로, 가격 결론은 FLOOR/PREMIUM 산식을 재산정하는 입력이 아니라 **제품별 scenario와 anchor 사용 기준**으로 반영함.
 
 1. Tepezza FY2025 매출 **$1.903B**는 현재 관측된 real-world revenue anchor로 유지.
 2. Lumvoa의 공개 signal은 75 kg 환자 기준 **약 $450,000/course WAC**이며, Tepezza와의 `course-of-therapy parity` 설명임. vial/mg unit price가 동일하다는 뜻이 아니므로 두 제품에 동일 unit price를 적용하지 않음.
 3. Lumvoa $450,000은 경영진 인용 2차 보도에 기반한 **Evidence grade C**이고 gross WAC임. 공식 unit WAC, net price, 제품별 CMS payment limit 및 누적 매출이 확인되지 않아 TAM/SAM의 실매출 anchor에는 합산하지 않음.
-4. 따라서 본 문서의 FLOOR/PREMIUM은 가격 비교 결과로 재산정하지 않음. **JHA-81 결과 확정 후 반영 예정**이며, 향후 bottom-up model에서는 제품별 regimen, 체중, vial rounding, gross-to-net 및 payer access를 분리해야 함.
+4. 따라서 본 문서의 FLOOR/PREMIUM은 가격 비교 결과로 재산정하지 않음. 향후 bottom-up model에서는 제품별 regimen, 체중, vial rounding, gross-to-net 및 payer access를 분리해야 함.
 
 ## 6. 발표용 메시지
 
@@ -182,7 +182,7 @@ JHA-81 repo 산출물은 작성되어 있으나 제공된 Linear context에서�
 - **필수 next step:** 동일 지역/연도 기준 `prevalence/incidence -> diagnosed -> severity/activity -> therapy line -> TSAb-positive -> response-eligible -> access` cascade와 제품별 net course price를 적용한 bottom-up model 구축.
 - **데이터 gap:** TED 직접 TSAb-positive population estimate, severity/activity별 환자 수, 진단/치료율, 2026 Tepezza unit WAC/net price, Lumvoa 공식 unit WAC/HCPCS/CMS payment limit.
 - **업데이트 trigger:** Lumvoa 공식 가격/수가 또는 누적 매출, TED TSAb cohort, GD biologic 승인, 상업 report 원문 scope 확보 시 재산정.
-- **QA 상태:** PR #19 follow-up에서 A1-H3 전 항목 QA, 산술 재계산, workbook 수식 대조, 일부 1차 출처 대조를 수행함. 다만 Tier-상 cross-model 검증이 남아 full QA는 미완료임. 상세 결과와 미해결 gap은 [`tam_sam_revision_qa.md`](tam_sam_revision_qa.md)에 기록함. 상업 report 원문 scope, workbook의 R08/R10-R13 원출처, TED direct TSAb cohort는 미확인이므로 본 문서는 `in-review`를 유지함.
+- **QA 상태:** PR #19 follow-up에서 A1-H3 전 항목 QA, 산술 재계산, workbook 수식 대조, 일부 1차 출처 대조를 수행함. JHA-82의 요약/재검토 산출물은 작성했으나 Tier-상 cross-model 검증은 남아 있음. 상세 결과와 미해결 gap은 [`tam_sam_revision_qa.md`](tam_sam_revision_qa.md)에 기록함. 상업 report 원문 scope, workbook의 R08/R10-R13 원출처, TED direct TSAb cohort 확인과 Tier-상 cross-model 검증을 마치기 전까지 `status: in-review`를 유지하며, 현재 결과는 valuation-ready 또는 full-QA 통과로 간주하지 않음.
 
 ## 8. 근거 추적
 
