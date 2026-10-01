@@ -3,7 +3,7 @@ linear_issue: JHA-79
 created: 2026-09-28
 source: manual
 milestone: cluster-3-mechanism-deepdive
-status: in-review
+status: done
 inputs:
   - 00_legacy_unsorted/GD_TED_report.md
   - _shared/GD_TED_reference.md
@@ -20,7 +20,7 @@ inputs:
 
 세 번째 축인 **IGF-1R directly-stimulating autoantibody 가설**은 현재 근거가 가장 약함. M22는 IGF-1R에 결합하거나 IGF-1R autophosphorylation을 유발하지 않으면서도 IGF-1R-dependent HA 반응을 만들며, TSHR 차단은 그 반응을 제거함[2,4,8]. 따라서 현재의 보수적 모델은 **TSAb가 TSHR을 직접 자극하고, IGF-1R은 receptor complex/crosstalk를 통해 신호를 증폭**한다는 것임. 2025년 혈청 anti-IGF-1R 연구는 항체의 존재 가능성을 지지하지만, 병인성 agonist가 아니라 억제/보호 방향을 제안하므로 이 결론을 뒤집지 않음[9,10].
 
-조직별 출력은 다름. OF에서는 HA, proliferation, adipogenic remodeling로 연결되는 반면, thyrocyte에서는 NIS, TPO, thyroglobulin 및 thyroid hormone synthesis가 주 출력임[1,11,12]. 따라서 동일한 receptor crosstalk를 TED와 thyroid hormone biology에서 동일한 downstream program으로 도식화하면 안 됨.
+조직별 출력은 다름. OF에서는 HA와 proliferation가 crosstalk 연구에서 직접 측정된 주 출력이고, adipogenic remodeling은 별도의 제한적 근거로 분리해야 함(crosstalk perturbation 연구들은 adipocyte fate를 직접 측정하지 않음)[1,11,12]. thyrocyte에서는 NIS, TPO, thyroglobulin 및 thyroid hormone synthesis가 주 출력임[1,11,12]. 따라서 동일한 receptor crosstalk를 TED와 thyroid hormone biology에서 동일한 downstream program으로 도식화하면 안 됨.
 
 ## 1. 용어와 판정 원칙
 
@@ -152,7 +152,7 @@ TSAb → direct TSHR activation → TSHR/IGF-1R crosstalk → ERK/Akt → HA
 | 구분 | receptor context | crosstalk output | 병리/생리 consequence | 해석상 주의 |
 |---|---|---|---|---|
 | **TED patient OF/preadipocyte** | TSHR은 낮지만 기능성 있음. TAO OF에서 IGF-1R surface abundance 증가 보고[1] | rapid ERK, Akt/FOXO1, HA, proliferation; adipogenesis는 별도 제한적 근거[2-5,12,13] | hydrophilic matrix expansion, edema, orbital fat remodeling에 기여 가능 | HA를 adipogenesis/fibrosis의 대리변수로 사용하지 말 것 |
-| **CD34+ fibrocyte-derived OF** | TSHR 및 thyroid autoantigen expression이 상대적으로 두드러지는 병인 세포군으로 제안 | TSHR/IGF-1R complex가 disease IgG response를 매개한다는 모델 | cytokine/chemokine 및 matrix-producing OF pool에 기여 가능 | CD34- resident OF와 혼합배양 결과를 lineage-specific 결과로 해석하지 말 것[16] |
+| **CD34+ fibrocyte-derived OF** | TSHR 및 thyroid autoantigen expression이 상대적으로 두드러지는 병인 세포군으로 제안 | TSHR/IGF-1R complex가 disease IgG response를 매개한다는 모델(`proposed`, CD34+ 세포 특이 crosstalk 1차 데이터 없이 review[16]에 기반) | cytokine/chemokine 및 matrix-producing OF pool에 기여 가능 | CD34- resident OF와 혼합배양 결과를 lineage-specific 결과로 해석하지 말 것[16] |
 | **CD34- resident OF** | CD34+ OF와 paracrine interaction, Slit2에 의한 phenotype modulation 보고 | HA 및 inflammatory output에 관여 가능 | orbital remodeling 조절 | crosstalk 연구 상당수가 unsorted culture이므로 subset attribution 미확정[16] |
 | **Thyrocyte** | TSHR abundance가 OF보다 높고 IGF-1R과 association[1] | ERK/Akt-dependent NIS; TPO/TG protein 및 fT4 regulation[11,17] | iodide uptake와 thyroid hormone synthesis | OF의 HA/adipogenesis 결론을 thyrocyte에 외삽 금지 |
 | **3T3-L1/HEK-TSHR** | engineered receptor expression 또는 adipocyte model | receptor proximity, expression/recycling, rapid pERK[3,14] | mechanism dissection | stoichiometry 및 expression이 primary human cell과 다름 |
@@ -244,7 +244,7 @@ TSAb → direct TSHR activation → TSHR/IGF-1R crosstalk → ERK/Akt → HA
 4. Neumann S, Krieger CC, Gershengorn MC. Inhibiting thyrotropin/insulin-like growth factor 1 receptor crosstalk to treat Graves' ophthalmopathy: studies in orbital fibroblasts in vitro. *Br J Pharmacol.* 2017;174:328-340. PMID: [27987211](https://pubmed.ncbi.nlm.nih.gov/27987211/). doi: [10.1111/bph.13693](https://doi.org/10.1111/bph.13693).
 5. Krieger CC, Place RF, Bevilacqua C, et al. Arrestin-β-1 physically scaffolds TSH and IGF1 receptors to enable crosstalk. *Endocrinology.* 2019;160:1468-1479. PMID: [31127272](https://pubmed.ncbi.nlm.nih.gov/31127272/). doi: [10.1210/en.2019-00055](https://doi.org/10.1210/en.2019-00055).
 6. Krieger CC, Neumann S. Proximity ligation assay to study TSH receptor homodimerization and crosstalk with IGF-1 receptors in human thyroid cells. *Front Endocrinol (Lausanne).* 2022;13:989626. PMID: [36246873](https://pubmed.ncbi.nlm.nih.gov/36246873/). doi: [10.3389/fendo.2022.989626](https://doi.org/10.3389/fendo.2022.989626).
-7. Latif R, Mezei M, Davies TF. Mechanisms in thyroid eye disease: the TSH receptor interacts directly with the IGF-1 receptor. *Endocrinology.* 2025;166:bqaf008. PMID: [39821041](https://pubmed.ncbi.nlm.nih.gov/39821041/). doi: [10.1210/endocr/bqaf008](https://doi.org/10.1210/endocr/bqaf008).
+7. Latif R, Mezei M, Davies TF. Mechanisms in thyroid eye disease: the TSH receptor interacts directly with the IGF-1 receptor. *Endocrinology.* 2025;166:bqaf009. PMID: [39821041](https://pubmed.ncbi.nlm.nih.gov/39821041/). doi: [10.1210/endocr/bqaf009](https://doi.org/10.1210/endocr/bqaf009).
 8. Krieger CC, Neumann S, Marcus-Samuels B, Gershengorn MC. Inhibition of TSH/IGF-1 receptor crosstalk by teprotumumab as a treatment modality of thyroid eye disease. *J Clin Endocrinol Metab.* 2022;107:e1653-e1660. PMID: [34788857](https://pubmed.ncbi.nlm.nih.gov/34788857/). doi: [10.1210/clinem/dgab824](https://doi.org/10.1210/clinem/dgab824).
 9. Lanzolla G, Rotondo Dottore G, Comi S, et al. In vivo and in vitro evidence for a protective role of autoantibodies against the insulin-like growth factor-1 receptor in Graves' orbitopathy. *Endocrine.* 2025;89:137-142. PMID: [40156685](https://pubmed.ncbi.nlm.nih.gov/40156685/). doi: [10.1007/s12020-025-04219-6](https://doi.org/10.1007/s12020-025-04219-6).
 10. Nowak M, Wielkoszyński T, Londzin-Olesik M, et al. Antibodies against the receptor for insulin-like growth factor 1, IGF-1, and IGFBP-3 in Graves' and Basedow's disease with and without orbitopathy. *Endokrynol Pol.* 2025;76:40-51. PMID: [40071798](https://pubmed.ncbi.nlm.nih.gov/40071798/). doi: [10.5603/ep.102336](https://doi.org/10.5603/ep.102336).
@@ -265,5 +265,26 @@ TSAb → direct TSHR activation → TSHR/IGF-1R crosstalk → ERK/Akt → HA
 | M22 response에 IGF-1R-dependent/independent branch 병존 | 하, 정성 기전 | 두 독립 원저 abstract 대조[2,4] | 일치 | 2026-09-28 |
 | thyrocyte crosstalk가 NIS/TPO/TG/fT4에 관여 | 중, 기능 기전 | human primary-cell 원저 및 mouse 포함 원저 abstract 대조[11,17] | 일치, 세포/동물 범위 분리 | 2026-09-28 |
 | circulating anti-IGF-1R Ab가 보호/억제 방향일 가능성 | 중, 임상 연관 | 2025년 독립 코호트 2건 대조[9,10] | 방향 일치, cross-sectional/assay 한계 명기 | 2026-09-28 |
+| ref [7] 서지 정보(Latif et al.)의 article locator/DOI | 하, 서지 무결성 | Crossref DOI lookup(`10.1210/endocr/bqaf008` vs `bqaf009`) 및 PubMed PMID 39821041 대조 | PR #17이 DOI를 `bqaf008`으로 수정했으나 이는 다른 논문(Thakore et al., miR-433-3p/osteoblast). 올바른 값은 `bqaf009`이며 본 문서에서 정정 | 2026-10-01 |
+| executive conclusion의 adipogenic remodeling 서술 | 하, 정성 기전 | crosstalk 근거 문헌[1,11,12]의 측정 endpoint 대조 및 repo 내 maturity review 판정 대조 | crosstalk perturbation 연구는 adipocyte fate를 직접 측정하지 않음. adipogenesis를 별도·제한적 근거로 분리하도록 수정 (PR #14 Codex P2 반영) | 2026-10-01 |
+| CD34+ fibrocyte-derived OF의 IgG response 매개 모델 | 하, 정성 기전 | [16] 원문 범위 대조(review이며 CD34+ 세포 특이 crosstalk 1차 데이터 아님) | `proposed` 명시 태깅으로 근거 수준 정합 (PR #14 review 반영) | 2026-10-01 |
 
-**QA D2 판정:** PASS 준비. 문서 전반에서 complex의 존재와 세부 molecular architecture를 구분하고, 세 가설의 미확립 부분을 `proposed`, `supported`, `unsupported`로 명시함. 최종 독립 QA는 작성 세션과 분리하여 수행 필요.
+### 독립 QA 결과 (별도 세션, 2026-10-01)
+
+`_shared/GD_TED_qa_checklist.md` 중 본 문서에 적용 가능한 항목:
+
+| 항목 | 판정 | 비고 |
+|---|---|---|
+| D2 (complex 가설 proposed 명기) | PASS | 분자배치/architecture 전반에 `proposed` 라벨 유지 |
+| F1 (본문 in-line citation 존재) | PASS | 인용 번호 [1]-[17] 전수 본문에서 사용 |
+| F2 (번호-참고문헌 일치) | PASS | 불일치 0건 |
+| F3 (중복 항목) | PASS | 중복 0건 |
+| F4 (PMID 실존 검증) | PASS | 17/17 PMID NCBI E-utilities 대조 일치 (제목/저널/연도) |
+| F5 (마케팅 언어) | PASS | 해당 없음 |
+| F6 (근거 수준 표현) | PASS | proposed/supported/unsupported/suggested 사용 |
+| H1 (영문 용어 유지) | PASS | TSHR, IGF-1R, TSAb 등 영문 유지 |
+| H2 (가운뎃점 미사용) | PASS | `·` 0건 |
+| H3 (개조식 문체) | PASS | 명사 종결형 유지 |
+| A/B/C/E 항목 | 범위 밖 | 역학/staging/치료제 수치는 본 문서가 다루지 않음 |
+
+**QA D2 판정:** PASS. 문서 전반에서 complex의 존재와 세부 molecular architecture를 구분하고, 세 가설의 미확립 부분을 `proposed`, `supported`, `unsupported`로 명시함. 작성 세션(2026-09-28)과 분리된 독립 QA를 2026-10-01 수행하였고 상기 표와 같이 전 항목 PASS이므로 status를 `done`으로 갱신함.
