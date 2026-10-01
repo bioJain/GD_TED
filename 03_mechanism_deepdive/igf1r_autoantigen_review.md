@@ -84,7 +84,7 @@ inputs:
 
 > 기존 B4 세 번째 bullet 뒤에 아래 문장 추가 권고:
 >
-> "— 이후 2025년 두 개의 독립 코호트 연구(Pisa, n=147[N2]; Katowice, n=67[N3])는 ELISA로 혈청 anti-IGF-1R 자가항체를 정량 측정한 결과, 이 항체가 GD 환자 일부에서 실제로 검출되나 **GO 발생 및 중증도와 역상관**함을 보고. Pisa 연구는 추가로 IGF-1R-Ab 고역가 혈청에서 정제한 (항원-특이적으로 분리되지 않은) 총 IgG를 orbital fibroblast에 처리했을 때 증식이 억제됨을 관찰했으나, 이 억제 효과가 anti-IGF-1R 항체 자체에 의한 것인지 동일 IgG 분획 내 다른 항체에 의한 것인지는 항원-특이적 정제/고갈 실험으로 아직 분리 확인되지 않음 — 이는 IGF-1R을 표적으로 하는 자가항체가 존재할 수 있음을 시사하는 동시에, 그 방향이 '자극성(stimulating)/병인성'이 아닌 **억제성/보호적**일 가능성을 제기하여 NIH 연구팀의 기존 결론[23]과 상충하지 않고 오히려 보완함. 단일기관 cross-sectional 설계이며 IgG 실험의 항원 특이성도 미확정인 'proposed' 수준의 근거로, 독립 재현 및 항원-특이적 기능 검증이 필요함(QA D2/F6 대응)."
+> "— 이후 2025년 두 개의 독립 코호트 연구(Pisa, n=147[N2]; Katowice, GBD 47명 + 대조 20명[N3])는 ELISA로 혈청 anti-IGF-1R 자가항체를 정량 측정한 결과, 이 항체가 GD 환자 일부에서 실제로 검출되나 **GO 발생 및 중증도와 역상관**함을 보고. Pisa 연구는 추가로 IGF-1R-Ab 고역가 혈청에서 정제한 (항원-특이적으로 분리되지 않은) 총 IgG를 orbital fibroblast에 처리했을 때 증식이 억제됨을 관찰했으나, 이 억제 효과가 anti-IGF-1R 항체 자체에 의한 것인지 동일 IgG 분획 내 다른 항체에 의한 것인지는 항원-특이적 정제/고갈 실험으로 아직 분리 확인되지 않음 — 이는 IGF-1R을 표적으로 하는 자가항체가 존재할 수 있음을 시사하는 동시에, 그 방향이 '자극성(stimulating)/병인성'이 아닌 **억제성/보호적**일 가능성을 제기하여 NIH 연구팀의 기존 결론[23]과 상충하지 않고 오히려 보완함. 단일기관 cross-sectional 설계이며 IgG 실험의 항원 특이성도 미확정인 'proposed' 수준의 근거로, 독립 재현 및 항원-특이적 기능 검증이 필요함(QA D2/F6 대응)."
 
 ## 6. 남은 gap 및 후속 권고
 
@@ -119,3 +119,4 @@ PR #11 follow-up으로 수행된 독립 세션 QA 결과. 검증 방법은 PubMe
 | Nowak[N3]: sight-threatening군 IGF-1RAb가 non-TO GBD군보다 낮음(P=0.004), moderate-to-severe vs sight-threatening 차이(P=0.014) | 중 | abstract direct quote 대조 | 일치 | 2026-10-01 |
 | Wiersinga[N7]: "Genetic immunisation of mice with TSHR, but not with IGF-1R..." 동물모델/crosstalk 문장 | 하 | abstract direct quote 대조 | 일치(원문 인용 완전 일치) | 2026-10-01 |
 | 가운뎃점 미사용 | 하 | 문서 전체 grep | 0건 확인 | 2026-10-01 |
+| Katowice 코호트 표기 정정: "n=67"은 대조군 포함 전체 등록 수이며 상관분석 환자군은 GBD 47명 — 5절 제안문 및 report.md B4 반영문을 "GBD 47명 + 대조 20명"으로 정정 | 중 | abstract 대조(Nowak[N3] MATERIAL AND METHODS: "Sixty-seven patients were included... including 47 GBD and 20 control patients") | 정정 완료 | 2026-10-01 |
