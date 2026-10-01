@@ -21,3 +21,7 @@ git에 넣지 않은 파일 목록. 무결성은 SHA-256으로 확인한다(전�
 - Drive 폴더 권장 경로: `GD_TED/decks/` (pptx), `GD_TED/traces/` (ipynb).
 - 새 deck을 만들 때(JHA-86 이후)도 pptx는 Drive에 두고 이 표에 행을 추가한다.
 - v2 `release_manifest_v2.csv`는 pptx와 slide PNG 경로를 포함하므로, git 사본에서는 이 파일들이 없다는 점이 정상이다(해시는 외부 자산 표로 대체 확인).
+
+## 2026-10-01 Research report review
+
+63-slide v0.1 content/layout review, four figure slots pending. Drive upload awaiting explicit destination approval after automatic review rejection. SHA-256 and exact byte sizes: `06_deck/release_manifest_20261001.json`. The generated PPTX/PDF are delivered in the active conversation; no binary committed.
