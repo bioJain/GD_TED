@@ -1,7 +1,7 @@
 ---
 linear_issue: JHA-76
 created: 2026-09-27
-source: claude-code
+source: codex
 milestone: cluster-3-mechanism-deepdive
 status: in-review
 inputs:
@@ -21,7 +21,7 @@ data_cut: 2026-09-10
 ## 1. 결론과 읽는 법
 
 - TED에서 두 개 이상 IGF-1R 억제 자산에 관찰된 반복 신호는 **muscle spasm, hearing-related AE, hyperglycemia/increased blood glucose**임. 다만 이는 관찰된 계열 패턴이며, 각 사건이 모두 IGF-1R 억제에 의해 발생한다는 인과성 또는 모든 계열 자산에서 발생한다는 의미는 아님.[1-5]
-- Teprotumumab과 veligrotug의 공개 무작위시험에서 위 세 신호가 반복되고, IBI311 RESTORE-1도 세 범주의 발생과 mild/moderate severity를 보고함. Linsitinib에서는 muscle spasm이 보고됐지만, 공개 결과의 5% reporting threshold 아래 사건은 표에 나타나지 않을 수 있어 hearing AE나 hyperglycemia가 **0건이었다고 해석할 수 없음**.[2-5,10]
+- Teprotumumab과 veligrotug의 공개 무작위시험에서 위 세 신호가 반복되고(teprotumumab chronic trial에서 hyperglycemia와 hearing impairment는 단일 preferred term이 아니라 개별 metabolic/청각 preferred term으로 보고됨), IBI311 RESTORE-1도 세 범주의 발생과 mild/moderate severity를 보고함. Linsitinib에서는 muscle spasm이 보고됐지만, 공개 결과의 5% reporting threshold 아래 사건은 표에 나타나지 않을 수 있어 hearing AE나 hyperglycemia가 **0건이었다고 해석할 수 없음**.[2-5,10]
 - Linsitinib의 상대적 특징은 high-dose에서 더 뚜렷한 GI/fatigue/transaminase 신호임. 이는 insulin receptor kinase도 함께 억제하는 oral small molecule이라는 차이를 고려해 해석할 사항이나, 현재 자료만으로 표적별 인과성을 분리할 수 없음.[1,5]
 - Elegrobart는 `pipeline_assets_v2.csv`의 **VRDN-003**에 해당함. Elegrobart와 MHB-018A는 data cut 현재 공개된 수치형 AE 결과가 없어 **미보고**로 표시함. 반면 IBI311은 registry 결과가 미게시 상태여도 RESTORE-1 RCT 논문이 있으므로 해당 논문의 공개 safety 결과를 반영함. 미보고는 0건과 다름.[1,6,10]
 - 이슈에 지정된 6개 자산 외에도 현재 `pipeline_assets_v2.csv`에서 target에 IGF-1R이 포함된 IBI3031, AMG 732, ZB001, lonigutamab, NTB003/BCG009를 scope reconciliation 표에 포함함. 따라서 master의 IGF-1R 관련 11개 자산을 누락 없이 확인하되, 상세 AE 표는 공개 수치가 있는 3개 자산과 이슈 지정 3개 미보고 자산을 중심으로 구성함.[1]
@@ -43,7 +43,7 @@ data_cut: 2026-09-10
 
 | 자산 / 근거 집단 | 고혈당 / 혈당상승 | 청각 관련 AE | Muscle spasm | 전체 중증도 지표 | 자산별 특이 또는 두드러진 AE |
 |---|---|---|---|---|---|
-| **Teprotumumab**, chronic/low-activity TED, NCT04583735, Week 24, 41 vs placebo 20 | hyperglycemia **6/41 (14.6%)** vs **2/20 (10.0%)**; grade 미보고 | hearing impairment **9/41 (22.0%)** vs **2/20 (10.0%)**. 별도 preferred term tinnitus **2/41 (4.9%)** vs **2/20 (10.0%)**; grade 미보고 | **17/41 (41.5%)** vs **3/20 (15.0%)**; grade 미보고 | SAE **1/41 (2.4%)** vs **1/20 (5.0%)** | fatigue **9/41 (22.0%)** vs **2/20 (10.0%)**; diarrhoea **8/41 (19.5%)** vs **4/20 (20.0%)**; infusion-related reaction **2/41 (4.9%)** vs **3/20 (15.0%)**. 개별 event grade 미보고. 공개 label은 hearing loss가 severe하거나 일부 permanent일 수 있음을 경고함.[2,7] |
+| **Teprotumumab**, chronic/low-activity TED, NCT04583735, Week 24, 41 vs placebo 20 | hyperglycemia 단일 preferred term은 미보고. metabolic 계열 개별 PT로 glycosylated haemoglobin increased **3/41 (7.3%)** vs **0/20 (0%)**, diabetes mellitus **2/41 (4.9%)** vs **1/20 (5.0%)**, glucose tolerance impaired **1/41 (2.4%)** vs **1/20 (5.0%)**. 서로 다른 preferred term이므로 합산하지 않음; grade 미보고 | hearing impairment 단일 preferred term은 미보고. 개별 PT로 hypoacusis **4/41 (9.8%)** vs **0/20 (0%)**, ear discomfort **2/41 (4.9%)** vs **2/20 (10.0%)**, tinnitus **2/41 (4.9%)** vs **2/20 (10.0%)**; SAE로 conductive deafness **1/41 (2.4%)** vs **0/20 (0%)**. PT 간 중복 가능하므로 합산하지 않음; grade 미보고 | **17/41 (41.5%)** vs **3/20 (15.0%)**; grade 미보고 | SAE **1/41 (2.4%)** vs **1/20 (5.0%)** | fatigue **9/41 (22.0%)** vs **2/20 (10.0%)**; diarrhoea **8/41 (19.5%)** vs **4/20 (20.0%)**; infusion-related reaction **2/41 (4.9%)** vs **3/20 (15.0%)**. 개별 event grade 미보고. 공개 label은 hearing loss가 severe하거나 일부 permanent일 수 있음을 경고함.[2,7] |
 | **Veligrotug (Lumvoa)**, active TED THRIVE, NCT05176639, baseline-Week 52, 75 vs placebo 38 | blood glucose increased **7/75 (9.3%)** vs **1/38 (2.6%)**; hyperglycaemia **2/75 (2.7%)** vs **2/38 (5.3%)**. 서로 다른 preferred term이므로 합산하지 않음; grade 미보고 | ear discomfort **9/75 (12.0%)** vs **1/38 (2.6%)**; tinnitus **9/75 (12.0%)** vs **4/38 (10.5%)**. 서로 중복 가능하므로 합산하지 않음; grade 미보고 | **34/75 (45.3%)** vs **3/38 (7.9%)**; grade 미보고 | SAE **7/75 (9.3%)** vs **0/38 (0%)** | infusion-related reaction **13/75 (17.3%)** vs **2/38 (5.3%)**; alopecia **11/75 (14.7%)** vs **4/38 (10.5%)**; amenorrhoea **3/34 (8.8%)** vs **0/12 (0%)**. 개별 event grade 미보고.[3] |
 | **Veligrotug**, dose-ranging NCT06384547, baseline-Week 52, 10 mg/kg 173 vs 3 mg/kg 58 | blood glucose increased **10/173 (5.8%)** vs **3/58 (5.2%)**; grade 미보고 | ear discomfort **17/173 (9.8%)** vs **2/58 (3.4%)**; hypoacusis **5/173 (2.9%)** vs **3/58 (5.2%)**; tinnitus **21/173 (12.1%)** vs **8/58 (13.8%)**. preferred term 간 중복 가능; grade 미보고 | **77/173 (44.5%)** vs **17/58 (29.3%)**; grade 미보고 | SAE **10/173 (5.8%)** vs **3/58 (5.2%)**; death **0/173 vs 0/58** | amenorrhoea **23/70 (32.9%)** vs **5/26 (19.2%)**; alopecia **30/173 (17.3%)** vs **6/58 (10.3%)**; infusion-related reaction **14/173 (8.1%)** vs **5/58 (8.6%)**, 이 중 serious **1/173 vs 0/58**. 그 외 event grade 미보고.[4] |
 | **Linsitinib**, active moderate-to-severe TED LIDS, NCT05276063, AE 수집 consent-Week 120, placebo 31 / 75 mg BID 30 / 150 mg BID 29 safety set | 미보고, 공개 AE 표의 5% threshold 아래 사건은 배제될 수 있음 | 미보고, 공개 AE 표의 5% threshold 아래 사건은 배제될 수 있음 | placebo **1/31 (3.2%)**; 75 mg **2/30 (6.7%)**; 150 mg **3/29 (10.3%)** | SAE **1/31 (3.2%)**, **0/30 (0%)**, **2/29 (6.9%)**; death 각 군 **0** | dose별 placebo/75/150 mg: diarrhoea **2/31 (6.5%)/4/30 (13.3%)/6/29 (20.7%)**; nausea **1/31 (3.2%)/3/30 (10.0%)/6/29 (20.7%)**; fatigue **2/31 (6.5%)/6/30 (20.0%)/5/29 (17.2%)**; ALT increased **0/31/3/30 (10.0%)/4/29 (13.8%)**; AST increased **0/31/2/30 (6.7%)/3/29 (10.3%)**. 150 mg SAE는 abnormal ECG T wave와 Guillain-Barré syndrome 각 1명이며 relatedness 미판단.[5] |
@@ -68,8 +68,8 @@ data_cut: 2026-09-10
 | 구분 | 관찰 근거 | 해석 경계 |
 |---|---|---|
 | **Class-common 후보: muscle spasm** | Teprotumumab 41.5%, veligrotug 45.3% 및 44.5%, linsitinib 6.7-10.3%에서 보고. IBI311에서도 발생했으나 event별 빈도는 abstract에 미보고.[2-5,10] | 네 자산에서 반복되지만 대조군, dose, 기간이 다름. 단순 백분율로 자산 간 위험 순위를 만들 수 없음 |
-| **Class-common 후보: hearing-related AE** | Teprotumumab hearing impairment 22.0%; veligrotug에서 ear discomfort 9.8-12.0%, tinnitus 12.0-12.1%, hypoacusis 2.9%가 보고됨. IBI311에서도 hearing impairment가 발생했으나 event별 빈도는 abstract에 미보고. Teprotumumab/veligrotug label은 severe/permanent hearing impairment 가능성과 치료 전/중/후 평가를 경고.[2-4,7,8,10] | `ear discomfort`, `hearing impairment`, `hypoacusis`, `tinnitus`, audiometric loss는 동일 endpoint가 아니며 환자 중복 가능성이 있어 합산하지 않음. Linsitinib 및 다른 개발 mAb의 미보고는 0건이 아님 |
-| **Class-common 후보: hyperglycemia / blood glucose increased** | Teprotumumab hyperglycemia 14.6%; veligrotug에서 blood glucose increased 5.8-9.3% 및 hyperglycaemia 2.7%. IBI311에서도 hyperglycemia가 발생했으나 event별 빈도는 abstract에 미보고. Veligrotug label은 임상시험 전체 hyperglycemia 12%와 그중 절반의 baseline diabetes/impaired glucose tolerance를 명시.[2-4,8,10] | MedDRA preferred term을 임의 합산하지 않음. 기저 diabetes와 검사 빈도의 영향을 받는 신호이며 시험 간 직접비교 불가 |
+| **Class-common 후보: hearing-related AE** | Teprotumumab chronic trial에서 hearing impairment 단일 PT는 미보고이고 hypoacusis 9.8%, tinnitus 4.9%, ear discomfort 4.9%, SAE conductive deafness 2.4%가 보고됨(TEPEZZA label은 pivotal 시험 hearing impairment 10% vs placebo 0%와 postapproval 시험 19%를 명시); veligrotug에서 ear discomfort 9.8-12.0%, tinnitus 12.0-12.1%, hypoacusis 2.9%가 보고됨. IBI311에서도 hearing impairment가 발생했으나 event별 빈도는 abstract에 미보고. Teprotumumab/veligrotug label은 severe/permanent hearing impairment 가능성과 치료 전/중/후 평가를 경고.[2-4,7,8,10] | `ear discomfort`, `hearing impairment`, `hypoacusis`, `tinnitus`, audiometric loss는 동일 endpoint가 아니며 환자 중복 가능성이 있어 합산하지 않음. Linsitinib 및 다른 개발 mAb의 미보고는 0건이 아님 |
+| **Class-common 후보: hyperglycemia / blood glucose increased** | Teprotumumab chronic trial에서 hyperglycemia 단일 PT는 미보고이고 glycosylated haemoglobin increased 7.3%, diabetes mellitus 4.9%, glucose tolerance impaired 2.4%가 보고됨(TEPEZZA label은 premarketing 시험 hyperglycemia 10%, 그중 2/3가 baseline diabetes/impaired glucose tolerance를 명시); veligrotug에서 blood glucose increased 5.8-9.3% 및 hyperglycaemia 2.7%. IBI311에서도 hyperglycemia가 발생했으나 event별 빈도는 abstract에 미보고. Veligrotug label은 임상시험 전체 hyperglycemia 12%와 그중 절반의 baseline diabetes/impaired glucose tolerance를 명시.[2-4,8,10] | MedDRA preferred term을 임의 합산하지 않음. 기저 diabetes와 검사 빈도의 영향을 받는 신호이며 시험 간 직접비교 불가 |
 | **반복되지만 투여경로 영향도 가능한 신호: infusion reaction** | IV teprotumumab과 IV veligrotug에서 보고.[2-4] | IGF-1R 표적 자체보다 IV biologic 투여 관련 가능성을 분리할 수 없음. Oral linsitinib 또는 SC 개발자산에 일반화하지 않음 |
 | **Teprotumumab/veligrotug에서 반복: alopecia, GI, reproductive/menstrual event** | Veligrotug에서 alopecia와 amenorrhoea 수치 확인; teprotumumab의 pivotal/label 및 chronic trial에서 alopecia/GI/menstrual event 계열이 알려져 있음.[2-4,7] | 성별 위험집단 denominator와 coding이 다름. 계열 전체 공통으로 확정하기에는 공개 자산 수가 제한적 |
 | **Linsitinib에서 두드러짐: GI/fatigue/transaminase** | 150 mg BID에서 diarrhoea와 nausea 각 20.7%, ALT increased 13.8%, AST increased 10.3%; placebo는 각각 6.5%, 3.2%, 0%, 0%.[5] | small molecule의 IGF-1R/insulin receptor kinase dual activity, oral exposure와 연관 가능성은 가설 수준. mAb와 직접 비교 불가 |
@@ -82,11 +82,12 @@ data_cut: 2026-09-10
 4. **대사 위험 층화:** baseline diabetes/impaired glucose tolerance, HbA1c, rescue medication 및 회복 여부를 함께 기록해야 함.
 5. **생식 안전성:** amenorrhoea와 menstrual irregularity는 female-at-risk denominator를 사용하고, pregnancy/fetal risk warning과 임상 AE를 혼합하지 않아야 함.
 6. **중증도:** 현재 공개 registry는 많은 사건에 CTCAE grade와 treatment-relatedness를 제공하지 않음. 이 경우 빈도가 있어도 grade는 **미보고**이며, SAE 여부만 별도 제시함.
+7. **상위 curation 레이어 정정:** 본 문서의 정정 원인이 된 통합 term 텍스트("hyperglycemia 6/41 vs 2/20", "hearing impairment 9/41 vs 2/20", "muscle spasms 17/41 vs 2/20")가 `result_trial_curation_v2.csv`(NCT04583735, field=safety), `evidence_claims_v2.csv`(TRIAL-015-SAFETY), `report_graves_ted_landscape_v2.md`(139행), `clinical_trials_v2.csv`(safety_results) 4곳에 그대로 남아 있음. 이 파일들은 baseline v2 입력파일이므로 본 문서 범위에서 수정하지 않고 별도 이슈로 1차 레코드 기준 정정을 추적해야 함.
 
 ## 5. Source notes
 
 1. `pipeline_assets_v2.csv`, asset keys `Teprotumumab`, `Veligrotug (Lumvoa)`, `Linsitinib`, `VRDN-003`, `MHB018A`, `IBI311`, `IBI3031`, `AMG 732`, `ZB001`, `Lonigutamab`, `NTB003 / BCG009`; data cut 2026-09-10. 자산, target, 개발단계, trial crosswalk에 사용.
-2. `clinical_trials_v2.csv`, trial_id `NCT04583735`, `safety_results`; frozen ClinicalTrials.gov result record `NCT04583735`. Week 24 teprotumumab 결과.
+2. `clinical_trials_v2.csv`, trial_id `NCT04583735`, `safety_results`; frozen ClinicalTrials.gov result record `NCT04583735`. Week 24 teprotumumab 결과. 주의: 이 CSV의 `safety_results` 요약 컬럼은 preferred term을 통합/재기재한 2차 요약으로 1차 레코드와 불일치가 확인됨(검증 로그 참조). Event-level 수치의 근거는 frozen registry record/posted results이며, CSV 요약을 그대로 인용하지 않음.
 3. `clinical_trials_v2.csv`, trial_id `NCT05176639`, `safety_results`; frozen ClinicalTrials.gov result record `NCT05176639`; Biomni v2 sources [230], [713], [829]. THRIVE Week 52 결과.
 4. `clinical_trials_v2.csv`, trial_id `NCT06384547`, `safety_results`; frozen ClinicalTrials.gov result record `NCT06384547`; Biomni v2 source [859]. Dose-ranging Week 52 결과.
 5. `clinical_trials_v2.csv`, trial_id `NCT05276063`, `safety_results`; frozen ClinicalTrials.gov result record `NCT05276063`; Biomni v2 sources [714], [715], [831]. LIDS 결과와 5% AE reporting threshold.
@@ -94,7 +95,7 @@ data_cut: 2026-09-10
 7. DailyMed/FDA prescribing information, TEPEZZA, Biomni v2 source [728], anchors `US-TEPEZZA-LABEL-HEARING`, `US-TEPEZZA-LABEL-HYPERGLYCEMIA`. https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce
 8. FDA prescribing information, LUMVOA, Biomni v2 source [373], anchors `US-LUMVOA-LABEL-HEARING`, `US-LUMVOA-LABEL-HYPERGLYCEMIA`, `US-LUMVOA-LABEL-IBD`. https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761530Orig1s000lbl.pdf
 9. `00_legacy_unsorted/GD_TED_report.md`, Section C3, refs [45-47]. Teprotumumab 실사용 청각 AE의 측정법 및 reversibility 불확실성 맥락.
-10. Zhang H, et al. IGF-1R Inhibitor IBI311 for the Treatment of Active Thyroid Eye Disease in Chinese Patients: The RESTORE-1 Randomized Clinical Trial. JAMA Ophthalmology. 2025;143(11):964-971. PMID 41066129; DOI 10.1001/jamaophthalmol.2025.3350; Biomni v2 source [231]. Structured abstract는 IBI311 54명/placebo 28명과 AE of interest의 mild/moderate severity, IBI311군 SAE/death 부재를 보고하지만 event별 빈도는 제공하지 않음. https://doi.org/10.1001/jamaophthalmol.2025.3350
+10. Zhang H, et al. IGF-1R Inhibitor IBI311 for the Treatment of Active Thyroid Eye Disease in Chinese Patients: The RESTORE-1 Randomized Clinical Trial. JAMA Ophthalmology. 2025;143(11):964-971. PMID 41066129; DOI 10.1001/jamaophthalmol.2025.3350; Biomni v2 source [231]. Structured abstract는 IBI311 54명/placebo 28명과 AE of interest의 mild/moderate severity, IBI311군 SAE/death 부재를 보고하지만 event별 빈도는 제공하지 않음. Erratum이 JAMA Ophthalmol 2026;144(4):369에 등재되어 있음. https://doi.org/10.1001/jamaophthalmol.2025.3350
 
 ## 6. QA self-check
 
@@ -105,3 +106,26 @@ data_cut: 2026-09-10
 - [x] 서로 다른 population/endpoint/timepoint의 순위, 간접비교, pooling 미실시
 - [x] 중증도 grade가 없으면 미보고로 처리하고 SAE만 별도 제시
 - [x] 한국어 본문, English technical terms 유지, 가운뎃점 미사용
+- [x] 2026-10-01 follow-up 독립 fact-check: registry 4개 시험 전수 대조, RESTORE-1 abstract, TEPEZZA/LUMVOA label 원문 대조 완료. teprotumumab hyperglycemia/hearing 수치 2건을 preferred term 수준으로 정정 (아래 검증 로그 참조)
+
+## 7. 검증 로그
+
+2026-10-01 작성 세션과 분리된 독립 QA에서 Tier-상 claim(AE 발생률)을 원문 direct quote 대조로 검증함. 라이브 조회는 as-of 2026-10-01이며 data cut 2026-09-10 frozen record와 구분하여 병기함.
+
+| Claim | Tier | 검증 방법 | 결과 | 일자 |
+|---|---|---|---|---|
+| Teprotumumab chronic trial hyperglycemia 6/41 (14.6%) vs 2/20 (10.0%) | 상 | ClinicalTrials.gov API v2 + frozen registry record NCT04583735 direct 대조 | FAIL, 수정함. hyperglycemia 단일 PT 없음. 실제 PT: glycosylated haemoglobin increased 3/41 vs 0/20, diabetes mellitus 2/41 vs 1/20, glucose tolerance impaired 1/41 vs 1/20. 기존 수치는 서로 다른 PT의 재합산으로 추정되며 문서 자체의 합산 금지 규칙과 충돌. §2/§3을 PT 수준으로 정정 | 2026-10-01 |
+| Teprotumumab chronic trial hearing impairment 9/41 (22.0%) vs 2/20 (10.0%) | 상 | 동일 레코드 direct 대조 | FAIL, 수정함. hearing impairment 단일 PT 없음. 실제 PT: hypoacusis 4/41 vs 0/20, ear discomfort 2/41 vs 2/20, tinnitus 2/41 vs 2/20, SAE conductive deafness 1/41 vs 0/20. 기존 9/41은 PT 합산으로 추정되고 placebo 2/20은 합산 가설과도 불일치. §2/§3을 PT 수준으로 정정 | 2026-10-01 |
+| Teprotumumab chronic trial muscle spasms 17/41 (41.5%) vs 3/20 (15.0%), fatigue 9/41 vs 2/20, diarrhoea 8/41 vs 4/20, infusion-related reaction 2/41 vs 3/20, SAE 1/41 vs 1/20, tinnitus 2/41 vs 2/20 | 상 | 동일 레코드 direct 대조 | PASS, 전수 일치 | 2026-10-01 |
+| Veligrotug THRIVE NCT05176639 전체 AE 수치(blood glucose increased, hyperglycaemia, ear discomfort, tinnitus, muscle spasms, SAE 7/75 vs 0/38, infusion-related reaction, alopecia, amenorrhoea) | 상 | ClinicalTrials.gov API v2 direct 대조 | PASS, 전수 일치 | 2026-10-01 |
+| Veligrotug dose-ranging NCT06384547 전체 AE 수치(혈당/청각 PT, muscle spasms, SAE 10/173 vs 3/58, death 0/173 vs 0/58, amenorrhoea, alopecia, infusion-related reaction 및 serious 1/173 vs 0/58) | 상 | 동일 | PASS, 전수 일치 | 2026-10-01 |
+| Linsitinib LIDS NCT05276063 전체 AE 수치(muscle spasms, SAE 1/31, 0/30, 2/29, death 각 군 0, diarrhoea, nausea, fatigue, ALT/AST increased, 150 mg SAE 구성 2건) | 상 | 동일 | PASS, 전수 일치 | 2026-10-01 |
+| IBI311 RESTORE-1: 54 vs 28 randomization, AE of interest mild/moderate, IBI311군 SAE/death 부재, event별 빈도 미제공 | 상 | PubMed efetch PMID 41066129 abstract direct 대조 | PASS, 일치. 서지사항(JAMA Ophthalmol 2025;143(11):964-971, DOI 10.1001/jamaophthalmol.2025.3350) 일치. Erratum(JAMA Ophthalmol 2026;144(4):369) 존재를 source note 10에 병기 | 2026-10-01 |
+| TEPEZZA label hearing/hyperglycemia 경고 문구 | 상 | DailyMed setid 3e6c54a1 원문 대조 | PASS. "severe hearing impairment including hearing loss, which in some cases may be permanent" 및 치료 전/중/후 평가 경고 일치 | 2026-10-01 |
+| LUMVOA label hyperglycemia 12%와 절반 baseline DM/IGT, hearing/IBD 경고 | 상 | DailyMed setid 11bc286a 원문 대조 | PASS. §5.3 "12% of patients, of whom one half had pre-existing diabetes or impaired glucose tolerance" direct 일치 | 2026-10-01 |
+| 미보고 자산의 posted result 부재(VRDN-003 5건, MHB018A 6건, IBI311 registry 8건, IBI3031, AMG 732, ZB001, lonigutamab, NTB003) | 중 | ClinicalTrials.gov API v2 hasResults 필드 25건 라이브 확인 | PASS, 전부 posted result 없음 (as-of 2026-10-01) | 2026-10-01 |
+| IGF-1R 자산 11건의 asset key, target, status, trial ID 및 §2.1 상태 표기 | 중 | `pipeline_assets_v2.csv` 대조 | PASS, 일치 | 2026-10-01 |
+| % 산술 재계산, 인용 앵커 [1]-[10] 본문-Source notes 대응, 가운뎃점 미사용 | 하 | 스크립트 재계산 및 grep | PASS | 2026-10-01 |
+| 정정 수치 2건의 근원 추적: 통일 term("hyperglycemia 6/41", "hearing impairment 9/41")의 출처 | 상 | 근거 사슬 역추적: `result_trial_curation_v2.csv`(field=safety, `curation_version: v2 (v1 exact interpretation retained)`, `verification_status: PASS_RETAINED`) → `evidence_claims_v2.csv` TRIAL-015-SAFETY → `report_graves_ted_landscape_v2.md` 139행 → `clinical_trials_v2.csv` safety_results 순차 대조 | 원인 확정. 통일 term은 1차 레지스트리가 아니라 v1에서 승계된 curation 요약 레이어에서 기원하며, 해당 레이어는 source_anchor로 frozen record를 명시하지만 실제 텍스트는 1차 레코드와 불일치. blind QA는 within-agent라 미검출. PR #8은 이 요약을 hyperglycemia/hearing에 혼용하고 muscle spasm만 1차 레코드 값(3/20)을 사용한 소스 혼용 상태였음 | 2026-10-01 |
+| curation 레이어 muscle spasms placebo 오기 | 상 | `result_trial_curation_v2.csv` safety 텍스트 vs frozen/live 1차 레코드 대조 | curation 레이어는 "muscle spasms 17/41 vs 2/20"이나 1차 레코드는 3/20. 본 문서는 3/20을 사용 중이므로 문서 수정 불필요, 상위 레이어 정정 시 함께 반영할 항목으로 기록 | 2026-10-01 |
+| 세분화 PT 수치의 1차 소스 재현성 (data cut 차이 통제) | 상 | frozen registry record(2026-09-10)와 live ClinicalTrials.gov API(2026-10-01)의 NCT04583735 전체 PT 목록 전수 비교 | PASS, 두 시점의 PT-level 데이터가 완전히 일치. 정정 수치는 data cut 차이와 무관하게 유효 | 2026-10-01 |
