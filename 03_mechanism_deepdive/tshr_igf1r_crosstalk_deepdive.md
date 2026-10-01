@@ -20,7 +20,7 @@ inputs:
 
 세 번째 축인 **IGF-1R directly-stimulating autoantibody 가설**은 현재 근거가 가장 약함. M22는 IGF-1R에 결합하거나 IGF-1R autophosphorylation을 유발하지 않으면서도 IGF-1R-dependent HA 반응을 만들며, TSHR 차단은 그 반응을 제거함[2,4,8]. 따라서 현재의 보수적 모델은 **TSAb가 TSHR을 직접 자극하고, IGF-1R은 receptor complex/crosstalk를 통해 신호를 증폭**한다는 것임. 2025년 혈청 anti-IGF-1R 연구는 항체의 존재 가능성을 지지하지만, 병인성 agonist가 아니라 억제/보호 방향을 제안하므로 이 결론을 뒤집지 않음[9,10].
 
-조직별 출력은 다름. OF에서는 HA와 proliferation가 crosstalk 연구에서 직접 측정된 주 출력이고, adipogenic remodeling은 별도의 제한적 근거로 분리해야 함(crosstalk perturbation 연구들은 adipocyte fate를 직접 측정하지 않음)[1,11,12]. thyrocyte에서는 NIS, TPO, thyroglobulin 및 thyroid hormone synthesis가 주 출력임[1,11,12]. 따라서 동일한 receptor crosstalk를 TED와 thyroid hormone biology에서 동일한 downstream program으로 도식화하면 안 됨.
+조직별 출력은 다름. OF에서는 HA가 crosstalk perturbation으로 직접 측정된 대표 출력이고, proliferation은 IGF-1 ligand-dependent 반응에서 측정된 별도 출력이며(crosstalk perturbation만으로 측정된 것 아님), adipogenic remodeling은 별도의 제한적 근거로 분리해야 함(crosstalk perturbation 연구들은 adipocyte fate를 직접 측정하지 않음)[1,11,12]. thyrocyte에서는 NIS, TPO, thyroglobulin 및 thyroid hormone synthesis가 주 출력임[1,11,12]. 따라서 동일한 receptor crosstalk를 TED와 thyroid hormone biology에서 동일한 downstream program으로 도식화하면 안 됨.
 
 ## 1. 용어와 판정 원칙
 
@@ -142,7 +142,7 @@ TSAb → direct TSHR activation → TSHR/IGF-1R crosstalk → ERK/Akt → HA
 
 ### 5.2 downstream 및 임상 해석
 
-- IGF-1R blockade로 HA/proliferation이 감소하거나 teprotumumab이 임상 효능을 보이는 것은 **IGF-1R pathway relevance**를 지지함.
+- IGF-1R blockade로 HA/proliferation이 감소하거나 teprotumumab이 임상 효능을 보이는 것은 **IGF-1R pathway relevance**를 지지함[4,8].
 - 같은 결과를 **pathogenic agonistic anti-IGF-1R Ab의 존재**로 역추론할 수 없음. receptor crosstalk, ligand-dependent basal signaling, receptor internalization/downregulation이 모두 대안 설명임.
 - 검출된 anti-IGF-1R Ab는 binding Ab, inhibitory Ab, neutral Ab가 혼합될 수 있으므로 `anti-IGF-1R Ab positive`와 `IGF-1R-stimulating Ab positive`를 동일시하지 않아야 함.
 - **판정:** **pathogenic directly-stimulating antibody model은 unsupported/proposed.** 항체 존재 자체는 suggested이나 agonistic pathogenicity는 입증되지 않음.
@@ -266,7 +266,9 @@ TSAb → direct TSHR activation → TSHR/IGF-1R crosstalk → ERK/Akt → HA
 | thyrocyte crosstalk가 NIS/TPO/TG/fT4에 관여 | 중, 기능 기전 | human primary-cell 원저 및 mouse 포함 원저 abstract 대조[11,17] | 일치, 세포/동물 범위 분리 | 2026-09-28 |
 | circulating anti-IGF-1R Ab가 보호/억제 방향일 가능성 | 중, 임상 연관 | 2025년 독립 코호트 2건 대조[9,10] | 방향 일치, cross-sectional/assay 한계 명기 | 2026-09-28 |
 | ref [7] 서지 정보(Latif et al.)의 article locator/DOI | 하, 서지 무결성 | Crossref DOI lookup(`10.1210/endocr/bqaf008` vs `bqaf009`) 및 PubMed PMID 39821041 대조 | PR #17이 DOI를 `bqaf008`으로 수정했으나 이는 다른 논문(Thakore et al., miR-433-3p/osteoblast). 올바른 값은 `bqaf009`이며 본 문서에서 정정 | 2026-10-01 |
-| executive conclusion의 adipogenic remodeling 서술 | 하, 정성 기전 | crosstalk 근거 문헌[1,11,12]의 측정 endpoint 대조 및 repo 내 maturity review 판정 대조 | crosstalk perturbation 연구는 adipocyte fate를 직접 측정하지 않음. adipogenesis를 별도·제한적 근거로 분리하도록 수정 (PR #14 Codex P2 반영) | 2026-10-01 |
+| executive conclusion의 adipogenic remodeling 서술 | 하, 정성 기전 | crosstalk 근거 문헌[1,11,12]의 측정 endpoint 대조 및 repo 내 maturity review 판정 대조 | crosstalk perturbation 연구는 adipocyte fate를 직접 측정하지 않음. adipogenesis를 별도/제한적 근거로 분리하도록 수정 (PR #14 Codex P2 반영) | 2026-10-01 |
+| executive conclusion의 proliferation 서술 | 하, 정성 기전 | [1,11,12] 측정 endpoint 대조 (PR #33 Codex P2) | proliferation은 IGF-1 ligand-dependent 반응 측정[12]이지 crosstalk perturbation 출력이 아님. HA와 분리하도록 수정 | 2026-10-01 |
+| §5.2 teprotumumab/IGF-1R blockade 서술의 인용 | 하, 정성 기전 | 섹션 단위 claim-인용 대조 (PR #33 Codex P2) | 무인용 factual claim이었으나 [4,8] 추가로 수정 | 2026-10-01 |
 | CD34+ fibrocyte-derived OF의 IgG response 매개 모델 | 하, 정성 기전 | [16] 원문 범위 대조(review이며 CD34+ 세포 특이 crosstalk 1차 데이터 아님) | `proposed` 명시 태깅으로 근거 수준 정합 (PR #14 review 반영) | 2026-10-01 |
 
 ### 독립 QA 결과 (별도 세션, 2026-10-01)
@@ -276,7 +278,7 @@ TSAb → direct TSHR activation → TSHR/IGF-1R crosstalk → ERK/Akt → HA
 | 항목 | 판정 | 비고 |
 |---|---|---|
 | D2 (complex 가설 proposed 명기) | PASS | 분자배치/architecture 전반에 `proposed` 라벨 유지 |
-| F1 (본문 in-line citation 존재) | PASS | 인용 번호 [1]-[17] 전수 본문에서 사용 |
+| F1 (본문 in-line citation 존재) | PASS (수정 후) | 섹션 단위 claim-인용 대조 수행. 무인용 factual claim 1건(teprotumumab 임상 효능, §5.2)을 [4,8] 추가로 수정. 참고문헌 번호 [1]-[17] 전수 본문 사용 일치 |
 | F2 (번호-참고문헌 일치) | PASS | 불일치 0건 |
 | F3 (중복 항목) | PASS | 중복 0건 |
 | F4 (PMID 실존 검증) | PASS | 17/17 PMID NCBI E-utilities 대조 일치 (제목/저널/연도) |
