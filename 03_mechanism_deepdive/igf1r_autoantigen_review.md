@@ -104,3 +104,18 @@ inputs:
 - N7. Wiersinga WM, Eckstein AK, Žarković M. Thyroid eye disease (Graves' orbitopathy): clinical presentation, epidemiology, pathogenesis, and management. *Lancet Diabetes Endocrinol.* 2025;13(7):600-614. PMID: [40324443](https://pubmed.ncbi.nlm.nih.gov/40324443/). doi: [10.1016/S2213-8587(25)00066-X](https://doi.org/10.1016/S2213-8587(25)00066-X).
 - N8. Garg I, Meyer BI, Gallo RA, Wester ST, Pelaez D. Human Papillomavirus and Thyroid Eye Disease. *JAMA Ophthalmol.* 2025;143(6):524-528. PMC: [PMC12022865](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12022865/). PMID: [40272832](https://pubmed.ncbi.nlm.nih.gov/40272832/). doi: [10.1001/jamaophthalmol.2025.0847](https://doi.org/10.1001/jamaophthalmol.2025.0847).
 - 레거시 인용(재확인용, 번호는 `_shared/GD_TED_reference.md` 그대로): [21] Latif R, Mezei M, Davies TF. Mechanisms in Thyroid Eye Disease: The TSH Receptor Interacts Directly With the IGF-1 Receptor. *Endocrinology.* 2025;166(2). PMID: [39821041](https://pubmed.ncbi.nlm.nih.gov/39821041/). [22] Cui X, Wang F, Liu C. A review of TSHR- and IGF-1R-related pathogenesis and treatment of Graves' orbitopathy. *Front Immunol.* 2023;14:1062045. PMID: [36742308](https://pubmed.ncbi.nlm.nih.gov/36742308/). [23] Krieger CC, Neumann S, Gershengorn MC. Is There Evidence for IGF1R-Stimulating Abs in Graves' Orbitopathy Pathogenesis? *Int J Mol Sci.* 2020;21(18):6561. PMID: [32911689](https://pubmed.ncbi.nlm.nih.gov/32911689/).
+
+## 8. 검증 로그 (독립 QA, 2026-10-01)
+
+PR #11 follow-up으로 수행된 독립 세션 QA 결과. 검증 방법은 PubMed E-utilities(esummary/efetch) 원문 대조 기준이다.
+
+| claim | tier | 검증 방법 | 결과 | 일자 |
+|---|---|---|---|---|
+| 참고문헌 N1-N8 및 레거시 [21][22][23]의 PMID 실존/서지(저자, 저널, 연도, 권호) | 하 | PubMed esummary API 전수 대조(11건) | 일치(11/11) | 2026-10-01 |
+| Lanzolla[N2]: n=147(GO 92 vs non-GO 55), non-GO군 IGF-1R-Ab 29.3 ng/mL vs GO군 19.8 ng/mL, P=0.005 | 중 | abstract direct quote 대조 | 일치(원문 P=0.00509, IQR 포함) | 2026-10-01 |
+| Lanzolla[N2]: diplopia 중증도와 역상관, P=0.035 | 중 | abstract direct quote 대조 | 일치(Omega square=0.0123, P=0.035; proptosis/CAS/eyelid width/visual acuity와는 무상관이라는 원문 서술도 문서 해석과 부합) | 2026-10-01 |
+| Lanzolla[N2]: IGF-1R-Ab >55 ng/mL 혈청 풀에서 정제한 총 IgG의 orbital fibroblast 증식 용량의존적 억제, P<0.0001 | 중 | abstract direct quote 대조 | 일치(Omega square=0.747, P<0.0001). "총 IgG, 항원 특이적 정제 아님" 서술(6절)도 원문과 일치 | 2026-10-01 |
+| Nowak[N3]: GBD 47명(활동성 TO 31명, sight-threatening 10명) + 대조 20명, in-house ELISA | 중 | abstract direct quote 대조 | 일치 | 2026-10-01 |
+| Nowak[N3]: sight-threatening군 IGF-1RAb가 non-TO GBD군보다 낮음(P=0.004), moderate-to-severe vs sight-threatening 차이(P=0.014) | 중 | abstract direct quote 대조 | 일치 | 2026-10-01 |
+| Wiersinga[N7]: "Genetic immunisation of mice with TSHR, but not with IGF-1R..." 동물모델/crosstalk 문장 | 하 | abstract direct quote 대조 | 일치(원문 인용 완전 일치) | 2026-10-01 |
+| 가운뎃점 미사용 | 하 | 문서 전체 grep | 0건 확인 | 2026-10-01 |
