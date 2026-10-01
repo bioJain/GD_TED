@@ -4,7 +4,7 @@ created: 2026-09-27
 source: codex
 milestone: cluster-5-etpd-molecular-design
 status: in-review
-search_cutoff: 2026-09-27
+search_cutoff: 2026-10-01
 inputs:
   - 00_baseline_biomni/landscape_v2/pipeline_assets_v2.csv
   - 00_baseline_biomni/landscape_v2/direct_source_documents_v2.jsonl
@@ -27,7 +27,7 @@ inputs:
 
 ## 범위와 판독 규칙
 
-Section C4 가운데 TSHR/자가항체 축 5개와 FcRn/Fc engineering 비교군 3개를 선정했다. `pipeline_assets_v2.csv`의 asset key를 유지했고 live registry/PubMed를 2026-09-27에 재확인했다. 단계는 적응증별로 기록하며, 다른 적응증의 승인/후기 단계로 올려 쓰지 않았다.
+Section C4 가운데 TSHR/자가항체 축 5개와 FcRn/Fc engineering 비교군 3개를 선정했다. `pipeline_assets_v2.csv`의 asset key를 유지했고 live registry/PubMed를 2026-09-27에 재확인했고, 2026-10-01 follow-up fact-check에서 전수 재검증했다(참고문헌 23은 2026-10-01 추가). 단계는 적응증별로 기록하며, 다른 적응증의 승인/후기 단계로 올려 쓰지 않았다.
 
 - **공개 수치 확인**: 원문에서 수치와 assay context를 확인한 경우
 - **정성 정보만 공개**: `high affinity`, `enhanced binding` 등 방향만 공개되고 비교 가능한 수치가 없는 경우
@@ -39,7 +39,7 @@ Section C4 가운데 TSHR/자가항체 축 5개와 FcRn/Fc engineering 비교군
 
 ## Public patent landscape 및 sequence-disclosure scan
 
-본 절은 Google Patents에서 제공하는 WO publication record와 공개 원문을 이용한 technical landscape다. Legal FTO opinion, claim construction 또는 국가별 live-claim 판단이 아니다. Patent가 clinical asset code를 직접 명시하지 않으면 sponsor, target, mechanism 및 timing의 일치만으로 최종 clinical molecule의 exact sequence라고 단정하지 않았다. 검색일은 2026-09-27이다.
+본 절은 Google Patents에서 제공하는 WO publication record와 공개 원문을 이용한 technical landscape다. Legal FTO opinion, claim construction 또는 국가별 live-claim 판단이 아니다. Patent가 clinical asset code를 직접 명시하지 않으면 sponsor, target, mechanism 및 timing의 일치만으로 최종 clinical molecule의 exact sequence라고 단정하지 않았다. 검색일은 2026-09-27이며, 2026-10-01 follow-up fact-check에서 3개 특허 family를 재검증했다.
 
 | Asset | Candidate patent family | Priority/publication | 공개된 핵심 내용 | Asset mapping | JHA-88에서 사용 가능한 범위 |
 |---|---|---|---|---|---|
@@ -58,7 +58,7 @@ Section C4 가운데 TSHR/자가항체 축 5개와 FcRn/Fc engineering 비교군
 
 | 자산 | Construct/표적 | Binding affinity | 물성/developability | in vitro/in vivo 및 human data | 근거 수준 |
 |---|---|---|---|---|---|
-| **LCA-0321** | anti-TSHR AAb LYTAC degrader | Patent의 M22/K1-18 BLI kinetics는 정성 확인; final asset `KD/kon/koff`는 **검색 범위에서 미확인** | Patent candidate: ASGPR ligand, Fc 또는 HSA carrier, TSHR polypeptide와 linker. Final sequence, MW, pI, Tm, aggregation, formulation/yield는 **검색 범위에서 미확인**; Phase 1 SAD/MAD, planned `n=48` | Patent `21-L004`: mouse에서 4시간 후 serum anti-TSHR 70.5% 감소, 이후 antibody-producing B-cell 때문에 rebound. Sponsor의 human efficacy 결과는 아직 없음 | Patent + sponsor pipeline + CTIS; asset mapping Probable; v2 confidence **Low** [1,2,20] |
+| **LCA-0321** | anti-TSHR AAb LYTAC degrader | Patent의 M22/K1-18 BLI kinetics는 정성 확인; final asset `KD/kon/koff`는 **검색 범위에서 미확인** | Patent candidate: ASGPR ligand, Fc 또는 HSA carrier, TSHR polypeptide와 linker. Final sequence, MW, pI, Tm, aggregation, formulation/yield는 **검색 범위에서 미확인**; Phase 1 SAD/MAD, planned `n=48` | Patent `21-L004`: mouse에서 4시간 후 serum anti-TSHR 70.5% 감소, 이후 antibody-producing B-cell 때문에 rebound. Sponsor의 human efficacy 결과는 아직 없음 | Patent + sponsor pipeline + CTIS; asset mapping 높음(코드 명시); v2 confidence **Low** [1,2,20] |
 | **MER511** | monomeric TSHR ectodomain-mutant Fc fusion; anti-TSHR AAb/FcγRIIB | Patent는 candidate FcγRIIB affinity `약 1-0.001 µM`, preferred `0.1-0.01 µM` 범위를 기재하나 MER511 selected construct 값은 **검색 범위에서 미확인** | Patent candidate TSHR260/289, stabilization/Fc mutations와 sequences 공개. Final mutations/sequence, MW, pI, Tm, SEC monomer, viscosity, formulation은 **검색 범위에서 미확인**; IV/SC SAD/MAD | Patent와 sponsor 초록: M22/K1-18/patient-serum neutralization, FcγRIIB uptake, humanized FcγR/FcRn mouse depletion, total mouse IgG 보존. NEXUS human 결과는 아직 없음 | Patent + congress abstract + sponsor + registry; asset mapping Probable; v2 confidence **Low-moderate** [3-5,19] |
 | **K1-70** | human IgG1 lambda TSHR-blocking monoclonal autoantibody | reported `Ka 4 x 10^10 L/mol`; 단순 역수 apparent `KD 약 25 pM`; 직접 보고 KD가 아니며 assay 간 비교 금지 | full IgG; IV/IM 연구. sequence, pI, Tm, aggregation, solubility, expression/formulation은 **검색 범위에서 미확인** | CHO에서 TSH/TSAb-induced cAMP 차단. Rat/monkey에서 T3/T4 저하, TSH 증가; monkey NOAEL `100 mg/kg/dose`, rat NOAEL 미확립. 일본 Phase 1(GD 환자) `n=12`, single IV `5/25/75/150 mg`; SAE 0, TEAE `83.3%` | Peer-reviewed in vitro, preclinical, Phase 1 [6-8] |
 | **GenSci098/YB-101/GS-098** | 동일 molecule의 sponsor/licensing별 명칭; TSHR antagonistic mAb | Cell-based TSHR binding `EC50`: human `1.11 nM`, mouse `1.31 nM`, rat `5.81 nM`, cyno `1.66 nM`; M22-cAMP inhibition `IC50 2.3 nM`; solution `KD/kon/koff`는 **검색 범위에서 미확인** | Patent candidate antibody/Fc sequences 공개. Final clinical SEQ ID, pI, Tm, aggregation, formulation/bioavailability는 **검색 범위에서 미확인**. SC Phase 1 dose `15/45/90/180/270 mg` | TED orbital fibroblast active/inactive donor HA/IL-6/IL-8 IC50 공개; M22 mouse `0.5 mg/kg`에서 40.8%, `3 mg/kg`에서 99.7% T4 inhibition; half-life mouse `327 h`, monkey `462 h`; sponsor-reported tox에서 hypothyroidism 없음 | Patent + congress poster + registry; patent mapping Probable; v2 confidence **Moderate** [9-11,21,22] |
